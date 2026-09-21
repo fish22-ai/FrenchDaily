@@ -1534,23 +1534,33 @@ function update(){
   }
   if(bar) bar.style.width = ((i+1) / N * 100).toFixed(1) + "%";
 
-  /* Slides differ in height but the track is as tall as the tallest one,
-     which strands the control row in dead space under short cards. Pull the
-     controls up onto the current card's bottom edge on every viewport. */
-  if(ctl && slides[i]){
-    ctl.style.marginTop = (6 - (maxH - slides[i].offsetHeight)) + "px";
-  }
-
-  /* New page: if the card's top has scrolled out of view, bring it back
-     upward only — otherwise a tall previous card leaves the new one starting
-     halfway down the screen. */
   if(i !== lastI){
     lastI = i;
+    /* Closing the page closes its course. A 解析 left open on a slide you
+       swiped away from keeps the track that tall — a couple thousand pixels
+       of blank air under the short card you are reading now. Reopening it is
+       one tap whenever you swipe back. */
+    for(var p=0;p<N;p++){
+      if(p === i) continue;
+      var opened = slides[p].querySelectorAll("details[open]");
+      for(var q=0;q<opened.length;q++) opened[q].open = false;
+    }
+    measure();
+    /* New page: if the card's top has scrolled out of view, bring it back
+       upward only — otherwise a tall previous card leaves the new one starting
+       halfway down the screen. */
     var top = slides[i].getBoundingClientRect().top + window.scrollY - 10;
     if(top > 0 && window.scrollY > top) window.scrollTo(0, top);
     try{
       document.dispatchEvent(new CustomEvent("deck:change", { detail: { index: i, total: N } }));
     }catch(e){}
+  }
+
+  /* Slides differ in height but the track is as tall as the tallest one.
+     measure() above ran after any collapse, so the controls can sit right on
+     the current card's bottom edge on every viewport. */
+  if(ctl && slides[i]){
+    ctl.style.marginTop = (6 - (maxH - slides[i].offsetHeight)) + "px";
   }
 }
 
@@ -1615,6 +1625,11 @@ if(location.hash === "#last" && N > 1){
 }
 update();
 window.addEventListener("resize", function(){ measure(); update(); }, { passive: true });
+/* Web fonts change every card's height after the first paint — the initial
+   measure() above ran against fallback serif. */
+if(document.fonts && document.fonts.ready){
+  document.fonts.ready.then(function(){ measure(); update(); });
+}
 })();
 </script>"""
 

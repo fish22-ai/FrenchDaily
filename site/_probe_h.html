@@ -1675,4 +1675,25 @@ if('serviceWorker' in navigator){
   });
 }
 </script>
-</body></html>
+<script>
+window.addEventListener('load',function(){
+function snap(label){
+  var t=document.querySelector('.deck-track');
+  var s=document.querySelectorAll('.deck-slide');
+  var op=[]; for(var i=0;i<s.length;i++) op.push(s[i].querySelectorAll('details[open]').length);
+  var line=label+' scrollLeft='+Math.round(t.scrollLeft)+' cw='+t.clientWidth+' open=['+op.join(',')+'] track='+t.offsetHeight+' doc='+document.documentElement.scrollHeight;
+  var d=document.getElementById('probe-out')||document.createElement('pre');
+  d.id='probe-out'; d.textContent+=(d.textContent?'\n':'')+line; document.body.appendChild(d);
+}
+setTimeout(function(){
+  snap('A');
+  var l=document.querySelector('.deck-slide .lessons'); l.open=true;
+  setTimeout(function(){ snap('B');
+    var t=document.querySelector('.deck-track');
+    t.scrollLeft = t.clientWidth + 16;
+    setTimeout(function(){ snap('C.instant');
+      setTimeout(function(){ snap('D.later'); },600);
+    },300);
+  },400);
+},400);});
+</script></body></html>
