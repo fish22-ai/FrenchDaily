@@ -1,0 +1,411 @@
+{
+  "date": "2026-09-20",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Phrases du jour",
+      "title_zh": "今日法语句子",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-09-20",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Bonjour ! Je vais au café avec mon amie.",
+          "translation": "你好！我和朋友去咖啡馆。",
+          "difficulty": "A1",
+          "grammar_note": "je vais 是 aller（去）的第一人称变位。au = à + le，意思是\"到\"。avec 是介词\"和\"。",
+          "grammar_notes": {
+            "vais": "aller 的现在时 je 形式；aller 以 -er 结尾却是不规则动词，不能套规则变位",
+            "au": "à + le 的缩合形式，不能写成 à le（硬规则，没有例外）",
+            "amie": "阴性名词「女朋友/女性朋友」；元音开头时物主形容词用 mon 而不是 ma"
+          },
+          "words": [
+            {
+              "w": "Bonjour",
+              "pos": "interj",
+              "def": "你好",
+              "ipa": "/bɔ̃.ʒuʁ/",
+              "example": "Bonjour à tous !"
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到，在（à+le）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡，咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和，带有",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            }
+          ],
+          "audio_file": "audio/2026-09-20/s1.mp3",
+          "grammar_lessons": [
+            {
+              "t": "法语动词必须「变位」",
+              "b": "中文说「我去、你去、他去」，动词永远不变；法语每个主语配一个专属动词形式，这叫变位（conjugaison）。所以背单词时要把变位一起背，光记 aller = 去是不够的。"
+            },
+            {
+              "t": "aller（去）的现在时 —— 必须死记的一个",
+              "b": "je vais /ʒə vɛ/　·　tu vas /ty va/　·　il va /il va/\nnous allons /nu.z‿a.lɔ̃/　·　vous allez /vu.z‿a.le/　·　ils vont /il vɔ̃/\naller 虽以 -er 结尾，却属于第三组不规则动词。注意 nous allons / vous allez 有连诵：词尾 -s 读成 /z/，接在元音前。"
+            },
+            {
+              "t": "au = à + le：缩合冠词",
+              "b": "介词 à（到、在）遇到定冠词 le 必须缩合：à + le = au，à + les = aux；遇到 la 则不缩合。所以「去咖啡馆」是 aller au café —— 写 aller à le café 是错的。这是法语里最硬的规则之一，先把它变成条件反射。"
+            },
+            {
+              "t": "名词有阴阳性，前面的词要跟着变",
+              "b": "café 是阳性名词，所以用 au；amie 是阴性单数，按理该用 ma，但因为 amie 以元音开头，为了发音顺口要写成 mon amie（mon école、mon amie 都这样）。记住：mon / ma / mes 是「我的」，形式跟着名词的性和数走。"
+            },
+            {
+              "t": "avec 后面直接跟名词",
+              "b": "avec（和、带着）是介词，后面直接接名词或重读代词：avec mon amie（和我朋友）、avec moi（和我）、avec toi（和你）。不要加冠词，也不要说 avec je。"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Hier, j'ai visité le musée du Louvre avec mes amis.",
+          "translation": "昨天，我和朋友们参观了卢浮宫。",
+          "difficulty": "A2",
+          "grammar_note": "hier 是\"昨天\"。j'ai visité 是复合过去时：助动词 avoir + 过去分词 visité。du = de + le。",
+          "grammar_notes": {
+            "visité": "visiter 的过去分词；第一组（-er）动词把 -er 换成 -é，这条规律管住一大半动词",
+            "du": "de + le 的缩合形式；写 de le Louvre 是错的",
+            "amis": "ami 的复数；mes 是复数物主形容词，不分阴阳",
+            "ai": "avoir 的现在时 je 形式，复合过去时的助动词"
+          },
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有",
+              "ipa": "/ʒ‿e/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这/那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和，带有",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "amis",
+              "pos": "nm",
+              "def": "朋友们",
+              "ipa": "/a.mi/",
+              "example": "Mes amis sont gentils."
+            }
+          ],
+          "audio_file": "audio/2026-09-20/s2.mp3",
+          "grammar_lessons": [
+            {
+              "t": "复合过去时（passé composé）是什么",
+              "b": "讲「过去已经做完的事」，最常用复合过去时。公式只有一条：助动词（avoir 或 être）的现在时 + 过去分词。这句 j'ai visité = j'ai（我有）+ visité（参观过）= 我参观过。"
+            },
+            {
+              "t": "助动词 avoir 的现在时（必背）",
+              "b": "j'ai /ʒe/　·　tu as /ty a/　·　il a /il a/\nnous avons /nu.z‿a.vɔ̃/　·　vous avez /vu.z‿a.ve/　·　ils ont /il.z‿ɔ̃/\n绝大多数动词的复合过去时都用 avoir 当助动词（另外一小类移动动词用 être，以后单独记）。"
+            },
+            {
+              "t": "过去分词怎么造：先把 -er 动词吃透",
+              "b": "第一组（-er）动词把词尾 -er 换成 -é：visiter → visité、parler → parlé、aller → allé。这是最整齐的一类，先记它，能覆盖一大半日常动词。第二组（-ir）多变成 -i：finir → fini。剩下不规则的要单独背：faire → fait、prendre → pris、être → été、avoir → eu。"
+            },
+            {
+              "t": "hier 是复合过去时的好搭档",
+              "b": "hier（昨天）是一个「已经结束的时间点」，配复合过去时：Hier, j'ai visité…（昨天我参观了……）。如果要说「以前经常做」，就得换成未完成过去时（imparfait）j'avais / je visitais——两者区别是「一次做完」对「过去反复/持续」，后面讲到 D 句时会展开。"
+            },
+            {
+              "t": "du = de + le（和 au 是一对）",
+              "b": "介词 de（的、从）遇到 le 必须缩合：de + le = du，de + les = des，de + la 不变。所以「卢浮宫博物馆」是 le musée du Louvre。au / du / aux / des 这四个缩合形式是法语出现频率最高的东西之一，单独抄一遍记牢。"
+            },
+            {
+              "t": "mes amis 和 mon amie 差在哪",
+              "b": "物主形容词要跟名词配合：mon（阳性单数）· ma（阴性单数）· mes（复数，不分阴阳）。amis 是复数，所以 mes amis；amie 是阴性单数，本该 ma amie，但元音冲突写成 mon amie。同一个「我的朋友」，阴阳性不同、单复数不同，前面的词就跟着变。"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Je prends le métro pour aller au travail chaque jour.",
+          "translation": "我每天坐地铁去上班。",
+          "difficulty": "A2",
+          "grammar_note": "je prends 是 prendre（坐/拿）的第一人称变位。pour + 动词原形 表示目的\"为了......\"。chaque 是\"每一个\"。",
+          "grammar_notes": {
+            "prends": "prendre 的现在时 je 形式；单数三个人称都读 /pʁɑ̃/，词尾 -ds/-d 不发音",
+            "chaque": "chaque 后面直接跟单数名词，中间不加冠词",
+            "pour": "pour + 动词原形，表示目的「为了……」",
+            "au": "à + le 的缩合，travail 是阳性名词所以用 au"
+          },
+          "words": [
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这/那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "métro",
+              "pos": "nm",
+              "def": "地铁",
+              "ipa": "/me.tʁo/",
+              "example": "La station de métro."
+            },
+            {
+              "w": "pour",
+              "pos": "prep",
+              "def": "为了，对于",
+              "ipa": "/puʁ/",
+              "example": "C'est pour toi."
+            },
+            {
+              "w": "aller",
+              "pos": "v",
+              "def": "去",
+              "ipa": "/a.le/",
+              "example": "Je vais au cinéma."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到，在（à+le）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "travail",
+              "pos": "nm",
+              "def": "工作",
+              "ipa": "/tʁa.vaj/",
+              "example": "Je suis au travail."
+            },
+            {
+              "w": "chaque",
+              "pos": "adj",
+              "def": "每一个",
+              "ipa": "/ʃak/",
+              "example": "Chaque jour, j'apprends."
+            },
+            {
+              "w": "jour",
+              "pos": "nm",
+              "def": "天，白天",
+              "ipa": "/ʒuʁ/",
+              "example": "Bonjour !"
+            }
+          ],
+          "audio_file": "audio/2026-09-20/s3.mp3",
+          "grammar_lessons": [
+            {
+              "t": "prendre（拿、乘坐）的现在时变位",
+              "b": "je prends /ʒə pʁɑ̃/　·　tu prends /ty pʁɑ̃/　·　il prend /il pʁɑ̃/\nnous prenons /nu pʁə.nɔ̃/　·　vous prenez /vu pʁə.ne/　·　ils prennent /il pʁɛn/\n三个坑：单数三个人称都读 /pʁɑ̃/（词尾 -ds、-d 都不发音，拼写不同读音一样）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。以 -prendre 结尾的一族都这么变：comprendre（理解）、apprendre（学）。"
+            },
+            {
+              "t": "为什么 prendre le métro 是「坐地铁」",
+              "b": "prendre 本义是「拿、取」，接交通工具就变成「乘坐」：prendre le métro / le bus / le train / l'avion / un taxi。注意交通工具前要用定冠词 le、la、l'：prendre le métro 不是 prendre un métro。"
+            },
+            {
+              "t": "pour + 动词原形 = 表目的",
+              "b": "介词后面如果接动词，动词必须用原形（infinitif），绝不变位：pour aller（为了去）、pour apprendre（为了学）、pour manger（为了吃）。所以「为了去上班」是 pour aller au travail。"
+            },
+            {
+              "t": "chaque 后面不加冠词",
+              "b": "chaque（每一个）是形容词，直接跟单数名词，中间不能插 le/la/un：chaque jour（每天）、chaque semaine（每周）、chaque matin（每天早上）。对比「每天」的另一种说法 tous les jours —— 那种说法必须带冠词 les。这是两个高频表达，别混。"
+            },
+            {
+              "t": "temps / fois / heure 都跟「时间」有关",
+              "b": "temps 是笼统的时间（j'ai le temps 我有时间）；fois 是「次数」（trois fois 三次）；heure 是「小时、钟点」（quelle heure est-il ? 几点了）。所以「每天」是 chaque jour，跟 temps 没关系。"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Si j'avais plus de temps, j'apprendrais à jouer du piano.",
+          "translation": "如果我有更多时间，我会学弹钢琴。",
+          "difficulty": "B1",
+          "grammar_note": "条件式虚拟式结构：si + imparfait（j'avais）→ conditionnel présent（j'apprendrais）。表示假设。",
+          "grammar_notes": {
+            "avais": "avoir 的未完成过去时 je 形式；-ais 是未完成过去时的标志性词尾",
+            "apprendrais": "apprendre 的条件式现在时；和将来时 j'apprendrai 只差一个 s",
+            "du": "de + le 的缩合；jouer du piano 是「弹钢琴」",
+            "piano": "阳性名词；演奏乐器用 jouer + de + 定冠词"
+          },
+          "words": [
+            {
+              "w": "Si",
+              "pos": "conj",
+              "def": "如果；如此",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多，不再",
+              "ipa": "/plys/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "从，关于，的",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间，天气",
+              "ipa": "/tɑ̃/",
+              "example": "Il fait beau temps."
+            },
+            {
+              "w": "jouer",
+              "pos": "v",
+              "def": "玩",
+              "ipa": "/ʒwe/",
+              "example": "Les enfants jouent."
+            }
+          ],
+          "audio_file": "audio/2026-09-20/s4.mp3",
+          "grammar_lessons": [
+            {
+              "t": "「如果……就……」的固定配方",
+              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
+            },
+            {
+              "t": "avoir 的未完成过去时（词尾是通用的）",
+              "b": "j'avais /ʒa.vɛ/　·　tu avais /ty a.vɛ/　·　il avait /i.la.vɛ/\nnous avions /nu.z‿a.vjɔ̃/　·　vous aviez /vu.z‿a.vje/　·　ils avaient /il.z‿a.vɛ/\n关键在词尾：-ais / -ait / -ions / -iez / -aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。另外整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。"
+            },
+            {
+              "t": "条件式现在时怎么造",
+              "b": "词干取「将来时词干」，词尾借用未完成过去时的词尾。apprendre 的将来时是 j'apprendrai（词干 apprendr-），加上 -ais 就是 j'apprendrais /ʒa.pʁɑ̃.dʁɛ/。它的意思不是过去，而是「在某个条件下我就会……」，语气比直陈式软，也常用来礼貌请求（je voudrais 我想要）。"
+            },
+            {
+              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
+              "b": "j'apprendrai /ʒa.pʁɑ̃.dʁe/ 词尾 -ai：简单将来时，「我将会学」，很确定。\nj'apprendrais /ʒa.pʁɑ̃.dʁɛ/ 词尾 -ais：条件式，「（如果条件满足）我会学」。\n拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。看完这句以后打字时留意一下，这是法语写作最常见的错点之一。"
+            },
+            {
+              "t": "jouer du piano：乐器用 de，球类用 à",
+              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
+            },
+            {
+              "t": "法语时间地图（先建立坐标就好）",
+              "b": "现在做 → 现在时（je fais）\n已经做完 → 复合过去时（j'ai fait）\n过去经常做/当时状态 → 未完成过去时（je faisais）\n将来会做 → 简单将来时（je ferai）\n假设条件下会做 → 条件式现在时（je ferais）\n今天这句用的就是最后一条。把这张图记住，看到动词先问自己「站在哪个时间点上」。"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Plus j'apprends le français, plus je trouve cette langue belle.",
+          "translation": "我越学法语，越觉得这门语言优美。",
+          "difficulty": "B1",
+          "grammar_note": "plus...plus 是\"越......越......\"结构。cette 是阴性指示形容词\"这个\"，修饰阴性名词 langue。",
+          "grammar_notes": {
+            "apprends": "apprendre 的现在时 je 形式（同 prendre 一族）",
+            "cette": "阴性单数指示形容词，修饰阴性名词 langue",
+            "belle": "beau 的阴性形式，这里放在名词后作「觉得……怎么样」的表语",
+            "trouve": "trouver 的现在时 je 形式；trouver + 宾语 + 形容词 = 觉得……如何"
+          },
+          "words": [
+            {
+              "w": "Plus",
+              "pos": "adv",
+              "def": "更多，不再",
+              "ipa": "/plys/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这/那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "français",
+              "pos": "adj",
+              "def": "法国的，法语的",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "langue",
+              "pos": "nf",
+              "def": "语言",
+              "ipa": "/lɑ̃ɡ/",
+              "example": "La langue française."
+            },
+            {
+              "w": "belle",
+              "pos": "adj",
+              "def": "美丽的（阴性）",
+              "ipa": "/bɛl/",
+              "example": "Une belle femme."
+            }
+          ],
+          "audio_file": "audio/2026-09-20/s5.mp3",
+          "grammar_lessons": [
+            {
+              "t": "plus… plus… 「越……越……」",
+              "b": "结构就是两个 plus 各带一件事：Plus + 第一件事 + plus + 第二件事。同族还有 moins…moins…（越不……越不……）和 plus…moins…（越……越不……）。两个 plus 后面都必须跟「主语 + 动词」，不能只跟一个名词。"
+            },
+            {
+              "t": "这里的 plus 怎么读",
+              "b": "作「更多」讲、构成比较时，plus 读 /ply/（词尾 -s 不发音）；只有表示「加、而且」时才读 /plys/。所以这句读 /ply ʒa.pʁɑ̃/，不读 /plys/。"
+            },
+            {
+              "t": "cette 是阴性单数的指示形容词",
+              "b": "指示形容词相当于「这个/那个」，要跟名词配合：ce livre（阳性）、cet ami（阳性但元音开头）、cette langue（阴性）、ces livres（复数）。所以 langue 是阴性 → cette langue。"
+            },
+            {
+              "t": "形容词 belle 为什么可以放在名词后面",
+              "b": "法语形容词绝大多数放在名词后面：une langue belle。只有少数短小的常用词（beau、joli、grand、petit、jeune、vieux、bon、mauvais）习惯放前面，但放前面时要换形式：une belle langue。两种都对，只是位置影响强调的是「性质」还是「类别」。"
+            },
+            {
+              "t": "trouver + 宾语 + 形容词 = 「觉得……怎么样」",
+              "b": "je trouve cette langue belle 直译是「我发现这门语言美」，也就是「我觉得这门语言很美」。这是法语表达主观评价最常用的句式：Je trouve ce film long（我觉得这电影太长）、Je trouve ça bizarre（我觉得这很奇怪）。不用学什么新词，一个 trouver 就能表达全部「我觉得」。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

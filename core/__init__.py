@@ -1,0 +1,1 @@
+# FrenchDaily core package

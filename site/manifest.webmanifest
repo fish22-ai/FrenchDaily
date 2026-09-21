@@ -1,0 +1,11 @@
+{
+  "name": "FrenchDaily",
+  "short_name": "FrenchDaily",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6f0",
+  "theme_color": "#faf6f0",
+  "lang": "fr",
+  "description": "Daily French reading immersion"
+}

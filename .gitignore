@@ -1,0 +1,11 @@
+# 运行痕迹
+logs/
+__pycache__/
+*.pyc
+.workbuddy/
+
+# 本地临时文件
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db

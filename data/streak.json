@@ -1,0 +1,13 @@
+{
+  "records": {
+    "2026-09-20": {
+      "done": true
+    },
+    "2026-09-21": {
+      "done": true
+    }
+  },
+  "current_streak": 2,
+  "longest_streak": 2,
+  "total_days": 2
+}

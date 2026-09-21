@@ -1,0 +1,43 @@
+# ============================================================================
+#  FrenchDaily 配置文件
+#  每日法语沉浸式阅读 · Lecture du jour
+# ============================================================================
+
+[schedule]
+# 标准 cron：分 时 日 月 星期
+# 17 00 = 下午 5 点（北京时间）
+cron = "0 17 * * *"
+timezone = "Asia/Shanghai"
+
+# 本地强制重跑：scripts\daily.bat force
+
+[content]
+# 难度配比：逗号分隔 level:count
+# A1=入门 A2=基础 B1=进阶 B2=中高级
+# 每天 5 句：1 句 A1 + 2 句 A2 + 2 句 B1
+# 你可以随时改这个值，比如 "A2:3,B1:2" 或 "A1:2,A2:2,B1:1"
+difficulty_mix = "A1:1,A2:2,B1:2"
+
+# 主题方向（留空 = 不限，每天随机）
+# 可选：daily life, travel, food, culture, art, weather, shopping, work
+theme = ""
+
+# AI 模型（与 dailybrief 共享同一套 API 配置）
+llm_model = "deepseek-v4-flash"
+
+[audio]
+# TTS 语音（edge-tts 法语语音）
+# DeniseNeural=友好清晰 EloiseNeural=温柔 HenriNeural=磁性男声
+voice = "fr-FR-DeniseNeural"
+slow_rate = "-20%"
+
+[site]
+name = "FrenchDaily"
+tagline = "Lecture du jour · 每日法语阅读"
+footer = "每日更新 · 沉浸式法语语料 · 不做背词任务"
+archive_days = 60
+
+[ui]
+theme = "romantic"
+streak_trigger_seconds = 30
+autoplay = false

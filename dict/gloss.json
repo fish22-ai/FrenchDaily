@@ -1,0 +1,884 @@
+{
+ "_meta": {
+  "version": "1.0",
+  "note": "解析用语词包：讲解正文、语法术语、以及讲解里举例会用到的词。叠加在 starter.json + curated.json 之上。有了它，解析里的法语词点一下就能查，不会出现「这个词不可点」。"
+ },
+ "aux": {
+  "pos": "prep",
+  "def": "à + les 的缩合形式（到那些、给那些）",
+  "ipa": "/o/",
+  "example": "Je parle aux enfants.",
+  "example_ipa": "/ʒə paʁl o.z‿ɑ̃.fɑ̃/",
+  "example_zh": "我和孩子们说话。"
+ },
+ "avant": {
+  "pos": "prep",
+  "def": "在……之前；avant que + 虚拟式",
+  "ipa": "/a.vɑ̃/",
+  "example": "avant que tu partes",
+  "example_zh": "在你走之前",
+  "example_ipa": "/a.vɑ̃ kə ty paʁt/"
+ },
+ "bizarre": {
+  "pos": "adj",
+  "def": "奇怪的、古怪的",
+  "ipa": "/bi.zaʁ/",
+  "example": "Je trouve ça bizarre.",
+  "example_ipa": "/ʒə tʁuv sa bi.zaʁ/",
+  "example_zh": "我觉得这很奇怪。"
+ },
+ "ce": {
+  "pos": "adj",
+  "def": "这个／那个（阳性单数指示形容词）",
+  "ipa": "/sə/",
+  "example": "ce livre",
+  "example_zh": "这本书",
+  "example_ipa": "/sə livʁ/"
+ },
+ "cet": {
+  "pos": "adj",
+  "def": "这个／那个（阳性单数，后接元音开头的名词）",
+  "ipa": "/sɛt/",
+  "example": "cet ami",
+  "example_zh": "这个朋友",
+  "example_ipa": "/sɛ.t‿a.mi/"
+ },
+ "ces": {
+  "pos": "adj",
+  "def": "这些／那些（复数指示形容词，不分阴阳）",
+  "ipa": "/se/",
+  "example": "ces livres",
+  "example_zh": "这些书",
+  "example_ipa": "/se livʁ/"
+ },
+ "conjugaison": {
+  "pos": "term",
+  "def": "动词变位；法语每个主语配一个专属动词形式，这套变化就叫 conjugaison",
+  "ipa": "/kɔ̃.ʒy.ɡɛ.zɔ̃/",
+  "example": "la conjugaison du verbe faire",
+  "example_zh": "动词 faire 的变位",
+  "example_ipa": "/la kɔ̃.ʒy.ɡɛ.zɔ̃ dy vɛʁb fɛʁ/"
+ },
+ "courses": {
+  "pos": "nf",
+  "def": "采购、买东西（faire les courses 去买东西）",
+  "ipa": "/kuʁs/",
+  "example": "Je fais les courses le samedi.",
+  "example_ipa": "/ʒə fɛ le kuʁs lə sam.di/",
+  "example_zh": "我周六去买东西。"
+ },
+ "doux": {
+  "pos": "adj",
+  "def": "温和的、柔和的；il fait doux 天气温和",
+  "ipa": "/du/",
+  "example": "Il fait doux ce soir.",
+  "example_ipa": "/il fɛ du sə.swaʁ/",
+  "example_zh": "今晚天气温和。"
+ },
+ "elle": {
+  "pos": "pron",
+  "def": "她；它（阴性主语代词）",
+  "ipa": "/ɛl/",
+  "example": "Elle est française.",
+  "example_ipa": "/ɛ.l‿ɛ fʁɑ̃.sɛz/",
+  "example_zh": "她是法国人。"
+ },
+ "elles": {
+  "pos": "pron",
+  "def": "她们；它们（阴性复数主语代词）",
+  "ipa": "/ɛl/",
+  "example": "Elles sont amies.",
+  "example_zh": "她们是朋友。"
+ },
+ "enfants": {
+  "pos": "nm",
+  "def": "孩子们（enfant 的复数，单复数同形）",
+  "ipa": "/ɑ̃.fɑ̃/",
+  "example": "les enfants du quartier",
+  "example_zh": "街区里的孩子们",
+  "example_ipa": "/le.z‿ɑ̃.fɑ̃ dy kaʁ.tje/"
+ },
+ "fois": {
+  "pos": "nf",
+  "def": "次、回（表次数）；trois fois 三次",
+  "ipa": "/fwa/",
+  "example": "trois fois par semaine",
+  "example_ipa": "/tʁwa fwa paʁ sə.mɛn/",
+  "example_zh": "每周三次"
+ },
+ "football": {
+  "pos": "nm",
+  "def": "足球；jouer au football 踢足球",
+  "ipa": "/fut.bol/",
+  "example": "Il joue au football.",
+  "example_zh": "他踢足球。",
+  "example_ipa": "/il ʒu o fut.bol/"
+ },
+ "guitare": {
+  "pos": "nf",
+  "def": "吉他；jouer de la guitare 弹吉他",
+  "ipa": "/ɡi.taʁ/",
+  "example": "Elle joue de la guitare.",
+  "example_zh": "她弹吉他。",
+  "example_ipa": "/ɛl ʒu də la ɡi.taʁ/"
+ },
+ "gâteau": {
+  "pos": "nm",
+  "def": "蛋糕；faire un gâteau 做个蛋糕",
+  "ipa": "/ɡa.to/",
+  "example": "Il fait un gâteau.",
+  "example_ipa": "/il fɛ œ̃ ɡa.to/",
+  "example_zh": "他在做蛋糕。"
+ },
+ "heures": {
+  "pos": "nf",
+  "def": "小时、钟点（heure 的复数）",
+  "ipa": "/œʁ/",
+  "example": "Il est huit heures.",
+  "example_ipa": "/i.lɛ ɥi.t‿œʁ/",
+  "example_zh": "现在八点。"
+ },
+ "ils": {
+  "pos": "pron",
+  "def": "他们；它们（阳性复数主语代词）",
+  "ipa": "/il/",
+  "example": "Ils ont deux chats.",
+  "example_ipa": "/il.z‿ɔ̃ dø ʃa/",
+  "example_zh": "他们有两只猫。"
+ },
+ "impersonnel": {
+  "pos": "term",
+  "def": "无人称的。il impersonnel 指不指任何人的主语 il，只作语法占位符",
+  "ipa": "/ɛ̃.pɛʁ.sɔ.nɛl/",
+  "example": "il impersonnel",
+  "example_zh": "无人称的 il",
+  "example_ipa": "/il ɛ̃.pɛʁ.sɔ.nɛl/"
+ },
+ "infinitif": {
+  "pos": "term",
+  "def": "动词原形（不变位的形式）；介词后接动词时用原形",
+  "ipa": "/ɛ̃.fi.ni.tif/",
+  "example": "pour aller",
+  "example_zh": "为了去（aller 是原形）",
+  "example_ipa": "/puʁ a.le/"
+ },
+ "joli": {
+  "pos": "adj",
+  "def": "漂亮的、好看的；属于可放在名词前的短形容词",
+  "ipa": "/ʒɔ.li/",
+  "example": "une jolie maison",
+  "example_ipa": "/yn ʒɔ.li mɛ.zɔ̃/",
+  "example_zh": "一栋漂亮的房子"
+ },
+ "jours": {
+  "pos": "nm",
+  "def": "日子（jour 的复数）；tous les jours 每天",
+  "ipa": "/ʒuʁ/",
+  "example": "tous les jours",
+  "example_ipa": "/tu le ʒuʁ/",
+  "example_zh": "每天"
+ },
+ "livres": {
+  "pos": "nm",
+  "def": "书（livre 的复数）",
+  "ipa": "/livʁ/",
+  "example": "des livres français",
+  "example_zh": "几本法语书"
+ },
+ "ma": {
+  "pos": "adj",
+  "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+  "ipa": "/ma/",
+  "example": "ma langue",
+  "example_zh": "我的语言",
+  "example_ipa": "/ma lɑ̃ɡ/"
+ },
+ "moi": {
+  "pos": "pron",
+  "def": "我（重读代词，用在介词后）；avec moi 和我",
+  "ipa": "/mwa/",
+  "example": "Viens avec moi.",
+  "example_ipa": "/vjɛ̃.n‿a.vɛk mwa/",
+  "example_zh": "和我一起来。"
+ },
+ "passé": {
+  "pos": "adj",
+  "def": "过去的；le passé 过去",
+  "ipa": "/pa.se/",
+  "example": "le passé composé",
+  "example_ipa": "/lə pa.se kɔ̃.po.ze/",
+  "example_zh": "复合过去时"
+ },
+ "composé": {
+  "pos": "adj",
+  "def": "复合的、合成的；le passé composé 复合过去时",
+  "ipa": "/kɔ̃.po.ze/",
+  "example": "le passé composé",
+  "example_zh": "复合过去时",
+  "example_ipa": "/lə pa.se kɔ̃.po.ze/"
+ },
+ "présent": {
+  "pos": "nm",
+  "def": "现在时；le présent 现在时",
+  "ipa": "/pʁe.zɑ̃/",
+  "example": "le présent de l'indicatif",
+  "example_zh": "直陈式现在时",
+  "example_ipa": "/lə pʁe.zɑ̃ də lɛ̃.di.ka.tif/"
+ },
+ "quelle": {
+  "pos": "adj",
+  "def": "哪个、什么样的（疑问形容词阴性）；quelle heure est-il ? 几点了？",
+  "ipa": "/kɛl/",
+  "example": "Quelle heure est-il ?",
+  "example_ipa": "/kɛ.l‿œʁ ɛ.til/",
+  "example_zh": "现在几点了？"
+ },
+ "quoique": {
+  "pos": "conj",
+  "def": "尽管（引导虚拟式，比 bien que 更书面）",
+  "ipa": "/kwa.kə/",
+  "example": "Quoiqu'il soit tard, il travaille.",
+  "example_zh": "尽管很晚了，他还在工作。",
+  "example_ipa": "/kwa.kil swa taʁ, il tʁa.vaj/"
+ },
+ "sport": {
+  "pos": "nm",
+  "def": "运动；faire du sport 做运动",
+  "ipa": "/spɔʁ/",
+  "example": "Je fais du sport.",
+  "example_ipa": "/ʒə fɛ dy spɔʁ/",
+  "example_zh": "我做运动。"
+ },
+ "taxi": {
+  "pos": "nm",
+  "def": "出租车；prendre un taxi 打车",
+  "ipa": "/tak.si/",
+  "example": "Je prends un taxi.",
+  "example_ipa": "/ʒə pʁɑ̃ œ̃ tak.si/",
+  "example_zh": "我打车。"
+ },
+ "tennis": {
+  "pos": "nm",
+  "def": "网球；jouer au tennis 打网球",
+  "ipa": "/te.nis/",
+  "example": "Il joue au tennis.",
+  "example_zh": "他打网球。",
+  "example_ipa": "/il ʒu o te.nis/"
+ },
+ "toi": {
+  "pos": "pron",
+  "def": "你（重读代词，用在介词后）；avec toi 和你",
+  "ipa": "/twa/",
+  "example": "J'apprends avec toi.",
+  "example_zh": "我和你一起学。",
+  "example_ipa": "/ʒa.pʁɑ̃.z‿a.vɛk twa/"
+ },
+ "tous": {
+  "pos": "adj",
+  "def": "所有的（阳性复数）；tous les jours 每天",
+  "ipa": "/tus/",
+  "example": "tous les matins",
+  "example_ipa": "/tu le ma.tɛ̃/",
+  "example_zh": "每天早上"
+ },
+ "trois": {
+  "pos": "num",
+  "def": "三（3）；词尾 -s 在元音前连诵读 /z/",
+  "ipa": "/tʁwa/",
+  "example": "trois amis",
+  "example_ipa": "/tʁwa.z‿a.mi/",
+  "example_zh": "三个朋友"
+ },
+ "tu": {
+  "pos": "pron",
+  "def": "你（主语代词，用于熟人之间）",
+  "ipa": "/ty/",
+  "example": "Tu parles français ?",
+  "example_ipa": "/ty paʁl fʁɑ̃.sɛ/",
+  "example_zh": "你会说法语吗？"
+ },
+ "vous": {
+  "pos": "pron",
+  "def": "您／你们（主语代词；也表示礼貌称呼）",
+  "ipa": "/vu/",
+  "example": "Vous parlez français ?",
+  "example_ipa": "/vu paʁ.le fʁɑ̃.sɛ/",
+  "example_zh": "您会说法语吗？"
+ },
+ "voyage": {
+  "pos": "nm",
+  "def": "旅行；faire un voyage 去旅行",
+  "ipa": "/vwa.jaʒ/",
+  "example": "Bon voyage !",
+  "example_ipa": "/bɔ̃ vwa.jaʒ/",
+  "example_zh": "一路顺风！"
+ },
+ "vu": {
+  "pos": "v",
+  "def": "voir（看见）的过去分词；也用于「鉴于」",
+  "ipa": "/vy/",
+  "example": "J'ai vu ce film.",
+  "example_ipa": "/ʒe vy sə film/",
+  "example_zh": "我看过这部电影。"
+ },
+ "y": {
+  "pos": "pron",
+  "def": "副代词，代替「那里／到那里」；il y a 有",
+  "ipa": "/i/",
+  "example": "Il y a un café ici.",
+  "example_ipa": "/i.l‿i.j‿a œ̃ ka.fe i.si/",
+  "example_zh": "这里有一家咖啡馆。"
+ },
+ "ça": {
+  "pos": "pron",
+  "def": "这个、那个（口语，代替 cela）",
+  "ipa": "/sa/",
+  "example": "Je trouve ça bizarre.",
+  "example_ipa": "/ʒə tʁuv sa bi.zaʁ/",
+  "example_zh": "我觉得这很奇怪。"
+ },
+ "verbe": {
+  "pos": "term",
+  "def": "动词",
+  "ipa": "/vɛʁb/",
+  "example": "un verbe irrégulier",
+  "example_zh": "一个不规则动词"
+ },
+ "nom": {
+  "pos": "term",
+  "def": "名词；也指「名字」",
+  "ipa": "/nɔ̃/",
+  "example": "un nom masculin",
+  "example_zh": "一个阳性名词"
+ },
+ "adjectif": {
+  "pos": "term",
+  "def": "形容词",
+  "ipa": "/ad.ʒɛk.tif/",
+  "example": "un adjectif possessif",
+  "example_zh": "一个物主形容词"
+ },
+ "pronom": {
+  "pos": "term",
+  "def": "代词",
+  "ipa": "/pʁɔ.nɔ̃/",
+  "example": "un pronom personnel",
+  "example_zh": "一个人称代词"
+ },
+ "sujet": {
+  "pos": "term",
+  "def": "主语",
+  "ipa": "/sy.ʒɛ/",
+  "example": "Le sujet du verbe.",
+  "example_zh": "动词的主语。"
+ },
+ "radical": {
+  "pos": "term",
+  "def": "词干（去掉词尾后剩下的部分）",
+  "ipa": "/ʁa.di.kal/",
+  "example": "le radical du verbe",
+  "example_zh": "动词的词干"
+ },
+ "terminaison": {
+  "pos": "term",
+  "def": "词尾（动词变位加在词干后面的部分）",
+  "ipa": "/tɛʁ.mi.nɛ.zɔ̃/",
+  "example": "les terminaisons de l'imparfait",
+  "example_zh": "未完成过去时的词尾"
+ },
+ "voyelle": {
+  "pos": "term",
+  "def": "元音",
+  "ipa": "/vwa.jɛl/",
+  "example": "une voyelle nasale",
+  "example_zh": "一个鼻化元音"
+ },
+ "consonne": {
+  "pos": "term",
+  "def": "辅音",
+  "ipa": "/kɔ̃.sɔn/",
+  "example": "une consonne finale",
+  "example_zh": "一个词尾辅音"
+ },
+ "liaison": {
+  "pos": "term",
+  "def": "连诵：前词词尾的辅音与后词开头的元音连读",
+  "ipa": "/ljɛ.zɔ̃/",
+  "example": "les amis /le.z‿a.mi/",
+  "example_zh": "连诵读成 /le.z‿a.mi/"
+ },
+ "auxiliaire": {
+  "pos": "term",
+  "def": "助动词（avoir 或 être，用来构成复合时态）",
+  "ipa": "/ɔk.si.ljɛʁ/",
+  "example": "l'auxiliaire avoir",
+  "example_zh": "助动词 avoir"
+ },
+ "participe": {
+  "pos": "term",
+  "def": "分词；participe passé 过去分词",
+  "ipa": "/paʁ.ti.sip/",
+  "example": "le participe passé",
+  "example_zh": "过去分词"
+ },
+ "indicatif": {
+  "pos": "term",
+  "def": "直陈式（陈述事实的语式，和虚拟式相对）",
+  "ipa": "/ɛ̃.di.ka.tif/",
+  "example": "le présent de l'indicatif",
+  "example_zh": "直陈式现在时"
+ },
+ "groupe": {
+  "pos": "term",
+  "def": "组；法语动词按变位规律分第一组（-er）、第二组（-ir）、第三组（不规则）",
+  "ipa": "/ɡʁup/",
+  "example": "un verbe du troisième groupe",
+  "example_zh": "一个第三组动词"
+ },
+ "règle": {
+  "pos": "nf",
+  "def": "规则",
+  "ipa": "/ʁɛɡl/",
+  "example": "une règle de grammaire",
+  "example_zh": "一条语法规则"
+ },
+ "exemple": {
+  "pos": "nm",
+  "def": "例子",
+  "ipa": "/ɛɡ.zɑ̃pl/",
+  "example": "par exemple",
+  "example_ipa": "/paʁ ɛɡ.zɑ̃pl/",
+  "example_zh": "例如"
+ },
+ "masculin": {
+  "pos": "term",
+  "def": "阳性的",
+  "ipa": "/mas.ky.lɛ̃/",
+  "example": "un nom masculin",
+  "example_zh": "一个阳性名词"
+ },
+ "féminin": {
+  "pos": "term",
+  "def": "阴性的",
+  "ipa": "/fe.mi.nɛ̃/",
+  "example": "un nom féminin",
+  "example_zh": "一个阴性名词"
+ },
+ "singulier": {
+  "pos": "term",
+  "def": "单数",
+  "ipa": "/sɛ̃.ɡy.lje/",
+  "example": "le singulier",
+  "example_zh": "单数"
+ },
+ "pluriel": {
+  "pos": "term",
+  "def": "复数",
+  "ipa": "/ply.ʁjɛl/",
+  "example": "le pluriel",
+  "example_zh": "复数"
+ },
+ "accent": {
+  "pos": "term",
+  "def": "音符（é è ê 等）或重音",
+  "ipa": "/ak.sɑ̃/",
+  "example": "un accent aigu",
+  "example_zh": "闭音符（é）"
+ },
+ "élision": {
+  "pos": "term",
+  "def": "省音：le/la/je 等遇元音开头的词要去掉元音写成 l'/j'",
+  "ipa": "/e.li.zjɔ̃/",
+  "example": "l'ami（不是 le ami）",
+  "example_zh": "省音写成 l'ami"
+ },
+ "expression": {
+  "pos": "nf",
+  "def": "表达、说法",
+  "ipa": "/ɛks.pʁɛ.sjɔ̃/",
+  "example": "une expression courante",
+  "example_zh": "一个常用说法"
+ },
+ "entendre": {
+  "pos": "v",
+  "def": "听见；entendre dire 听说",
+  "ipa": "/ɑ̃.tɑ̃dʁ/",
+  "example": "J'entends un bruit.",
+  "example_zh": "我听到一个声音。"
+ },
+ "bruit": {
+  "pos": "nm",
+  "def": "声音、噪音",
+  "ipa": "/bʁɥi/",
+  "example": "un petit bruit",
+  "example_zh": "一点响动"
+ },
+ "amie": {
+  "pos": "nf",
+  "def": "女性朋友；注意元音前用 mon amie 而不是 ma amie",
+  "ipa": "/a.mi/",
+  "example": "mon amie",
+  "example_ipa": "/mɔ̃.n‿a.mi/",
+  "example_zh": "我的女性朋友"
+ },
+ "a": {
+  "pos": "v",
+  "def": "有（avoir 第三人称单数）",
+  "ipa": "/a/",
+  "example": "Elle a un chien.",
+  "example_ipa": "/ɛl a œ̃ ʃjɛ̃/",
+  "example_zh": "她有一只狗。"
+ },
+ "ami": {
+  "pos": "nm",
+  "def": "朋友（阳性）",
+  "ipa": "/a.mi/",
+  "example": "C'est mon ami.",
+  "example_ipa": "/sɛ mɔ̃.n‿a.mi/",
+  "example_zh": "这是我的朋友。"
+ },
+ "apprendre": {
+  "pos": "v",
+  "def": "学习，学会",
+  "ipa": "/a.pʁɑ̃dʁ/",
+  "example": "J'apprends le français.",
+  "example_ipa": "/ʒa.pʁɑ̃ lə fʁɑ̃.sɛ/",
+  "example_zh": "我在学法语。"
+ },
+ "avion": {
+  "pos": "nm",
+  "def": "飞机",
+  "ipa": "/a.vjɔ̃/",
+  "example": "Par avion.",
+  "example_ipa": "/paʁ a.vjɔ̃/",
+  "example_zh": "坐飞机。"
+ },
+ "bon": {
+  "pos": "adj",
+  "def": "好的（阳性）",
+  "ipa": "/bɔ̃/",
+  "example": "Un bon repas.",
+  "example_ipa": "/œ̃ bɔ̃ ʁə.pa/",
+  "example_zh": "一顿好饭。"
+ },
+ "bus": {
+  "pos": "nm",
+  "def": "公交车",
+  "ipa": "/bys/",
+  "example": "Je prends le bus.",
+  "example_ipa": "/ʒə pʁɑ̃ lə bys/",
+  "example_zh": "我坐公交车。"
+ },
+ "chaud": {
+  "pos": "adj",
+  "def": "热的",
+  "ipa": "/ʃo/",
+  "example": "Il fait chaud.",
+  "example_ipa": "/il fɛ ʃo/",
+  "example_zh": "天气热。"
+ },
+ "comprendre": {
+  "pos": "v",
+  "def": "理解",
+  "ipa": "/kɔ̃.pʁɑ̃dʁ/",
+  "example": "Je comprends bien.",
+  "example_ipa": "/ʒə kɔ̃.pʁɑ̃ bjɛ̃/",
+  "example_zh": "我很明白。"
+ },
+ "conditionnel": {
+  "pos": "grammar",
+  "def": "条件式：假设、礼貌表达",
+  "ipa": "/kɔ̃.di.sjɔ.nɛl/",
+  "example": "Je voudrais un café.",
+  "example_ipa": "/ʒə vu.dʁɛ œ̃ ka.fe/",
+  "example_zh": "我想要一杯咖啡。（条件式的礼貌用法）"
+ },
+ "cuisine": {
+  "pos": "nf",
+  "def": "厨房，烹饪",
+  "ipa": "/kɥi.zin/",
+  "example": "La cuisine française.",
+  "example_ipa": "/la kɥi.zin fʁɑ̃.sɛz/",
+  "example_zh": "法国菜。"
+ },
+ "des": {
+  "pos": "det",
+  "def": "不定冠词：一些（复数）",
+  "ipa": "/de/",
+  "example": "J'ai des questions.",
+  "example_ipa": "/ʒe de kɛs.tjɔ̃/",
+  "example_zh": "我有几个问题。"
+ },
+ "essayer": {
+  "pos": "v",
+  "def": "尝试",
+  "ipa": "/e.se.je/",
+  "example": "Je vais essayer.",
+  "example_ipa": "/ʒə vɛ ɛ.sɛ.je/",
+  "example_zh": "我会试试看。"
+ },
+ "est": {
+  "pos": "v",
+  "def": "是（être 第三人称单数）",
+  "ipa": "/ɛ/",
+  "example": "Il est étudiant.",
+  "example_ipa": "/i.lɛ.t‿e.ty.djɑ̃/",
+  "example_zh": "他是学生。"
+ },
+ "faire": {
+  "pos": "v",
+  "def": "做，制作",
+  "ipa": "/fɛʁ/",
+  "example": "Je fais mes devoirs.",
+  "example_ipa": "/ʒə fɛ me də.vwaʁ/",
+  "example_zh": "我在做作业。"
+ },
+ "film": {
+  "pos": "nm",
+  "def": "电影",
+  "ipa": "/film/",
+  "example": "Un bon film.",
+  "example_ipa": "/œ̃ bɔ̃ film/",
+  "example_zh": "一部好电影。"
+ },
+ "finir": {
+  "pos": "v",
+  "def": "结束，完成",
+  "ipa": "/fi.niʁ/",
+  "example": "Je finis mes devoirs.",
+  "example_ipa": "/ʒə fi.ni me də.vwaʁ/",
+  "example_zh": "我做完了作业。"
+ },
+ "gare": {
+  "pos": "nf",
+  "def": "火车站",
+  "ipa": "/ɡaʁ/",
+  "example": "La gare du Nord.",
+  "example_ipa": "/la ɡaʁ dy nɔʁ/",
+  "example_zh": "北站。"
+ },
+ "grand": {
+  "pos": "adj",
+  "def": "大的，高的（阳性）",
+  "ipa": "/ɡʁɑ̃/",
+  "example": "Un grand homme.",
+  "example_ipa": "/œ̃ ɡʁɑ̃.t‿ɔm/",
+  "example_zh": "一个伟大的人。"
+ },
+ "heure": {
+  "pos": "nf",
+  "def": "小时，钟点",
+  "ipa": "/œʁ/",
+  "example": "Quelle heure est-il ?",
+  "example_ipa": "/kɛ.l‿œʁ ɛ.til/",
+  "example_zh": "现在几点了？"
+ },
+ "imparfait": {
+  "pos": "grammar",
+  "def": "未完成过去时：描述背景、习惯",
+  "ipa": "/ɛ̃.paʁ.fɛ/",
+  "example": "J'étais petit, je jouais.",
+  "example_ipa": "/ʒe.tɛ pə.ti, ʒə ʒwɛ/",
+  "example_zh": "我小时候常常玩。"
+ },
+ "jeune": {
+  "pos": "adj",
+  "def": "年轻的",
+  "ipa": "/ʒœn/",
+  "example": "Une femme jeune.",
+  "example_ipa": "/yn fam ʒøn/",
+  "example_zh": "一位年轻的女性。"
+ },
+ "la": {
+  "pos": "det",
+  "def": "定冠词：这/那（阴性单数）",
+  "ipa": "/la/",
+  "example": "La maison est belle.",
+  "example_ipa": "/la mɛ.zɔ̃ ɛ bɛl/",
+  "example_zh": "这房子很美。"
+ },
+ "les": {
+  "pos": "det",
+  "def": "定冠词：这些/那些（复数）",
+  "ipa": "/le/",
+  "example": "Les enfants jouent.",
+  "example_ipa": "/le.z‿ɑ̃.fɑ̃ ʒu/",
+  "example_zh": "孩子们在玩。"
+ },
+ "livre": {
+  "pos": "nm",
+  "def": "书",
+  "ipa": "/livʁ/",
+  "example": "Un livre intéressant.",
+  "example_ipa": "/œ̃ livʁ ɛ̃.te.ʁɛ.sɑ̃/",
+  "example_zh": "一本有趣的书。"
+ },
+ "long": {
+  "pos": "adj",
+  "def": "长的",
+  "ipa": "/lɔ̃/",
+  "example": "Un long chemin.",
+  "example_ipa": "/œ̃ lɔ̃ ʃə.mɛ̃/",
+  "example_zh": "一条很长的路。"
+ },
+ "maison": {
+  "pos": "nf",
+  "def": "房子，住宅",
+  "ipa": "/mɛ.zɔ̃/",
+  "example": "Ma maison est grande.",
+  "example_ipa": "/ma mɛ.zɔ̃ ɛ ɡʁɑ̃d/",
+  "example_zh": "我家的房子很大。"
+ },
+ "manger": {
+  "pos": "v",
+  "def": "吃",
+  "ipa": "/mɑ̃.ʒe/",
+  "example": "Je mange du pain.",
+  "example_ipa": "/ʒə mɑ̃ʒ dy pɛ̃/",
+  "example_zh": "我在吃面包。"
+ },
+ "matin": {
+  "pos": "nm",
+  "def": "早晨",
+  "ipa": "/ma.tɛ̃/",
+  "example": "Le matin, je me réveille tôt.",
+  "example_ipa": "/lə ma.tɛ̃, ʒə mə ʁe.vɛj to/",
+  "example_zh": "早上我起得很早。"
+ },
+ "mauvais": {
+  "pos": "adj",
+  "def": "坏的",
+  "ipa": "/mo.vɛ/",
+  "example": "Un mauvais jour.",
+  "example_ipa": "/œ̃ mo.vɛ ʒuʁ/",
+  "example_zh": "倒霉的一天。"
+ },
+ "moins": {
+  "pos": "adv",
+  "def": "更少地",
+  "ipa": "/mwɛ̃/",
+  "example": "Moins de travail.",
+  "example_ipa": "/mwɛ̃ də tʁa.vaj/",
+  "example_zh": "更少的活儿。"
+ },
+ "même": {
+  "pos": "adj",
+  "def": "同样的",
+  "ipa": "/mɛm/",
+  "example": "Le même livre.",
+  "example_ipa": "/lə mɛm livʁ/",
+  "example_zh": "同一本书。"
+ },
+ "neige": {
+  "pos": "nf",
+  "def": "雪",
+  "ipa": "/nɛʒ/",
+  "example": "La neige est blanche.",
+  "example_ipa": "/la nɛʒ ɛ blɑ̃ʃ/",
+  "example_zh": "雪是白的。"
+ },
+ "parler": {
+  "pos": "v",
+  "def": "说话，讲（语言）",
+  "ipa": "/paʁ.le/",
+  "example": "Je parle français.",
+  "example_ipa": "/ʒə paʁl fʁɑ̃.sɛ/",
+  "example_zh": "我说法语。"
+ },
+ "petit": {
+  "pos": "adj",
+  "def": "小的（阳性）",
+  "ipa": "/pə.ti/",
+  "example": "Un petit chat.",
+  "example_ipa": "/œ̃ pə.ti ʃa/",
+  "example_zh": "一只小猫。"
+ },
+ "porte": {
+  "pos": "nf",
+  "def": "门",
+  "ipa": "/pɔʁt/",
+  "example": "Ferme la porte.",
+  "example_ipa": "/fɛʁm la pɔʁt/",
+  "example_zh": "把门关上。"
+ },
+ "semaine": {
+  "pos": "nf",
+  "def": "周",
+  "ipa": "/sə.mɛn/",
+  "example": "Une semaine de travail.",
+  "example_ipa": "/yn sə.mɛn də tʁa.vaj/",
+  "example_zh": "一周的工作。"
+ },
+ "subjonctif": {
+  "pos": "grammar",
+  "def": "虚拟式：愿望、必要性、情感",
+  "ipa": "/syb.ʒɔk.tif/",
+  "example": "Je veux que tu viennes.",
+  "example_ipa": "/ʒə vø kə ty vjɛn/",
+  "example_zh": "我希望你来。"
+ },
+ "train": {
+  "pos": "nm",
+  "def": "火车",
+  "ipa": "/tʁɛ̃/",
+  "example": "Le train arrive.",
+  "example_ipa": "/lə tʁɛ̃ a.ʁiv/",
+  "example_zh": "火车到了。"
+ },
+ "trouver": {
+  "pos": "v",
+  "def": "找到，觉得",
+  "ipa": "/tʁu.ve/",
+  "example": "Je trouve cela intéressant.",
+  "example_ipa": "/ʒə tʁuv sə.la ɛ̃.te.ʁɛ.sɑ̃/",
+  "example_zh": "我觉得这很有意思。"
+ },
+ "un": {
+  "pos": "det",
+  "def": "不定冠词：一个（阳性）",
+  "ipa": "/œ̃/",
+  "example": "Un café, s'il vous plaît.",
+  "example_ipa": "/œ̃ ka.fe, sil vu plɛ/",
+  "example_zh": "请给我一杯咖啡。"
+ },
+ "une": {
+  "pos": "det",
+  "def": "不定冠词：一个（阴性）",
+  "ipa": "/yn/",
+  "example": "Une pomme rouge.",
+  "example_ipa": "/yn pɔm ʁuʒ/",
+  "example_zh": "一个红苹果。"
+ },
+ "vieux": {
+  "pos": "adj",
+  "def": "老的（阳性）",
+  "ipa": "/vjø/",
+  "example": "Un vieil ami.",
+  "example_ipa": "/œ̃ vjɛ.y‿a.mi/",
+  "example_zh": "一位老朋友。"
+ },
+ "visiter": {
+  "pos": "v",
+  "def": "参观",
+  "ipa": "/vi.zi.te/",
+  "example": "J'ai visité Paris.",
+  "example_ipa": "/ʒe vi.zi.te pa.ʁi/",
+  "example_zh": "我参观过巴黎。"
+ },
+ "école": {
+  "pos": "nf",
+  "def": "学校",
+  "ipa": "/e.kɔl/",
+  "example": "L'école est loin.",
+  "example_ipa": "/le.kɔl ɛ lwɛ̃/",
+  "example_zh": "学校很远。"
+ },
+ "été": {
+  "pos": "nm",
+  "def": "夏天",
+  "ipa": "/e.te/",
+  "example": "En été, il fait chaud.",
+  "example_ipa": "/ɑ̃.n‿e.te, il fɛ ʃo/",
+  "example_zh": "夏天天气热。"
+ }
+}

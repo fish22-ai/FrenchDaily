@@ -1,0 +1,1 @@
+# FrenchDaily fetchers package
