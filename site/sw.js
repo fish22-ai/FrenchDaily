@@ -3,8 +3,16 @@
    cache-first. Bump CACHE whenever a deploy changes assets so every client
    drops its old cached copies. */
 
-const CACHE = 'frenchdaily-v2';
-const SHELL = ['./', './index.html'];
+const CACHE = 'frenchdaily-v3';
+const SHELL = [
+  './',
+  './index.html',
+  './manifest.webmanifest',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/maskable-192.png',
+  './icons/maskable-512.png',
+];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

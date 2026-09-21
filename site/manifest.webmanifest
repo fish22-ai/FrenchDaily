@@ -1,11 +1,19 @@
 {
-  "name": "FrenchDaily",
+  "id": "/FrenchDaily/site/",
+  "name": "FrenchDaily · 每日法语",
   "short_name": "FrenchDaily",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#faf6f0",
-  "theme_color": "#faf6f0",
+  "orientation": "portrait-primary",
+  "background_color": "#fbf6ee",
+  "theme_color": "#fbf6ee",
   "lang": "fr",
-  "description": "Daily French reading immersion"
+  "description": "Daily French reading immersion",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
 }

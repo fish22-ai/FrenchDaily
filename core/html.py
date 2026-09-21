@@ -1996,6 +1996,8 @@ def render_page(day: Day, streak_info: dict, archive_dates: list[str]) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 <style>{CSS}{CSS_SKIN_FR}</style>
 <script>
 /* Restore the chosen skin before first paint — otherwise the page flashes the
