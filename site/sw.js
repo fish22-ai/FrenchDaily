@@ -3,7 +3,7 @@
    cache-first. Bump CACHE whenever a deploy changes assets so every client
    drops its old cached copies. */
 
-const CACHE = 'frenchdaily-v3';
+const CACHE = 'frenchdaily-v4';
 const SHELL = [
   './',
   './index.html',
