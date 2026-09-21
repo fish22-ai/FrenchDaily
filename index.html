@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FrenchDaily · Lecture du jour</title>
+<!-- 站点本体在 site/ 子目录；这里只做入口跳转，让 Pages 的根网址可用。 -->
+<meta http-equiv="refresh" content="0; url=./site/">
+<link rel="canonical" href="./site/">
+<link rel="manifest" href="./site/manifest.webmanifest">
+<meta name="theme-color" content="#fbf6ee">
+<style>
+  :root{--paper:#fbf6ee;--card:#fffdf8;--ink:#2f2721;--soft:#6a5c4e;
+        --faint:#a1937f;--gold:#b8954a;--rouge:#b04a3f;--line:#e8dcc7}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:var(--paper);color:var(--ink);text-align:center;padding:24px;
+    font-family:"Cormorant Garamond","Songti SC",Georgia,serif;
+  }
+  .card{
+    position:relative;max-width:420px;width:100%;padding:44px 30px 38px;
+    background:var(--card);border:1px solid var(--line);
+    box-shadow:0 2px 6px rgba(47,39,33,.06),0 24px 48px -22px rgba(47,39,33,.28);
+  }
+  .card::before{
+    content:"";position:absolute;inset:0 0 auto;height:3px;
+    background:linear-gradient(90deg,#3f5f86 0 33.33%,#b8954a 33.33% 66.66%,#b04a3f 66.66% 100%);
+  }
+  h1{font-size:30px;letter-spacing:1px;font-weight:600}
+  h1 span{color:var(--rouge)}
+  .fr{margin-top:8px;font-style:italic;color:var(--faint);font-size:14px;letter-spacing:1.6px}
+  p{margin-top:18px;font-size:14px;line-height:1.8;color:var(--soft)}
+  a{
+    display:inline-block;margin-top:22px;padding:9px 22px;
+    border:1px solid var(--gold);color:var(--ink);text-decoration:none;
+    font-size:14px;letter-spacing:1px;transition:background .18s ease;
+  }
+  a:hover{background:rgba(184,149,74,.12)}
+  @media(prefers-color-scheme:dark){
+    :root{--paper:#17130f;--card:#201a15;--ink:#f2e9d8;--soft:#c3b4a0;
+          --faint:#8c7d6a;--line:#332a22}
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>French<span>Daily</span></h1>
+    <div class="fr">Lecture du jour · 每日法语阅读</div>
+    <p>正在进入今日页面…</p>
+    <a href="./site/">进入今日法语 →</a>
+  </div>
+</body>
+</html>
