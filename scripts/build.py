@@ -370,6 +370,14 @@ def render_site(day: Day, streak_info: dict) -> None:
     (SITE_DIR / "index.html").write_text(html, encoding="utf-8")
     log.info("Updated index.html")
 
+    # Word-level mp3s for devices without a French TTS voice (Chinese Android
+    # ROMs etc.). Quiet: skips itself when edge_tts is not on this interpreter.
+    try:
+        from gen_audio import refresh as gen_audio_refresh
+        gen_audio_refresh(SITE_DIR, quiet=True)
+    except Exception as exc:  # audio is an enhancement, never fail the build
+        log.warning("gen_audio skipped: %s", exc)
+
 
 # ── Main ──────────────────────────────────────────────────────────────────
 

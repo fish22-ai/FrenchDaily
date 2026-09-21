@@ -1064,6 +1064,23 @@ JS_LOOKUP = r"""<script>
    a duplicate copy was doubling the page weight. */
 var DICT = window.__DICT__ || {};
 var NUMBERS = window.__NUMBERS__ || {};
+
+/* Pre-generated audio (edge_tts, synthesized at build time). Devices without
+   a French TTS voice — Chinese Android ROMs, Windows sans French voice pack —
+   would read French with an English voice, so the page prefers these mp3s
+   and only falls back to on-device speechSynthesis. */
+var FRAUDIOS = null;
+if(window.fetch){
+  fetch("audio/w/index.json").then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){ if(j && typeof j === "object") FRAUDIOS = j; })
+    .catch(function(){});
+}
+
+function numWord(v, k){
+  /* NUMBER_TABLE values look like "vingt /vɛ̃t/" — speak only the word. */
+  var i = (v || "").indexOf(" /");
+  return i > 0 ? v.slice(0, i) : (v || k);
+}
 var GRAMMAR = window.__GRAMMAR_NOTES__ || {};
 var CONJ = window.__CONJ__ || {};
 var VBOOK = window.__VBOOK__ || {};
@@ -1114,7 +1131,7 @@ function renderNumbers(filter){
       cell.addEventListener("click", function(){
         var nk = cell.getAttribute("data-num");
         tip.innerHTML = '<div class="dt-word">' + esc(nk) + '</div>' +
-          '<div class="dt-ipa">' + esc(NUMBERS[nk] || "") + spkBtn(NUMBERS[nk] || nk) + '</div>';
+          '<div class="dt-ipa">' + esc(NUMBERS[nk] || "") + spkBtn(numWord(NUMBERS[nk], nk)) + '</div>';
         tip.classList.add("visible");
         placeTooltip(cell, tip);
         numPopup.classList.remove("visible");
@@ -1147,6 +1164,23 @@ if("speechSynthesis" in window){
 }
 
 function speak(word){
+  if(!word) return;
+  var m = FRAUDIOS ? FRAUDIOS[word] : null;
+  if(m){
+    try{
+      var a = new Audio(m);
+      var fell = false;
+      var fb = function(){ if(fell) return; fell = true; ttsSpeak(word); };
+      a.onerror = fb;
+      var p = a.play();
+      if(p && p.catch) p.catch(fb);
+      return;
+    }catch(e){}
+  }
+  ttsSpeak(word);
+}
+
+function ttsSpeak(word){
   if(!("speechSynthesis" in window)) return;
   try{
     if(!FR_VOICE) pickVoice();
@@ -1284,7 +1318,7 @@ function renderTip(){
 
   if(st.isNum && NUMBERS[key]){
     html = '<div class="dt-word">' + esc(orig) + '</div>' +
-           '<div class="dt-ipa">' + esc(NUMBERS[key]) + spkBtn(NUMBERS[key]) + '</div>' +
+           '<div class="dt-ipa">' + esc(NUMBERS[key]) + spkBtn(numWord(NUMBERS[key], key)) + '</div>' +
            '<button class="dt-more" type="button">查看 1-100 数字表</button>';
   } else if(st.hasDict && DICT[key]){
     var d = DICT[key];

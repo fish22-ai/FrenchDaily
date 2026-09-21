@@ -3,7 +3,7 @@
    cache-first. Bump CACHE whenever a deploy changes assets so every client
    drops its old cached copies. */
 
-const CACHE = 'frenchdaily-v4';
+const CACHE = 'frenchdaily-v5';
 const SHELL = [
   './',
   './index.html',
@@ -43,6 +43,19 @@ self.addEventListener('fetch', (e) => {
         caches.open(CACHE).then((c) => c.put(req, copy));
         return res;
       }).catch(() => caches.match(req).then((hit) => hit || caches.match('./index.html')))
+    );
+    return;
+  }
+
+  /* The audio manifest grows whenever new words ship — it must revalidate.
+     The mp3s themselves are content-hashed and immutable: cache-first. */
+  if (new URL(req.url).pathname.endsWith('/audio/w/index.json')) {
+    e.respondWith(
+      fetch(req).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(req, copy));
+        return res;
+      }).catch(() => caches.match(req))
     );
     return;
   }

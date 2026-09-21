@@ -84,6 +84,16 @@ def main() -> int:
         )
         print(f"index.html -> {latest}.html")
 
+    # Word-level mp3s for devices without a French TTS voice. Quiet + guarded:
+    # renders must keep working on interpreters without edge_tts.
+    try:
+        from gen_audio import refresh as gen_audio_refresh
+        n = gen_audio_refresh(site_dir, quiet=False)
+        if n:
+            print(f"gen_audio: synthesized {n} new mp3s")
+    except Exception as exc:
+        print(f"gen_audio skipped: {exc}")
+
     return 0
 
 
