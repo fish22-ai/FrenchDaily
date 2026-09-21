@@ -24,6 +24,28 @@
             "il": "这里的 il 不指「他」，是无人称主语，只是语法占位符",
             "brille": "briller 的现在时 il 形式；briller 是规则的第一组（-er）动词"
           },
+          "grammar_lessons": [
+            {
+              "t": "faire 到底是什么意思？",
+              "b": "faire 是法语最万能的一个动词，本义是「做、制造」（faire un gâteau 做个蛋糕），但几乎能搭任何名词，意思随搭配变：faire du sport 做运动、faire la cuisine 做饭、faire les courses 买东西、faire un voyage 旅行。它还有一个特殊任务：谈天气、谈温度。所以 il fait beau 直译是「它做好的天气」，实际就是「天气好」——别去逐字翻译，把它当成一个固定句型。"
+            },
+            {
+              "t": "为什么天气句的主语是 il？",
+              "b": "这个 il 不指「他」，也不指任何人，语法上叫「无人称主语」（il impersonnel），只是一个占位符——因为法语句子必须要有主语，哪怕没人。同类还有：il pleut（下雨）、il neige（下雪）、il faut（必须）、il y a（有）、il est 8 heures（八点了）。这些 il 永远不变，不会换成 elle。"
+            },
+            {
+              "t": "faire 的现在时变位（背下来最划算）",
+              "b": "je fais /ʒə fɛ/　·　tu fais /ty fɛ/　·　il fait /il fɛ/\nnous faisons /nu fə.zɔ̃/　·　vous faites /vu fɛt/　·　ils font /il fɔ̃/\n三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 直接换词根读 /fɔ̃/。faire 属于第三组不规则动词，千万别套 -er 动词的规则。它是法语里出现频率最高的动词之一，这张表必须滚瓜烂熟。"
+            },
+            {
+              "t": "faire + 形容词 = 描述天气",
+              "b": "il fait beau（天气好）· il fait mauvais（天气差）· il fait chaud（热）· il fait froid（冷）· il fait doux（温和）· il fait beau temps（天气晴朗）。这里 beau、chaud、froid 都是形容词，形式不随天气「性数」变化，因为主语是阳性的 il。反过来「下雨、下雪」不用 faire，直接用 il pleut、il neige。"
+            },
+            {
+              "t": "「briller」为什么写成 brille",
+              "b": "briller（发光、照耀）是规则的第一组（-er）动词，变位规则是去掉 -er 再加词尾：je brille / tu brilles / il brille / nous brillons / vous brillez / ils brillent。ils 形式后面多的 -ent 完全不发音。所以 le soleil brille 读 /lə sɔ.lɛj bʁij/。第一组动词占法语动词约九成，把这条规则练熟，动词变位就不再可怕。"
+            }
+          ],
           "words": [
             {
               "w": "beau",
@@ -54,29 +76,7 @@
               "example": "Le soleil brille."
             }
           ],
-          "audio_file": "audio/2026-09-21/s1.mp3",
-          "grammar_lessons": [
-            {
-              "t": "faire 到底是什么意思？",
-              "b": "faire 是法语最万能的一个动词，本义是「做、制造」（faire un gâteau 做个蛋糕），但几乎能搭任何名词，意思随搭配变：faire du sport 做运动、faire la cuisine 做饭、faire les courses 买东西、faire un voyage 旅行。它还有一个特殊任务：谈天气、谈温度。所以 il fait beau 直译是「它做好的天气」，实际就是「天气好」——别去逐字翻译，把它当成一个固定句型。"
-            },
-            {
-              "t": "为什么天气句的主语是 il？",
-              "b": "这个 il 不指「他」，也不指任何人，语法上叫「无人称主语」（il impersonnel），只是一个占位符——因为法语句子必须要有主语，哪怕没人。同类还有：il pleut（下雨）、il neige（下雪）、il faut（必须）、il y a（有）、il est 8 heures（八点了）。这些 il 永远不变，不会换成 elle。"
-            },
-            {
-              "t": "faire 的现在时变位（背下来最划算）",
-              "b": "je fais /ʒə fɛ/　·　tu fais /ty fɛ/　·　il fait /il fɛ/\nnous faisons /nu fə.zɔ̃/　·　vous faites /vu fɛt/　·　ils font /il fɔ̃/\n三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 直接换词根读 /fɔ̃/。faire 属于第三组不规则动词，千万别套 -er 动词的规则。它是法语里出现频率最高的动词之一，这张表必须滚瓜烂熟。"
-            },
-            {
-              "t": "faire + 形容词 = 描述天气",
-              "b": "il fait beau（天气好）· il fait mauvais（天气差）· il fait chaud（热）· il fait froid（冷）· il fait doux（温和）· il fait beau temps（天气晴朗）。这里 beau、chaud、froid 都是形容词，形式不随天气「性数」变化，因为主语是阳性的 il。反过来「下雨、下雪」不用 faire，直接用 il pleut、il neige。"
-            },
-            {
-              "t": "「briller」为什么写成 brille",
-              "b": "briller（发光、照耀）是规则的第一组（-er）动词，变位规则是去掉 -er 再加词尾：je brille / tu brilles / il brille / nous brillons / vous brillez / ils brillent。ils 形式后面多的 -ent 完全不发音。所以 le soleil brille 读 /lə sɔ.lɛj bʁij/。第一组动词占法语动词约九成，把这条规则练熟，动词变位就不再可怕。"
-            }
-          ]
+          "audio_file": "audio/2026-09-21/s1.mp3"
         },
         {
           "id": "s2",
@@ -90,6 +90,28 @@
             "pour": "pour + 动词原形，表示目的「为了……」",
             "au": "à + le 的缩合，travail 是阳性名词所以用 au"
           },
+          "grammar_lessons": [
+            {
+              "t": "prendre（拿、乘坐）的现在时变位",
+              "b": "je prends /ʒə pʁɑ̃/　·　tu prends /ty pʁɑ̃/　·　il prend /il pʁɑ̃/\nnous prenons /nu pʁə.nɔ̃/　·　vous prenez /vu pʁə.ne/　·　ils prennent /il pʁɛn/\n三个坑：单数三个人称都读 /pʁɑ̃/（词尾 -ds、-d 都不发音，拼写不同读音一样）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。以 -prendre 结尾的一族都这么变：comprendre（理解）、apprendre（学）。"
+            },
+            {
+              "t": "为什么 prendre le métro 是「坐地铁」",
+              "b": "prendre 本义是「拿、取」，接交通工具就变成「乘坐」：prendre le métro / le bus / le train / l'avion / un taxi。注意交通工具前要用定冠词 le、la、l'：prendre le métro 不是 prendre un métro。"
+            },
+            {
+              "t": "pour + 动词原形 = 表目的",
+              "b": "介词后面如果接动词，动词必须用原形（infinitif），绝不变位：pour aller（为了去）、pour apprendre（为了学）、pour manger（为了吃）。所以「为了去上班」是 pour aller au travail。"
+            },
+            {
+              "t": "chaque 后面不加冠词",
+              "b": "chaque（每一个）是形容词，直接跟单数名词，中间不能插 le/la/un：chaque jour（每天）、chaque semaine（每周）、chaque matin（每天早上）。对比「每天」的另一种说法 tous les jours —— 那种说法必须带冠词 les。这是两个高频表达，别混。"
+            },
+            {
+              "t": "temps / fois / heure 都跟「时间」有关",
+              "b": "temps 是笼统的时间（j'ai le temps 我有时间）；fois 是「次数」（trois fois 三次）；heure 是「小时、钟点」（quelle heure est-il ? 几点了）。所以「每天」是 chaque jour，跟 temps 没关系。"
+            }
+          ],
           "words": [
             {
               "w": "le",
@@ -148,29 +170,7 @@
               "example": "Bonjour !"
             }
           ],
-          "audio_file": "audio/2026-09-21/s2.mp3",
-          "grammar_lessons": [
-            {
-              "t": "prendre（拿、乘坐）的现在时变位",
-              "b": "je prends /ʒə pʁɑ̃/　·　tu prends /ty pʁɑ̃/　·　il prend /il pʁɑ̃/\nnous prenons /nu pʁə.nɔ̃/　·　vous prenez /vu pʁə.ne/　·　ils prennent /il pʁɛn/\n三个坑：单数三个人称都读 /pʁɑ̃/（词尾 -ds、-d 都不发音，拼写不同读音一样）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。以 -prendre 结尾的一族都这么变：comprendre（理解）、apprendre（学）。"
-            },
-            {
-              "t": "为什么 prendre le métro 是「坐地铁」",
-              "b": "prendre 本义是「拿、取」，接交通工具就变成「乘坐」：prendre le métro / le bus / le train / l'avion / un taxi。注意交通工具前要用定冠词 le、la、l'：prendre le métro 不是 prendre un métro。"
-            },
-            {
-              "t": "pour + 动词原形 = 表目的",
-              "b": "介词后面如果接动词，动词必须用原形（infinitif），绝不变位：pour aller（为了去）、pour apprendre（为了学）、pour manger（为了吃）。所以「为了去上班」是 pour aller au travail。"
-            },
-            {
-              "t": "chaque 后面不加冠词",
-              "b": "chaque（每一个）是形容词，直接跟单数名词，中间不能插 le/la/un：chaque jour（每天）、chaque semaine（每周）、chaque matin（每天早上）。对比「每天」的另一种说法 tous les jours —— 那种说法必须带冠词 les。这是两个高频表达，别混。"
-            },
-            {
-              "t": "temps / fois / heure 都跟「时间」有关",
-              "b": "temps 是笼统的时间（j'ai le temps 我有时间）；fois 是「次数」（trois fois 三次）；heure 是「小时、钟点」（quelle heure est-il ? 几点了）。所以「每天」是 chaque jour，跟 temps 没关系。"
-            }
-          ]
+          "audio_file": "audio/2026-09-21/s2.mp3"
         },
         {
           "id": "s3",
@@ -185,6 +185,32 @@
             "amis": "ami 的复数；mes 是复数物主形容词，不分阴阳",
             "ai": "avoir 的现在时 je 形式，复合过去时的助动词"
           },
+          "grammar_lessons": [
+            {
+              "t": "复合过去时（passé composé）是什么",
+              "b": "讲「过去已经做完的事」，最常用复合过去时。公式只有一条：助动词（avoir 或 être）的现在时 + 过去分词。这句 j'ai visité = j'ai（我有）+ visité（参观过）= 我参观过。"
+            },
+            {
+              "t": "助动词 avoir 的现在时（必背）",
+              "b": "j'ai /ʒe/　·　tu as /ty a/　·　il a /il a/\nnous avons /nu.z‿a.vɔ̃/　·　vous avez /vu.z‿a.ve/　·　ils ont /il.z‿ɔ̃/\n绝大多数动词的复合过去时都用 avoir 当助动词（另外一小类移动动词用 être，以后单独记）。"
+            },
+            {
+              "t": "过去分词怎么造：先把 -er 动词吃透",
+              "b": "第一组（-er）动词把词尾 -er 换成 -é：visiter → visité、parler → parlé、aller → allé。这是最整齐的一类，先记它，能覆盖一大半日常动词。第二组（-ir）多变成 -i：finir → fini。剩下不规则的要单独背：faire → fait、prendre → pris、être → été、avoir → eu。"
+            },
+            {
+              "t": "hier 是复合过去时的好搭档",
+              "b": "hier（昨天）是一个「已经结束的时间点」，配复合过去时：Hier, j'ai visité…（昨天我参观了……）。如果要说「以前经常做」，就得换成未完成过去时（imparfait）j'avais / je visitais——两者区别是「一次做完」对「过去反复/持续」，后面讲到 D 句时会展开。"
+            },
+            {
+              "t": "du = de + le（和 au 是一对）",
+              "b": "介词 de（的、从）遇到 le 必须缩合：de + le = du，de + les = des，de + la 不变。所以「卢浮宫博物馆」是 le musée du Louvre。au / du / aux / des 这四个缩合形式是法语出现频率最高的东西之一，单独抄一遍记牢。"
+            },
+            {
+              "t": "mes amis 和 mon amie 差在哪",
+              "b": "物主形容词要跟名词配合：mon（阳性单数）· ma（阴性单数）· mes（复数，不分阴阳）。amis 是复数，所以 mes amis；amie 是阴性单数，本该 ma amie，但元音冲突写成 mon amie。同一个「我的朋友」，阴阳性不同、单复数不同，前面的词就跟着变。"
+            }
+          ],
           "words": [
             {
               "w": "Hier",
@@ -229,33 +255,7 @@
               "example": "Mes amis sont gentils."
             }
           ],
-          "audio_file": "audio/2026-09-21/s3.mp3",
-          "grammar_lessons": [
-            {
-              "t": "复合过去时（passé composé）是什么",
-              "b": "讲「过去已经做完的事」，最常用复合过去时。公式只有一条：助动词（avoir 或 être）的现在时 + 过去分词。这句 j'ai visité = j'ai（我有）+ visité（参观过）= 我参观过。"
-            },
-            {
-              "t": "助动词 avoir 的现在时（必背）",
-              "b": "j'ai /ʒe/　·　tu as /ty a/　·　il a /il a/\nnous avons /nu.z‿a.vɔ̃/　·　vous avez /vu.z‿a.ve/　·　ils ont /il.z‿ɔ̃/\n绝大多数动词的复合过去时都用 avoir 当助动词（另外一小类移动动词用 être，以后单独记）。"
-            },
-            {
-              "t": "过去分词怎么造：先把 -er 动词吃透",
-              "b": "第一组（-er）动词把词尾 -er 换成 -é：visiter → visité、parler → parlé、aller → allé。这是最整齐的一类，先记它，能覆盖一大半日常动词。第二组（-ir）多变成 -i：finir → fini。剩下不规则的要单独背：faire → fait、prendre → pris、être → été、avoir → eu。"
-            },
-            {
-              "t": "hier 是复合过去时的好搭档",
-              "b": "hier（昨天）是一个「已经结束的时间点」，配复合过去时：Hier, j'ai visité…（昨天我参观了……）。如果要说「以前经常做」，就得换成未完成过去时（imparfait）j'avais / je visitais——两者区别是「一次做完」对「过去反复/持续」，后面讲到 D 句时会展开。"
-            },
-            {
-              "t": "du = de + le（和 au 是一对）",
-              "b": "介词 de（的、从）遇到 le 必须缩合：de + le = du，de + les = des，de + la 不变。所以「卢浮宫博物馆」是 le musée du Louvre。au / du / aux / des 这四个缩合形式是法语出现频率最高的东西之一，单独抄一遍记牢。"
-            },
-            {
-              "t": "mes amis 和 mon amie 差在哪",
-              "b": "物主形容词要跟名词配合：mon（阳性单数）· ma（阴性单数）· mes（复数，不分阴阳）。amis 是复数，所以 mes amis；amie 是阴性单数，本该 ma amie，但元音冲突写成 mon amie。同一个「我的朋友」，阴阳性不同、单复数不同，前面的词就跟着变。"
-            }
-          ]
+          "audio_file": "audio/2026-09-21/s3.mp3"
         },
         {
           "id": "s4",
@@ -269,6 +269,28 @@
             "avons": "avoir 的现在时 nous 形式，复合过去时的助动词",
             "temps": "这里指天气（天气冷），不是「时间」"
           },
+          "grammar_lessons": [
+            {
+              "t": "bien que 后面必须用虚拟式",
+              "b": "bien que 表示「尽管」，它引导的从句动词要用虚拟式（subjonctif）：bien que le temps soit froid。这是硬规则——因为 bien que 表达的是说话人主观认定的让步，法语把这一类从句统一划给虚拟式。注意和 quoique（尽管，同义）、même si（即使，后面用直陈式）区分开：même si 不用虚拟式。"
+            },
+            {
+              "t": "être 的虚拟式现在时",
+              "b": "que je sois /sjwa/　·　que tu sois /ty swa/　·　qu'il soit /il swa/\nque nous soyons /nu swa.jɔ̃/　·　que vous soyez /vu swa.je/　·　qu'ils soient /il swa/\n虚拟式几乎总是生活在 que 后面，所以背的时候连着 que 一起背。être 和 avoir 的虚拟式最不规则，优先拿下这两个。"
+            },
+            {
+              "t": "虚拟式的常见触发词（先记 6 个）",
+              "b": "bien que（尽管）· quoique（尽管）· pour que（为了）· avant que（在……之前）· il faut que（必须）· je veux que（我希望）。看到这些，后面从句的动词就用虚拟式。等这三个字「虚拟式」不再让你慌，语法就跨过一大关了。"
+            },
+            {
+              "t": "décider de + 动词原形",
+              "b": "décider（决定）后面接动作时，要用 de + 动词原形：nous avons décidé de sortir（我们决定出去）。同一族的还有 essayer de（试着）、oublier de（忘记）、refuser de（拒绝）、éviter de（避免）。记住「de + 原形」这个搭配，比记单个动词更省力。"
+            },
+            {
+              "t": "主句为什么用复合过去时",
+              "b": "这句里有两个动作：从句 soit froid 描述的是当时的状态（天气冷），主句 avons décidé 是已经做出的决定。决定是一个完成的事件，所以用复合过去时（avoir + 过去分词）；从句只是状态描述，用虚拟式现在时就够了。一句话里时态各自独立，不用互相看齐——这是法语和英语的一个明显差别。"
+            }
+          ],
           "words": [
             {
               "w": "Bien",
@@ -320,29 +342,7 @@
               "example": "On sort ce soir ?"
             }
           ],
-          "audio_file": "audio/2026-09-21/s4.mp3",
-          "grammar_lessons": [
-            {
-              "t": "bien que 后面必须用虚拟式",
-              "b": "bien que 表示「尽管」，它引导的从句动词要用虚拟式（subjonctif）：bien que le temps soit froid。这是硬规则——因为 bien que 表达的是说话人主观认定的让步，法语把这一类从句统一划给虚拟式。注意和 quoique（尽管，同义）、même si（即使，后面用直陈式）区分开：même si 不用虚拟式。"
-            },
-            {
-              "t": "être 的虚拟式现在时",
-              "b": "que je sois /sjwa/　·　que tu sois /ty swa/　·　qu'il soit /il swa/\nque nous soyons /nu swa.jɔ̃/　·　que vous soyez /vu swa.je/　·　qu'ils soient /il swa/\n虚拟式几乎总是生活在 que 后面，所以背的时候连着 que 一起背。être 和 avoir 的虚拟式最不规则，优先拿下这两个。"
-            },
-            {
-              "t": "虚拟式的常见触发词（先记 6 个）",
-              "b": "bien que（尽管）· quoique（尽管）· pour que（为了）· avant que（在……之前）· il faut que（必须）· je veux que（我希望）。看到这些，后面从句的动词就用虚拟式。等这三个字「虚拟式」不再让你慌，语法就跨过一大关了。"
-            },
-            {
-              "t": "décider de + 动词原形",
-              "b": "décider（决定）后面接动作时，要用 de + 动词原形：nous avons décidé de sortir（我们决定出去）。同一族的还有 essayer de（试着）、oublier de（忘记）、refuser de（拒绝）、éviter de（避免）。记住「de + 原形」这个搭配，比记单个动词更省力。"
-            },
-            {
-              "t": "主句为什么用复合过去时",
-              "b": "这句里有两个动作：从句 soit froid 描述的是当时的状态（天气冷），主句 avons décidé 是已经做出的决定。决定是一个完成的事件，所以用复合过去时（avoir + 过去分词）；从句只是状态描述，用虚拟式现在时就够了。一句话里时态各自独立，不用互相看齐——这是法语和英语的一个明显差别。"
-            }
-          ]
+          "audio_file": "audio/2026-09-21/s4.mp3"
         },
         {
           "id": "s5",
@@ -356,6 +356,32 @@
             "du": "de + le 的缩合；jouer du piano 是「弹钢琴」",
             "piano": "阳性名词；演奏乐器用 jouer + de + 定冠词"
           },
+          "grammar_lessons": [
+            {
+              "t": "「如果……就……」的固定配方",
+              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
+            },
+            {
+              "t": "avoir 的未完成过去时（词尾是通用的）",
+              "b": "j'avais /ʒa.vɛ/　·　tu avais /ty a.vɛ/　·　il avait /i.la.vɛ/\nnous avions /nu.z‿a.vjɔ̃/　·　vous aviez /vu.z‿a.vje/　·　ils avaient /il.z‿a.vɛ/\n关键在词尾：-ais / -ait / -ions / -iez / -aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。另外整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。"
+            },
+            {
+              "t": "条件式现在时怎么造",
+              "b": "词干取「将来时词干」，词尾借用未完成过去时的词尾。apprendre 的将来时是 j'apprendrai（词干 apprendr-），加上 -ais 就是 j'apprendrais /ʒa.pʁɑ̃.dʁɛ/。它的意思不是过去，而是「在某个条件下我就会……」，语气比直陈式软，也常用来礼貌请求（je voudrais 我想要）。"
+            },
+            {
+              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
+              "b": "j'apprendrai /ʒa.pʁɑ̃.dʁe/ 词尾 -ai：简单将来时，「我将会学」，很确定。\nj'apprendrais /ʒa.pʁɑ̃.dʁɛ/ 词尾 -ais：条件式，「（如果条件满足）我会学」。\n拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。看完这句以后打字时留意一下，这是法语写作最常见的错点之一。"
+            },
+            {
+              "t": "jouer du piano：乐器用 de，球类用 à",
+              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
+            },
+            {
+              "t": "法语时间地图（先建立坐标就好）",
+              "b": "现在做 → 现在时（je fais）\n已经做完 → 复合过去时（j'ai fait）\n过去经常做/当时状态 → 未完成过去时（je faisais）\n将来会做 → 简单将来时（je ferai）\n假设条件下会做 → 条件式现在时（je ferais）\n今天这句用的就是最后一条。把这张图记住，看到动词先问自己「站在哪个时间点上」。"
+            }
+          ],
           "words": [
             {
               "w": "Si",
@@ -393,33 +419,7 @@
               "example": "Les enfants jouent."
             }
           ],
-          "audio_file": "audio/2026-09-21/s5.mp3",
-          "grammar_lessons": [
-            {
-              "t": "「如果……就……」的固定配方",
-              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
-            },
-            {
-              "t": "avoir 的未完成过去时（词尾是通用的）",
-              "b": "j'avais /ʒa.vɛ/　·　tu avais /ty a.vɛ/　·　il avait /i.la.vɛ/\nnous avions /nu.z‿a.vjɔ̃/　·　vous aviez /vu.z‿a.vje/　·　ils avaient /il.z‿a.vɛ/\n关键在词尾：-ais / -ait / -ions / -iez / -aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。另外整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。"
-            },
-            {
-              "t": "条件式现在时怎么造",
-              "b": "词干取「将来时词干」，词尾借用未完成过去时的词尾。apprendre 的将来时是 j'apprendrai（词干 apprendr-），加上 -ais 就是 j'apprendrais /ʒa.pʁɑ̃.dʁɛ/。它的意思不是过去，而是「在某个条件下我就会……」，语气比直陈式软，也常用来礼貌请求（je voudrais 我想要）。"
-            },
-            {
-              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
-              "b": "j'apprendrai /ʒa.pʁɑ̃.dʁe/ 词尾 -ai：简单将来时，「我将会学」，很确定。\nj'apprendrais /ʒa.pʁɑ̃.dʁɛ/ 词尾 -ais：条件式，「（如果条件满足）我会学」。\n拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。看完这句以后打字时留意一下，这是法语写作最常见的错点之一。"
-            },
-            {
-              "t": "jouer du piano：乐器用 de，球类用 à",
-              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
-            },
-            {
-              "t": "法语时间地图（先建立坐标就好）",
-              "b": "现在做 → 现在时（je fais）\n已经做完 → 复合过去时（j'ai fait）\n过去经常做/当时状态 → 未完成过去时（je faisais）\n将来会做 → 简单将来时（je ferai）\n假设条件下会做 → 条件式现在时（je ferais）\n今天这句用的就是最后一条。把这张图记住，看到动词先问自己「站在哪个时间点上」。"
-            }
-          ]
+          "audio_file": "audio/2026-09-21/s5.mp3"
         }
       ]
     }
