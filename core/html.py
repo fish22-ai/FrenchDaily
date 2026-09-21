@@ -65,6 +65,7 @@ def _spk(text: str) -> str:
 CSS = r"""*{box-sizing:border-box;margin:0;padding:0}
 
 :root{
+  color-scheme:light; /* tell the browser our form controls are light-themed */
   /* ── French paper palette: cream stock, burgundy, muted tricolore ── */
   --paper:#fbf6ee;--card:#fffdf8;--card-2:#f7f0e2;--cream:#f2e9d8;
   --ink:#2f2721;--ink-soft:#6a5c4e;--ink-faint:#a1937f;
@@ -737,13 +738,14 @@ table.cj-table{
 
 @media(prefers-color-scheme:dark){
   :root{
-    --paper:#17130f;--card:#211c16;--card-2:#2a2318;--cream:#2e261a;
-    --ink:#e9dfcf;--ink-soft:#b7a892;--ink-faint:#8a7c68;
+    color-scheme:dark; /* native audio player / scrollbars go dark too */
+    --paper:#17130f;--card:#241e17;--card-2:#2c251b;--cream:#312919;
+    --ink:#eee4d4;--ink-soft:#c8b8a0;--ink-faint:#9c8d77;
     --rouge:#d98a7e;--rouge-soft:#b3665a;
-    --bleu:#8fa9cc;--bleu-soft:#5d7799;
+    --bleu:#9db4d4;--bleu-soft:#5d7799;
     --gold:#cbaa63;--gold-soft:#8a7645;
     --ok:#8ab88e;
-    --line:#3a3128;--line-soft:#2d261e;
+    --line:#40372c;--line-soft:#322a20;
     --sh-sm:0 1px 2px rgba(0,0,0,.35),0 12px 26px -14px rgba(0,0,0,.6);
     --sh-lg:0 2px 6px rgba(0,0,0,.45),0 26px 50px -22px rgba(0,0,0,.75);
   }
@@ -751,9 +753,11 @@ table.cj-table{
   .level-A2{background:#1c2a1e;color:#8ab87a}
   .level-B1{background:#332a17;color:#d9b96a}
   .level-B2{background:#33201c;color:#d98a7e}
-  .dict-tooltip,.number-popup{background:rgba(33,28,22,.98)}
+  .dict-tooltip,.number-popup{background:rgba(36,30,23,.98)}
   .collect-item:hover{background:var(--card-2)}
   .archive-link.current{color:var(--paper)}
+  /* Pastel rouge under white text fails contrast on a dark card. */
+  .speed-btn.active{color:#241511}
 }
 
 /* ── 外观切换（两种皮肤都显示） ── */
@@ -1012,13 +1016,14 @@ html[data-skin="classique"] .chip-date-fr{display:none}
 
 @media(prefers-color-scheme:dark){
   html[data-skin="francais"]{
-    --paper:#15110c;--card:#1f1a13;--card-2:#272015;--cream:#2c2417;
-    --ink:#ece0ca;--ink-soft:#b7a68b;--ink-faint:#8b7c66;
+    color-scheme:dark;
+    --paper:#15110c;--card:#231d15;--card-2:#2b2418;--cream:#312919;
+    --ink:#f0e5cf;--ink-soft:#cab99e;--ink-faint:#9d8e77;
     --rouge:#d98a7e;--rouge-soft:#a8655a;
-    --bleu:#92abcc;--bleu-soft:#5d7799;
+    --bleu:#9db4d4;--bleu-soft:#5d7799;
     --gold:#c9a961;--gold-soft:#7d6a3e;
     --ok:#8ab88e;
-    --line:#3a3125;--line-soft:#2b2318;
+    --line:#40372a;--line-soft:#2f2819;
     --sh-sm:0 1px 0 rgba(0,0,0,.4),0 10px 22px -14px rgba(0,0,0,.7);
     --sh-lg:0 2px 6px rgba(0,0,0,.5),0 22px 44px -24px rgba(0,0,0,.85);
   }
@@ -1034,7 +1039,11 @@ html[data-skin="classique"] .chip-date-fr{display:none}
     border-color:rgba(201,169,97,.22);
   }
   html[data-skin="francais"] .dict-tooltip,
-  html[data-skin="francais"] .number-popup{background:rgba(31,26,19,.98)}
+  html[data-skin="francais"] .number-popup{background:rgba(35,29,21,.98)}
+  /* The tricolore ribbon reads as a smear on a dark viewport — mute it. */
+  html[data-skin="francais"] .progress-fill{opacity:.55;filter:saturate(.8)}
+  html[data-skin="francais"] .progress-bar{background:rgba(240,229,207,.06)}
+  html[data-skin="francais"] .speed-btn.active{color:#241511}
 }
 """
 
@@ -1673,10 +1682,12 @@ apply(root.getAttribute("data-skin") || "francais");
 
 
 JS_SW = """<script>
-/* Offline shell */
+/* Offline shell. updateViaCache:'none' makes the browser always revalidate
+   sw.js itself, so a redeploy is picked up on the next visit instead of
+   lingering in the HTTP cache for up to a day. */
 if('serviceWorker' in navigator){
   window.addEventListener('load', function(){
-    navigator.serviceWorker.register('./sw.js').catch(function(){});
+    navigator.serviceWorker.register('./sw.js', {updateViaCache:'none'}).catch(function(){});
   });
 }
 </script>"""
