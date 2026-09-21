@@ -1125,11 +1125,34 @@ function renderNumbers(filter){
 renderNumbers("");
 numSearch.addEventListener("input", function(){ renderNumbers(this.value.trim()); });
 
+/* Voices load asynchronously; u.lang alone is only a hint and Windows/Android
+   frequently ignores it, reading French words with the default (often English)
+   voice. Pick a real French voice explicitly and refresh it when the list
+   arrives. */
+var FR_VOICE = null;
+function pickVoice(){
+  var vs = window.speechSynthesis.getVoices() || [];
+  FR_VOICE = null;
+  for(var i = 0; i < vs.length; i++){
+    var l = (vs[i].lang || "").toLowerCase().replace("_", "-");
+    if(l === "fr-fr"){ FR_VOICE = vs[i]; return; }
+  }
+  for(var j = 0; j < vs.length; j++){
+    if((vs[j].lang || "").toLowerCase().indexOf("fr") === 0){ FR_VOICE = vs[j]; return; }
+  }
+}
+if("speechSynthesis" in window){
+  pickVoice();
+  window.speechSynthesis.onvoiceschanged = pickVoice;
+}
+
 function speak(word){
   if(!("speechSynthesis" in window)) return;
   try{
+    if(!FR_VOICE) pickVoice();
     var u = new SpeechSynthesisUtterance(word);
     u.lang = "fr-FR";
+    if(FR_VOICE) u.voice = FR_VOICE;
     u.rate = 0.82;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
