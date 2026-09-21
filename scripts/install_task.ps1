@@ -5,10 +5,10 @@ $ErrorActionPreference = "Stop"
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $root = Split-Path -Parent $root
-$bat = Join-Path $root "scripts\daily.bat"
+$driver = Join-Path $root "scripts\daily.py"
 
-if (-not (Test-Path $bat)) {
-    Write-Error "daily.bat not found at $bat"
+if (-not (Test-Path $driver)) {
+    Write-Error "daily.py not found at $driver"
     exit 1
 }
 
@@ -41,14 +41,22 @@ if ($triggerTime -lt (Get-Date)) {
 
 Write-Host "Scheduled for daily at ${hour}:00"
 
-# Hidden action: wscript.exe runs the batch with window style 0, so the build
-# never flashes a console window on the desktop.
-$vbs = Join-Path $root "scripts\run_hidden.vbs"
-if (-not (Test-Path $vbs)) {
-    Write-Error "run_hidden.vbs not found at $vbs"
+# Windowless action: pythonw.exe has no console subsystem at all, so the run
+# can never flash a window on the desktop. The driver (scripts\daily.py) starts
+# every child with CREATE_NO_WINDOW, because a windowless parent launching a
+# console app (git.exe) would otherwise pop a console.
+$pyw = (Get-Command pythonw.exe -ErrorAction SilentlyContinue).Source
+if (-not $pyw) {
+    $candidate = Join-Path (Split-Path (Get-Command python.exe -ErrorAction SilentlyContinue).Source) "pythonw.exe"
+    if (Test-Path $candidate) { $pyw = $candidate }
+}
+if (-not $pyw) {
+    Write-Error "pythonw.exe not found. Install Python (with 'Add to PATH') and re-run this script."
     exit 1
 }
-$action = New-ScheduledTaskAction -Execute "wscript.exe" -Argument "//B `"$vbs`""
+$driver = Join-Path $root "scripts\daily.py"
+Write-Host "Launcher: $pyw"
+$action = New-ScheduledTaskAction -Execute $pyw -Argument "`"$driver`""
 
 # A plain daily trigger. (-Once + -RepetitionInterval registers an open-ended
 # repetition pattern and is easy to get wrong — this one just repeats daily.)
