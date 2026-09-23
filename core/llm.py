@@ -24,6 +24,14 @@ log = logging.getLogger(__name__)
 MODEL = "deepseek-v4-flash"
 API_URL = "https://agentrouter.org/v1/chat/completions"
 
+# deepseek-v4-flash is a *reasoning* model: it spends output tokens on a hidden
+# think phase before writing a single character of `content`. At 4000 tokens the
+# budget was consumed entirely by reasoning, `content` came back as "" and every
+# day silently fell through to the built-in corpus. 16000 leaves room for both;
+# the retry budget covers a day where the answer runs long.
+MAX_TOKENS = 16000
+MAX_TOKENS_RETRY = 32000
+
 LEVEL_DESCRIPTIONS = {
     "A1": {
         "name_cn": "入门",
@@ -87,7 +95,8 @@ def _get_base_url() -> str:
     return os.environ.get("ANTHROPIC_BASE_URL", "https://agentrouter.org")
 
 
-def build_prompt(difficulty_mix: dict[str, int], theme: str = "") -> str:
+def build_prompt(difficulty_mix: dict[str, int], theme: str = "",
+                 avoid: list[str] | None = None) -> str:
     parts = []
     total = sum(difficulty_mix.values())
     for level in ["A1", "A2", "B1", "B2"]:
@@ -100,13 +109,21 @@ def build_prompt(difficulty_mix: dict[str, int], theme: str = "") -> str:
             f"    要求：{info['desc']}"
         )
     theme_instr = f"\n主题方向：{theme}。所有句子围绕这个主题展开。" if theme else ""
+    # Naming the recent sentences costs nothing and kills the "yesterday's page
+    # again" complaint at the source.
+    avoid_instr = ""
+    if avoid:
+        listed = "\n".join(f"  - {s}" for s in avoid[:25])
+        avoid_instr = (
+            "\n最近已经用过的句子（**绝对不要重复或改写其中任何一句**，"
+            "内容、场景、句型都要换开）：\n" + listed + "\n"
+        )
 
     return f"""你是法语教学专家，学生是中文母语者、语法基础薄弱、已经忘了不少语法概念。
 生成 {total} 句适合学习的法语句子：
 
 {chr(10).join(parts)}
-{theme_instr}
-
+{theme_instr}{avoid_instr}
 要求：
 1. 每句完整、语法正确
 2. 内容贴近日常生活（问候/购物/餐饮/交通/天气/爱好/旅行）
@@ -164,13 +181,26 @@ def build_prompt(difficulty_mix: dict[str, int], theme: str = "") -> str:
 - JSON 必须合法"""
 
 
-def call_llm(prompt: str, timeout: int = 120) -> Optional[dict]:
+def _extract_json(text: str) -> dict:
+    """Pull the JSON object out of a model reply (fences, stray prose, …)."""
+    text = (text or "").strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else ""
+        if text.rstrip().endswith("```"):
+            text = text.rstrip()[:-3]
+    start, end = text.find("{"), text.rfind("}")
+    if start < 0 or end <= start:
+        raise json.JSONDecodeError("no JSON object in reply", text, 0)
+    return json.loads(text[start:end + 1])
+
+
+def _post(prompt: str, max_tokens: int, timeout: int) -> Optional[dict]:
+    """One completion round-trip. Returns the parsed reply, or None."""
     api_key = _get_api_key()
     if not api_key:
         log.warning("No API key available")
         return None
 
-    base_url = _get_base_url()
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -179,43 +209,65 @@ def call_llm(prompt: str, timeout: int = 120) -> Optional[dict]:
         "anthropic-beta": "claude-code-20250219",
     }
 
-    try:
-        log.info("Calling LLM (%s) for French content...", MODEL)
-        resp = requests.post(
-            f"{base_url}/v1/chat/completions",
-            headers=headers,
-            json={"model": MODEL, "max_tokens": 4000,
-                  "messages": [{"role": "user", "content": prompt}]},
-            timeout=timeout,
-        )
-        if resp.status_code != 200:
-            log.warning("LLM HTTP %d: %s", resp.status_code, resp.text[:200])
-            return None
+    log.info("Calling LLM (%s, max_tokens=%d) for French content...", MODEL, max_tokens)
+    resp = requests.post(
+        f"{_get_base_url()}/v1/chat/completions",
+        headers=headers,
+        json={"model": MODEL, "max_tokens": max_tokens,
+              "messages": [{"role": "user", "content": prompt}]},
+        timeout=timeout,
+    )
+    if resp.status_code != 200:
+        log.warning("LLM HTTP %d: %s", resp.status_code, resp.text[:200])
+        return None
 
-        content = resp.json()["choices"][0]["message"]["content"]
-        if not content:
-            return None
+    choice = (resp.json().get("choices") or [{}])[0]
+    message = choice.get("message") or {}
+    content = message.get("content") or ""
+    # Keep the think phase out of the log but note its size — an empty `content`
+    # with a huge `reasoning_content` is the truncated-budget signature.
+    log.info("LLM reply: finish=%s content=%d chars reasoning=%d chars",
+             choice.get("finish_reason"), len(content),
+             len(message.get("reasoning_content") or ""))
 
-        content = content.strip()
-        if content.startswith("```"):
-            content = content.split("\n", 1)[1]
-        if content.endswith("```"):
-            content = content[:-3]
-        result = json.loads(content.strip())
-        log.info("LLM generated %d sentences", len(result.get("sentences", [])))
-        return result
+    if not content.strip():
+        log.warning("LLM returned empty content (finish_reason=%s)",
+                    choice.get("finish_reason"))
+        return None
+    if choice.get("finish_reason") == "length":
+        log.warning("LLM reply hit the token ceiling, treating as unusable")
+        return None
 
-    except json.JSONDecodeError:
-        log.warning("LLM returned invalid JSON")
-    except requests.RequestException as exc:
-        log.warning("LLM request failed: %s", exc)
-    except Exception as exc:
-        log.warning("LLM error: %s", exc)
+    result = _extract_json(content)
+    log.info("LLM generated %d sentences", len(result.get("sentences", [])))
+    return result
+
+
+def call_llm(prompt: str, timeout: int = 240) -> Optional[dict]:
+    """Two attempts: normal budget, then a doubled one.
+
+    The retry exists for the reasoning-model failure mode above — a big think
+    phase can still starve a long answer, and by then the model has already
+    reasoned its way to the content, so re-asking is cheap.
+    """
+    for attempt, budget in enumerate((MAX_TOKENS, MAX_TOKENS_RETRY), start=1):
+        try:
+            result = _post(prompt, budget, timeout)
+            if result and result.get("sentences"):
+                return result
+            log.warning("LLM attempt %d produced no usable sentences", attempt)
+        except json.JSONDecodeError:
+            log.warning("LLM attempt %d returned invalid JSON", attempt)
+        except requests.RequestException as exc:
+            log.warning("LLM attempt %d request failed: %s", attempt, exc)
+        except Exception as exc:
+            log.warning("LLM attempt %d error: %s", attempt, exc)
     return None
 
 
-def generate_sentences(difficulty_mix: dict[str, int], theme: str = "") -> Optional[dict]:
-    prompt = build_prompt(difficulty_mix, theme)
+def generate_sentences(difficulty_mix: dict[str, int], theme: str = "",
+                       avoid: list[str] | None = None) -> Optional[dict]:
+    prompt = build_prompt(difficulty_mix, theme, avoid)
     return call_llm(prompt)
 
 
@@ -333,25 +385,305 @@ BUILTIN_SENTENCES = [
             {"w": "belle", "pos": "adj", "def": "美丽的（阴性）", "ipa": "/bɛl/", "example": "Une langue belle."},
         ],
     },
+    # ── A1 additions ─────────────────────────────────────────────────────
+    {
+        "difficulty": "A1",
+        "text": "J'habite à Lyon avec ma famille.",
+        "translation": "我和家人住在里昂。",
+        "grammar_note": "j'habite 是 habiter（住）的第一人称变位。城市名前用介词 à：à Lyon。",
+        "grammar_notes": {
+            "habite": "habiter（住）的第一人称，-er 动词按规则变位",
+            "famille": "famille 是阴性名词，ma 是阴性单数物主形容词",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "Le matin, je bois un café et je mange du pain.",
+        "translation": "早上我喝一杯咖啡，吃面包。",
+        "grammar_note": "du 是部分冠词，表示「一些」这种不确定的量，用于不可数名词。",
+        "grammar_notes": {
+            "bois": "boire（喝）的第一人称，不规则动词",
+            "pain": "le pain 面包；du pain = 一些面包，不说 un pain",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "C'est combien, ce livre ?",
+        "translation": "这本书多少钱？",
+        "grammar_note": "C'est combien 是问价最常用的说法。ce 是阳性指示形容词，修饰 livre。",
+        "grammar_notes": {
+            "combien": "combien 询问数量和价格",
+            "livre": "livre 是阳性名词「书」（阴性时指「磅」）",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "Nous allons au marché le samedi matin.",
+        "translation": "我们每周六早上去市场。",
+        "grammar_note": "au = à + le。le samedi 表示「每周六」这种习惯，不是某一个周六。",
+        "grammar_notes": {
+            "allons": "aller 的 nous 形式，不规则动词",
+            "samedi": "le samedi 每周六；samedi 单独用只指某个周六",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "Elle a un chat qui s'appelle Minou.",
+        "translation": "她有一只叫米努的猫。",
+        "grammar_note": "qui 是关系代词，代替前面的 le chat 作从句的主语。",
+        "grammar_notes": {
+            "a": "avoir 的第三人称形式，这里表示「拥有」",
+            "qui": "qui 引导关系从句，在从句里作主语",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "Je ne parle pas très bien français.",
+        "translation": "我法语说得不太好。",
+        "grammar_note": "否定用 ne ... pas 把变位动词夹在中间：je ne parle pas。",
+        "grammar_notes": {
+            "parle": "parler（说）的第一人称；否定要把 ne/pas 夹住它",
+            "très": "très 修饰 bien；「说得好」是 parler bien",
+        },
+    },
+    {
+        "difficulty": "A1",
+        "text": "Aujourd'hui, je travaille à la maison.",
+        "translation": "今天我在家工作。",
+        "grammar_note": "à la maison 是固定搭配「在家」，不用 chez。",
+        "grammar_notes": {
+            "travaille": "travailler 的第一人称，-er 动词规则变位",
+            "maison": "la maison 房子；à la maison 在家",
+        },
+    },
+    # ── A2 additions ─────────────────────────────────────────────────────
+    {
+        "difficulty": "A2",
+        "text": "Nous avons mangé au restaurant hier soir.",
+        "translation": "昨晚我们在餐馆吃了饭。",
+        "grammar_note": "复合过去时 = avoir 的现在时 + 过去分词（avons mangé）。",
+        "grammar_notes": {
+            "mangé": "过去分词；manger 的复合过去时用 avoir 作助动词",
+            "hier": "hier 昨天，通常配合复合过去时",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Quand j'étais petit, je jouais au football tous les jours.",
+        "translation": "我小时候每天都踢足球。",
+        "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+        "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Je vais partir en vacances au mois d'août.",
+        "translation": "我八月要去度假。",
+        "grammar_note": "aller + 动词原形 = 最近将来时，表示马上或计划将要做的事。",
+        "grammar_notes": {
+            "vais": "aller 的第一人称，这里作助动词，不表示「去」",
+            "août": "au mois d'août 在八月",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Elle m'a téléphoné pendant que je dormais.",
+        "translation": "我睡觉的时候她给我打了电话。",
+        "grammar_note": "pendant que 引出同时发生的动作，用未完成过去时；主句动作用复合过去时。",
+        "grammar_notes": {
+            "téléphoné": "复合过去时；m' 是间接宾语代词（给我）",
+            "dormais": "dormir 的未完成过去时，表示被打断时正在进行的动作",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Depuis deux ans, j'apprends le français tout seul.",
+        "translation": "两年来我一直在自学法语。",
+        "grammar_note": "depuis + 时间段，动词用现在时，表示从过去持续到现在——中文说「两年了」，法语不换时态。",
+        "grammar_notes": {
+            "depuis": "depuis 后接时间段或起点，动词用现在时",
+            "seul": "tout seul 独自，强调没有别人帮忙",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Si tu veux, on peut aller au cinéma ce soir.",
+        "translation": "如果你愿意，我们今晚可以去看电影。",
+        "grammar_note": "si + 现在时，主句用现在时/最近将来时——真实条件句不涉及虚拟式。",
+        "grammar_notes": {
+            "veux": "vouloir 的 tu 形式，不规则动词",
+            "peut": "pouvoir 的 on 形式；on 这里指「我们」",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Je cherche un appartement près de la gare.",
+        "translation": "我在找车站附近的公寓。",
+        "grammar_note": "chercher 是直接及物动词，后面直接跟宾语，不加 à 或 pour。",
+        "grammar_notes": {
+            "cherche": "chercher（找）的第一人称，不接介词",
+            "près": "près de + 名词 = 在…附近",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "Ce matin, je me suis levé très tôt.",
+        "translation": "今天早上我很早就起床了。",
+        "grammar_note": "自反动词的复合过去时用 être 作助动词，过去分词要和主语配合（levé）。",
+        "grammar_notes": {
+            "me": "自反代词；se lever 是「起床」，不是「举起」",
+            "levé": "自反动词用 être 助动词，分词随主语变化",
+        },
+    },
+    {
+        "difficulty": "A2",
+        "text": "On se retrouve devant le musée à trois heures.",
+        "translation": "我们三点在博物馆前碰面。",
+        "grammar_note": "se retrouver 表示「（约好）碰面」，是自反动词。",
+        "grammar_notes": {
+            "retrouve": "se retrouver 的第一人称式；on 代替 nous",
+            "devant": "devant 在…前面（空间），区别于 avant 在…之前（时间）",
+        },
+    },
+    # ── B1 additions ─────────────────────────────────────────────────────
+    {
+        "difficulty": "B1",
+        "text": "Il faut que je finisse ce travail avant midi.",
+        "translation": "我必须在中午前完成这项工作。",
+        "grammar_note": "il faut que 后面必须用虚拟式：je finisse（不是 je finis）。",
+        "grammar_notes": {
+            "finisse": "il faut que 引出虚拟式：finir → je finisse",
+            "avant": "avant + 时间点 = 在…之前；avant de + 动词原形",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Je doute qu'il vienne ce soir.",
+        "translation": "我怀疑他今晚会来。",
+        "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+        "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Ce que j'aime le plus en France, c'est la boulangerie du coin.",
+        "translation": "在法国我最喜欢的是街角那家面包店。",
+        "grammar_note": "ce que 引导名词性从句作主语，等于「我喜欢的（东西）」；du = de + le。",
+        "grammar_notes": {
+            "ce": "ce que = 关系代词，代表一个整体概念",
+            "du": "du coin = de + le coin，街角的",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Après avoir fini mes études, je voudrais travailler à l'étranger.",
+        "translation": "完成学业后，我想去国外工作。",
+        "grammar_note": "après + 不定式过去时（avoir fini）表示「在…之后」，主语和主句一致时用这种写法。",
+        "grammar_notes": {
+            "après": "après avoir + 过去分词 = 在做完…之后",
+            "voudrais": "条件式现在时，比 veux 客气，表达愿望",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Il m'a demandé si j'avais déjà visité la Provence.",
+        "translation": "他问我是否去过普罗旺斯。",
+        "grammar_note": "间接问句用 si 引导；主句是过去时，从句时态要后退——所以说 avais visité（愈过去时）。",
+        "grammar_notes": {
+            "si": "间接问句用 si（是否），不用 est-ce que",
+            "avais": "avais visité 是愈过去时，表示比主句更早的动作",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Les enfants jouent dans le jardin pendant que leur mère prépare le dîner.",
+        "translation": "孩子们在花园里玩，妈妈在准备晚饭。",
+        "grammar_note": "pendant que 连接两个同时进行的动作。leur 在这里是单数物主形容词，修饰单数名词 mère。",
+        "grammar_notes": {
+            "pendant": "pendant que = 在…（发生的）同时",
+            "leur": "leur + 单数名词 = 他们的；leurs + 复数名词",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "Quand j'aurai le temps, je lirai ce roman que tu m'as conseillé.",
+        "translation": "等我有时间，我就读你推荐的那本小说。",
+        "grammar_note": "quand + 简单将来时，主句也用将来时——法语在时间状语从句里也用将来时，不像中文说「等我有空」。",
+        "grammar_notes": {
+            "aurai": "avoir 的简单将来时 je 形式：j'aurai",
+            "que": "que 引导关系从句，修饰 ce roman",
+        },
+    },
+    {
+        "difficulty": "B1",
+        "text": "On aurait dû réserver une table, le restaurant est complet.",
+        "translation": "我们本该订个位子，餐馆坐满了。",
+        "grammar_note": "aurait dû + 动词原形 = 「本该做而没做」，是一种遗憾/责备的语气。",
+        "grammar_notes": {
+            "aurait": "aurait dû + 不定式，过去条件式表示未实现的应该",
+            "complet": "complet 满的（阳性）；阴性是 complète",
+        },
+    },
 ]
 
 
-def get_fallback_sentences(difficulty_mix: dict[str, int] | None = None) -> dict:
+def _norm(text: str) -> str:
+    return " ".join((text or "").split()).strip()
+
+
+FALLBACK_TITLES = [
+    ("Cinq phrases pour aujourd'hui", "今天的五句法语"),
+    ("Le français, jour après jour", "每天一点法语"),
+    ("Petites phrases, grands progrès", "小句子，大进步"),
+    ("Un peu de français chaque jour", "每天学一点法语"),
+    ("Des mots pour la journée", "今天用得上的句子"),
+    ("Lire, écouter, répéter", "读一读，听一听，跟一跟"),
+]
+
+
+def get_fallback_sentences(difficulty_mix: dict[str, int] | None = None,
+                           *, avoid: list[str] | None = None,
+                           seed: str | None = None) -> dict:
+    """Last-resort corpus pick — deterministic per day, blind to yesterday.
+
+    Two rules, both learned from the "9/22 looks exactly like 9/21" bug:
+      * the pick is seeded (by date), so one day always yields the same five
+        sentences — but the *next* day's seed moves the window on;
+      * anything in ``avoid`` (the sentences the last two weeks already showed)
+        is skipped until that level's pool runs dry, and the title rotates too.
+    """
+    import random
+
     if difficulty_mix is None:
         difficulty_mix = {"A1": 1, "A2": 2, "B1": 2}
-    import random
-    selected = []
-    for level, count in difficulty_mix.items():
+    rng = random.Random(seed or "frenchdaily")
+    recent = {_norm(t) for t in (avoid or [])}
+    wanted = sum(difficulty_mix.values())
+    selected: list[dict] = []
+    used: set[str] = set()
+
+    def take(level: str, count: int) -> list[dict]:
         pool = [s for s in BUILTIN_SENTENCES if s["difficulty"] == level]
-        if pool:
-            chosen = random.sample(pool, min(count, len(pool)))
-            selected.extend(chosen)
-    if len(selected) < sum(difficulty_mix.values()):
-        remaining = sum(difficulty_mix.values()) - len(selected)
-        pool = [s for s in BUILTIN_SENTENCES if s not in selected]
-        selected.extend(random.sample(pool, min(remaining, len(pool))))
-    return {
-        "title_fr": "Phrases du jour",
-        "title_zh": "今日法语句子",
-        "sentences": selected,
-    }
+        fresh = [s for s in pool
+                 if _norm(s["text"]) not in recent and _norm(s["text"]) not in used]
+        stale = [s for s in pool if _norm(s["text"]) not in used and s not in fresh]
+        rng.shuffle(fresh)
+        rng.shuffle(stale)
+        return (fresh + stale)[:count]  # only repeat once the fresh pool is empty
+
+    for level, count in difficulty_mix.items():
+        for s in take(level.upper(), count):
+            selected.append(s)
+            used.add(_norm(s["text"]))
+
+    if len(selected) < wanted:  # config asked for more than the level pools hold
+        rest = [s for s in BUILTIN_SENTENCES if _norm(s["text"]) not in used]
+        rng.shuffle(rest)
+        selected.extend(rest[:wanted - len(selected)])
+
+    rng.shuffle(selected)  # interleave the levels instead of A1-block-first
+    title_fr, title_zh = FALLBACK_TITLES[rng.randrange(len(FALLBACK_TITLES))]
+    return {"title_fr": title_fr, "title_zh": title_zh, "sentences": selected}

@@ -182,7 +182,32 @@ def apply_lessons_pack(sentences: list[Sentence]) -> int:
 
 # ── Content Generation ────────────────────────────────────────────────────
 
-def generate_day_content(config: dict) -> tuple[str, str, list[dict]]:
+def recent_sentence_texts(days: int = 14) -> list[str]:
+    """Sentences shown in the last `days` built days — the do-not-repeat list.
+
+    Read straight off data/*.json so it works for both the LLM prompt and the
+    fallback corpus, and never depends on a run having happened yesterday.
+    """
+    files = sorted(
+        (p for p in DATA_DIR.glob("20*.json") if p.name != "index.json"),
+        key=lambda p: p.stem,
+        reverse=True,
+    )[:days]
+    out: list[str] = []
+    for path in files:
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for passage in raw.get("passages") or []:
+            for sentence in passage.get("sentences") or []:
+                text = (sentence.get("text") or "").strip()
+                if text:
+                    out.append(text)
+    return out
+
+
+def generate_day_content(config: dict, date_str: str = "") -> tuple[str, str, list[dict]]:
     """Generate today's French sentences via LLM or fallback.
 
     Returns (title_fr, title_zh, sentences_list_of_dicts)
@@ -198,8 +223,16 @@ def generate_day_content(config: dict) -> tuple[str, str, list[dict]]:
     if theme:
         log.info("Theme: %s", theme)
 
+    # Sentences from the past two weeks: never show them again. Without this the
+    # LLM happily re-emits a favourite sentence and yesterday's page comes back.
+    avoid = recent_sentence_texts()
+    if avoid:
+        log.info("Avoiding %d sentences already used recently", len(avoid))
+
     # Try LLM first
-    result = generate_sentences(difficulty_mix, theme)
+    result = generate_sentences(difficulty_mix, theme, avoid)
+    if result and result.get("sentences"):
+        result["sentences"] = _drop_repeats(result["sentences"], avoid)
 
     if result and result.get("sentences"):
         # Validate and normalize
@@ -219,7 +252,7 @@ def generate_day_content(config: dict) -> tuple[str, str, list[dict]]:
 
     # Fallback
     log.warning("LLM unavailable, using built-in corpus")
-    result = get_fallback_sentences(difficulty_mix)
+    result = get_fallback_sentences(difficulty_mix, avoid=avoid, seed=date_str or None)
     sentences = []
     for i, s in enumerate(result["sentences"]):
         sentences.append({
@@ -233,6 +266,16 @@ def generate_day_content(config: dict) -> tuple[str, str, list[dict]]:
             "words": s.get("words", []),
         })
     return result["title_fr"], result["title_zh"], sentences
+
+
+def _drop_repeats(sentences: list[dict], avoid: list[str]) -> list[dict]:
+    """Strip sentences the last two weeks already showed (LLM path guard)."""
+    seen = {_norm_sentence(t).lower() for t in avoid}
+    kept = [s for s in sentences if _norm_sentence(s.get("text", "")).lower() not in seen]
+    dropped = len(sentences) - len(kept)
+    if dropped:
+        log.warning("Dropped %d sentence(s) the model repeated from recent days", dropped)
+    return kept
 
 
 # ── Day Building ──────────────────────────────────────────────────────────
@@ -249,7 +292,7 @@ def build_day(date_str: str, config: dict, force: bool = False) -> Day:
     log.info("Building content for %s", date_str)
 
     # 1. Generate sentences via LLM
-    title_fr, title_zh, sentences_data = generate_day_content(config)
+    title_fr, title_zh, sentences_data = generate_day_content(config, date_str)
 
     if not sentences_data:
         log.error("No sentences generated for %s", date_str)
