@@ -32,6 +32,12 @@ API_URL = "https://agentrouter.org/v1/chat/completions"
 MAX_TOKENS = 16000
 MAX_TOKENS_RETRY = 32000
 
+# Every other model on this proxy answers "无可用渠道" (503) — the account only
+# has deepseek-v4-flash provisioned, so switching MODEL is not a lever here.
+# Latency is inherent: the reasoning phase alone runs 24k-42k characters
+# (~2-4k tokens/s of wall time ≈ 60-75 s), on top of the answer itself.
+# A 10-minute HTTP timeout keeps a slow-but-alive call from being abandoned.
+
 LEVEL_DESCRIPTIONS = {
     "A1": {
         "name_cn": "入门",
@@ -243,7 +249,7 @@ def _post(prompt: str, max_tokens: int, timeout: int) -> Optional[dict]:
     return result
 
 
-def call_llm(prompt: str, timeout: int = 240) -> Optional[dict]:
+def call_llm(prompt: str, timeout: int = 600) -> Optional[dict]:
     """Two attempts: normal budget, then a doubled one.
 
     The retry exists for the reasoning-model failure mode above — a big think
