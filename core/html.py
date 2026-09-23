@@ -1064,6 +1064,9 @@ JS_LOOKUP = r"""<script>
    a duplicate copy was doubling the page weight. */
 var DICT = window.__DICT__ || {};
 var NUMBERS = window.__NUMBERS__ || {};
+/* Word-keyed number rows ("huit" → "huit /ɥit/"). NUMBERS is digit-keyed for
+   the 1-100 grid; a tapped word needs the word as its key. */
+var NUMWORDS = window.__NUM_WORDS__ || {};
 
 /* Pre-generated audio (edge_tts, synthesized at build time). Devices without
    a French TTS voice — Chinese Android ROMs, Windows sans French voice pack —
@@ -1316,11 +1319,16 @@ function renderTip(){
      transcription, right after the example's. Nothing to press at the bottom. */
   var horn = spkBtn(orig);
 
-  if(st.isNum && NUMBERS[key]){
-    html = '<div class="dt-word">' + esc(orig) + '</div>' +
-           '<div class="dt-ipa">' + esc(NUMBERS[key]) + spkBtn(numWord(NUMBERS[key], key)) + '</div>' +
-           '<button class="dt-more" type="button">查看 1-100 数字表</button>';
-  } else if(st.hasDict && DICT[key]){
+  /* Number row: "huit /ɥit/" + the 1-100 table button. Appended inside the
+     dictionary bubble when the word has an entry ("un"), shown as its own
+     bubble when it doesn't ("huit"). */
+  var numVal = st.isNum ? (NUMWORDS[key] || NUMWORDS[orig.toLowerCase()] || "") : "";
+  var numRow = numVal
+    ? '<div class="dt-ipa">' + esc(numVal) + spkBtn(numWord(numVal, key)) + '</div>' +
+      '<button class="dt-more" type="button">查看 1-100 数字表</button>'
+    : "";
+
+  if(st.hasDict && DICT[key]){
     var d = DICT[key];
     html = '<div class="dt-word">' + esc(orig) + (d.ipa ? '' : horn) + '</div>' +
            (d.ipa ? '<div class="dt-ipa">' + esc(d.ipa) + horn + '</div>' : '') +
@@ -1329,6 +1337,7 @@ function renderTip(){
     // The conjugation sits directly under the meaning: if you tapped a verb
     // form, the table is what you came for — the example goes below it.
     if(st.cjKey) html += conjPanelHTML(st.cjKey, st.tense);
+    html += numRow;
     if(d.example){
       html += '<div class="dt-example">' +
         '<span class="dt-ex-label">例句</span>' +
@@ -1341,6 +1350,8 @@ function renderTip(){
     var note = null;
     if(st.sid && GRAMMAR[st.sid]) note = GRAMMAR[st.sid][key] || GRAMMAR[st.sid][orig] || null;
     if(note) html += '<div class="dt-note">' + esc(note) + '</div>';
+  } else if(numRow){
+    html = '<div class="dt-word">' + esc(orig) + '</div>' + numRow;
   } else if(st.cjKey){
     // No dictionary entry, but we still know exactly what this form is.
     html = '<div class="dt-word">' + esc(orig) + horn + '</div>' +
@@ -1353,11 +1364,13 @@ function renderTip(){
   tip.classList.add("visible");
   placeTooltip(st.anchor, tip);
 
-  var more = tip.querySelector(".dt-more");
-  if(more) more.addEventListener("click", function(e){
-    e.stopPropagation();
-    openNumberPopup(st.anchor);
-  });
+  var mores = tip.querySelectorAll(".dt-more");
+  for(var mi=0;mi<mores.length;mi++){
+    mores[mi].addEventListener("click", function(e){
+      e.stopPropagation();
+      openNumberPopup(st.anchor);
+    });
+  }
   bindConjPanel();
 }
 
@@ -1771,6 +1784,19 @@ NUMBER_TABLE: dict[str, str] = {
 }
 
 
+# Word-keyed view of NUMBER_TABLE. The popup grid is keyed by digits ("8"),
+# but a tapped word arrives as text ("huit") — digits are useless as its
+# lookup key, so every French number word gets its own row here. Same value
+# strings as the digit table ("huit /ɥit/"), just keyed by the spoken word.
+NUM_WORDS: dict[str, str] = {}
+for _k, _v in NUMBER_TABLE.items():
+    if _k.isdigit():
+        NUM_WORDS[_v.split(" /", 1)[0].strip().lower()] = _v
+    else:
+        NUM_WORDS[_k.lower()] = _v
+del _k, _v
+
+
 # ═══════════════════════════════════════════════════════════════════════════
 # HTML Page Assembly
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1982,6 +2008,7 @@ def render_page(day: Day, streak_info: dict, archive_dates: list[str]) -> str:
     }, ensure_ascii=False)
     sentences_json = json.dumps(all_sentences, ensure_ascii=False)
     numbers_json = json.dumps(NUMBER_TABLE, ensure_ascii=False)
+    num_words_json = json.dumps(NUM_WORDS, ensure_ascii=False)
     grammar_notes_json = json.dumps(
         {s.id: s.grammar_notes for s in sentences}, ensure_ascii=False
     )
@@ -2128,6 +2155,7 @@ function onAudioError(e){{
 window.__DICT__ = {dict_json};
 window.__SENTENCES__ = {sentences_json};
 window.__NUMBERS__ = {numbers_json};
+window.__NUM_WORDS__ = {num_words_json};
 window.__GRAMMAR_NOTES__ = {grammar_notes_json};
 window.__CONJ__ = {conj_json};
 window.__VBOOK__ = {vbook_json};
@@ -2195,11 +2223,12 @@ _IPA_SPAN_RE = re.compile(
 )
 _AFFIX_DASH = "-–—"
 
-# Number words that should trigger the 1-100 table popup
-_NUM_KEYS = frozenset({
+# Number words that should trigger the 1-100 table popup. Kept in lockstep
+# with NUM_WORDS (built from NUMBER_TABLE above): every word the table can
+# render gets the flag, so "huit" never shows "这个词暂未收录释义" again.
+# The digit strings stay for tokens that reach _resolve as digits.
+_NUM_KEYS = frozenset(NUM_WORDS) | frozenset({
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
-    "vingt", "trente", "quarante", "cinquante", "soixante",
-    "cent", "premier", "deuxième", "demi", "moitié",
 })
 
 
@@ -2219,15 +2248,20 @@ def _span(token: str, root: str, has_dict: bool, conj: list[dict], is_num: bool)
     A form with no dictionary entry but a known conjugation ("faisons") is a
     real word the reader can be told something about — it must not carry the
     unknown styling, which is reserved for tokens nothing in the project knows.
+
+    Flags are independent, not either/or: a number word with a dictionary
+    entry ("un") carries both data-has-dict and data-is-num, so the bubble
+    can show the meaning *and* its number row.
     """
+    attrs = f'data-word="{esc(root)}"'
     if has_dict:
-        attrs = f'data-word="{esc(root)}" data-has-dict="true"'
-    elif conj:
-        attrs = f'data-word="{esc(root)}" data-conj="true"'
-    elif is_num:
-        attrs = f'data-word="{esc(root)}" data-is-num="true"'
-    else:
-        attrs = f'data-word="{esc(root)}" data-unknown="true"'
+        attrs += ' data-has-dict="true"'
+    if conj:
+        attrs += ' data-conj="true"'
+    if is_num:
+        attrs += ' data-is-num="true"'
+    if not (has_dict or conj or is_num):
+        attrs += ' data-unknown="true"'
     attrs += f' data-orig="{esc(token)}"'
     return f'<span class="word" {attrs}>{esc(token)}</span>'
 
