@@ -207,21 +207,79 @@ def _sentence_verbs(text: str) -> list[tuple[str, str]]:
     return picks
 
 
+_PRON_RE = re.compile(r"\b(?:je|j'|tu|il|elle|on|nous|vous|ils|elles)\b", re.I)
+
+
+def _verb_surface_forms(inf: str) -> set[str]:
+    """Every surface form (infinitive, conjugated forms, participle) of a verb
+    that can show up in a lesson title — the hook for wall detection."""
+    meta = conjug.BOOK[inf]
+    forms = {inf}
+    for rows in meta["tables"].values():
+        for row in rows:
+            forms.add(row[1].lower())
+            if " " in row[1]:
+                forms.add(row[1].split(" ", 1)[1].lower())
+    if meta.get("pp"):
+        forms.add(meta["pp"].replace("(e)", "").replace("(s)", "").lower())
+    return {f for f in forms if len(f) > 2}
+
+
+def _is_conj_wall(lesson: dict, forms: set[str]) -> bool:
+    """True when a lesson is just the model re-dumping a verb's conjugation
+    as prose ("je vais /ʒə vɛ/ · tu vas /ty va/ · …").
+
+    The real table (auto-attached from conjug.BOOK) makes those walls noise —
+    twice the scroll, none of the structure, and LLM-spelled forms at that.
+    Requires the title to name the verb, plus one of: 变位 in the title, or a
+    body that reads like a conjugation dump (several pronoun-led fragments /
+    mid-dot separators). Pure usage lessons ("最近将来时：aller + 原形") survive.
+    """
+    title = (lesson.get("t") or "").lower()
+    if not any(f in title for f in forms):
+        return False
+    if "变位" in title:
+        return True
+    body = lesson.get("b") or ""
+    if body.count("·") >= 3:
+        return True
+    return len(_PRON_RE.findall(body)) >= 3
+
+
 def attach_conj_lessons(sentences: list[Sentence]) -> int:
-    """Append a real conjugation-table lesson for each verb of a sentence.
+    """Give every sentence real conjugation tables — exactly one per verb.
 
     Tables are a hard requirement of the 解析 section, so they can never depend
     on the LLM writing them out or on a hand pack matching the exact sentence.
     They are wired to core/conjug.py — the same engine the tap-a-word panel
     uses — so a lesson's table and a tapped word's table cannot drift apart.
-    A verb that a hand-packed lesson already tabulates is not repeated.
+
+    Dedup, both ways: a verb a hand-packed lesson already tabulates is not
+    repeated, and the model's own prose re-dumps of a conjugation are dropped
+    in favour of the table (never both — the reader sees one entry per verb).
     """
     added = 0
+    dropped = 0
     for s in sentences:
         picks = _sentence_verbs(s.text)[:2]  # cap: two tables keep a card lean
         if not picks:
             continue
-        lessons = s.grammar_lessons or []
+        picked_forms = {inf: _verb_surface_forms(inf) for inf, _ in picks}
+        all_forms: set[str] = set()
+        for fs in picked_forms.values():
+            all_forms |= fs
+
+        lessons: list[dict] = []
+        for lesson in (s.grammar_lessons or []):
+            if lesson.get("conj") or lesson.get("table"):
+                lessons.append(lesson)  # a real table always wins its place
+                continue
+            title = (lesson.get("t") or "").lower()
+            if any(f in title for f in all_forms) and _is_conj_wall(lesson, all_forms):
+                dropped += 1
+                continue
+            lessons.append(lesson)
+
         have = {(l.get("conj") or {}).get("v") for l in lessons}
         for inf, tense in picks:
             if inf in have:
@@ -235,6 +293,8 @@ def attach_conj_lessons(sentences: list[Sentence]) -> int:
             })
             added += 1
         s.grammar_lessons = lessons
+    if dropped:
+        log.info("Dropped %d prose conjugation wall(s) superseded by tables", dropped)
     return added
 
 
