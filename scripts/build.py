@@ -231,19 +231,27 @@ def _is_conj_wall(lesson: dict, forms: set[str]) -> bool:
 
     The real table (auto-attached from conjug.BOOK) makes those walls noise —
     twice the scroll, none of the structure, and LLM-spelled forms at that.
-    Requires the title to name the verb, plus one of: 变位 in the title, or a
-    body that reads like a conjugation dump (several pronoun-led fragments /
-    mid-dot separators). Pure usage lessons ("最近将来时：aller + 原形") survive.
+    Two entry paths, both requiring the dumped forms to belong to verbs this
+    sentence already has tables for:
+      - title names the verb, plus 变位 in the title or a dump-like body;
+      - title does NOT name the verb (a generic "nous 怎么变" rule lesson)
+        but the body still lists ≥3 distinct conjugated forms of tabled
+        verbs — that is the same wall wearing a different hat.
+    Pure usage lessons ("最近将来时：aller + 原形") survive.
     """
     title = (lesson.get("t") or "").lower()
-    if not any(f in title for f in forms):
-        return False
-    if "变位" in title:
-        return True
     body = lesson.get("b") or ""
-    if body.count("·") >= 3:
+    named = any(f in title for f in forms)
+    if named and "变位" in title:
         return True
-    return len(_PRON_RE.findall(body)) >= 3
+    if named and (body.count("·") >= 3 or len(_PRON_RE.findall(body)) >= 3):
+        return True
+    if not named:
+        # Generic rule lesson whose body is really a conjugation dump:
+        # ≥3 distinct surface forms of verbs the table already covers.
+        if sum(1 for f in forms if f in body) >= 3:
+            return True
+    return False
 
 
 def attach_conj_lessons(sentences: list[Sentence]) -> int:
@@ -274,8 +282,7 @@ def attach_conj_lessons(sentences: list[Sentence]) -> int:
             if lesson.get("conj") or lesson.get("table"):
                 lessons.append(lesson)  # a real table always wins its place
                 continue
-            title = (lesson.get("t") or "").lower()
-            if any(f in title for f in all_forms) and _is_conj_wall(lesson, all_forms):
+            if _is_conj_wall(lesson, all_forms):
                 dropped += 1
                 continue
             lessons.append(lesson)
