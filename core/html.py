@@ -658,6 +658,7 @@ table.cj-table{
 
 .number-popup{
   position:fixed;z-index:1000;display:none;max-width:330px;
+  max-height:min(72vh,540px);overflow-y:auto;
   padding:14px 17px;background:rgba(255,253,248,.98);
   -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
   border:1px solid var(--line);border-radius:var(--r-sm);
@@ -674,13 +675,17 @@ table.cj-table{
   font-family:var(--f-ui);font-size:13px;color:var(--ink);
 }
 .num-search:focus{outline:none;border-color:var(--gold)}
-.num-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}
+.num-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px}
 .num-cell{
   text-align:center;padding:4px 2px;border-radius:5px;
-  font-family:var(--f-ui);font-size:11.5px;color:var(--ink-soft);
-  cursor:pointer;transition:all .15s ease;
+  font-family:var(--f-ui);cursor:pointer;transition:all .15s ease;
 }
-.num-cell:hover{background:var(--cream);color:var(--rouge)}
+/* Two-line cell: the digit small and dim, the French word is the star —
+   the point of this table is the words, not the digits. */
+.num-cell .num-n{font-size:10px;color:var(--ink-faint);line-height:1.3}
+.num-cell .num-w{font-size:12.5px;color:var(--ink-soft);line-height:1.45;white-space:nowrap}
+.num-cell:hover{background:var(--cream)}
+.num-cell:hover .num-w{color:var(--rouge)}
 
 /* ── Toast / empty ── */
 .toast{
@@ -1108,7 +1113,7 @@ document.body.appendChild(tip);
 
 var numPopup = document.createElement("div");
 numPopup.className = "number-popup";
-numPopup.innerHTML = '<div class="num-header">数字表 · Nombres</div>' +
+numPopup.innerHTML = '<div class="num-header">法语数字 0-100 · Nombres</div>' +
   '<input type="text" class="num-search" placeholder="搜索数字或法语..." autocomplete="off">' +
   '<div class="num-grid" id="num-grid"></div>';
 document.body.appendChild(numPopup);
@@ -1125,7 +1130,9 @@ function renderNumbers(filter){
   for(var k=0;k<keys.length;k++){
     var key = keys[k], val = NUMBERS[key] || "";
     if(filter && val.toLowerCase().indexOf(filter.toLowerCase()) === -1 && key !== filter) continue;
-    out += '<div class="num-cell" data-num="' + esc(key) + '">' + esc(key) + '</div>';
+    out += '<div class="num-cell" data-num="' + esc(key) + '">' +
+           '<div class="num-n">' + esc(key) + '</div>' +
+           '<div class="num-w">' + esc(numWord(val, key)) + '</div></div>';
   }
   numGrid.innerHTML = out;
   var cells = numGrid.querySelectorAll(".num-cell");
