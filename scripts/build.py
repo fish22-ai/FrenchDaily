@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.models import Day, Passage, Sentence, Word
+from core import conjug
 from core.streak import StreakStore
 from core.dict_lookup import Dictionary, segment
 from core.tts import generate_audio
@@ -178,6 +179,63 @@ def apply_lessons_pack(sentences: list[Sentence]) -> int:
         s.grammar_notes = notes
         filled += 1
     return filled
+
+
+# ── Auto conjugation tables ───────────────────────────────────────────────
+
+def _sentence_verbs(text: str) -> list[tuple[str, str]]:
+    """(infinitive, tense) for every BOOK verb that appears in the sentence.
+
+    First occurrence decides the tense; a bare infinitive reads as présent and
+    a bare participle as passé composé — the two tables a beginner needs.
+    """
+    picks: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for tok in re.findall(r"[a-zàâäéèêëîïôöùûüçœæ]+", (text or "").lower()):
+        hits = conjug.find_form(tok)
+        if not hits:
+            continue
+        entry = hits[0]
+        tense = entry["t"]
+        if tense == "infinitif":
+            tense = "present"
+        elif tense == "participe":
+            tense = "passe_compose"
+        if entry["v"] not in seen:
+            seen.add(entry["v"])
+            picks.append((entry["v"], tense))
+    return picks
+
+
+def attach_conj_lessons(sentences: list[Sentence]) -> int:
+    """Append a real conjugation-table lesson for each verb of a sentence.
+
+    Tables are a hard requirement of the 解析 section, so they can never depend
+    on the LLM writing them out or on a hand pack matching the exact sentence.
+    They are wired to core/conjug.py — the same engine the tap-a-word panel
+    uses — so a lesson's table and a tapped word's table cannot drift apart.
+    A verb that a hand-packed lesson already tabulates is not repeated.
+    """
+    added = 0
+    for s in sentences:
+        picks = _sentence_verbs(s.text)[:2]  # cap: two tables keep a card lean
+        if not picks:
+            continue
+        lessons = s.grammar_lessons or []
+        have = {(l.get("conj") or {}).get("v") for l in lessons}
+        for inf, tense in picks:
+            if inf in have:
+                continue
+            meta = conjug.BOOK[inf]
+            label = conjug.TENSE_LABEL.get(tense, ("现在时", ""))[0]
+            lessons.append({
+                "t": f"{inf}（{meta['mean']}）的{label}变位",
+                "conj": {"v": inf, "t": tense},
+                "b": meta.get("note", ""),
+            })
+            added += 1
+        s.grammar_lessons = lessons
+    return added
 
 
 # ── Content Generation ────────────────────────────────────────────────────
@@ -332,6 +390,12 @@ def build_day(date_str: str, config: dict, force: bool = False) -> Day:
     filled = apply_lessons_pack(processed_sentences)
     if filled:
         log.info("Filled grammar lessons from dict/lessons.json for %d sentence(s)", filled)
+
+    # 2c. Conjugation tables are a hard requirement: attach one for every BOOK
+    #     verb in the sentence (dedup-guarded, so pack-covered verbs pass).
+    attached = attach_conj_lessons(processed_sentences)
+    if attached:
+        log.info("Attached %d conjugation table(s) from conjug.BOOK", attached)
 
     # 3. Generate per-sentence TTS audio files
     audio_dir = SITE_DIR / "audio" / date_str

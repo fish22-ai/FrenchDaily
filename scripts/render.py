@@ -22,7 +22,7 @@ from core.models import Day
 from core.html import render_day
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build import apply_lessons_pack
+from build import apply_lessons_pack, attach_conj_lessons
 
 DATA_DIR = ROOT / "data"
 SITE_DIR = ROOT / "site"
@@ -71,10 +71,16 @@ def main() -> int:
         synced = apply_lessons_pack(
             [s for p in day.passages for s in p.sentences]
         )
+        # Conjugation tables are a hard requirement: auto-attach one per BOOK
+        # verb (no LLM, no content change — same engine as the tap panel).
+        attached = attach_conj_lessons(
+            [s for p in day.passages for s in p.sentences]
+        )
         html = render_day(day, streak_info, all_dates)
         (site_dir / f"{date_str}.html").write_text(html, encoding="utf-8")
         print(f"rendered {date_str}.html  ({len(html):,} bytes, "
-              f"{day.total_sentences()} sentences, {synced} lessons from pack)")
+              f"{day.total_sentences()} sentences, {synced} lessons from pack, "
+              f"{attached} auto tables)")
 
     latest = all_dates[0]
     latest_file = site_dir / f"{latest}.html"
