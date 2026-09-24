@@ -34,7 +34,94 @@
             },
             {
               "t": "厨房名词的阴阳性：哪些带 la，哪些带 le？",
-              "b": "冠词跟着名词走，背名词时要连冠词一起记。\n阴性（la）：la cuisine 厨房 /kɥi.zin/、la table 桌子 /tabl/、la casserole 汤锅 /ka.sʁɔl/、la poêle 平底锅 /pwal/、la fourchette 叉子 /fuʁ.ʃɛt/、la cuillère 勺子 /kɥi.jɛʁ/、la pomme 苹果 /pɔm/、l’eau 水 /o/\n阳性（le）：le frigo 冰箱 /fʁi.ɡo/、le four 烤箱 /fuʁ/、le plat 盘子；菜 /pla/、le couteau 刀 /ku.to/、le verre 玻璃杯 /vɛʁ/、le lait 牛奶 /lɛ/、le pain 面包 /pɛ̃/\n小窍门：-e 结尾多为阴性，但例外不少（le livre 书就是阳性），最稳的办法是连冠词一起背。"
+              "b": "法语的每个名词都自带阴阳性，冠词跟着名词走：阴性用 la（元音前缩成 l’），阳性用 le。",
+              "table": {
+                "caption": "厨房名词的阴阳性",
+                "fr_caption": "Genres des noms de cuisine",
+                "head": [
+                  "冠词",
+                  "名词",
+                  "中文"
+                ],
+                "rows": [
+                  [
+                    "la",
+                    "cuisine",
+                    "厨房"
+                  ],
+                  [
+                    "la",
+                    "table",
+                    "桌子"
+                  ],
+                  [
+                    "la",
+                    "casserole",
+                    "汤锅"
+                  ],
+                  [
+                    "la",
+                    "poêle",
+                    "平底锅"
+                  ],
+                  [
+                    "la",
+                    "fourchette",
+                    "叉子"
+                  ],
+                  [
+                    "la",
+                    "cuillère",
+                    "勺子"
+                  ],
+                  [
+                    "la",
+                    "pomme",
+                    "苹果"
+                  ],
+                  [
+                    "l’",
+                    "eau",
+                    "水"
+                  ],
+                  [
+                    "le",
+                    "frigo",
+                    "冰箱"
+                  ],
+                  [
+                    "le",
+                    "four",
+                    "烤箱"
+                  ],
+                  [
+                    "le",
+                    "plat",
+                    "盘子；菜"
+                  ],
+                  [
+                    "le",
+                    "couteau",
+                    "刀"
+                  ],
+                  [
+                    "le",
+                    "verre",
+                    "玻璃杯"
+                  ],
+                  [
+                    "le",
+                    "lait",
+                    "牛奶"
+                  ],
+                  [
+                    "le",
+                    "pain",
+                    "面包"
+                  ]
+                ],
+                "note": "阴性多 -e 结尾，但例外不少（le livre 书就是阳性）——背名词时连冠词一起背最稳。"
+              }
             },
             {
               "t": "rouge 为什么放在 pomme 后面？",
