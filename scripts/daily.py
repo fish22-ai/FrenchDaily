@@ -139,7 +139,7 @@ def publish(today: str, git: str | None) -> None:
         say("git not found, skipping publish")
         return
 
-    run([git, "add", "data", "site"])
+    run([git, "add", "data", "site", "dict"])
     diff = run([git, "diff", "--cached", "--quiet"])
     if diff.returncode == 0:
         say("nothing to commit")
@@ -178,6 +178,19 @@ def main() -> int:
         if build.returncode != 0:
             say(f"build.py failed with code {build.returncode}")
             return 1
+
+        # Dictionary top-up, then one re-render so the new entries show today.
+        # Lookup resolves at render time, so filling dict/auto.json is enough to
+        # make every word tappable-to-defined — no content regeneration involved.
+        # Best effort: a failure here leaves the dictionary as it was, and the
+        # day still publishes.
+        topup = run([sys.executable, str(ROOT / "scripts" / "gen_dict.py")])
+        say_block("gen_dict.py:", topup.stdout + topup.stderr)
+        if topup.returncode == 0:
+            rerender = run([sys.executable, str(ROOT / "scripts" / "render.py")])
+            say_block("render.py (after dict top-up):", rerender.stdout + rerender.stderr)
+        else:
+            say("gen_dict.py failed — dictionary left as is")
 
         publish(today, find_git())
 

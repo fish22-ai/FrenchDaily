@@ -1,0 +1,487 @@
+{
+  "achetée": {
+    "pos": "v",
+    "ipa": "/aʃte/",
+    "def": "（acheter 的过去分词，阴性）购买"
+  },
+  "adj": {
+    "pos": "?",
+    "ipa": "/a.de.ʒi/",
+    "def": "疑似拼写有误：缩写 adj"
+  },
+  "ais": {
+    "pos": "nm",
+    "ipa": "/ɛ/",
+    "def": "木板"
+  },
+  "anniversaire": {
+    "pos": "nm",
+    "ipa": "/a.ni.vɛʁ.sɛʁ/",
+    "def": "生日；周年纪念"
+  },
+  "approche": {
+    "pos": "nf",
+    "ipa": "/a.pʁɔʃ/",
+    "def": "方法；接近"
+  },
+  "approcher": {
+    "pos": "v",
+    "ipa": "/apʁɔʃe/",
+    "def": "靠近；接近"
+  },
+  "arrivés": {
+    "pos": "v",
+    "ipa": "/a.ʁi.ve/",
+    "def": "（arriver 的过去分词）到达"
+  },
+  "bandes": {
+    "pos": "nf",
+    "ipa": "/bɑ̃d/",
+    "def": "带子（复数）"
+  },
+  "cadeau": {
+    "pos": "nm",
+    "ipa": "/ka.do/",
+    "def": "礼物"
+  },
+  "car": {
+    "pos": "conj",
+    "ipa": "/kaʁ/",
+    "def": "因为"
+  },
+  "casserole": {
+    "pos": "nf",
+    "ipa": "/kasʁɔl/",
+    "def": "平底锅；炖锅"
+  },
+  "chemise": {
+    "pos": "nf",
+    "ipa": "/ʃə.miz/",
+    "def": "衬衫"
+  },
+  "choisi": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi/",
+    "def": "（choisir 的过去分词）选择"
+  },
+  "choisir": {
+    "pos": "v",
+    "ipa": "/ʃwaziʁ/",
+    "def": "选择"
+  },
+  "choisis": {
+    "pos": "v",
+    "ipa": "/ʃwazi/",
+    "def": "（choisir 的现在式）选择"
+  },
+  "choisisse": {
+    "pos": "v",
+    "ipa": "/ʃwazis/",
+    "def": "（choisir 的虚拟式）选择"
+  },
+  "choisissent": {
+    "pos": "v",
+    "ipa": "/ʃwazis/",
+    "def": "（choisir 的现在式）选择"
+  },
+  "choisisses": {
+    "pos": "v",
+    "ipa": "/ʃwa.zis/",
+    "def": "（choisir 的虚拟式）选择"
+  },
+  "choisissiez": {
+    "pos": "v",
+    "ipa": "/ʃwazisje/",
+    "def": "（choisir 的虚拟式）选择"
+  },
+  "choisissions": {
+    "pos": "v",
+    "ipa": "/ʃwazisjɔ̃/",
+    "def": "（choisir 的虚拟式）选择"
+  },
+  "clé": {
+    "pos": "nf",
+    "ipa": "/kle/",
+    "def": "钥匙；关键"
+  },
+  "clés": {
+    "pos": "nf",
+    "ipa": "/kle/",
+    "def": "钥匙（复数）"
+  },
+  "courent": {
+    "pos": "v",
+    "ipa": "/kuʁ/",
+    "def": "（courir 的现在式）跑"
+  },
+  "couteau": {
+    "pos": "nm",
+    "ipa": "/kuto/",
+    "def": "刀"
+  },
+  "cuillère": {
+    "pos": "nf",
+    "ipa": "/kɥijɛʁ/",
+    "def": "勺子；调羹"
+  },
+  "dessinées": {
+    "pos": "v",
+    "ipa": "/dɛ.si.ne/",
+    "def": "（dessiner 的过去分词）画出"
+  },
+  "finie": {
+    "pos": "v",
+    "ipa": "/fi.ni/",
+    "def": "（finir 的过去分词）完成"
+  },
+  "finies": {
+    "pos": "v",
+    "ipa": "/fini/",
+    "def": "（finir 的过去分词，阴性复数）结束"
+  },
+  "four": {
+    "pos": "nm",
+    "ipa": "/fuʁ/",
+    "def": "烤箱；炉灶"
+  },
+  "fourchette": {
+    "pos": "nf",
+    "ipa": "/fuʁʃɛt/",
+    "def": "叉子"
+  },
+  "frigo": {
+    "pos": "nm",
+    "ipa": "/fʁiɡo/",
+    "def": "冰箱"
+  },
+  "frère": {
+    "pos": "nm",
+    "ipa": "/fʁɛʁ/",
+    "def": "兄弟"
+  },
+  "jusqu'à": {
+    "pos": "prep",
+    "ipa": "/ʒys.ka/",
+    "def": "直到；直至"
+  },
+  "lait": {
+    "pos": "nm",
+    "ipa": "/lɛ/",
+    "def": "牛奶；乳汁"
+  },
+  "locaux": {
+    "pos": "nm",
+    "ipa": "/lɔko/",
+    "def": "（local 的复数）场所"
+  },
+  "loyers": {
+    "pos": "nm",
+    "ipa": "/lwaje/",
+    "def": "租金"
+  },
+  "lui": {
+    "pos": "pron",
+    "ipa": "/lɥi/",
+    "def": "他；她；它"
+  },
+  "lyon": {
+    "pos": "propn",
+    "ipa": "/ljɔ̃/",
+    "def": "里昂（法国城市）"
+  },
+  "léger": {
+    "pos": "adj",
+    "ipa": "/leʒe/",
+    "def": "轻的；轻微的"
+  },
+  "légumes": {
+    "pos": "nm",
+    "ipa": "/le.ɡym/",
+    "def": "蔬菜（复数）"
+  },
+  "l’eau": {
+    "pos": "nf",
+    "ipa": "/lo/",
+    "def": "水"
+  },
+  "magasin": {
+    "pos": "nm",
+    "ipa": "/ma.ɡa.zɛ̃/",
+    "def": "商店"
+  },
+  "me": {
+    "pos": "pron",
+    "ipa": "/mə/",
+    "def": "我（宾语或自反）"
+  },
+  "metais": {
+    "pos": "?",
+    "ipa": "/mə.tɛ/",
+    "def": "疑似拼写有误：mettais"
+  },
+  "mise": {
+    "pos": "nf",
+    "ipa": "/miz/",
+    "def": "放置；赌注；装束"
+  },
+  "mises": {
+    "pos": "v",
+    "ipa": "/miz/",
+    "def": "（mettre 的过去分词）放置"
+  },
+  "ons": {
+    "pos": "?",
+    "ipa": "/ɔ̃/",
+    "def": "疑似拼写有误：on或ont"
+  },
+  "oubliés": {
+    "pos": "v",
+    "ipa": "/u.bli.je/",
+    "def": "（oublier 的过去分词）忘记"
+  },
+  "parti": {
+    "pos": "v",
+    "ipa": "/paʁ.ti/",
+    "def": "（partir 的过去分词）离开"
+  },
+  "partis": {
+    "pos": "v",
+    "ipa": "/paʁ.ti/",
+    "def": "（partir 的过去分词）离开"
+  },
+  "partout": {
+    "pos": "adv",
+    "ipa": "/paʁtu/",
+    "def": "到处；各处"
+  },
+  "passe": {
+    "pos": "v",
+    "ipa": "/pas/",
+    "def": "（passer 的现在时）经过"
+  },
+  "plaire": {
+    "pos": "v",
+    "ipa": "/plɛʁ/",
+    "def": "使喜欢；取悦"
+  },
+  "plaise": {
+    "pos": "v",
+    "ipa": "/plɛz/",
+    "def": "（plaire 的虚拟式）使喜欢"
+  },
+  "plaisent": {
+    "pos": "v",
+    "ipa": "/plɛz/",
+    "def": "（plaire 的现在时）讨人喜欢"
+  },
+  "plaises": {
+    "pos": "v",
+    "ipa": "/plɛz/",
+    "def": "（plaire 的虚拟式）讨人喜欢"
+  },
+  "plaisiez": {
+    "pos": "v",
+    "ipa": "/plɛ.zje/",
+    "def": "（plaire 的未完成过去时/虚拟式）讨人喜欢"
+  },
+  "plaisions": {
+    "pos": "v",
+    "ipa": "/plɛ.zjɔ̃/",
+    "def": "（plaire 的未完成过去时/虚拟式）讨人喜欢"
+  },
+  "plat": {
+    "pos": "nm",
+    "ipa": "/pla/",
+    "def": "盘子；菜肴"
+  },
+  "plats": {
+    "pos": "nm",
+    "ipa": "/pla/",
+    "def": "菜肴；盘子"
+  },
+  "pomme": {
+    "pos": "nf",
+    "ipa": "/pɔm/",
+    "def": "苹果"
+  },
+  "portable": {
+    "pos": "nm",
+    "ipa": "/pɔʁ.tabl/",
+    "def": "手机"
+  },
+  "porter": {
+    "pos": "v",
+    "ipa": "/pɔʁte/",
+    "def": "携带；穿"
+  },
+  "porté": {
+    "pos": "v",
+    "ipa": "/pɔʁ.te/",
+    "def": "（porter 的过去分词）携带"
+  },
+  "portée": {
+    "pos": "v",
+    "ipa": "/pɔʁ.te/",
+    "def": "（porter 的过去分词）携带"
+  },
+  "poêle": {
+    "pos": "nf",
+    "ipa": "/pwal/",
+    "def": "平底锅；煎锅"
+  },
+  "préfère": {
+    "pos": "v",
+    "ipa": "/pʁe.fɛʁ/",
+    "def": "（préférer 的现在时）更喜欢"
+  },
+  "préféreraient": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁɛ/",
+    "def": "（préférer 的条件式）更喜欢"
+  },
+  "préférerais": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁɛ/",
+    "def": "（préférer 的条件式）更愿意"
+  },
+  "préférerait": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁɛ/",
+    "def": "（préférer 的条件式现在时）更愿意"
+  },
+  "préféreriez": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁje/",
+    "def": "（préférer 的条件式现在时）更愿意"
+  },
+  "préférerions": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁjɔ̃/",
+    "def": "（préférer 的条件式现在时）更愿意"
+  },
+  "quartier": {
+    "pos": "nm",
+    "ipa": "/kaʁ.tje/",
+    "def": "街区；地区"
+  },
+  "quelqu'un": {
+    "pos": "pron",
+    "ipa": "/kɛl.kœ̃/",
+    "def": "某人；有人"
+  },
+  "rencontré": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.kɔ̃.tʁe/",
+    "def": "（rencontrer 的过去分词）遇见"
+  },
+  "rencontrés": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.kɔ̃.tʁe/",
+    "def": "（rencontrer 的过去分词）遇见"
+  },
+  "restais": {
+    "pos": "v",
+    "ipa": "/ʁɛs.tɛ/",
+    "def": "（rester 的未完成过去时）停留"
+  },
+  "reste": {
+    "pos": "v",
+    "ipa": "/ʁɛst/",
+    "def": "（rester 的现在直陈）留下"
+  },
+  "restent": {
+    "pos": "v",
+    "ipa": "/ʁɛst/",
+    "def": "（rester 的现在时/虚拟式）停留"
+  },
+  "restes": {
+    "pos": "v",
+    "ipa": "/ʁɛst/",
+    "def": "（rester 的现在时/虚拟式）停留"
+  },
+  "restiez": {
+    "pos": "v",
+    "ipa": "/ʁɛs.tje/",
+    "def": "（rester 的未完成过去时/虚拟式）停留"
+  },
+  "restions": {
+    "pos": "v",
+    "ipa": "/ʁɛs.tjɔ̃/",
+    "def": "（rester 的未完成过去时/虚拟式）停留"
+  },
+  "retrouver": {
+    "pos": "v",
+    "ipa": "/ʁə.tʁu.ve/",
+    "def": "重新找到；找回"
+  },
+  "retrouvé": {
+    "pos": "v",
+    "ipa": "/ʁə.tʁu.ve/",
+    "def": "（retrouver 的过去分词）找回"
+  },
+  "retrouvée": {
+    "pos": "v",
+    "ipa": "/ʁə.tʁu.ve/",
+    "def": "（retrouver 的过去分词，阴性）找回"
+  },
+  "robe": {
+    "pos": "nf",
+    "ipa": "/ʁɔb/",
+    "def": "连衣裙"
+  },
+  "réserver": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁ.ve/",
+    "def": "预订；保留"
+  },
+  "réservé": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁ.ve/",
+    "def": "（réserver 的过去分词）预订"
+  },
+  "son": {
+    "pos": "nm",
+    "ipa": "/sɔ̃/",
+    "def": "声音"
+  },
+  "soupe": {
+    "pos": "nf",
+    "ipa": "/sup/",
+    "def": "汤"
+  },
+  "soupes": {
+    "pos": "nf",
+    "ipa": "/sup/",
+    "def": "汤（复数）"
+  },
+  "sur": {
+    "pos": "prep",
+    "ipa": "/syʁ/",
+    "def": "在…上；关于"
+  },
+  "sœur": {
+    "pos": "nf",
+    "ipa": "/sœʁ/",
+    "def": "姐妹"
+  },
+  "ta": {
+    "pos": "det",
+    "ipa": "/ta/",
+    "def": "你的（阴性单数）"
+  },
+  "trop": {
+    "pos": "adv",
+    "ipa": "/tʁo/",
+    "def": "太；过于"
+  },
+  "verre": {
+    "pos": "nm",
+    "ipa": "/vɛʁ/",
+    "def": "玻璃杯；玻璃"
+  },
+  "vélo": {
+    "pos": "nm",
+    "ipa": "/ve.lo/",
+    "def": "自行车"
+  }
+}

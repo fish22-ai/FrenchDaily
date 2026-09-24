@@ -15,6 +15,23 @@ _WORD_RE = re.compile(r"[a-zA-ZÀ-ſ]+(?:'[a-zA-ZÀ-ſ]+)?")
 # French contraction prefixes to strip for dictionary lookup
 _CONTRACT_PREFIX_RE = re.compile(r"^[mtdljscnqu]'")
 
+# Inflection suffixes tried only when a token has no entry of its own, longest
+# first. Only ever *strips* — this never invents a form, so a wrong guess can
+# at worst fall through to the next candidate. Saves the reader from
+# "未收录" on clés / légumes / finies / soupes and friends.
+_INFLECT_SUFFIXES = ("es", "s", "x", "e")
+
+
+def _inflection_candidates(word: str) -> list[str]:
+    """Plausible base forms for a word that is not in the dictionary itself."""
+    out: list[str] = []
+    for suf in _INFLECT_SUFFIXES:
+        if word.endswith(suf) and len(word) - len(suf) >= 3:
+            out.append(word[: -len(suf)])
+    if word.endswith("aux") and len(word) > 4:
+        out.append(word[:-3] + "al")  # locaux → local, journaux → journal
+    return out
+
 
 def segment(text: str) -> list[str]:
     """Tokenize French text into words, preserving original forms (apostrophes etc.).
@@ -36,7 +53,10 @@ def segment(text: str) -> list[str]:
 
 class Dictionary:
     # Overlay files applied on top of starter.json, in order. Later files win.
-    OVERLAYS = ("curated.json", "gloss.json")
+    # auto.json is machine-filled by scripts/gen_dict.py for words the pages use
+    # but nobody has written up yet — it always comes last, and it only ever
+    # *adds* words (the generator skips anything already defined elsewhere).
+    OVERLAYS = ("curated.json", "gloss.json", "auto.json")
 
     def __init__(self, starter_path: Path):
         self.local: dict[str, dict] = {}
@@ -83,6 +103,12 @@ class Dictionary:
         root = _CONTRACT_PREFIX_RE.sub("", wl)
         if root != wl:
             entry = self.local.get(root)
+            if entry:
+                return entry
+        # Still nothing: try the bare stem of a plural / feminine form, so a
+        # real word never shows as 未收录 just because the page says "clés".
+        for cand in _inflection_candidates(root):
+            entry = self.local.get(cand)
             if entry:
                 return entry
         num_info = self._numbers.get(wl)

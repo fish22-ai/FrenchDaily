@@ -2225,8 +2225,12 @@ _FR_WORD_RE = re.compile(
 # uses "/" as a plain separator in places ("-ais / -ait / -ions"), and a naive
 # [`[^/]+`] class would happily swallow a sentence fragment as if it were
 # phonetic and hand the leftover letters back as words.
+# The lookbehind is load-bearing: without it, a slash glued to a letter — the
+# "il/elle" in a conjugation lesson — opens a phantom IPA span that pairs with
+# the next real "/" and shreds every transcription after it into loose words
+# ("t", "z", "swa"…). A real phonemic slash always follows a space or opener.
 _IPA_SPAN_RE = re.compile(
-    r"/[^/\n\u3000-\u303f\u4e00-\u9fff\uff01-\uff60]{1,40}/"
+    r"(?<![A-Za-zÀ-ÿ0-9])/[^/\n\u3000-\u303f\u4e00-\u9fff\uff01-\uff60]{1,40}/"
 )
 _AFFIX_DASH = "-–—"
 
@@ -2305,8 +2309,12 @@ def _annotate_plain(seg: str, lexicon: dict[str, dict], strict: bool) -> str:
             continue
         token = m.group(0)
         root, has_dict, conj, is_num = _resolve(token, lexicon)
-        if strict and not (has_dict or conj or is_num):
-            continue
+        if not (has_dict or conj or is_num):
+            # strict mode only links what it can explain; and a 1-2 letter
+            # orphan ("v", the "s" of a "加 -s") is never worth a dead-link
+            # tap even in the sentence line, which links everything else.
+            if strict or len(token) <= 2:
+                continue
         pieces.append(esc(seg[last:s]))
         pieces.append(_span(token, root, has_dict, conj, is_num))
         last = e
