@@ -89,6 +89,11 @@
     "ipa": "/ʃwa.zis/",
     "def": "（choisir 的虚拟式）选择"
   },
+  "choisissez": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.se/",
+    "def": "（choisir 的现在时）选择"
+  },
   "choisissiez": {
     "pos": "v",
     "ipa": "/ʃwazisje/",
@@ -99,6 +104,16 @@
     "ipa": "/ʃwazisjɔ̃/",
     "def": "（choisir 的虚拟式）选择"
   },
+  "choisissons": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.sɔ̃/",
+    "def": "（choisir 的现在时）选择"
+  },
+  "choisit": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi/",
+    "def": "（choisir 的现在时）选择"
+  },
   "clé": {
     "pos": "nf",
     "ipa": "/kle/",
@@ -108,6 +123,11 @@
     "pos": "nf",
     "ipa": "/kle/",
     "def": "钥匙（复数）"
+  },
+  "collègue": {
+    "pos": "nm",
+    "ipa": "/kɔ.lɛɡ/",
+    "def": "同事"
   },
   "courent": {
     "pos": "v",
@@ -124,10 +144,20 @@
     "ipa": "/kɥijɛʁ/",
     "def": "勺子；调羹"
   },
+  "dessert": {
+    "pos": "nm",
+    "ipa": "/de.sɛʁ/",
+    "def": "甜点；餐后甜食"
+  },
   "dessinées": {
     "pos": "v",
     "ipa": "/dɛ.si.ne/",
     "def": "（dessiner 的过去分词）画出"
+  },
+  "en": {
+    "pos": "prep",
+    "ipa": "/ɑ̃/",
+    "def": "在；到；用"
   },
   "finie": {
     "pos": "v",
@@ -149,6 +179,11 @@
     "ipa": "/fuʁʃɛt/",
     "def": "叉子"
   },
+  "fraises": {
+    "pos": "nf",
+    "ipa": "/fʁɛz/",
+    "def": "草莓（复数）"
+  },
   "frigo": {
     "pos": "nm",
     "ipa": "/fʁiɡo/",
@@ -158,6 +193,21 @@
     "pos": "nm",
     "ipa": "/fʁɛʁ/",
     "def": "兄弟"
+  },
+  "inviter": {
+    "pos": "v",
+    "ipa": "/ɛ̃.vi.te/",
+    "def": "邀请"
+  },
+  "invité": {
+    "pos": "nm",
+    "ipa": "/ɛ̃.vi.te/",
+    "def": "客人；受邀者"
+  },
+  "invitée": {
+    "pos": "nf",
+    "ipa": "/ɛ̃.vi.te/",
+    "def": "女客人；受邀者"
   },
   "jusqu'à": {
     "pos": "prep",
@@ -239,6 +289,26 @@
     "ipa": "/u.bli.je/",
     "def": "（oublier 的过去分词）忘记"
   },
+  "parapluie": {
+    "pos": "nm",
+    "ipa": "/pa.ʁa.plɥi/",
+    "def": "雨伞"
+  },
+  "partager": {
+    "pos": "v",
+    "ipa": "/paʁ.ta.ʒe/",
+    "def": "分享；分担"
+  },
+  "partagé": {
+    "pos": "v",
+    "ipa": "/paʁ.ta.ʒe/",
+    "def": "（partager 的过去分词阳性）分享"
+  },
+  "partagée": {
+    "pos": "v",
+    "ipa": "/paʁ.ta.ʒe/",
+    "def": "（partager 的过去分词阴性）分享"
+  },
   "parti": {
     "pos": "v",
     "ipa": "/paʁ.ti/",
@@ -298,6 +368,16 @@
     "pos": "nm",
     "ipa": "/pla/",
     "def": "菜肴；盘子"
+  },
+  "pleus": {
+    "pos": "?",
+    "ipa": "/plø/",
+    "def": "疑似拼写有误：pleut"
+  },
+  "pleuvait": {
+    "pos": "v",
+    "ipa": "/plø.vɛ/",
+    "def": "（pleuvoir 的未完成过去时）下雨"
   },
   "pomme": {
     "pos": "nf",
@@ -409,6 +489,11 @@
     "ipa": "/ʁɛs.tjɔ̃/",
     "def": "（rester 的未完成过去时/虚拟式）停留"
   },
+  "retourner": {
+    "pos": "v",
+    "ipa": "/ʁə.tuʁ.ne/",
+    "def": "返回；翻转"
+  },
   "retrouver": {
     "pos": "v",
     "ipa": "/ʁə.tʁu.ve/",
@@ -469,6 +554,11 @@
     "ipa": "/ta/",
     "def": "你的（阴性单数）"
   },
+  "tarte": {
+    "pos": "nf",
+    "ipa": "/taʁt/",
+    "def": "馅饼；挞"
+  },
   "trop": {
     "pos": "adv",
     "ipa": "/tʁo/",
@@ -478,6 +568,16 @@
     "pos": "nm",
     "ipa": "/vɛʁ/",
     "def": "玻璃杯；玻璃"
+  },
+  "village": {
+    "pos": "nm",
+    "ipa": "/vi.laʒ/",
+    "def": "村庄"
+  },
+  "vois": {
+    "pos": "v",
+    "ipa": "/vwa/",
+    "def": "（voir 的现在时）看见"
   },
   "vélo": {
     "pos": "nm",
