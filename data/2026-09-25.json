@@ -1,0 +1,561 @@
+{
+  "date": "2026-09-25",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Petites leçons de français quotidien",
+      "title_zh": "日常法语小课",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-09-25",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Je bois un café chaud avec ma sœur.",
+          "translation": "我和我的姐姐（或妹妹）喝一杯热咖啡。",
+          "difficulty": "A1",
+          "grammar_note": "现在时表示当前或习惯动作；本句动词为不规则动词，形容词放在名词后并需注意阴性形式。",
+          "grammar_notes": {
+            "boire": "boire /bwaʁ/ 动词(v) 的现在时 je /ʒə/ 形式 bois /bwa/，意为喝。",
+            "café": "café /ka.fe/ 阳性名词(nm)，咖啡。",
+            "chaud": "chaud /ʃo/ 形容词(adj)，热的；阴性 chaude /ʃod/。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "现在时是什么",
+              "b": "现在时表示现在正在做的事，或经常做的习惯。公式是主语加动词变位。je bois /ʒə bwa/ 就是“我喝”。中文动词不改形式，法语每个主语常配不同形式，不能只说 je boire /ʒə bwaʁ/。"
+            },
+            {
+              "t": "boire /bwaʁ/ 的现在时变位",
+              "b": "je bois /ʒə bwa/　·　tu bois /ty bwa/　·　il boit /il bwa/\nnous buvons /nu by.vɔ̃/　·　vous buvez /vu by.ve/　·　ils boivent /il bwav/\n注意 nous /nu/、vous /vu/、ils /il/ 的形式词干变化较大，需要单独记。"
+            },
+            {
+              "t": "un /œ̃/ 和 une /yn/ 是什么",
+              "b": "法语可数名词前常用不定冠词：阳性单数 un /œ̃/，阴性单数 une /yn/。un café /œ̃ ka.fe/ 是阳性，une sœur /yn sœʁ/ 是阴性。中文没有冠词，中国学生容易漏掉。"
+            },
+            {
+              "t": "形容词 chaud /ʃo/ 的位置和配合",
+              "b": "很多形容词放在名词后，例如 un café chaud /œ̃ ka.fe ʃo/。形容词要和名词性数配合：阳性 chaud /ʃo/，阴性 chaude /ʃod/。所以“一杯热饮”是 une boisson chaude /yn bwa.sɔ̃ ʃod/。"
+            },
+            {
+              "t": "avec /a.vɛk/ 和物主形容词 ma /ma/",
+              "b": "avec /a.vɛk/ 表示“和、带着”。avec ma sœur /a.vɛk ma sœʁ/ 是“和我的姐姐/妹妹”。ma /ma/ 是阴性单数物主形容词，阳性用 mon /mɔ̃/，复数用 mes /me/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡；咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "chaud",
+              "pos": "adj",
+              "def": "热的",
+              "ipa": "/ʃo/",
+              "example": "Il fait chaud."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "sœur",
+              "pos": "nf",
+              "def": "姐妹",
+              "ipa": "/sœʁ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-09-25/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je regardais mes photos et je les ai classées avant le dîner.",
+          "translation": "我在看我的照片，并在晚饭前把它们分类整理好了。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时描述过去正在进行，复合过去时表示已完成；前置直接宾语使过去分词配合成阴性复数。",
+          "grammar_notes": {
+            "regarder": "regarder /ʁə.ɡaʁ.de/ 动词(v) 的未完成过去时 je /ʒə/ 形式 regardais /ʁə.ɡaʁ.dɛ/，表示过去正在看。",
+            "photo": "photo /fɔ.to/ 阴性名词(nf)，照片，复数 photos /fɔ.to/。",
+            "classer": "classer /kla.se/ 动词(v) 的过去分词 classées /kla.se/，因前置直接宾语 les /le/ 指 photos /fɔ.to/ 阴性复数而加 -es。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么",
+              "b": "未完成过去时表示过去正在做的事、过去的习惯，或给另一个过去动作提供背景。它不强调“做完”，而强调当时的状态。regarder /ʁə.ɡaʁ.de/ 的 je /ʒə/ 形式是 je regardais /ʒə ʁə.ɡaʁ.dɛ/，意思是“我当时在看”。"
+            },
+            {
+              "t": "复合过去时怎么构成",
+              "b": "复合过去时表示已经完成的动作。公式：avoir /a.vwaʁ/ 的现在时加过去分词。j'ai classé /ʒe kla.se/ 是“我分类了”。classer /kla.se/ 是第一组 -er /e/ 动词，过去分词把 -er /e/ 变成 -é /e/。"
+            },
+            {
+              "t": "直接宾语代词 les /le/ 是什么",
+              "b": "les /le/ 代替前面提到的复数名词，放在动词前。les photos /le fɔ.to/ 可以用 les /le/ 代替。位置在助动词前：je les ai classées /ʒə le.z‿e kla.se/。不要写成 j'ai les classées /ʒe le kla.se/。"
+            },
+            {
+              "t": "过去分词为什么要配合",
+              "b": "在 avoir /a.vwaʁ/ 的复合过去时里，如果直接宾语放在助动词前面，过去分词要和这个宾语性数配合。les /le/ 指 photos /fɔ.to/，是阴性复数，所以 classé /kla.se/ 要写成 classées /kla.se/。如果没有前置宾语，j'ai classé mes photos /ʒe kla.se me fɔ.to/ 就不加 -es。"
+            },
+            {
+              "t": "avant /a.vɑ̃/ 的用法",
+              "b": "avant /a.vɑ̃/ 表示“在……之前”。avant le dîner /a.vɑ̃ lə di.ne/ 是“晚饭前”，后面接名词。如果要接动词，常用 avant de + 动词原形，例如 avant de manger /a.vɑ̃ də mɑ̃.ʒe/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "photos",
+              "pos": "nf",
+              "def": "照片",
+              "ipa": "/fɔ.to/",
+              "example": "Une belle photo."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "dîner",
+              "pos": "nm",
+              "def": "晚餐",
+              "ipa": "/di.ne/",
+              "example": "Le dîner est prêt."
+            }
+          ],
+          "audio_file": "audio/2026-09-25/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Hier, j'ai lavé la voiture et je l'ai garée devant la maison.",
+          "translation": "昨天我洗了车，并把它停在房子前面。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时中，前置直接宾语代词代替阴性单数名词，过去分词要加 e 配合。",
+          "grammar_notes": {
+            "laver": "laver /la.ve/ 动词(v) 的过去分词 lavé /la.ve/，第一组规则动词。",
+            "voiture": "voiture /vwa.tyʁ/ 阴性名词(nf)，汽车。",
+            "garer": "garer /ɡa.ʁe/ 动词(v) 的过去分词 garée /ɡa.ʁe/，因前置直接宾语 l' /l/ 指 voiture /vwa.tyʁ/ 阴性单数而配合。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "复合过去时怎么构成",
+              "b": "复合过去时表示已经完成的动作。公式：avoir /a.vwaʁ/ 的现在时加过去分词。j'ai lavé /ʒe la.ve/ 是“我洗了”。第一组 -er /e/ 动词的过去分词通常把 -er /e/ 变成 -é /e/。"
+            },
+            {
+              "t": "直接宾语代词 l' /l/ 是什么",
+              "b": "le /lə/ 和 la /la/ 在元音或哑音 h 前省音成 l' /l/。la voiture /la vwa.tyʁ/ 可以用 l' /l/ 代替。位置在助动词前：je l'ai garée /ʒə lɛ ɡa.ʁe/。不要写成 j'ai la garée /ʒe la ɡa.ʁe/。"
+            },
+            {
+              "t": "过去分词为什么要加 e",
+              "b": "在 avoir /a.vwaʁ/ 的复合过去时里，直接宾语放在助动词前，过去分词要配合。l' /l/ 指 la voiture /la vwa.tyʁ/，是阴性单数，所以 garé /ɡa.ʁe/ 写成 garée /ɡa.ʁe/。lavé /la.ve/ 不加 e，因为 la voiture /la vwa.tyʁ/ 在动词后面，不是前置宾语。"
+            },
+            {
+              "t": "laver /la.ve/ 和 garer /ɡa.ʁe/ 的意思",
+              "b": "laver /la.ve/ 是“洗”，garer /ɡa.ʁe/ 是“停放车辆”。两个都是第一组 -er /e/ 动词，变位规律很像。"
+            },
+            {
+              "t": "hier /jɛʁ/ 和复合过去时",
+              "b": "hier /jɛʁ/ 是“昨天”，是明确的过去时间，所以主句常用复合过去时。j'ai lavé /ʒe la.ve/ 表示已经洗完。不要因为中文说“昨天我洗车”就用现在时 je lave /ʒə lav/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "voiture",
+              "pos": "nf",
+              "def": "汽车",
+              "ipa": "/vwa.tyʁ/",
+              "example": "Une voiture rouge."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "maison",
+              "pos": "nf",
+              "def": "房子，住宅",
+              "ipa": "/mɛ.zɔ̃/",
+              "example": "Ma maison est grande."
+            }
+          ],
+          "audio_file": "audio/2026-09-25/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je chercherais un manteau qui soit chaud, car celui que j'avais acheté l'hiver dernier était trop léger.",
+          "translation": "我会找一件暖和的大衣，因为我去年冬天买的那件太薄了。",
+          "difficulty": "B1",
+          "grammar_note": "条件式现在时表委婉愿望，关系从句中虚拟式表不确定，愈复合过去时表过去的过去。",
+          "grammar_notes": {
+            "chercher": "chercher /ʃɛʁ.ʃe/ 动词(v) 的条件式现在时 je /ʒə/ 形式 chercherais /ʃɛʁ.ʃə.ʁɛ/，表示委婉的“我会找”。",
+            "manteau": "manteau /mɑ̃.to/ 阳性名词(nm)，大衣，复数 manteaux /mɑ̃.to/。",
+            "acheter": "acheter /aʃ.te/ 动词(v) 的愈复合过去时 j'avais acheté /ʒa.vɛ.z‿aʃ.te/，表示过去的过去。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "关系代词 qui /ki/ 和 que /kə/ 的区别",
+              "b": "qui /ki/ 在从句里作主语，后面直接跟动词：un manteau qui soit chaud /œ̃ mɑ̃.to ki swa ʃo/。que /kə/ 在从句里作直接宾语，后面跟主语：celui que j'avais acheté /sə.lɥi kə ʒa.vɛ.z‿aʃ.te/。中文没有这种关系代词，容易漏。"
+            },
+            {
+              "t": "愈复合过去时是什么",
+              "b": "愈复合过去时表示“过去的过去”：在另一个过去动作之前已经完成。构成：avoir /a.vwaʁ/ 或 être /ɛtʁ/ 的未完成过去时加过去分词。j'avais acheté /ʒa.vɛ.z‿aʃ.te/ 是“我（在那之前）已经买了”。注意 avais /a.vɛ/ 不是 ai /e/。"
+            },
+            {
+              "t": "celui /sə.lɥi/ 是什么",
+              "b": "celui /sə.lɥi/ 是指示代词，代替前面提到的阳性单数名词，避免重复。celui que j'avais acheté /sə.lɥi kə ʒa.vɛ.z‿aʃ.te/ 是“我买的那一件”。阴性用 celle /sɛl/，阳性复数 ceux /sø/，阴性复数 celles /sɛl/。"
+            },
+            {
+              "t": "trop /tʁo/ 和 léger /le.ʒe/",
+              "b": "trop /tʁo/ 是“太”，léger /le.ʒe/ 是“轻的、薄的”。形容词要和名词配合：阳性 léger /le.ʒe/，阴性 légère /le.ʒɛʁ/。trop léger /tʁo le.ʒe/ 是“太薄/太轻”。"
+            },
+            {
+              "t": "chercher（找；寻找）的条件式现在时变位",
+              "conj": {
+                "v": "chercher",
+                "t": "conditionnel"
+              },
+              "b": "chercher 是直接及物动词，后面直接跟宾语，不加介词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的虚拟式现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "subjonctif"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "qui",
+              "pos": "pron",
+              "def": "谁（关系代词）",
+              "ipa": "/ki/",
+              "example": "L'homme qui parle."
+            },
+            {
+              "w": "soit",
+              "pos": "v",
+              "def": "être（是）的虚拟式现在时 il 形式",
+              "ipa": "/swa/",
+              "example": "Il faut que tu sois à l'heure."
+            },
+            {
+              "w": "chaud",
+              "pos": "adj",
+              "def": "热的",
+              "ipa": "/ʃo/",
+              "example": "Il fait chaud."
+            },
+            {
+              "w": "car",
+              "pos": "conj",
+              "def": "因为",
+              "ipa": "/kaʁ/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "l'hiver",
+              "pos": "nm",
+              "def": "冬天",
+              "ipa": "/i.vɛʁ/",
+              "example": "L'hiver est froid."
+            },
+            {
+              "w": "dernier",
+              "pos": "adj",
+              "def": "最后的",
+              "ipa": "/dɛʁ.nje/",
+              "example": "Le dernier train."
+            },
+            {
+              "w": "trop",
+              "pos": "adv",
+              "def": "太；过于",
+              "ipa": "/tʁo/",
+              "example": ""
+            },
+            {
+              "w": "léger",
+              "pos": "adj",
+              "def": "轻的；轻微的",
+              "ipa": "/leʒe/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-09-25/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Le restaurant où j'avais mangé une pizza a fermé, donc je chercherais un endroit qui serve des pâtes.",
+          "translation": "我以前吃披萨的那家餐厅关门了，所以我会找一个供应意面的地方。",
+          "difficulty": "B1",
+          "grammar_note": "关系代词 où 指地点，qui 引导的从句用虚拟式表不确定，条件式现在时表委婉，愈复合过去时表更早的过去。",
+          "grammar_notes": {
+            "restaurant": "restaurant /ʁɛs.to.ʁɑ̃/ 阳性名词(nm)，餐厅。",
+            "manger": "manger /mɑ̃.ʒe/ 动词(v) 的愈复合过去时 j'avais mangé /ʒa.vɛ mɑ̃.ʒe/，表示在那之前已经吃过。",
+            "servir": "servir /sɛʁ.viʁ/ 动词(v) 的虚拟式现在时 qu'il serve /kil sɛʁv/，因先行词 endroit /ɑ̃.dʁwa/ 不确定而使用。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "虚拟式现在时 servir /sɛʁ.viʁ/ 的变位",
+              "b": "que je serve /kə ʒə sɛʁv/　·　que tu serves /kə ty sɛʁv/　·　qu'il serve /kil sɛʁv/\nque nous servions /kə nu sɛʁ.vjɔ̃/　·　que vous serviez /kə vu sɛʁ.vje/　·　qu'ils servent /kil sɛʁv/。在“找一个还不确定的地方”后，用虚拟式 qui serve /ki sɛʁv/。"
+            },
+            {
+              "t": "donc /dɔ̃k/ 的用法",
+              "b": "donc /dɔ̃k/ 表示“所以”，连接结果。前面说餐厅关门了，后面说所以我要找别的地方。注意不要和 car /kaʁ/ 混淆，car /kaʁ/ 是“因为”，引出原因。"
+            },
+            {
+              "t": "fermer /fɛʁ.me/ 的复合过去时",
+              "b": "a fermé /a fɛʁ.me/ 是“已经关门”。avoir /a.vwaʁ/ 的第三人称单数现在时是 a /a/，加过去分词 fermé /fɛʁ.me/。主语 le restaurant /lə ʁɛs.to.ʁɑ̃/ 是阳性单数，过去分词不需要特别变化。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的未完成过去时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "manger（吃）的复合过去时变位",
+              "conj": {
+                "v": "manger",
+                "t": "passe_compose"
+              },
+              "b": "manger 属 -ger 家族：nous mangeons 要保留 e，否则 g 会读成 /ʒ/ 以外的音。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "fermé",
+              "pos": "adj",
+              "def": "关着的",
+              "ipa": "/fɛʁ.me/",
+              "example": "La boutique est fermée."
+            },
+            {
+              "w": "donc",
+              "pos": "adv",
+              "def": "因此，所以",
+              "ipa": "/dɔ̃k/",
+              "example": "Il pleut, donc je reste."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "qui",
+              "pos": "pron",
+              "def": "谁（关系代词）",
+              "ipa": "/ki/",
+              "example": "L'homme qui parle."
+            },
+            {
+              "w": "des",
+              "pos": "det",
+              "def": "不定冠词：一些（复数）",
+              "ipa": "/de/",
+              "example": "J'ai des questions."
+            }
+          ],
+          "audio_file": "audio/2026-09-25/s5.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -39,6 +39,36 @@
     "ipa": "/bɑ̃d/",
     "def": "带子（复数）"
   },
+  "bois": {
+    "pos": "v",
+    "ipa": "/bwa/",
+    "def": "（boire 的现在式）喝"
+  },
+  "boisson": {
+    "pos": "nf",
+    "ipa": "/bwa.sɔ̃/",
+    "def": "饮料"
+  },
+  "boit": {
+    "pos": "v",
+    "ipa": "/bwa/",
+    "def": "（boire 的现在式）喝"
+  },
+  "boivent": {
+    "pos": "v",
+    "ipa": "/bwav/",
+    "def": "（boire 的现在式）喝"
+  },
+  "buvez": {
+    "pos": "v",
+    "ipa": "/by.ve/",
+    "def": "（boire 的现在式）喝"
+  },
+  "buvons": {
+    "pos": "v",
+    "ipa": "/by.vɔ̃/",
+    "def": "（boire 的现在式）喝"
+  },
   "cadeau": {
     "pos": "nm",
     "ipa": "/ka.do/",
@@ -53,6 +83,26 @@
     "pos": "nf",
     "ipa": "/kasʁɔl/",
     "def": "平底锅；炖锅"
+  },
+  "celle": {
+    "pos": "pron",
+    "ipa": "/sɛl/",
+    "def": "那个（阴性）"
+  },
+  "celles": {
+    "pos": "pron",
+    "ipa": "/sɛl/",
+    "def": "（celui 的阴性复数）那些"
+  },
+  "celui": {
+    "pos": "pron",
+    "ipa": "/sə.lɥi/",
+    "def": "那个（阳性）"
+  },
+  "ceux": {
+    "pos": "pron",
+    "ipa": "/sø/",
+    "def": "（celui 的阳性复数）那些"
   },
   "chemise": {
     "pos": "nf",
@@ -114,6 +164,21 @@
     "ipa": "/ʃwa.zi/",
     "def": "（choisir 的现在时）选择"
   },
+  "classer": {
+    "pos": "v",
+    "ipa": "/kla.se/",
+    "def": "分类，归类"
+  },
+  "classé": {
+    "pos": "v",
+    "ipa": "/kla.se/",
+    "def": "（classer 的过去分词）分类"
+  },
+  "classées": {
+    "pos": "v",
+    "ipa": "/kla.se/",
+    "def": "（classer 的过去分词）分类"
+  },
   "clé": {
     "pos": "nf",
     "ipa": "/kle/",
@@ -154,10 +219,20 @@
     "ipa": "/dɛ.si.ne/",
     "def": "（dessiner 的过去分词）画出"
   },
+  "devant": {
+    "pos": "prep",
+    "ipa": "/dəvɑ̃/",
+    "def": "在…前面；面对"
+  },
   "en": {
     "pos": "prep",
     "ipa": "/ɑ̃/",
     "def": "在；到；用"
+  },
+  "endroit": {
+    "pos": "nm",
+    "ipa": "/ɑ̃.dʁwa/",
+    "def": "地方，场所"
   },
   "finie": {
     "pos": "v",
@@ -194,6 +269,21 @@
     "ipa": "/fʁɛʁ/",
     "def": "兄弟"
   },
+  "garer": {
+    "pos": "v",
+    "ipa": "/ɡa.ʁe/",
+    "def": "停放（车辆）"
+  },
+  "garé": {
+    "pos": "v",
+    "ipa": "/ɡaʁe/",
+    "def": "（garer 的过去分词）停放"
+  },
+  "garée": {
+    "pos": "v",
+    "ipa": "/ɡa.ʁe/",
+    "def": "（garer 的过去分词）停放"
+  },
   "inviter": {
     "pos": "v",
     "ipa": "/ɛ̃.vi.te/",
@@ -218,6 +308,21 @@
     "pos": "nm",
     "ipa": "/lɛ/",
     "def": "牛奶；乳汁"
+  },
+  "lave": {
+    "pos": "v",
+    "ipa": "/lav/",
+    "def": "（laver 的现在时）洗"
+  },
+  "laver": {
+    "pos": "v",
+    "ipa": "/la.ve/",
+    "def": "洗，洗涤"
+  },
+  "lavé": {
+    "pos": "v",
+    "ipa": "/la.ve/",
+    "def": "（laver 的过去分词）洗"
   },
   "locaux": {
     "pos": "nm",
@@ -249,6 +354,11 @@
     "ipa": "/le.ɡym/",
     "def": "蔬菜（复数）"
   },
+  "légère": {
+    "pos": "adj",
+    "ipa": "/leʒɛʁ/",
+    "def": "（léger 的阴性单数）轻的"
+  },
   "l’eau": {
     "pos": "nf",
     "ipa": "/lo/",
@@ -258,6 +368,16 @@
     "pos": "nm",
     "ipa": "/ma.ɡa.zɛ̃/",
     "def": "商店"
+  },
+  "manteau": {
+    "pos": "nm",
+    "ipa": "/mɑ̃.to/",
+    "def": "大衣，外套"
+  },
+  "manteaux": {
+    "pos": "nm",
+    "ipa": "/mɑ̃to/",
+    "def": "（manteau 的复数）外套"
   },
   "me": {
     "pos": "pron",
@@ -328,6 +448,11 @@
     "pos": "v",
     "ipa": "/pas/",
     "def": "（passer 的现在时）经过"
+  },
+  "pizza": {
+    "pos": "nf",
+    "ipa": "/pidza/",
+    "def": "披萨；比萨饼"
   },
   "plaire": {
     "pos": "v",
@@ -439,6 +564,11 @@
     "ipa": "/pʁe.fe.ʁə.ʁjɔ̃/",
     "def": "（préférer 的条件式现在时）更愿意"
   },
+  "pâtes": {
+    "pos": "nf",
+    "ipa": "/pɑt/",
+    "def": "（pâte 的复数）面条"
+  },
   "quartier": {
     "pos": "nm",
     "ipa": "/kaʁ.tje/",
@@ -448,6 +578,11 @@
     "pos": "pron",
     "ipa": "/kɛl.kœ̃/",
     "def": "某人；有人"
+  },
+  "regardais": {
+    "pos": "v",
+    "ipa": "/ʁə.ɡaʁ.dɛ/",
+    "def": "（regarder 的未完成过去时）看"
   },
   "rencontré": {
     "pos": "v",
@@ -523,6 +658,36 @@
     "pos": "v",
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "（réserver 的过去分词）预订"
+  },
+  "serve": {
+    "pos": "v",
+    "ipa": "/sɛʁv/",
+    "def": "（servir 的虚拟式现在时）服务"
+  },
+  "servent": {
+    "pos": "v",
+    "ipa": "/sɛʁv/",
+    "def": "（servir 的现在时）服务；上菜"
+  },
+  "serves": {
+    "pos": "v",
+    "ipa": "/sɛʁv/",
+    "def": "（servir 的虚拟式现在时）服务"
+  },
+  "serviez": {
+    "pos": "v",
+    "ipa": "/sɛʁvje/",
+    "def": "（servir 的未完成过去时/虚拟式）服务"
+  },
+  "servions": {
+    "pos": "v",
+    "ipa": "/sɛʁvjɔ̃/",
+    "def": "（servir 的未完成过去时/虚拟式）服务"
+  },
+  "servir": {
+    "pos": "v",
+    "ipa": "/sɛʁ.viʁ/",
+    "def": "服务；上菜"
   },
   "son": {
     "pos": "nm",
