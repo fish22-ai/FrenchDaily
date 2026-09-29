@@ -19,6 +19,11 @@
     "ipa": "/a.ni.vɛʁ.sɛʁ/",
     "def": "生日；周年纪念"
   },
+  "appartement": {
+    "pos": "nm",
+    "ipa": "/apaʁtəmɑ̃/",
+    "def": "公寓；套房"
+  },
   "approche": {
     "pos": "nf",
     "ipa": "/a.pʁɔʃ/",
@@ -29,10 +34,30 @@
     "ipa": "/apʁɔʃe/",
     "def": "靠近；接近"
   },
+  "après": {
+    "pos": "prep",
+    "ipa": "/apʁɛ/",
+    "def": "在...之后；随后"
+  },
   "arrivés": {
     "pos": "v",
     "ipa": "/a.ʁi.ve/",
     "def": "（arriver 的过去分词）到达"
+  },
+  "arrêter": {
+    "pos": "v",
+    "ipa": "/aʁete/",
+    "def": "停止；逮捕"
+  },
+  "arrêté": {
+    "pos": "v",
+    "ipa": "/aʁete/",
+    "def": "（arrêter 的过去分词）停止"
+  },
+  "balcon": {
+    "pos": "nm",
+    "ipa": "/balkɔ̃/",
+    "def": "阳台"
   },
   "bandes": {
     "pos": "nf",
@@ -199,6 +224,16 @@
     "ipa": "/kuʁ/",
     "def": "（courir 的现在式）跑"
   },
+  "cours": {
+    "pos": "nm",
+    "ipa": "/kuʁ/",
+    "def": "课程；水流"
+  },
+  "cousine": {
+    "pos": "nf",
+    "ipa": "/kuzin/",
+    "def": "堂/表姐妹"
+  },
   "couteau": {
     "pos": "nm",
     "ipa": "/kuto/",
@@ -223,6 +258,16 @@
     "pos": "prep",
     "ipa": "/dəvɑ̃/",
     "def": "在…前面；面对"
+  },
+  "donné": {
+    "pos": "v",
+    "ipa": "/dɔne/",
+    "def": "（donner 的过去分词）给予"
+  },
+  "donnés": {
+    "pos": "v",
+    "ipa": "/dɔne/",
+    "def": "（donner 的过去分词）给予"
   },
   "en": {
     "pos": "prep",
@@ -339,6 +384,11 @@
     "ipa": "/lɥi/",
     "def": "他；她；它"
   },
+  "lundi": {
+    "pos": "nm",
+    "ipa": "/lœ̃di/",
+    "def": "星期一"
+  },
   "lyon": {
     "pos": "propn",
     "ipa": "/ljɔ̃/",
@@ -384,6 +434,11 @@
     "ipa": "/mə/",
     "def": "我（宾语或自反）"
   },
+  "meilleur": {
+    "pos": "adj",
+    "ipa": "/mɛjœʁ/",
+    "def": "更好的；最好的"
+  },
   "metais": {
     "pos": "?",
     "ipa": "/mə.tɛ/",
@@ -398,6 +453,11 @@
     "pos": "v",
     "ipa": "/miz/",
     "def": "（mettre 的过去分词）放置"
+  },
+  "nice": {
+    "pos": "propn",
+    "ipa": "/nis/",
+    "def": "尼斯（法国城市）"
   },
   "ons": {
     "pos": "?",
@@ -579,6 +639,16 @@
     "ipa": "/kɛl.kœ̃/",
     "def": "某人；有人"
   },
+  "rater": {
+    "pos": "v",
+    "ipa": "/ʁate/",
+    "def": "失败；错过"
+  },
+  "raté": {
+    "pos": "v",
+    "ipa": "/ʁate/",
+    "def": "（rater 的过去分词）错过"
+  },
   "regardais": {
     "pos": "v",
     "ipa": "/ʁə.ɡaʁ.dɛ/",
@@ -593,6 +663,11 @@
     "pos": "v",
     "ipa": "/ʁɑ̃.kɔ̃.tʁe/",
     "def": "（rencontrer 的过去分词）遇见"
+  },
+  "reprendre": {
+    "pos": "v",
+    "ipa": "/ʁəpʁɑ̃dʁ/",
+    "def": "重新拿；恢复；责备"
   },
   "restais": {
     "pos": "v",
@@ -704,6 +779,16 @@
     "ipa": "/sup/",
     "def": "汤（复数）"
   },
+  "suivi": {
+    "pos": "v",
+    "ipa": "/sɥivi/",
+    "def": "（suivre 的过去分词）跟随"
+  },
+  "suivre": {
+    "pos": "v",
+    "ipa": "/sɥivʁ/",
+    "def": "跟随；遵循"
+  },
   "sur": {
     "pos": "prep",
     "ipa": "/syʁ/",
@@ -723,6 +808,11 @@
     "pos": "nf",
     "ipa": "/taʁt/",
     "def": "馅饼；挞"
+  },
+  "tram": {
+    "pos": "nm",
+    "ipa": "/tʁam/",
+    "def": "有轨电车"
   },
   "trop": {
     "pos": "adv",

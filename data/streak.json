@@ -17,9 +17,12 @@
     },
     "2026-09-25": {
       "done": true
+    },
+    "2026-09-29": {
+      "done": true
     }
   },
-  "current_streak": 6,
+  "current_streak": 1,
   "longest_streak": 6,
-  "total_days": 6
+  "total_days": 7
 }
