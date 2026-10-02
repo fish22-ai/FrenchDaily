@@ -1,0 +1,451 @@
+{
+  "date": "2026-10-02",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Des mots pour la journée",
+      "title_zh": "今天用得上的句子",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-02",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Nous avons mangé au restaurant hier soir.",
+          "translation": "昨晚我们在餐馆吃了饭。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时 = avoir 的现在时 + 过去分词（avons mangé）。",
+          "grammar_notes": {
+            "mangé": "过去分词；manger 的复合过去时用 avoir 作助动词",
+            "hier": "hier 昨天，通常配合复合过去时"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "manger（吃）的复合过去时变位",
+              "conj": {
+                "v": "manger",
+                "t": "passe_compose"
+              },
+              "b": "manger 属 -ger 家族：nous mangeons 要保留 e，否则 g 会读成 /ʒ/ 以外的音。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avons",
+              "pos": "v",
+              "def": "avoir（有）的现在时 nous 形式",
+              "ipa": "/a.vɔ̃/",
+              "example": "Nous avons deux chats."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-02/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Les enfants jouent dans le jardin pendant que leur mère prépare le dîner.",
+          "translation": "孩子们在花园里玩，妈妈在准备晚饭。",
+          "difficulty": "B1",
+          "grammar_note": "pendant que 连接两个同时进行的动作。leur 在这里是单数物主形容词，修饰单数名词 mère。",
+          "grammar_notes": {
+            "pendant": "pendant que = 在…（发生的）同时",
+            "leur": "leur + 单数名词 = 他们的；leurs + 复数名词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的现在时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "present"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            },
+            {
+              "t": "préparer（准备（préparer le dîner 做晚饭））的现在时变位",
+              "conj": {
+                "v": "préparer",
+                "t": "present"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "enfants",
+              "pos": "nm",
+              "def": "孩子们（enfant 的复数，单复数同形）",
+              "ipa": "/ɑ̃.fɑ̃/",
+              "example": "les enfants du quartier"
+            },
+            {
+              "w": "dans",
+              "pos": "prep",
+              "def": "在……里面",
+              "ipa": "/dɑ̃/",
+              "example": "Dans la maison."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "jardin",
+              "pos": "nm",
+              "def": "花园",
+              "ipa": "/ʒaʁ.dɛ̃/",
+              "example": "Un beau jardin."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "mère",
+              "pos": "nf",
+              "def": "母亲",
+              "ipa": "/mɛʁ/",
+              "example": "Ma mère cuisine bien."
+            },
+            {
+              "w": "dîner",
+              "pos": "nm",
+              "def": "晚餐",
+              "ipa": "/di.ne/",
+              "example": "Le dîner est prêt."
+            }
+          ],
+          "audio_file": "audio/2026-10-02/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "On se retrouve devant le musée à trois heures.",
+          "translation": "我们三点在博物馆前碰面。",
+          "difficulty": "A2",
+          "grammar_note": "se retrouver 表示「（约好）碰面」，是自反动词。",
+          "grammar_notes": {
+            "retrouve": "se retrouver 的第一人称式；on 代替 nous",
+            "devant": "devant 在…前面（空间），区别于 avant 在…之前（时间）"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "devant",
+              "pos": "prep",
+              "def": "在…前面；面对",
+              "ipa": "/dəvɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "trois",
+              "pos": "num",
+              "def": "三（3）；词尾 -s 在元音前连诵读 /z/",
+              "ipa": "/tʁwa/",
+              "example": "trois amis"
+            },
+            {
+              "w": "heures",
+              "pos": "nf",
+              "def": "小时、钟点（heure 的复数）",
+              "ipa": "/œʁ/",
+              "example": "Il est huit heures."
+            }
+          ],
+          "audio_file": "audio/2026-10-02/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Bonjour ! Je vais au café avec mon amie.",
+          "translation": "你好！我和朋友去咖啡馆。",
+          "difficulty": "A1",
+          "grammar_note": "je vais 是 aller（去）的第一人称变位。au = à + le，意思是\"到\"。avec 是介词\"和\"。",
+          "grammar_notes": {
+            "vais": "aller 的现在时 je 形式；aller 以 -er 结尾却是不规则动词，不能套规则变位",
+            "aujourd'hui": "aujourd'hui 是今天，由 au + jour + hui 构成",
+            "au": "à + le 的缩合形式，不能写成 à le（硬规则，没有例外）",
+            "amie": "阴性名词「女朋友/女性朋友」；元音开头时物主形容词用 mon 而不是 ma"
+          },
+          "grammar_lessons": [
+            {
+              "t": "法语动词必须「变位」",
+              "b": "中文说「我去、你去、他去」，动词永远不变；法语每个主语配一个专属动词形式，这叫变位（conjugaison）。所以背单词时要把变位一起背，光记 aller = 去是不够的。"
+            },
+            {
+              "t": "aller（去）的现在时 —— 必须死记的一个",
+              "b": "aller 以 -er 结尾，却属于第三组不规则动词，绝不能套规则动词的套路。注意 nous allons、vous allez 与后面元音连诵：词尾 -s 读成 /z/，所以是 /nu.z‿a.lɔ̃/、/vu.z‿a.le/。",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              }
+            },
+            {
+              "t": "au = à + le：缩合冠词",
+              "b": "介词 à（到、在）和 de（的、从）遇到定冠词 le、les 必须缩合，遇到 la 则不缩。写 aller à le café 是错的。这是法语最硬的规则之一，先把它变成条件反射。",
+              "table": {
+                "caption": "定冠词的缩合（最硬的规则之一）",
+                "head": [
+                  "结构",
+                  "缩合",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "à + le",
+                    "au",
+                    "aller au café（去咖啡馆）"
+                  ],
+                  [
+                    "à + les",
+                    "aux",
+                    "parler aux amis（和朋友们说话）"
+                  ],
+                  [
+                    "de + le",
+                    "du",
+                    "le musée du Louvre（卢浮宫博物馆）"
+                  ],
+                  [
+                    "de + les",
+                    "des",
+                    "les livres des enfants（孩子们的书）"
+                  ],
+                  [
+                    "à + la、de + la",
+                    "不缩合",
+                    "aller à la gare（去车站）"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "名词有阴阳性，前面的词要跟着变",
+              "b": "café 是阳性名词，所以用 au；amie 是阴性单数，按理该用 ma，但因为 amie 以元音开头，为了发音顺口要写成 mon amie（mon école、mon amie 都这样）。记住：mon、ma、mes 是「我的」，形式跟着名词的性和数走。"
+            },
+            {
+              "t": "avec 后面直接跟名词",
+              "b": "avec（和、带着）是介词，后面直接接名词或重读代词：avec mon amie（和我朋友）、avec moi（和我）、avec toi（和你）。不要加冠词，也不要说 avec je。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Bonjour",
+              "pos": "interj",
+              "def": "你好（白天问候）",
+              "ipa": "/bɔ̃.ʒuʁ/",
+              "example": "Bonjour à tous !"
+            },
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡；咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "mon",
+              "pos": "adj",
+              "def": "我的（阳性单数物主形容词；元音开头的阴性名词也用 mon）",
+              "ipa": "/mɔ̃/",
+              "example": "Mon frère étudie à Paris."
+            },
+            {
+              "w": "amie",
+              "pos": "nf",
+              "def": "女性朋友；注意元音前用 mon amie 而不是 ma amie",
+              "ipa": "/a.mi/",
+              "example": "mon amie"
+            }
+          ],
+          "audio_file": "audio/2026-10-02/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Il m'a demandé si j'avais déjà visité la Provence.",
+          "translation": "他问我是否去过普罗旺斯。",
+          "difficulty": "B1",
+          "grammar_note": "间接问句用 si 引导；主句是过去时，从句时态要后退——所以说 avais visité（愈过去时）。",
+          "grammar_notes": {
+            "si": "间接问句用 si（是否），不用 est-ce que",
+            "avais": "avais visité 是愈过去时，表示比主句更早的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "visiter（参观；拜访）的复合过去时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "déjà",
+              "pos": "adv",
+              "def": "已经",
+              "ipa": "/de.ʒa/",
+              "example": "Je l'ai déjà fait."
+            },
+            {
+              "w": "visité",
+              "pos": "v",
+              "def": "visiter（参观）的过去分词",
+              "ipa": "/vi.zi.te/",
+              "example": "J'ai visité Rome l'an dernier."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            }
+          ],
+          "audio_file": "audio/2026-10-02/s5.mp3"
+        }
+      ]
+    }
+  ]
+}

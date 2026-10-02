@@ -244,6 +244,11 @@
     "ipa": "/kɥijɛʁ/",
     "def": "勺子；调羹"
   },
+  "demandé": {
+    "pos": "v",
+    "ipa": "/də.mɑ̃.de/",
+    "def": "（demander 的过去分词）要求"
+  },
   "dessert": {
     "pos": "nm",
     "ipa": "/de.sɛʁ/",
@@ -329,6 +334,11 @@
     "ipa": "/ɡa.ʁe/",
     "def": "（garer 的过去分词）停放"
   },
+  "hui": {
+    "pos": "adv",
+    "ipa": "/ɥi/",
+    "def": "今日（古语）"
+  },
   "inviter": {
     "pos": "v",
     "ipa": "/ɛ̃.vi.te/",
@@ -368,6 +378,16 @@
     "pos": "v",
     "ipa": "/la.ve/",
     "def": "（laver 的过去分词）洗"
+  },
+  "leur": {
+    "pos": "det",
+    "ipa": "/lœʁ/",
+    "def": "他们的（单数名词前）"
+  },
+  "leurs": {
+    "pos": "det",
+    "ipa": "/lœʁ/",
+    "def": "他们的（复数名词前）"
   },
   "locaux": {
     "pos": "nm",
@@ -459,6 +479,11 @@
     "ipa": "/nis/",
     "def": "尼斯（法国城市）"
   },
+  "on": {
+    "pos": "pron",
+    "ipa": "/ɔ̃/",
+    "def": "人们；我们；有人"
+  },
   "ons": {
     "pos": "?",
     "ipa": "/ɔ̃/",
@@ -508,6 +533,11 @@
     "pos": "v",
     "ipa": "/pas/",
     "def": "（passer 的现在时）经过"
+  },
+  "pendant": {
+    "pos": "prep",
+    "ipa": "/pɑ̃.dɑ̃/",
+    "def": "在…期间"
   },
   "pizza": {
     "pos": "nf",
@@ -593,6 +623,11 @@
     "pos": "nf",
     "ipa": "/pwal/",
     "def": "平底锅；煎锅"
+  },
+  "provence": {
+    "pos": "propn",
+    "ipa": "/pʁɔ.vɑ̃s/",
+    "def": "普罗旺斯（法国地区）"
   },
   "préfère": {
     "pos": "v",
@@ -704,6 +739,11 @@
     "ipa": "/ʁə.tuʁ.ne/",
     "def": "返回；翻转"
   },
+  "retrouve": {
+    "pos": "v",
+    "ipa": "/ʁə.tʁuv/",
+    "def": "（retrouver 的现在时）找回"
+  },
   "retrouver": {
     "pos": "v",
     "ipa": "/ʁə.tʁu.ve/",
@@ -733,6 +773,11 @@
     "pos": "v",
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "（réserver 的过去分词）预订"
+  },
+  "se": {
+    "pos": "pron",
+    "ipa": "/sə/",
+    "def": "自己；互相"
   },
   "serve": {
     "pos": "v",
