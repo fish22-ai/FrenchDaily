@@ -129,6 +129,11 @@
     "ipa": "/sø/",
     "def": "（celui 的阳性复数）那些"
   },
+  "changer": {
+    "pos": "v",
+    "ipa": "/ʃɑ̃.ʒe/",
+    "def": "改变；更换"
+  },
   "chemise": {
     "pos": "nf",
     "ipa": "/ʃə.miz/",
@@ -188,6 +193,11 @@
     "pos": "v",
     "ipa": "/ʃwa.zi/",
     "def": "（choisir 的现在时）选择"
+  },
+  "chère": {
+    "pos": "adj",
+    "ipa": "/ʃɛʁ/",
+    "def": "亲爱的；昂贵的"
   },
   "classer": {
     "pos": "v",
@@ -594,6 +604,11 @@
     "ipa": "/plø.vɛ/",
     "def": "（pleuvoir 的未完成过去时）下雨"
   },
+  "poche": {
+    "pos": "nf",
+    "ipa": "/pɔʃ/",
+    "def": "口袋；衣袋"
+  },
   "pomme": {
     "pos": "nf",
     "ipa": "/pɔm/",
@@ -774,6 +789,36 @@
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "（réserver 的过去分词）预订"
   },
+  "révise": {
+    "pos": "v",
+    "ipa": "/ʁe.viz/",
+    "def": "（réviser 的现在时/虚拟式/命令式）复习"
+  },
+  "révisent": {
+    "pos": "v",
+    "ipa": "/ʁe.viz/",
+    "def": "（réviser 的现在时/虚拟式）复习"
+  },
+  "réviser": {
+    "pos": "v",
+    "ipa": "/ʁe.vi.ze/",
+    "def": "复习；修订"
+  },
+  "révises": {
+    "pos": "v",
+    "ipa": "/ʁe.viz/",
+    "def": "（réviser 的现在时/虚拟式）复习"
+  },
+  "révisiez": {
+    "pos": "v",
+    "ipa": "/ʁe.vi.zje/",
+    "def": "（réviser 的未完成过去时/虚拟式）复习"
+  },
+  "révisions": {
+    "pos": "v",
+    "ipa": "/ʁe.vi.zjɔ̃/",
+    "def": "（réviser 的未完成过去时/虚拟式）复习"
+  },
   "se": {
     "pos": "pron",
     "ipa": "/sə/",
@@ -854,6 +899,16 @@
     "ipa": "/taʁt/",
     "def": "馅饼；挞"
   },
+  "terminé": {
+    "pos": "adj",
+    "ipa": "/tɛʁ.mi.ne/",
+    "def": "结束的；完成的"
+  },
+  "ticket": {
+    "pos": "nm",
+    "ipa": "/ti.kɛ/",
+    "def": "票；券"
+  },
   "tram": {
     "pos": "nm",
     "ipa": "/tʁam/",
@@ -868,6 +923,11 @@
     "pos": "nm",
     "ipa": "/vɛʁ/",
     "def": "玻璃杯；玻璃"
+  },
+  "veste": {
+    "pos": "nf",
+    "ipa": "/vɛst/",
+    "def": "外套；夹克"
   },
   "village": {
     "pos": "nm",
