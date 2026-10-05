@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-05",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq phrases pour aujourd'hui",
+      "title_zh": "今天的五句法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-05",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "C'est combien, ce livre ?",
+          "translation": "这本书多少钱？",
+          "difficulty": "A1",
+          "grammar_note": "C'est combien 是问价最常用的说法。ce 是阳性指示形容词，修饰 livre。",
+          "grammar_notes": {
+            "combien": "combien 询问数量和价格",
+            "livre": "livre 是阳性名词「书」（阴性时指「磅」）"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "C'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "combien",
+              "pos": "adv",
+              "def": "多少",
+              "ipa": "/kɔ̃.bjɛ̃/",
+              "example": "Combien ça coûte ?"
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "livre",
+              "pos": "nm",
+              "def": "书",
+              "ipa": "/livʁ/",
+              "example": "Un livre intéressant."
+            }
+          ],
+          "audio_file": "audio/2026-10-05/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je cherche un appartement près de la gare.",
+          "translation": "我在找车站附近的公寓。",
+          "difficulty": "A2",
+          "grammar_note": "chercher 是直接及物动词，后面直接跟宾语，不加 à 或 pour。",
+          "grammar_notes": {
+            "cherche": "chercher（找）的第一人称，不接介词",
+            "près": "près de + 名词 = 在…附近"
+          },
+          "grammar_lessons": [
+            {
+              "t": "chercher（找；寻找）的现在时变位",
+              "conj": {
+                "v": "chercher",
+                "t": "present"
+              },
+              "b": "chercher 是直接及物动词，后面直接跟宾语，不加介词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "appartement",
+              "pos": "nm",
+              "def": "公寓；套房",
+              "ipa": "/apaʁtəmɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "près",
+              "pos": "adv",
+              "def": "近",
+              "ipa": "/pʁɛ/",
+              "example": "Habite-t-il près d'ici ?"
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "gare",
+              "pos": "nf",
+              "def": "火车站",
+              "ipa": "/ɡaʁ/",
+              "example": "La gare du Nord."
+            }
+          ],
+          "audio_file": "audio/2026-10-05/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Bien que le temps soit froid, nous avons décidé de sortir.",
+          "translation": "尽管天气很冷，我们还是决定出去。",
+          "difficulty": "B1",
+          "grammar_note": "bien que 是\"尽管\"，后面必须接虚拟式：le temps soit（être 的虚拟式现在时）。虚拟式表达不确定性或主观态度。",
+          "grammar_notes": {
+            "soit": "être 的虚拟式现在时 il 形式；bien que 后面必须用虚拟式",
+            "décidé": "décider 的过去分词；décider de + 动词原形",
+            "avons": "avoir 的现在时 nous 形式，复合过去时的助动词",
+            "temps": "这里指天气（天气冷），不是「时间」"
+          },
+          "grammar_lessons": [
+            {
+              "t": "bien que 后面必须用虚拟式",
+              "b": "bien que 表示「尽管」，它引导的从句动词要用虚拟式（subjonctif）：bien que le temps soit froid。这是硬规则——因为 bien que 表达的是说话人主观认定的让步，法语把这一类从句统一划给虚拟式。注意和 quoique（尽管，同义）、même si（即使，后面用直陈式）区分开：même si 不用虚拟式。"
+            },
+            {
+              "t": "être 的虚拟式现在时",
+              "b": "虚拟式几乎总是生活在 que 后面，所以背的时候连着 que 一起背：que je sois、que tu sois、qu'il soit。être 和 avoir 的虚拟式最不规则，优先拿下这两个，剩下的动词就有样板可套了。",
+              "conj": {
+                "v": "être",
+                "t": "subjonctif"
+              }
+            },
+            {
+              "t": "虚拟式的常见触发词（先记 6 个）",
+              "b": "注意 même si（即使）后面用直陈式，不用虚拟式——这是最容易混的一个。等「虚拟式」这三个字不再让你慌，语法就跨过一大关了。",
+              "table": {
+                "caption": "看到这些触发词，后面从句就用虚拟式",
+                "head": [
+                  "触发词",
+                  "读音",
+                  "意思"
+                ],
+                "rows": [
+                  [
+                    "bien que",
+                    "/bjɛ̃ kə/",
+                    "尽管"
+                  ],
+                  [
+                    "quoique",
+                    "/kwa.kə/",
+                    "尽管（同义，更书面）"
+                  ],
+                  [
+                    "pour que",
+                    "/puʁ kə/",
+                    "为了"
+                  ],
+                  [
+                    "avant que",
+                    "/a.vɑ̃ kə/",
+                    "在……之前"
+                  ],
+                  [
+                    "il faut que",
+                    "/il fo kə/",
+                    "必须"
+                  ],
+                  [
+                    "je veux que",
+                    "/ʒə vø kə/",
+                    "我希望"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "décider de + 动词原形",
+              "b": "记住「de + 原形」这个搭配，比记单个动词更省力。",
+              "table": {
+                "caption": "同一族的「de + 动词原形」",
+                "head": [
+                  "动词",
+                  "读音",
+                  "意思"
+                ],
+                "rows": [
+                  [
+                    "décider de",
+                    "/de.si.de/",
+                    "决定"
+                  ],
+                  [
+                    "essayer de",
+                    "/e.sɛ.je/",
+                    "尝试"
+                  ],
+                  [
+                    "oublier de",
+                    "/u.bli.je/",
+                    "忘记"
+                  ],
+                  [
+                    "refuser de",
+                    "/ʁə.fy.ze/",
+                    "拒绝"
+                  ],
+                  [
+                    "éviter de",
+                    "/e.vi.te/",
+                    "避免"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Bien",
+              "pos": "adv",
+              "def": "好地、确实",
+              "ipa": "/bjɛ̃/",
+              "example": "Je parle bien français."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "soit",
+              "pos": "v",
+              "def": "être（是）的虚拟式现在时 il 形式",
+              "ipa": "/swa/",
+              "example": "Il faut que tu sois à l'heure."
+            },
+            {
+              "w": "froid",
+              "pos": "adj",
+              "def": "冷的",
+              "ipa": "/fʁwa/",
+              "example": "Il fait froid."
+            },
+            {
+              "w": "nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avons",
+              "pos": "v",
+              "def": "avoir（有）的现在时 nous 形式",
+              "ipa": "/a.vɔ̃/",
+              "example": "Nous avons deux chats."
+            },
+            {
+              "w": "décidé",
+              "pos": "v",
+              "def": "décider（决定）的过去分词",
+              "ipa": "/de.si.de/",
+              "example": "Nous avons décidé de partir."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "sortir",
+              "pos": "v",
+              "def": "出去、外出",
+              "ipa": "/sɔʁ.tiʁ/",
+              "example": "On sort ce soir ?"
+            }
+          ],
+          "audio_file": "audio/2026-10-05/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Quand j'étais petit, je jouais au football tous les jours.",
+          "translation": "我小时候每天都踢足球。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+          "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的未完成过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "imparfait"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的未完成过去时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "imparfait"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "football",
+              "pos": "nm",
+              "def": "足球；jouer au football 踢足球",
+              "ipa": "/fut.bol/",
+              "example": "Il joue au football."
+            },
+            {
+              "w": "tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "jours",
+              "pos": "nm",
+              "def": "日子（jour 的复数）；tous les jours 每天",
+              "ipa": "/ʒuʁ/",
+              "example": "tous les jours"
+            }
+          ],
+          "audio_file": "audio/2026-10-05/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-05/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
