@@ -19,6 +19,11 @@
     "ipa": "/a.ni.vɛʁ.sɛʁ/",
     "def": "生日；周年纪念"
   },
+  "annulé": {
+    "pos": "v",
+    "ipa": "/a.ny.le/",
+    "def": "（annuler 的过去分词）取消"
+  },
   "appartement": {
     "pos": "nm",
     "ipa": "/apaʁtəmɑ̃/",
@@ -53,6 +58,11 @@
     "pos": "v",
     "ipa": "/aʁete/",
     "def": "（arrêter 的过去分词）停止"
+  },
+  "atelier": {
+    "pos": "nm",
+    "ipa": "/a.tə.lje/",
+    "def": "工作坊；工作室"
   },
   "balcon": {
     "pos": "nm",
@@ -254,6 +264,16 @@
     "ipa": "/kɥijɛʁ/",
     "def": "勺子；调羹"
   },
+  "cuisiné": {
+    "pos": "v",
+    "ipa": "/kɥi.zi.ne/",
+    "def": "（cuisiner 的过去分词）烹饪"
+  },
+  "cuisinés": {
+    "pos": "v",
+    "ipa": "/kɥi.zi.ne/",
+    "def": "（cuisiner 的过去分词）烹饪"
+  },
   "demandé": {
     "pos": "v",
     "ipa": "/də.mɑ̃.de/",
@@ -283,6 +303,21 @@
     "pos": "v",
     "ipa": "/dɔne/",
     "def": "（donner 的过去分词）给予"
+  },
+  "doute": {
+    "pos": "nm",
+    "ipa": "/dut/",
+    "def": "怀疑；疑虑"
+  },
+  "douter": {
+    "pos": "v",
+    "ipa": "/du.te/",
+    "def": "怀疑；不相信"
+  },
+  "débutants": {
+    "pos": "nm",
+    "ipa": "/de.by.tɑ̃/",
+    "def": "初学者；新手"
   },
   "en": {
     "pos": "prep",
@@ -549,6 +584,11 @@
     "ipa": "/pɑ̃.dɑ̃/",
     "def": "在…期间"
   },
+  "piscine": {
+    "pos": "nf",
+    "ipa": "/pi.sin/",
+    "def": "游泳池"
+  },
   "pizza": {
     "pos": "nf",
     "ipa": "/pidza/",
@@ -638,6 +678,11 @@
     "pos": "nf",
     "ipa": "/pwal/",
     "def": "平底锅；煎锅"
+  },
+  "pron": {
+    "pos": "?",
+    "ipa": "/pʁɔ̃/",
+    "def": "疑似拼写有误：pronom 的缩写"
   },
   "provence": {
     "pos": "propn",
@@ -928,6 +973,11 @@
     "pos": "nf",
     "ipa": "/vɛst/",
     "def": "外套；夹克"
+  },
+  "vienne": {
+    "pos": "v",
+    "ipa": "/vjɛn/",
+    "def": "（venir 的虚拟式现在时）来"
   },
   "village": {
     "pos": "nm",

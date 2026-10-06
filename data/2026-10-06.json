@@ -1,0 +1,529 @@
+{
+  "date": "2026-10-06",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq phrases pour la vie quotidienne",
+      "title_zh": "五句日常生活法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-06",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "J'ai acheté des légumes au marché et je les ai cuisinés hier soir.",
+          "translation": "我在市场买了些蔬菜，昨晚把它们做了。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时中，直接宾语代词 les 放在助动词前，过去分词要跟它配合。",
+          "grammar_notes": {
+            "acheté": "v. acheter /aʃ.te/ 的过去分词，和 avoir /a.vwaʁ/ 的现在时构成复合过去时。",
+            "les": "pron. 直接宾语代词 /le/，这里代替 des légumes /de le.ɡym/，放在助动词 ai 前。",
+            "cuisinés": "v. cuisiner /kɥi.zi.ne/ 的过去分词，因前置直接宾语 les 是阳性复数，加 s。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "acheter 和 cuisiner 的过去分词",
+              "b": "acheter /aʃ.te/ 的过去分词是 acheté /aʃ.te/；cuisiner /kɥi.zi.ne/ 的过去分词是 cuisiné /kɥi.zi.ne/。第一组 -er 动词通常把 -er 换成 -é /e/。"
+            },
+            {
+              "t": "直接宾语代词 les 放哪里",
+              "b": "直接宾语代词 /pʁɔ.nɔ̃ də kɔ̃.plɛ̃ d‿ɔb.ʒɛ/ les /le/ 要放在助动词前：je les ai cuisinés /ʒə le.z‿e kɥi.zi.ne/。不要说 je ai cuisiné les。"
+            },
+            {
+              "t": "为什么 cuisinés 有 s",
+              "b": "复合过去时用 avoir /a.vwaʁ/ 时，如果直接宾语代词放在助动词前，过去分词要跟它性数配合。les /le/ 代替阳性复数 légumes /le.ɡym/，所以 cuisiné 加 s 变成 cuisinés /kɥi.zi.ne/。中文没有这种变化，容易忘。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "acheter（买）的复合过去时变位",
+              "conj": {
+                "v": "acheter",
+                "t": "passe_compose"
+              },
+              "b": "acheter 属「è」家族：单数人称词根变 achèt-（j'achète），nous / vous 保持 achet-。"
+            }
+          ],
+          "words": [
+            {
+              "w": "J'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "des",
+              "pos": "det",
+              "def": "不定冠词：一些（复数）",
+              "ipa": "/de/",
+              "example": "J'ai des questions."
+            },
+            {
+              "w": "légumes",
+              "pos": "nm",
+              "def": "蔬菜（复数）",
+              "ipa": "/le.ɡym/",
+              "example": ""
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "marché",
+              "pos": "nm",
+              "def": "市场",
+              "ipa": "/maʁ.ʃe/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-06/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Quand il faisait chaud, nous allions à la piscine et nous la trouvions toujours propre.",
+          "translation": "天气热的时候，我们去游泳池，而且总觉得它很干净。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时描述过去反复发生的情况，直接宾语代词 la 放在动词前。",
+          "grammar_notes": {
+            "faisait": "v. faire /fɛʁ/ 的未完成过去时 il 形式，用于天气句 il fait chaud /il fɛ ʃo/ 的过去背景。",
+            "allions": "v. aller /a.le/ 的未完成过去时 nous 形式，表示过去常去。",
+            "la": "pron. 直接宾语代词 /la/，代替 la piscine /la pi.sin/，放在 trouvions 前。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么",
+              "b": "未完成过去时 /l‿ɛ̃.paʁ.fɛ/ 用来讲过去的一种背景、习惯或反复发生的事。quand il faisait chaud /kɑ̃ il fə.zɛ ʃo/ 意思是‘天气热的时候’，不是说某一次，而是过去那段时间常这样。"
+            },
+            {
+              "t": "直接宾语代词 la 的位置",
+              "b": "la /la/ 代替阴性单数名词 la piscine /la pi.sin/。在现在时和未完成过去时里，它放在动词前：nous la trouvions /nu la tʁu.vjɔ̃/，不是 nous trouvions la。"
+            },
+            {
+              "t": "trouver 的未完成过去时",
+              "b": "trouver /tʁu.ve/ 是规则动词。去掉不定式 -er，加未完成词尾：je trouvais /ʒə tʁu.vɛ/　·　nous trouvions /nu tʁu.vjɔ̃/　·　ils trouvaient /il tʁu.vɛ/。nous la trouvions /nu la tʁu.vjɔ̃/ 就是‘我们觉得它’。"
+            },
+            {
+              "t": "propre 为什么不变",
+              "b": "propre /pʁɔpʁ/ 是形容词，意思是‘干净的’。它修饰 la piscine /la pi.sin/，阴性单数，但 propre 本身阴阳性同形，所以保持 propre。"
+            },
+            {
+              "t": "faire（做；制造（谈天气也只能用它））的未完成过去时变位",
+              "conj": {
+                "v": "faire",
+                "t": "imparfait"
+              },
+              "b": "三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 换词根读 /fɔ̃/。"
+            },
+            {
+              "t": "aller（去（以 -er 结尾却不规则））的未完成过去时变位",
+              "conj": {
+                "v": "aller",
+                "t": "imparfait"
+              },
+              "b": "aller 是极少数用 être 当助动词的常用动词，过去分词要与主语性数配合，阴性加 -e：je suis allé（阴性 je suis allée）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "chaud",
+              "pos": "adj",
+              "def": "热的",
+              "ipa": "/ʃo/",
+              "example": "Il fait chaud."
+            },
+            {
+              "w": "nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "toujours",
+              "pos": "adv",
+              "def": "总是",
+              "ipa": "/tu.ʒuʁ/",
+              "example": "Je suis toujours là."
+            },
+            {
+              "w": "propre",
+              "pos": "adj",
+              "def": "干净的",
+              "ipa": "/pʁɔpʁ/",
+              "example": "Une chambre propre."
+            }
+          ],
+          "audio_file": "audio/2026-10-06/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Le train que j'avais réservé est annulé, donc je prendrais un taxi si j'en trouvais un.",
+          "translation": "我预订的火车取消了，所以如果能找到一辆出租车，我就坐出租车。",
+          "difficulty": "B1",
+          "grammar_note": "愈复合过去时表示更早的过去，关系代词 que 连接先行词，si + 未完成过去时配条件式现在时。",
+          "grammar_notes": {
+            "avais": "v. avoir /a.vwaʁ/ 的未完成过去时 je 形式，和 réservé 构成愈复合过去时。",
+            "prendrais": "v. prendre /pʁɑ̃dʁ/ 的条件式现在时 je 形式，表示假设下会做。",
+            "en": "pron. 副词代词 /ɑ̃/，代替 de + 名词，这里 en trouvais un 指‘找到一辆出租车’。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "关系代词 que 怎么用",
+              "b": "关系代词 /pʁɔ.nɔ̃ ʁə.la.tif/ que /kə/ 用来连接两个句子，并在后句里作直接宾语。le train que j'avais réservé /lə tʁɛ̃ kə ʒa.vɛ ʁe.zɛʁ.ve/ 里，que 代替 le train /lə tʁɛ̃/，意思是‘我预订的那列火车’。"
+            },
+            {
+              "t": "si + 未完成过去时，主句用条件式",
+              "b": "表达‘如果……就……’的假设时，常用：si /si/ + 未完成过去时，主句用条件式现在时。si j'en trouvais un /si ʒɑ̃ tʁu.vɛ œ̃/ = 如果我找到一辆；je prendrais /ʒə pʁɑ̃.dʁɛ/ = 我会坐。"
+            },
+            {
+              "t": "prendrais 和 prendrai 不要混",
+              "b": "je prendrais /ʒə pʁɑ̃.dʁɛ/ 是条件式‘我会坐’，结尾音 /ɛ/；je prendrai /ʒə pʁɑ̃.dʁe/ 是简单将来时‘我将坐’，结尾音 /e/。中文母语者常把这两个写混。"
+            },
+            {
+              "t": "est annulé 是什么结构",
+              "b": "est annulé /ɛ.t‿a.ny.le/ 可以理解为‘被取消了、处于取消状态’。annulé /a.ny.le/ 是过去分词，这里像形容词一样描述 le train /lə tʁɛ̃/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的未完成过去时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "train",
+              "pos": "nm",
+              "def": "火车",
+              "ipa": "/tʁɛ̃/",
+              "example": "Le train arrive."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "réservé",
+              "pos": "v",
+              "def": "（réserver 的过去分词）预订",
+              "ipa": "/ʁe.zɛʁ.ve/",
+              "example": ""
+            },
+            {
+              "w": "est",
+              "pos": "v",
+              "def": "是（être 第三人称单数）",
+              "ipa": "/ɛ/",
+              "example": "Il est étudiant."
+            },
+            {
+              "w": "donc",
+              "pos": "adv",
+              "def": "因此，所以",
+              "ipa": "/dɔ̃k/",
+              "example": "Il pleut, donc je reste."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "taxi",
+              "pos": "nm",
+              "def": "出租车；prendre un taxi 打车",
+              "ipa": "/tak.si/",
+              "example": "Je prends un taxi."
+            },
+            {
+              "w": "si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-06/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je cherche un atelier qui soit ouvert aux débutants et où je puisse jouer, car j'avais arrêté le piano.",
+          "translation": "我在找一个对初学者开放、能让我弹奏的工作坊，因为我之前停了钢琴。",
+          "difficulty": "B1",
+          "grammar_note": "chercher 后接不确定的人/物时可用虚拟式，关系代词 qui/où 连接描述。",
+          "grammar_notes": {
+            "soit": "v. être /ɛtʁ/ 的虚拟式现在时 il 形式，用于 qui soit ouvert。",
+            "puisse": "v. pouvoir /pu.vwaʁ/ 的虚拟式现在时 je 形式，用于 où je puisse jouer。",
+            "avais": "v. avoir /a.vwaʁ/ 的未完成过去时 je 形式，和 arrêté 构成愈复合过去时。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "虚拟式是什么",
+              "b": "虚拟式 /lə syb.ʒɔ̃k.tif/ 不是一种时间，而是一种语气，常出现在意愿、寻找、怀疑、必要之后。这里 je cherche un atelier /ʒə ʃɛʁʃ œ̃.n‿a.tə.lje/ 表示还不确定能不能找到，所以后面用 qui/où 引出的部分可以用虚拟式。"
+            },
+            {
+              "t": "pouvoir 的虚拟式现在时",
+              "b": "pouvoir /pu.vwaʁ/ 的虚拟式现在时：je puisse /ʒə pɥis/　·　tu puisses /ty pɥis/　·　il puisse /il pɥis/\nnous puissions /nu pɥi.sjɔ̃/　·　vous puissiez /vu pɥi.sje/　·　ils puissent /il pɥis/。où je puisse jouer /u ʒə pɥis ʒwe/ 是‘我能弹奏的地方’。"
+            },
+            {
+              "t": "qui 和 où 的分工",
+              "b": "qui /ki/ 在关系从句里通常作主语：un atelier qui soit ouvert /œ̃.n‿a.tə.lje ki swa u.vɛʁ/。où /u/ 常表示地点或场合：un atelier où je puisse jouer /œ̃.n‿a.tə.lje u ʒə pɥis ʒwe/。中文常都说‘的’，但法语要按作用选。"
+            },
+            {
+              "t": "愈复合过去时 j'avais arrêté",
+              "b": "j'avais arrêté /ʒa.vɛ a.ʁe.te/ 是愈复合过去时：avoir /a.vwaʁ/ 的未完成过去时 j'avais /ʒa.vɛ/ + arrêter /a.ʁe.te/ 的过去分词 arrêté /a.ʁe.te/。它表示‘在更早以前已经停了’。"
+            },
+            {
+              "t": "chercher 后面为什么不是 je trouve",
+              "b": "je cherche /ʒə ʃɛʁʃ/ 是‘我在找’，还没找到，所以后面的 atelier /a.tə.lje/ 是不确定对象。这种‘寻找一个还不确定的东西’常触发虚拟式：qui soit /ki swa/、où je puisse /u ʒə pɥis/。如果找到了，就会用直陈式说 un atelier qui est ouvert /œ̃.n‿a.tə.lje ki ɛ.t‿u.vɛʁ/。"
+            },
+            {
+              "t": "chercher（找；寻找）的现在时变位",
+              "conj": {
+                "v": "chercher",
+                "t": "present"
+              },
+              "b": "chercher 是直接及物动词，后面直接跟宾语，不加介词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的虚拟式现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "subjonctif"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "qui",
+              "pos": "pron",
+              "def": "谁（关系代词）",
+              "ipa": "/ki/",
+              "example": "L'homme qui parle."
+            },
+            {
+              "w": "soit",
+              "pos": "v",
+              "def": "être（是）的虚拟式现在时 il 形式",
+              "ipa": "/swa/",
+              "example": "Il faut que tu sois à l'heure."
+            },
+            {
+              "w": "ouvert",
+              "pos": "adj",
+              "def": "开着的",
+              "ipa": "/ɔ.vɛʁ/",
+              "example": "La porte est ouverte."
+            },
+            {
+              "w": "aux",
+              "pos": "prep",
+              "def": "à + les 的缩合形式（到那些、给那些）",
+              "ipa": "/o/",
+              "example": "Je parle aux enfants."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "jouer",
+              "pos": "v",
+              "def": "玩；演奏",
+              "ipa": "/ʒwe/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "car",
+              "pos": "conj",
+              "def": "因为",
+              "ipa": "/kaʁ/",
+              "example": ""
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "arrêté",
+              "pos": "v",
+              "def": "（arrêter 的过去分词）停止",
+              "ipa": "/aʁete/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "piano",
+              "pos": "nm",
+              "def": "钢琴",
+              "ipa": "/pja.no/",
+              "example": "Elle joue très bien du piano."
+            }
+          ],
+          "audio_file": "audio/2026-10-06/s4.mp3"
+        }
+      ]
+    }
+  ]
+}
