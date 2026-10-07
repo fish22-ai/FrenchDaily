@@ -239,6 +239,11 @@
     "ipa": "/kɔ.lɛɡ/",
     "def": "同事"
   },
+  "conj": {
+    "pos": "?",
+    "ipa": "/kɔ̃ʒ/",
+    "def": "疑似拼写有误：缩写 conj"
+  },
   "courent": {
     "pos": "v",
     "ipa": "/kuʁ/",
@@ -294,6 +299,11 @@
     "ipa": "/dəvɑ̃/",
     "def": "在…前面；面对"
   },
+  "dimanche": {
+    "pos": "nm",
+    "ipa": "/di.mɑ̃ʃ/",
+    "def": "星期日"
+  },
   "donné": {
     "pos": "v",
     "ipa": "/dɔne/",
@@ -328,6 +338,11 @@
     "pos": "nm",
     "ipa": "/ɑ̃.dʁwa/",
     "def": "地方，场所"
+  },
+  "exposition": {
+    "pos": "nf",
+    "ipa": "/ɛk.spo.zi.sjɔ̃/",
+    "def": "展览；展览会；阐述"
   },
   "finie": {
     "pos": "v",
@@ -364,6 +379,11 @@
     "ipa": "/fʁɛʁ/",
     "def": "兄弟"
   },
+  "garage": {
+    "pos": "nm",
+    "ipa": "/ɡa.ʁaʒ/",
+    "def": "车库；修理厂"
+  },
   "garer": {
     "pos": "v",
     "ipa": "/ɡa.ʁe/",
@@ -378,6 +398,31 @@
     "pos": "v",
     "ipa": "/ɡa.ʁe/",
     "def": "（garer 的过去分词）停放"
+  },
+  "habitaient": {
+    "pos": "v",
+    "ipa": "/a.bi.tɛ/",
+    "def": "（habiter 的未完成过去时）居住"
+  },
+  "habitais": {
+    "pos": "v",
+    "ipa": "/a.bi.tɛ/",
+    "def": "（habiter 的未完成过去时）居住"
+  },
+  "habitait": {
+    "pos": "v",
+    "ipa": "/a.bi.tɛ/",
+    "def": "（habiter 的未完成过去时）居住"
+  },
+  "habitiez": {
+    "pos": "v",
+    "ipa": "/a.bi.tje/",
+    "def": "（habiter 的未完成过去时）居住"
+  },
+  "habitions": {
+    "pos": "v",
+    "ipa": "/a.bi.tjɔ̃/",
+    "def": "（habiter 的未完成过去时/虚拟式）居住"
   },
   "hui": {
     "pos": "adv",
@@ -438,6 +483,11 @@
     "pos": "nm",
     "ipa": "/lɔko/",
     "def": "（local 的复数）场所"
+  },
+  "longue": {
+    "pos": "adj",
+    "ipa": "/lɔ̃ɡ/",
+    "def": "长的；久的"
   },
   "loyers": {
     "pos": "nm",
@@ -543,6 +593,11 @@
     "pos": "nm",
     "ipa": "/pa.ʁa.plɥi/",
     "def": "雨伞"
+  },
+  "parents": {
+    "pos": "nm",
+    "ipa": "/pa.ʁɑ̃/",
+    "def": "父母；家长"
   },
   "partager": {
     "pos": "v",
@@ -679,6 +734,11 @@
     "ipa": "/pwal/",
     "def": "平底锅；煎锅"
   },
+  "prochain": {
+    "pos": "adj",
+    "ipa": "/pʁɔ.ʃɛ̃/",
+    "def": "下一个的；临近的"
+  },
   "pron": {
     "pos": "?",
     "ipa": "/pʁɔ̃/",
@@ -734,6 +794,36 @@
     "ipa": "/kɛl.kœ̃/",
     "def": "某人；有人"
   },
+  "rangeaient": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒɛ/",
+    "def": "（ranger 的未完成过去时）整理"
+  },
+  "rangeais": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒɛ/",
+    "def": "（ranger 的未完成过去时）整理"
+  },
+  "rangeait": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒɛ/",
+    "def": "（ranger 的未完成过去时）整理"
+  },
+  "ranger": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒe/",
+    "def": "整理；排列；停放"
+  },
+  "rangiez": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒje/",
+    "def": "（ranger 的未完成过去时/虚拟式）整理"
+  },
+  "rangions": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃.ʒjɔ̃/",
+    "def": "（ranger 的未完成过去时/虚拟式）整理"
+  },
   "rater": {
     "pos": "v",
     "ipa": "/ʁate/",
@@ -743,6 +833,21 @@
     "pos": "v",
     "ipa": "/ʁate/",
     "def": "（rater 的过去分词）错过"
+  },
+  "recommander": {
+    "pos": "v",
+    "ipa": "/ʁə.kɔ.mɑ̃.de/",
+    "def": "推荐；建议"
+  },
+  "recommandé": {
+    "pos": "v",
+    "ipa": "/ʁə.kɔ.mɑ̃.de/",
+    "def": "（recommander 的过去分词）推荐的"
+  },
+  "recommandée": {
+    "pos": "v",
+    "ipa": "/ʁə.kɔ.mɑ̃.de/",
+    "def": "（recommander 的过去分词，阴性）推荐的"
   },
   "regardais": {
     "pos": "v",
@@ -824,6 +929,11 @@
     "ipa": "/ʁɔb/",
     "def": "连衣裙"
   },
+  "route": {
+    "pos": "nf",
+    "ipa": "/ʁut/",
+    "def": "道路；路线"
+  },
   "réserver": {
     "pos": "v",
     "ipa": "/ʁe.zɛʁ.ve/",
@@ -864,6 +974,11 @@
     "ipa": "/ʁe.vi.zjɔ̃/",
     "def": "（réviser 的未完成过去时/虚拟式）复习"
   },
+  "samedi": {
+    "pos": "nm",
+    "ipa": "/sam.di/",
+    "def": "星期六"
+  },
   "se": {
     "pos": "pron",
     "ipa": "/sə/",
@@ -899,6 +1014,11 @@
     "ipa": "/sɛʁ.viʁ/",
     "def": "服务；上菜"
   },
+  "ses": {
+    "pos": "det",
+    "ipa": "/se/",
+    "def": "他的；她的；它的（复数）"
+  },
   "son": {
     "pos": "nm",
     "ipa": "/sɔ̃/",
@@ -928,6 +1048,21 @@
     "pos": "prep",
     "ipa": "/syʁ/",
     "def": "在…上；关于"
+  },
+  "sécher": {
+    "pos": "v",
+    "ipa": "/se.ʃe/",
+    "def": "弄干；变干；旷课"
+  },
+  "séché": {
+    "pos": "v",
+    "ipa": "/se.ʃe/",
+    "def": "（sécher 的过去分词）弄干的"
+  },
+  "séchée": {
+    "pos": "v",
+    "ipa": "/se.ʃe/",
+    "def": "（sécher 的过去分词，阴性）弄干的"
   },
   "sœur": {
     "pos": "nf",
@@ -973,6 +1108,16 @@
     "pos": "nf",
     "ipa": "/vɛst/",
     "def": "外套；夹克"
+  },
+  "vieil": {
+    "pos": "adj",
+    "ipa": "/vjɛj/",
+    "def": "年老的；古老的（元音前阳性）"
+  },
+  "vieille": {
+    "pos": "adj",
+    "ipa": "/vjɛj/",
+    "def": "年老的；古老的（阴性）"
   },
   "vienne": {
     "pos": "v",
