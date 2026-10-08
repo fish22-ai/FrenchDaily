@@ -29,6 +29,21 @@
     "ipa": "/apaʁtəmɑ̃/",
     "def": "公寓；套房"
   },
+  "appeler": {
+    "pos": "v",
+    "ipa": "/aple/",
+    "def": "叫；称呼；打电话"
+  },
+  "appellé": {
+    "pos": "?",
+    "ipa": "/aple/",
+    "def": "疑似拼写有误：appelé"
+  },
+  "appelé": {
+    "pos": "v",
+    "ipa": "/aple/",
+    "def": "（appeler 的过去分词）叫"
+  },
   "approche": {
     "pos": "nf",
     "ipa": "/a.pʁɔʃ/",
@@ -244,6 +259,21 @@
     "ipa": "/kɔ̃ʒ/",
     "def": "疑似拼写有误：缩写 conj"
   },
+  "conseiller": {
+    "pos": "v",
+    "ipa": "/kɔ̃sɛje/",
+    "def": "建议；劝告"
+  },
+  "conseillé": {
+    "pos": "v",
+    "ipa": "/kɔ̃sɛje/",
+    "def": "（conseiller 的过去分词）建议"
+  },
+  "conseillée": {
+    "pos": "v",
+    "ipa": "/kɔ̃sɛje/",
+    "def": "（conseiller 的过去分词）建议"
+  },
   "courent": {
     "pos": "v",
     "ipa": "/kuʁ/",
@@ -299,6 +329,11 @@
     "ipa": "/dəvɑ̃/",
     "def": "在…前面；面对"
   },
+  "devrais": {
+    "pos": "v",
+    "ipa": "/dəvʁɛ/",
+    "def": "（devoir 的条件式）应该"
+  },
   "dimanche": {
     "pos": "nm",
     "ipa": "/di.mɑ̃ʃ/",
@@ -328,6 +363,16 @@
     "pos": "nm",
     "ipa": "/de.by.tɑ̃/",
     "def": "初学者；新手"
+  },
+  "délicieuse": {
+    "pos": "adj",
+    "ipa": "/delisjøz/",
+    "def": "美味的；可口的"
+  },
+  "délicieux": {
+    "pos": "adj",
+    "ipa": "/delisjø/",
+    "def": "美味的；可口的"
   },
   "en": {
     "pos": "prep",
@@ -534,6 +579,11 @@
     "ipa": "/ma.ɡa.zɛ̃/",
     "def": "商店"
   },
+  "malade": {
+    "pos": "adj",
+    "ipa": "/malad/",
+    "def": "生病的；病人"
+  },
   "manteau": {
     "pos": "nm",
     "ipa": "/mɑ̃.to/",
@@ -568,6 +618,11 @@
     "pos": "v",
     "ipa": "/miz/",
     "def": "（mettre 的过去分词）放置"
+  },
+  "ménage": {
+    "pos": "nm",
+    "ipa": "/menaʒ/",
+    "def": "家务；家庭"
   },
   "nice": {
     "pos": "propn",
@@ -638,6 +693,11 @@
     "pos": "prep",
     "ipa": "/pɑ̃.dɑ̃/",
     "def": "在…期间"
+  },
+  "pharmacie": {
+    "pos": "nf",
+    "ipa": "/faʁmasi/",
+    "def": "药房；药学"
   },
   "piscine": {
     "pos": "nf",
@@ -1019,6 +1079,11 @@
     "ipa": "/se/",
     "def": "他的；她的；它的（复数）"
   },
+  "simple": {
+    "pos": "adj",
+    "ipa": "/sɛ̃pl/",
+    "def": "简单的；单纯的"
+  },
   "son": {
     "pos": "nm",
     "ipa": "/sɔ̃/",
@@ -1089,6 +1154,16 @@
     "ipa": "/ti.kɛ/",
     "def": "票；券"
   },
+  "tombé": {
+    "pos": "v",
+    "ipa": "/tɔ̃be/",
+    "def": "（tomber 的过去分词）掉落"
+  },
+  "tombée": {
+    "pos": "v",
+    "ipa": "/tɔ̃be/",
+    "def": "（tomber 的过去分词）掉落"
+  },
   "tram": {
     "pos": "nm",
     "ipa": "/tʁam/",
@@ -1098,6 +1173,11 @@
     "pos": "adv",
     "ipa": "/tʁo/",
     "def": "太；过于"
+  },
+  "vacances": {
+    "pos": "nf",
+    "ipa": "/vakɑ̃s/",
+    "def": "假期；假日"
   },
   "verre": {
     "pos": "nm",
