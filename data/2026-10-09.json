@@ -1,0 +1,639 @@
+{
+  "date": "2026-10-09",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Plage, pluie, photos, journal et cinéma",
+      "title_zh": "海滩、下雨、照片、报纸和电影",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-09",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Aujourd'hui, il fait beau et je nage à la plage.",
+          "translation": "今天天气很好，我在海滩游泳。",
+          "difficulty": "A1",
+          "grammar_note": "天气用 il fait /il fɛ/ + 形容词；两个现在时动作用 et /e/ 连接。",
+          "grammar_notes": {
+            "faire": "v. /fɛʁ/ 的现在时 il 形式 fait /fɛ/，用于天气：il fait beau /il fɛ bo/",
+            "beau": "adj. /bo/ 阳性单数，意为晴朗的、好看的；阴性 belle /bɛl/",
+            "nager": "v. /na.ʒe/ 的现在时 je 形式 nage /naʒ/，意为游泳"
+          },
+          "grammar_lessons": [
+            {
+              "t": "nager /na.ʒe/ 的现在时怎么变？",
+              "b": "nager /na.ʒe/ 是 -er 动词。je nage /ʒə naʒ/　·　tu nages /ty naʒ/　·　il nage /il naʒ/　·　nous nageons /nu na.ʒɔ̃/　·　vous nagez /vu na.ʒe/　·　ils nagent /il naʒ/。nous nageons /nu na.ʒɔ̃/ 为了发音保留 e。"
+            },
+            {
+              "t": "à la plage /a la plaʒ/ 为什么用 à la？",
+              "b": "去某地常用 à /a/ 加定冠词。à la plage /a la plaʒ/ = 去海滩；au parc /o paʁk/ = 去公园（à + le 变成 au）；à l'école /a l‿e.kɔl/ = 去学校。plage /plaʒ/ 是阴性，所以用 à la /a la/。"
+            },
+            {
+              "t": "beau /bo/ 和 belle /bɛl/ 有什么区别？",
+              "b": "形容词要跟名词配合。beau /bo/ 修饰阳性单数：un beau jour /œ̃ bo ʒuʁ/。belle /bɛl/ 修饰阴性单数：une belle plage /yn bɛl plaʒ/。这里 il fait beau /il fɛ bo/ 是固定天气说法，beau /bo/ 不随主语 il /il/ 变。"
+            },
+            {
+              "t": "faire（做；制造（谈天气也只能用它））的现在时变位",
+              "conj": {
+                "v": "faire",
+                "t": "present"
+              },
+              "b": "三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 换词根读 /fɔ̃/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "fait",
+              "pos": "v",
+              "def": "faire（做）的现在时 il 形式",
+              "ipa": "/fɛ/",
+              "example": "Il fait beau aujourd'hui."
+            },
+            {
+              "w": "beau",
+              "pos": "adj",
+              "def": "美丽的、好的（阳性）",
+              "ipa": "/bo/",
+              "example": "Un beau tableau."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "plage",
+              "pos": "nf",
+              "def": "海滩",
+              "ipa": "/plaʒ/",
+              "example": "La plage de Nice."
+            }
+          ],
+          "audio_file": "audio/2026-10-09/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Ce matin-là, il pleuvait, donc j'ai pris mon parapluie et je l'ai ouvert.",
+          "translation": "那天早上在下雨，所以我拿了雨伞并把它打开了。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时描述背景天气，复合过去时叙述已完成的动作，l' /l/ 代替 parapluie /pa.ʁa.plɥi/。",
+          "grammar_notes": {
+            "pleuvoir": "v. /plø.vwaʁ/ 的未完成过去时 il 形式 pleuvait /plø.vɛ/，表示当时下着雨",
+            "prendre": "v. /pʁɑ̃dʁ/ 的过去分词 pris /pʁi/，用于复合过去时 j'ai pris /ʒe pʁi/",
+            "ouvrir": "v. /u.vʁiʁ/ 的过去分词 ouvert /u.vɛʁ/，用于复合过去时 j'ai ouvert /ʒe u.vɛʁ/；l' /l/ 指 parapluie /pa.ʁa.plɥi/"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么？",
+              "b": "未完成过去时（imparfait /ɛ̃.paʁ.fɛ/）讲过去“当时正在怎样、天气如何、以前常怎样”。il pleuvait /il plø.vɛ/ = 当时在下雨。它不是讲“下了一场雨”这个完成事件，那是 il a plu /il a ply/。"
+            },
+            {
+              "t": "直接宾语代词 l' /l/ 怎么用？",
+              "b": "直接宾语代词（pronom objet direct /pʁɔ.nɔ̃ ɔb.ʒɛ di.ʁɛkt/）用来代替前面的名词，放在动词前。parapluie /pa.ʁa.plɥi/ 是阳性单数，所以用 le /lə/；le /lə/ 在 ai /e/ 前省音成 l' /l/。je l'ai ouvert /ʒə l‿e u.vɛʁ/ = 我把它打开了。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "prendre（拿；乘坐（prendre le métro 坐地铁））的复合过去时变位",
+              "conj": {
+                "v": "prendre",
+                "t": "passe_compose"
+              },
+              "b": "单数三个人称都读 /pʁɑ̃/（-ds、-d 都不发音）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "matin",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            },
+            {
+              "w": "là",
+              "pos": "adv",
+              "def": "那里",
+              "ipa": "/la/",
+              "example": "Regarde là-bas !"
+            },
+            {
+              "w": "il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "pleuvait",
+              "pos": "v",
+              "def": "（pleuvoir 的未完成过去时）下雨",
+              "ipa": "/plø.vɛ/",
+              "example": ""
+            },
+            {
+              "w": "donc",
+              "pos": "adv",
+              "def": "因此，所以",
+              "ipa": "/dɔ̃k/",
+              "example": "Il pleut, donc je reste."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "mon",
+              "pos": "adj",
+              "def": "我的（阳性单数物主形容词；元音开头的阴性名词也用 mon）",
+              "ipa": "/mɔ̃/",
+              "example": "Mon frère étudie à Paris."
+            },
+            {
+              "w": "parapluie",
+              "pos": "nm",
+              "def": "雨伞",
+              "ipa": "/pa.ʁa.plɥi/",
+              "example": ""
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ouvert",
+              "pos": "adj",
+              "def": "开着的",
+              "ipa": "/ɔ.vɛʁ/",
+              "example": "La porte est ouverte."
+            }
+          ],
+          "audio_file": "audio/2026-10-09/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Pendant mes vacances, je prenais des photos et je les ai montrées à mes amis.",
+          "translation": "假期里，我常拍照，并把它们给朋友们看了。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时表过去习惯；复合过去时表一次完成动作；les /le/ 代替 photos /fɔ.to/。",
+          "grammar_notes": {
+            "prendre": "v. /pʁɑ̃dʁ/ 的未完成过去时 je 形式 prenais /pʁə.nɛ/，表示过去常做",
+            "montrer": "v. /mɔ̃.tʁe/ 的过去分词 montrées /mɔ̃.tʁe/，阴性复数，和提前的直接宾语 les /le/ 配合",
+            "vacances": "nf pl. /va.kɑ̃s/ 假期；pendant mes vacances /pɑ̃.dɑ̃ me va.kɑ̃s/ = 在我的假期里"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么？",
+              "b": "未完成过去时（imparfait /ɛ̃.paʁ.fɛ/）讲过去“以前常怎样、当时正在怎样、状态如何”。je prenais /ʒə pʁə.nɛ/ = 我以前常拿/常拍。它不强调一次完成。"
+            },
+            {
+              "t": "直接宾语代词 les /le/ 是什么？",
+              "b": "直接宾语代词（pronom objet direct /pʁɔ.nɔ̃ ɔb.ʒɛ di.ʁɛkt/）代替前面的名词，放在动词前。photos /fɔ.to/ 是阴性复数，所以用 les /le/。je les ai montrées /ʒə le.z‿e mɔ̃.tʁe/ = 我把它们给朋友看了。"
+            },
+            {
+              "t": "过去分词为什么要变 montrées /mɔ̃.tʁe/？",
+              "b": "复合过去时里，如果直接宾语代词 les /le/ 放在助动词前，过去分词要和它配合。photos /fɔ.to/ 是阴性复数，所以 montrer /mɔ̃.tʁe/ 变成 montrées /mɔ̃.tʁe/，多一个 -es。对比：je les ai vues /ʒə le.z‿e vy/、je les ai prises /ʒə le.z‿e pʁiz/。"
+            },
+            {
+              "t": "未完成过去时和复合过去时怎么搭配？",
+              "b": "未完成过去时画背景/习惯：je prenais des photos /ʒə pʁə.nɛ de fɔ.to/ = 我以前常拍照。复合过去时讲一次完成：je les ai montrées /ʒə le.z‿e mɔ̃.tʁe/ = 我把它们给朋友看了。一个句子可以同时用，分工不同。"
+            },
+            {
+              "t": "pendant /pɑ̃.dɑ̃/ 和 quand /kɑ̃/ 有什么区别？",
+              "b": "pendant /pɑ̃.dɑ̃/ = 在……期间，后面常接时间段或活动：pendant mes vacances /pɑ̃.dɑ̃ me va.kɑ̃s/ = 假期里。quand /kɑ̃/ = 当……的时候，后面常接一个时间点或状态。两者都能给过去动作提供时间背景。"
+            },
+            {
+              "t": "prendre（拿；乘坐（prendre le métro 坐地铁））的未完成过去时变位",
+              "conj": {
+                "v": "prendre",
+                "t": "imparfait"
+              },
+              "b": "单数三个人称都读 /pʁɑ̃/（-ds、-d 都不发音）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "vacances",
+              "pos": "nf",
+              "def": "假期；假日",
+              "ipa": "/vakɑ̃s/",
+              "example": ""
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "des",
+              "pos": "det",
+              "def": "不定冠词：一些（复数）",
+              "ipa": "/de/",
+              "example": "J'ai des questions."
+            },
+            {
+              "w": "photos",
+              "pos": "nf",
+              "def": "照片",
+              "ipa": "/fɔ.to/",
+              "example": "Une belle photo."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "amis",
+              "pos": "nm",
+              "def": "朋友们（ami 的复数）",
+              "ipa": "/a.mi/",
+              "example": "Mes amis sont gentils."
+            }
+          ],
+          "audio_file": "audio/2026-10-09/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Quoique je sois pressé, j'aimerais acheter le journal que j'avais commandé au kiosque qui ouvre tôt.",
+          "translation": "虽然我很赶时间，我还是想在早开门的报刊亭买那份我预定过的报纸。",
+          "difficulty": "B1",
+          "grammar_note": "quoique /kwa.kə/ 后接虚拟式；aimerais /ɛ.mə.ʁɛ/ 是条件式现在时表客气愿望；j'avais commandé /ʒa.vɛ kɔ.mɑ̃.de/ 是愈复合过去时，表示更早发生。",
+          "grammar_notes": {
+            "être": "v. /ɛtʁ/ 的虚拟式现在时 je 形式 sois /swa/，用在 quoique /kwa.kə/ 后",
+            "aimer": "v. /e.me/ 的条件式现在时 je 形式 aimerais /ɛ.mə.ʁɛ/，表示“我想要/我喜欢”的客气说法",
+            "commander": "v. /kɔ.mɑ̃.de/ 的过去分词 commandé /kɔ.mɑ̃.de/，用于愈复合过去时 j'avais commandé /ʒa.vɛ kɔ.mɑ̃.de/"
+          },
+          "grammar_lessons": [
+            {
+              "t": "quoique /kwa.kə/ 和 bien que /bjɛ̃ kə/ 有什么区别？",
+              "b": "quoique /kwa.kə/ 和 bien que /bjɛ̃ kə/ 都表示“虽然”，后面都接虚拟式。bien que /bjɛ̃ kə/ 更常见，quoique /kwa.kə/ 稍书面。不要和 quoi que /kwa kə/ 混淆：quoi que /kwa kə/ 是“无论什么”，两个词，后面不一定用虚拟式。"
+            },
+            {
+              "t": "愈复合过去时是什么？",
+              "b": "愈复合过去时（plus-que-parfait /ply kə paʁ.fɛ/）表示“过去的过去”。公式：avoir /a.vwaʁ/ 或 être /ɛtʁ/ 的未完成过去时 + 过去分词。j'avais commandé /ʒa.vɛ kɔ.mɑ̃.de/ = 我（更早）已经预定过。avoir /a.vwaʁ/ 未完成过去时：j'avais /ʒa.vɛ/　·　tu avais /ty a.vɛ/　·　il avait /i.l‿a.vɛ/　·　nous avions /nu.z‿a.vjɔ̃/　·　vous aviez /vu.z‿a.vje/　·　ils avaient /il.z‿a.vɛ/。"
+            },
+            {
+              "t": "关系代词 qui /ki/ 和 que /kə/ 怎么选？",
+              "b": "qui /ki/ 后面直接跟动词，它在从句里作主语：le kiosque qui ouvre tôt /lə kjɔsk ki u.vʁə to/ = 早开门的报刊亭。que /kə/ 后面跟主语加动词，它在从句里作宾语：le journal que j'avais commandé /lə ʒuʁ.nal kə ʒa.vɛ kɔ.mɑ̃.de/ = 我预定过的报纸。简单记：qui /ki/ 后动词，que /kə/ 后主语。"
+            },
+            {
+              "t": "au kiosque /o kjɔsk/ 为什么不是 à le kiosque？",
+              "b": "à /a/ 和 le /lə/ 要缩合成 au /o/。au kiosque /o kjɔsk/ = 在报刊亭；à la gare /a la ɡaʁ/ = 在火车站；à l'école /a l‿e.kɔl/ = 在学校；aux États-Unis /o.z‿e.ta.zy.ni/ = 在美国。中国学生容易说 à le kiosque，这是错的。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的虚拟式现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "subjonctif"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的条件式现在时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "conditionnel"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Quoique",
+              "pos": "conj",
+              "def": "尽管（引导虚拟式，比 bien que 更书面）",
+              "ipa": "/kwa.kə/",
+              "example": "Quoiqu'il soit tard, il travaille."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "acheter",
+              "pos": "v",
+              "def": "买",
+              "ipa": "/aʃ.te/",
+              "example": "J'achète du pain."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "qui",
+              "pos": "pron",
+              "def": "谁（关系代词）",
+              "ipa": "/ki/",
+              "example": "L'homme qui parle."
+            },
+            {
+              "w": "tôt",
+              "pos": "adv",
+              "def": "早",
+              "ipa": "/to/",
+              "example": "Je me lève tôt."
+            }
+          ],
+          "audio_file": "audio/2026-10-09/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Il se peut que la salle où je vais soit petite, mais je préférerais le film que nous avions choisi.",
+          "translation": "我去的那个放映厅可能很小，但我更想看我们之前选好的那部电影。",
+          "difficulty": "B1",
+          "grammar_note": "il se peut que /il sə pø kə/ 后接虚拟式 soit /swa/；où /u/ 代替地点；préférerais /pʁe.fe.ʁə.ʁɛ/ 是条件式现在时；avions choisi /a.vjɔ̃ ʃwa.zi/ 是愈复合过去时。",
+          "grammar_notes": {
+            "pouvoir": "v. /pu.vwaʁ/ 的现在时 il 形式 peut /pø/，il se peut que /il sə pø kə/ = 可能……",
+            "être": "v. /ɛtʁ/ 的虚拟式现在时 il 形式 soit /swa/，和 la salle /la sal/ 配合",
+            "choisir": "v. /ʃwa.ziʁ/ 的过去分词 choisi /ʃwa.zi/，用于愈复合过去时 nous avions choisi /nu.z‿a.vjɔ̃ ʃwa.zi/"
+          },
+          "grammar_lessons": [
+            {
+              "t": "关系代词 où /u/ 的用法",
+              "b": "où /u/ 代替地点，意思是“在……的地方/去……的地方”。la salle où je vais /la sal u ʒə vɛ/ = 我去的那个厅。où /u/ 也可以代替时间：le jour où /lə ʒuʁ u/ = ……的那一天。不要用 que /kə/ 代替地点。"
+            },
+            {
+              "t": "虚拟式 être /ɛtʁ/ 的变位",
+              "b": "je sois /ʒə swa/　·　tu sois /ty swa/　·　il/elle soit /il swa/　·　nous soyons /nu swa.jɔ̃/　·　vous soyez /vu swa.je/　·　ils/elles soient /il swa/。形容词要和主语配合：la salle soit petite /la sal swa pə.tit/，salle /sal/ 是阴性单数，所以 petite /pə.tit/ 加 e。"
+            },
+            {
+              "t": "条件式现在时 préférerais /pʁe.fe.ʁə.ʁɛ/",
+              "b": "条件式现在时（conditionnel présent /kɔ̃.di.sjɔ.nɛl pʁe.zɑ̃/）用来表达愿望、假设、礼貌。je préférerais /ʒə pʁe.fe.ʁə.ʁɛ/ = 我更想要/我更愿意。préférer /pʁe.fe.ʁe/ 条件式：je préférerais /ʒə pʁe.fe.ʁə.ʁɛ/　·　tu préférerais /ty pʁe.fe.ʁə.ʁɛ/　·　il préférerait /il pʁe.fe.ʁə.ʁɛ/　·　nous préférerions /nu pʁe.fe.ʁə.ʁjɔ̃/　·　vous préféreriez /vu pʁe.fe.ʁə.ʁje/　·　ils préféreraient /il pʁe.fe.ʁə.ʁɛ/。易混：je préférerai /ʒə pʁe.fe.ʁə.ʁe/ 是简单将来时“我将更喜欢”，je préférerais /ʒə pʁe.fe.ʁə.ʁɛ/ 才是条件式。"
+            },
+            {
+              "t": "petite /pə.tit/ 为什么加 e？",
+              "b": "形容词要和名词性数配合。salle /sal/ 是阴性单数，所以 petit /pə.ti/ 变成 petite /pə.tit/。阳性单数 petit /pə.ti/；阴性单数 petite /pə.tit/；阳性复数 petits /pə.ti/；阴性复数 petites /pə.tit/。"
+            },
+            {
+              "t": "pouvoir（能；可以）的现在时变位",
+              "conj": {
+                "v": "pouvoir",
+                "t": "present"
+              },
+              "b": "条件式 je pourrais 用于礼貌请求；现在时 ils peuvent 读 /pœv/。"
+            },
+            {
+              "t": "aller（去（以 -er 结尾却不规则））的现在时变位",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              },
+              "b": "aller 是极少数用 être 当助动词的常用动词，过去分词要与主语性数配合，阴性加 -e：je suis allé（阴性 je suis allée）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "se",
+              "pos": "pron",
+              "def": "自己；互相",
+              "ipa": "/sə/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "soit",
+              "pos": "v",
+              "def": "être（是）的虚拟式现在时 il 形式",
+              "ipa": "/swa/",
+              "example": "Il faut que tu sois à l'heure."
+            },
+            {
+              "w": "petite",
+              "pos": "adj",
+              "def": "小的（阴性）",
+              "ipa": "/pə.tit/",
+              "example": "Une petite fleur."
+            },
+            {
+              "w": "mais",
+              "pos": "conj",
+              "def": "但是",
+              "ipa": "/mɛ/",
+              "example": "Il travaille mais il est fatigué."
+            },
+            {
+              "w": "préférerais",
+              "pos": "v",
+              "def": "（préférer 的条件式）更愿意",
+              "ipa": "/pʁe.fe.ʁə.ʁɛ/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "film",
+              "pos": "nm",
+              "def": "电影",
+              "ipa": "/film/",
+              "example": "Un bon film."
+            },
+            {
+              "w": "nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avions",
+              "pos": "nm",
+              "def": "飞机",
+              "ipa": "/a.vjɔ̃/",
+              "example": "Par avion."
+            },
+            {
+              "w": "choisi",
+              "pos": "v",
+              "def": "（choisir 的过去分词）选择",
+              "ipa": "/ʃwa.zi/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-09/s5.mp3"
+        }
+      ]
+    }
+  ]
+}

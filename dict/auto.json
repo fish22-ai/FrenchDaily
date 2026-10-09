@@ -339,6 +339,11 @@
     "ipa": "/di.mɑ̃ʃ/",
     "def": "星期日"
   },
+  "direct": {
+    "pos": "adj",
+    "ipa": "/diʁɛkt/",
+    "def": "直接的；直播的"
+  },
   "donné": {
     "pos": "v",
     "ipa": "/dɔne/",
@@ -489,10 +494,20 @@
     "ipa": "/ɛ̃.vi.te/",
     "def": "女客人；受邀者"
   },
+  "journal": {
+    "pos": "nm",
+    "ipa": "/ʒuʁnal/",
+    "def": "报纸；日记"
+  },
   "jusqu'à": {
     "pos": "prep",
     "ipa": "/ʒys.ka/",
     "def": "直到；直至"
+  },
+  "kiosque": {
+    "pos": "nm",
+    "ipa": "/kjɔsk/",
+    "def": "报刊亭；亭子"
   },
   "lait": {
     "pos": "nm",
@@ -619,15 +634,55 @@
     "ipa": "/miz/",
     "def": "（mettre 的过去分词）放置"
   },
+  "montrer": {
+    "pos": "v",
+    "ipa": "/mɔ̃tʁe/",
+    "def": "展示；表明；指出"
+  },
+  "montrées": {
+    "pos": "v",
+    "ipa": "/mɔ̃tʁe/",
+    "def": "（montrer 的过去分词阴性复数）展示"
+  },
   "ménage": {
     "pos": "nm",
     "ipa": "/menaʒ/",
     "def": "家务；家庭"
   },
+  "nage": {
+    "pos": "v",
+    "ipa": "/naʒ/",
+    "def": "（nager 的现在时）游泳"
+  },
+  "nagent": {
+    "pos": "v",
+    "ipa": "/naʒ/",
+    "def": "（nager 的现在时）游泳"
+  },
+  "nageons": {
+    "pos": "v",
+    "ipa": "/naʒɔ̃/",
+    "def": "（nager 的现在时）游泳"
+  },
+  "nages": {
+    "pos": "v",
+    "ipa": "/naʒ/",
+    "def": "（nager 的现在时）游泳"
+  },
+  "nagez": {
+    "pos": "v",
+    "ipa": "/naʒe/",
+    "def": "（nager 的现在时）游泳"
+  },
   "nice": {
     "pos": "propn",
     "ipa": "/nis/",
     "def": "尼斯（法国城市）"
+  },
+  "objet": {
+    "pos": "nm",
+    "ipa": "/ɔbʒɛ/",
+    "def": "物品；对象；目的"
   },
   "on": {
     "pos": "pron",
@@ -643,6 +698,11 @@
     "pos": "v",
     "ipa": "/u.bli.je/",
     "def": "（oublier 的过去分词）忘记"
+  },
+  "ouvre": {
+    "pos": "v",
+    "ipa": "/uvʁ/",
+    "def": "（ouvrir 的现在时）打开"
   },
   "parapluie": {
     "pos": "nm",
@@ -794,6 +854,16 @@
     "ipa": "/pwal/",
     "def": "平底锅；煎锅"
   },
+  "pressé": {
+    "pos": "v",
+    "ipa": "/pʁe.se/",
+    "def": "（presser 的过去分词）压；催"
+  },
+  "prises": {
+    "pos": "v",
+    "ipa": "/pʁiz/",
+    "def": "（prendre 的过去分词阴性复数）拿；取"
+  },
   "prochain": {
     "pos": "adj",
     "ipa": "/pʁɔ.ʃɛ̃/",
@@ -813,6 +883,11 @@
     "pos": "v",
     "ipa": "/pʁe.fɛʁ/",
     "def": "（préférer 的现在时）更喜欢"
+  },
+  "préférerai": {
+    "pos": "v",
+    "ipa": "/pʁe.fe.ʁə.ʁe/",
+    "def": "（préférer 的简单将来时）更喜欢"
   },
   "préféreraient": {
     "pos": "v",
@@ -853,6 +928,11 @@
     "pos": "pron",
     "ipa": "/kɛl.kœ̃/",
     "def": "某人；有人"
+  },
+  "quoi": {
+    "pos": "pron",
+    "ipa": "/kwa/",
+    "def": "什么"
   },
   "rangeaient": {
     "pos": "v",
@@ -1034,6 +1114,11 @@
     "ipa": "/ʁe.vi.zjɔ̃/",
     "def": "（réviser 的未完成过去时/虚拟式）复习"
   },
+  "salle": {
+    "pos": "nf",
+    "ipa": "/sal/",
+    "def": "房间；大厅"
+  },
   "samedi": {
     "pos": "nm",
     "ipa": "/sam.di/",
@@ -1213,6 +1298,11 @@
     "pos": "v",
     "ipa": "/vwa/",
     "def": "（voir 的现在时）看见"
+  },
+  "vues": {
+    "pos": "v",
+    "ipa": "/vy/",
+    "def": "（voir 的过去分词阴性复数）看见"
   },
   "vélo": {
     "pos": "nm",
