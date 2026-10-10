@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-10",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Café, chemise, roman, chambre et rapport",
+      "title_zh": "咖啡、衬衫、小说、房间和报告",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-10",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Je vais prendre un café au lait.",
+          "translation": "我要喝一杯牛奶咖啡。",
+          "difficulty": "A1",
+          "grammar_note": "最近将来时用 aller 的现在时加动词不定式，表示马上要做的事。",
+          "grammar_notes": {
+            "vais": "v. aller /a.le/ 的现在时 je 形式，表示将要。",
+            "prendre": "v. 不定式 /pʁɑ̃dʁ/，在 aller 后表示即将做；这里指喝、享用。",
+            "café": "nm café /ka.fe/，咖啡；au lait /o lɛ/ 表示加牛奶。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "un café au lait 为什么不用 du",
+              "b": "café /ka.fe/ 是可数的一杯咖啡时用 un café /œ̃ ka.fe/；au lait /o lɛ/ 是「加牛奶」。中文说「牛奶咖啡」，法语常把奶放在后面：un café au lait /œ̃ ka.fe o lɛ/。"
+            },
+            {
+              "t": "冠词 un 是什么",
+              "b": "un /œ̃/ 是阳性单数不定冠词，相当于中文「一个／一杯」。café /ka.fe/ 是阳性名词，所以用 un。如果指特定那杯咖啡，会用 le café /lə ka.fe/，但这里只是要一杯，所以 un。"
+            },
+            {
+              "t": "aller（去（以 -er 结尾却不规则））的现在时变位",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              },
+              "b": "aller 是极少数用 être 当助动词的常用动词，过去分词要与主语性数配合，阴性加 -e：je suis allé（阴性 je suis allée）。"
+            },
+            {
+              "t": "prendre（拿；乘坐（prendre le métro 坐地铁））的现在时变位",
+              "conj": {
+                "v": "prendre",
+                "t": "present"
+              },
+              "b": "单数三个人称都读 /pʁɑ̃/（-ds、-d 都不发音）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "prendre",
+              "pos": "v",
+              "def": "拿，取",
+              "ipa": "/pʁɑ̃dʁ/",
+              "example": "Je prends le bus."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡；咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "lait",
+              "pos": "nm",
+              "def": "牛奶；乳汁",
+              "ipa": "/lɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-10/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Hier, j'ai acheté une chemise et je l'ai portée au bureau.",
+          "translation": "昨天我买了一件衬衫，并且把它穿去了办公室。",
+          "difficulty": "A2",
+          "grammar_note": "直接宾语代词 le/la/l' 放在助动词前；这里的 l' 指衬衫，过去分词要配合成阴性 portée。",
+          "grammar_notes": {
+            "acheté": "v. acheter /aʃ.te/ 的过去分词，用于复合过去时 j'ai acheté。",
+            "chemise": "nf chemise /ʃə.miz/，衬衫，阴性，所以代词用 l' 代替，过去分词加 e。",
+            "portée": "v. porter /pɔʁ.te/ 的过去分词，阴性配合 portée /pɔʁ.te/。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "直接宾语代词 l' 是什么",
+              "b": "直接宾语就是动词直接作用的人或物。这里 acheté une chemise /aʃ.te yn ʃə.miz/，再用 l' /l/ 代替 la chemise /la ʃə.miz/，放在助动词 avoir /a.vwaʁ/ 前：je l'ai portée /ʒə lɛ pɔʁ.te/。中文说「把它穿了」，法语代词要提前。"
+            },
+            {
+              "t": "过去分词为什么要加 e",
+              "b": "用 avoir /a.vwaʁ/ 的复合过去时，如果直接宾语在动词前面，过去分词要跟这个宾语配合。chemise /ʃə.miz/ 是阴性单数，所以 porter /pɔʁ.te/ 的过去分词 porté /pɔʁ.te/ 变成 portée /pɔʁ.te/。这里 l' /l/ 在前面，所以要加 e。"
+            },
+            {
+              "t": "et 连接两个动作",
+              "b": "et /e/ 是「和、并且」，可以连接两个并列动作。j'ai acheté... et je l'ai portée... 两个动作都是过去完成。注意代词 l' /l/ 只代替 chemise /ʃə.miz/，不代替 bureau /by.ʁo/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "acheter（买）的复合过去时变位",
+              "conj": {
+                "v": "acheter",
+                "t": "passe_compose"
+              },
+              "b": "acheter 属「è」家族：单数人称词根变 achèt-（j'achète），nous / vous 保持 achet-。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "chemise",
+              "pos": "nf",
+              "def": "衬衫",
+              "ipa": "/ʃə.miz/",
+              "example": ""
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "portée",
+              "pos": "v",
+              "def": "（porter 的过去分词）携带",
+              "ipa": "/pɔʁ.te/",
+              "example": ""
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "bureau",
+              "pos": "nm",
+              "def": "办公室",
+              "ipa": "/by.ʁo/",
+              "example": "Je suis au bureau."
+            }
+          ],
+          "audio_file": "audio/2026-10-10/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Je lisais un roman hier soir, mais je ne l'ai pas fini.",
+          "translation": "昨晚我在读一本小说，但我没有把它读完。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时 lisais 描述当时正在进行的背景；复合过去时 ne l'ai pas fini 表示结果没完成，代词 l' 放在助动词前。",
+          "grammar_notes": {
+            "lisais": "v. lire /liʁ/ 的未完成过去时 je 形式，表示过去正在读。",
+            "roman": "nm roman /ʁɔ.mɑ̃/，小说，阳性，所以代词用 l'。",
+            "fini": "v. finir /fi.niʁ/ 的过去分词，用于 j'ai fini；否定时 pas 放在助动词后。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么",
+              "b": "未完成过去时表示过去某个时候「正在做」或「以前经常做」。这里 je lisais /ʒə li.zɛ/ = 我当时正在读。它不强调读完，只描述当时的状态。"
+            },
+            {
+              "t": "否定句里的复合过去时",
+              "b": "否定「没有做完」用 ne ... pas /nə pa/ 包住助动词和过去分词。je l'ai fini /ʒə lɛ fi.ni/ 变成 je ne l'ai pas fini /ʒə nə lɛ pa fi.ni/。pas /pa/ 放在助动词 ai /ɛ/ 后，不要放在 fini /fi.ni/ 后。"
+            },
+            {
+              "t": "直接宾语代词 l' 的位置",
+              "b": "l' /l/ 代替 le roman /lə ʁɔ.mɑ̃/。在复合过去时里，代词放在助动词前面：je l'ai fini /ʒə lɛ fi.ni/，否定时变成 je ne l'ai pas fini /ʒə nə lɛ pa fi.ni/。不要按中文顺序说 j'ai le pas fini。"
+            },
+            {
+              "t": "mais 的作用",
+              "b": "mais /mɛ/ 是「但是」，连接两个相反信息：我在读，但没读完。它只连接简单句，后面仍要完整变位。"
+            },
+            {
+              "t": "lire（读；阅读）的未完成过去时变位",
+              "conj": {
+                "v": "lire",
+                "t": "imparfait"
+              },
+              "b": "单数词根读 /li/，复数读 /liz/（lisons、lisent）；将来时整根换成 lir-。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            },
+            {
+              "w": "mais",
+              "pos": "conj",
+              "def": "但是",
+              "ipa": "/mɛ/",
+              "example": "Il travaille mais il est fatigué."
+            },
+            {
+              "w": "ne",
+              "pos": "adv",
+              "def": "不（否定词，与 pas 连用）",
+              "ipa": "/nə/",
+              "example": "Je ne sais pas."
+            },
+            {
+              "w": "pas",
+              "pos": "adv",
+              "def": "不，没有（否定一部分）",
+              "ipa": "/pa/",
+              "example": "Pas de problème."
+            }
+          ],
+          "audio_file": "audio/2026-10-10/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Il me faudrait une chambre qui soit calme et où je puisse voir la mer, car je me reposerais mieux.",
+          "translation": "我可能需要一间安静、能看到海的房间，因为这样我会休息得更好。",
+          "difficulty": "B1",
+          "grammar_note": "il me faudrait 是条件式，表示「我可能需要」；qui soit 和 où je puisse 用虚拟式，因为房间还没确定。",
+          "grammar_notes": {
+            "faudrait": "v. falloir /fa.lwaʁ/ 的条件式 il 形式，il me faudrait /il mə fo.dʁɛ/ 表示我可能需要。",
+            "soit": "v. être /ɛtʁ/ 的虚拟式现在时 il/elle 形式，qui soit /ki swa/。",
+            "puisse": "v. pouvoir /pu.vwaʁ/ 的虚拟式现在时 je 形式，où je puisse /u ʒə pɥis/。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "虚拟式现在时是什么",
+              "b": "虚拟式表示不确定、愿望、需要、还没找到的东西。这里 une chambre /yn ʃɑ̃bʁ/ 还没确定，所以 qui soit /ki swa/ 和 je puisse /ʒə pɥis/ 用虚拟式。"
+            },
+            {
+              "t": "pouvoir 的虚拟式现在时变位",
+              "b": "pouvoir /pu.vwaʁ/ 的虚拟式现在时：\nque je puisse /kə ʒə pɥis/　·　que tu puisses /kə ty pɥis/　·　qu'il puisse /kil pɥis/\nque nous puissions /kə nu pɥi.sjɔ̃/　·　que vous puissiez /kə vu pɥi.sje/　·　qu'ils puissent /kil pɥis/\n这里 où je puisse voir la mer /u ʒə pɥis vwaʁ la mɛʁ/ = 我能看到海的地方。"
+            },
+            {
+              "t": "qui 和 où 引导关系从句",
+              "b": "关系从句放在名词后面继续说明它。qui /ki/ 在从句里作主语：qui soit calme /ki swa kalm/ = 它是安静的。où /u/ 表示地点：où je puisse voir la mer /u ʒə pɥis vwaʁ la mɛʁ/ = 在那里我能看海。中文常拆成两句，法语用一个名词带两个从句。"
+            },
+            {
+              "t": "条件式 reposerais 和 car",
+              "b": "se reposer /sə ʁə.po.ze/ 是「休息」。条件式 je me reposerais /ʒə mə ʁə.po.zʁɛ/ = 我会休息得更好。car /kaʁ/ 是「因为」，后面接完整句子解释原因。注意 car /kaʁ/ 比 parce que /paʁ.skə/ 稍书面。"
+            },
+            {
+              "t": "falloir（必须（只有无人称的 il faut））的条件式现在时变位",
+              "conj": {
+                "v": "falloir",
+                "t": "conditionnel"
+              },
+              "b": "il faut + 动词原形 = 必须做某事；il faut que + 虚拟式。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的虚拟式现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "subjonctif"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "me",
+              "pos": "pron",
+              "def": "我（宾语或自反）",
+              "ipa": "/mə/",
+              "example": ""
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "chambre",
+              "pos": "nf",
+              "def": "房间",
+              "ipa": "/ʃɑ̃bʁ/",
+              "example": "Ma chambre est petite."
+            },
+            {
+              "w": "qui",
+              "pos": "pron",
+              "def": "谁（关系代词）",
+              "ipa": "/ki/",
+              "example": "L'homme qui parle."
+            },
+            {
+              "w": "soit",
+              "pos": "v",
+              "def": "être（是）的虚拟式现在时 il 形式",
+              "ipa": "/swa/",
+              "example": "Il faut que tu sois à l'heure."
+            },
+            {
+              "w": "calme",
+              "pos": "adj",
+              "def": "平静的",
+              "ipa": "/kalm/",
+              "example": "Une mer calme."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "voir",
+              "pos": "v",
+              "def": "看见",
+              "ipa": "/vwaʁ/",
+              "example": "Je vois la Tour Eiffel."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "mer",
+              "pos": "nf",
+              "def": "海",
+              "ipa": "/mɛʁ/",
+              "example": "La mer est calme."
+            },
+            {
+              "w": "car",
+              "pos": "conj",
+              "def": "因为",
+              "ipa": "/kaʁ/",
+              "example": ""
+            },
+            {
+              "w": "mieux",
+              "pos": "adv",
+              "def": "更好地",
+              "ipa": "/mjø/",
+              "example": "C'est mieux ainsi."
+            }
+          ],
+          "audio_file": "audio/2026-10-10/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Il faut que je termine le rapport que j'avais commencé avant la réunion.",
+          "translation": "我必须完成开会前就已经开始的那份报告。",
+          "difficulty": "B1",
+          "grammar_note": "il faut que 后接虚拟式 termine；que j'avais commencé 是愈复合过去时，表示在开会前更早开始。",
+          "grammar_notes": {
+            "faut": "v. falloir /fa.lwaʁ/ 的现在时 il 形式，il faut que /il fo kə/ 表示必须。",
+            "termine": "v. terminer /tɛʁ.mi.ne/ 的虚拟式现在时 je 形式，que je termine /kə ʒə tɛʁ.min/。",
+            "commencé": "v. commencer /kɔ.mɑ̃.se/ 的过去分词，在愈复合过去时 j'avais commencé /ʒa.vɛ kɔ.mɑ̃.se/ 中。"
+          },
+          "grammar_lessons": [
+            {
+              "t": "terminer 的虚拟式现在时变位",
+              "b": "terminer /tɛʁ.mi.ne/ 是规则 -er 动词。虚拟式现在时：\nque je termine /kə ʒə tɛʁ.min/　·　que tu termines /kə ty tɛʁ.min/　·　qu'il termine /kil tɛʁ.min/\nque nous terminions /kə nu tɛʁ.mi.njɔ̃/　·　que vous terminiez /kə vu tɛʁ.mi.nje/　·　qu'ils terminent /kil tɛʁ.min/\n注意 je 和 il 形式都以 -e 结尾，看起来像普通现在时，但前面有 que /kə/ 和 il faut /il fo/。"
+            },
+            {
+              "t": "愈复合过去时是什么",
+              "b": "愈复合过去时表示「过去的过去」。公式：avoir /a.vwaʁ/ 或 être /ɛtʁ/ 的未完成过去时 + 过去分词。j'avais commencé /ʒa.vɛ kɔ.mɑ̃.se/ = 我在此之前已经开始了。"
+            },
+            {
+              "t": "关系代词 que 的作用",
+              "b": "que /kə/ 代替前面的 le rapport /lə ʁa.pɔʁ/，在从句里作直接宾语：j'avais commencé le rapport /ʒa.vɛ kɔ.mɑ̃.se lə ʁa.pɔʁ/。用 que /kə/ 后变成 le rapport que j'avais commencé /lə ʁa.pɔʁ kə ʒa.vɛ kɔ.mɑ̃.se/。中文是「我此前已经开始的那份报告」。"
+            },
+            {
+              "t": "avant la réunion 表示时间",
+              "b": "avant /a.vɑ̃/ 是「在……之前」，后接名词：avant la réunion /a.vɑ̃ la ʁe.y.njɔ̃/ = 在会议之前。如果后面接动词，要用 avant de + 动词原形，例如 avant de partir /a.vɑ̃ də paʁ.tiʁ/。这里 réunion /ʁe.y.njɔ̃/ 是阴性名词。"
+            },
+            {
+              "t": "falloir（必须（只有无人称的 il faut））的现在时变位",
+              "conj": {
+                "v": "falloir",
+                "t": "present"
+              },
+              "b": "il faut + 动词原形 = 必须做某事；il faut que + 虚拟式。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的未完成过去时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            }
+          ],
+          "audio_file": "audio/2026-10-10/s5.mp3"
+        }
+      ]
+    }
+  ]
+}

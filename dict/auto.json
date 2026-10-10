@@ -254,6 +254,11 @@
     "ipa": "/kɔ.lɛɡ/",
     "def": "同事"
   },
+  "commencé": {
+    "pos": "v",
+    "ipa": "/kɔ.mɑ̃.se/",
+    "def": "（commencer 的过去分词）开始"
+  },
   "conj": {
     "pos": "?",
     "ipa": "/kɔ̃ʒ/",
@@ -964,6 +969,11 @@
     "ipa": "/ʁɑ̃.ʒjɔ̃/",
     "def": "（ranger 的未完成过去时/虚拟式）整理"
   },
+  "rapport": {
+    "pos": "nm",
+    "ipa": "/ʁa.pɔʁ/",
+    "def": "报告；关系"
+  },
   "rater": {
     "pos": "v",
     "ipa": "/ʁate/",
@@ -1003,6 +1013,16 @@
     "pos": "v",
     "ipa": "/ʁɑ̃.kɔ̃.tʁe/",
     "def": "（rencontrer 的过去分词）遇见"
+  },
+  "reposer": {
+    "pos": "v",
+    "ipa": "/ʁə.po.ze/",
+    "def": "休息；放回"
+  },
+  "reposerais": {
+    "pos": "v",
+    "ipa": "/ʁə.po.zə.ʁɛ/",
+    "def": "（reposer 的条件式）休息；放回"
   },
   "reprendre": {
     "pos": "v",
@@ -1069,6 +1089,11 @@
     "ipa": "/ʁɔb/",
     "def": "连衣裙"
   },
+  "roman": {
+    "pos": "nm",
+    "ipa": "/ʁɔ.mɑ̃/",
+    "def": "小说"
+  },
   "route": {
     "pos": "nf",
     "ipa": "/ʁut/",
@@ -1083,6 +1108,11 @@
     "pos": "v",
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "（réserver 的过去分词）预订"
+  },
+  "réunion": {
+    "pos": "nf",
+    "ipa": "/ʁe.y.njɔ̃/",
+    "def": "会议；聚会"
   },
   "révise": {
     "pos": "v",
@@ -1228,6 +1258,36 @@
     "pos": "nf",
     "ipa": "/taʁt/",
     "def": "馅饼；挞"
+  },
+  "termine": {
+    "pos": "v",
+    "ipa": "/tɛʁ.min/",
+    "def": "（terminer 的现在时/虚拟式）结束"
+  },
+  "terminent": {
+    "pos": "v",
+    "ipa": "/tɛʁ.min/",
+    "def": "（terminer 的现在时/虚拟式）结束"
+  },
+  "terminer": {
+    "pos": "v",
+    "ipa": "/tɛʁ.mi.ne/",
+    "def": "结束；完成"
+  },
+  "termines": {
+    "pos": "v",
+    "ipa": "/tɛʁ.min/",
+    "def": "（terminer 的现在时/虚拟式）结束"
+  },
+  "terminiez": {
+    "pos": "v",
+    "ipa": "/tɛʁ.mi.nje/",
+    "def": "（terminer 的未完成过去/虚拟式）结束"
+  },
+  "terminions": {
+    "pos": "v",
+    "ipa": "/tɛʁ.mi.njɔ̃/",
+    "def": "（terminer 的未完成过去/虚拟式）结束"
   },
   "terminé": {
     "pos": "adj",
