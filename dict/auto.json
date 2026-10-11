@@ -34,6 +34,11 @@
     "ipa": "/aple/",
     "def": "叫；称呼；打电话"
   },
+  "appelle": {
+    "pos": "v",
+    "ipa": "/apɛl/",
+    "def": "（appeler 的现在式）叫"
+  },
   "appellé": {
     "pos": "?",
     "ipa": "/aple/",
@@ -88,6 +93,11 @@
     "pos": "nf",
     "ipa": "/bɑ̃d/",
     "def": "带子（复数）"
+  },
+  "beijing": {
+    "pos": "propn",
+    "ipa": "/beʒiŋ/",
+    "def": "北京"
   },
   "bois": {
     "pos": "v",
@@ -384,6 +394,11 @@
     "ipa": "/delisjø/",
     "def": "美味的；可口的"
   },
+  "dîné": {
+    "pos": "v",
+    "ipa": "/dine/",
+    "def": "（dîner 的过去分词）用餐"
+  },
   "en": {
     "pos": "prep",
     "ipa": "/ɑ̃/",
@@ -469,6 +484,26 @@
     "ipa": "/a.bi.tɛ/",
     "def": "（habiter 的未完成过去时）居住"
   },
+  "habite": {
+    "pos": "v",
+    "ipa": "/abit/",
+    "def": "（habiter 的现在式）居住"
+  },
+  "habitent": {
+    "pos": "v",
+    "ipa": "/abit/",
+    "def": "（habiter 的现在式）居住"
+  },
+  "habites": {
+    "pos": "v",
+    "ipa": "/abit/",
+    "def": "（habiter 的现在式）居住"
+  },
+  "habitez": {
+    "pos": "v",
+    "ipa": "/abite/",
+    "def": "（habiter 的现在式）居住"
+  },
   "habitiez": {
     "pos": "v",
     "ipa": "/a.bi.tje/",
@@ -478,6 +513,11 @@
     "pos": "v",
     "ipa": "/a.bi.tjɔ̃/",
     "def": "（habiter 的未完成过去时/虚拟式）居住"
+  },
+  "habitons": {
+    "pos": "v",
+    "ipa": "/abitɔ̃/",
+    "def": "（habiter 的现在式）居住"
   },
   "hui": {
     "pos": "adv",
@@ -543,6 +583,11 @@
     "pos": "det",
     "ipa": "/lœʁ/",
     "def": "他们的（复数名词前）"
+  },
+  "lin": {
+    "pos": "nm",
+    "ipa": "/lɛ̃/",
+    "def": "亚麻"
   },
   "locaux": {
     "pos": "nm",
@@ -718,6 +763,11 @@
     "pos": "nm",
     "ipa": "/pa.ʁɑ̃/",
     "def": "父母；家长"
+  },
+  "paris": {
+    "pos": "propn",
+    "ipa": "/paʁi/",
+    "def": "巴黎"
   },
   "partager": {
     "pos": "v",
@@ -919,6 +969,21 @@
     "ipa": "/pʁe.fe.ʁə.ʁjɔ̃/",
     "def": "（préférer 的条件式现在时）更愿意"
   },
+  "prêter": {
+    "pos": "v",
+    "ipa": "/pʁete/",
+    "def": "出借"
+  },
+  "prêté": {
+    "pos": "v",
+    "ipa": "/pʁete/",
+    "def": "（prêter 的过去分词）出借"
+  },
+  "prêtée": {
+    "pos": "v",
+    "ipa": "/pʁete/",
+    "def": "（prêter 的过去分词阴性）出借"
+  },
   "pâtes": {
     "pos": "nf",
     "ipa": "/pɑt/",
@@ -1069,10 +1134,25 @@
     "ipa": "/ʁə.tʁuv/",
     "def": "（retrouver 的现在时）找回"
   },
+  "retrouvent": {
+    "pos": "v",
+    "ipa": "/ʁətʁuv/",
+    "def": "（retrouver 的现在式）找回"
+  },
   "retrouver": {
     "pos": "v",
     "ipa": "/ʁə.tʁu.ve/",
     "def": "重新找到；找回"
+  },
+  "retrouviez": {
+    "pos": "v",
+    "ipa": "/ʁətʁuvje/",
+    "def": "（retrouver 的未完成过去/虚拟式）找回"
+  },
+  "retrouvions": {
+    "pos": "v",
+    "ipa": "/ʁətʁuvjɔ̃/",
+    "def": "（retrouver 的未完成过去/虚拟式）找回"
   },
   "retrouvé": {
     "pos": "v",
@@ -1083,6 +1163,11 @@
     "pos": "v",
     "ipa": "/ʁə.tʁu.ve/",
     "def": "（retrouver 的过去分词，阴性）找回"
+  },
+  "revoir": {
+    "pos": "v",
+    "ipa": "/ʁəvwaʁ/",
+    "def": "重新看见；再见"
   },
   "robe": {
     "pos": "nf",
@@ -1198,6 +1283,11 @@
     "pos": "adj",
     "ipa": "/sɛ̃pl/",
     "def": "简单的；单纯的"
+  },
+  "sinon": {
+    "pos": "conj",
+    "ipa": "/si.nɔ̃/",
+    "def": "否则；除了"
   },
   "son": {
     "pos": "nm",
@@ -1323,6 +1413,16 @@
     "pos": "nf",
     "ipa": "/vakɑ̃s/",
     "def": "假期；假日"
+  },
+  "vendu": {
+    "pos": "v",
+    "ipa": "/vɑ̃dy/",
+    "def": "（vendre 的过去分词）出售"
+  },
+  "vendues": {
+    "pos": "v",
+    "ipa": "/vɑ̃dy/",
+    "def": "（vendre 的过去分词阴性复数）出售"
   },
   "verre": {
     "pos": "nm",
