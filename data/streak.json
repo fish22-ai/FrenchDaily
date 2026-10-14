@@ -50,9 +50,15 @@
     },
     "2026-10-12": {
       "done": true
+    },
+    "2026-10-13": {
+      "done": true
+    },
+    "2026-10-14": {
+      "done": true
     }
   },
-  "current_streak": 8,
-  "longest_streak": 8,
-  "total_days": 17
+  "current_streak": 10,
+  "longest_streak": 10,
+  "total_days": 19
 }

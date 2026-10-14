@@ -184,6 +184,11 @@
     "ipa": "/ʃwaziʁ/",
     "def": "选择"
   },
+  "choisirais": {
+    "pos": "v",
+    "ipa": "/ʃwaziʁɛ/",
+    "def": "（choisir 的条件式）选择"
+  },
   "choisis": {
     "pos": "v",
     "ipa": "/ʃwazi/",
@@ -264,15 +269,55 @@
     "ipa": "/kɔ.lɛɡ/",
     "def": "同事"
   },
+  "commandée": {
+    "pos": "v",
+    "ipa": "/kɔmɑ̃de/",
+    "def": "（commander 的过去分词）订购"
+  },
   "commencé": {
     "pos": "v",
     "ipa": "/kɔ.mɑ̃.se/",
     "def": "（commencer 的过去分词）开始"
   },
+  "complet": {
+    "pos": "adj",
+    "ipa": "/kɔ̃plɛ/",
+    "def": "完整的；满的"
+  },
+  "complète": {
+    "pos": "adj",
+    "ipa": "/kɔ̃plɛt/",
+    "def": "完整的；满的"
+  },
   "conj": {
     "pos": "?",
     "ipa": "/kɔ̃ʒ/",
     "def": "疑似拼写有误：缩写 conj"
+  },
+  "connais": {
+    "pos": "v",
+    "ipa": "/kɔ.nɛ/",
+    "def": "（connaître 的现在时）认识"
+  },
+  "connaissent": {
+    "pos": "v",
+    "ipa": "/kɔ.nɛs/",
+    "def": "（connaître 的现在时）认识"
+  },
+  "connaissez": {
+    "pos": "v",
+    "ipa": "/kɔ.nɛ.se/",
+    "def": "（connaître 的现在时）认识"
+  },
+  "connaissons": {
+    "pos": "v",
+    "ipa": "/kɔ.nɛ.sɔ̃/",
+    "def": "（connaître 的现在时）认识"
+  },
+  "connaît": {
+    "pos": "v",
+    "ipa": "/kɔ.nɛ/",
+    "def": "（connaître 的现在时）认识"
   },
   "conseiller": {
     "pos": "v",
@@ -329,6 +374,11 @@
     "ipa": "/də.mɑ̃.de/",
     "def": "（demander 的过去分词）要求"
   },
+  "dernière": {
+    "pos": "adj",
+    "ipa": "/dɛʁ.njɛʁ/",
+    "def": "最后的；最近的"
+  },
   "dessert": {
     "pos": "nm",
     "ipa": "/de.sɛʁ/",
@@ -369,6 +419,11 @@
     "ipa": "/dɔne/",
     "def": "（donner 的过去分词）给予"
   },
+  "dont": {
+    "pos": "pron",
+    "ipa": "/dɔ̃/",
+    "def": "关系代词：其；其中"
+  },
   "doute": {
     "pos": "nm",
     "ipa": "/dut/",
@@ -399,6 +454,11 @@
     "ipa": "/dine/",
     "def": "（dîner 的过去分词）用餐"
   },
+  "dû": {
+    "pos": "v",
+    "ipa": "/dy/",
+    "def": "（devoir 的过去分词）应付"
+  },
   "en": {
     "pos": "prep",
     "ipa": "/ɑ̃/",
@@ -408,6 +468,11 @@
     "pos": "nm",
     "ipa": "/ɑ̃.dʁwa/",
     "def": "地方，场所"
+  },
+  "enfance": {
+    "pos": "nf",
+    "ipa": "/ɑ̃.fɑ̃s/",
+    "def": "童年"
   },
   "exposition": {
     "pos": "nf",
@@ -584,6 +649,16 @@
     "ipa": "/lœʁ/",
     "def": "他们的（复数名词前）"
   },
+  "lever": {
+    "pos": "v",
+    "ipa": "/lə.ve/",
+    "def": "举起；起床"
+  },
+  "levé": {
+    "pos": "v",
+    "ipa": "/ləve/",
+    "def": "（lever 的过去分词）抬起"
+  },
   "lin": {
     "pos": "nm",
     "ipa": "/lɛ̃/",
@@ -593,6 +668,16 @@
     "pos": "nm",
     "ipa": "/lɔko/",
     "def": "（local 的复数）场所"
+  },
+  "longeons": {
+    "pos": "v",
+    "ipa": "/lɔ̃.ʒɔ̃/",
+    "def": "（longer 的现在时）沿着"
+  },
+  "longer": {
+    "pos": "v",
+    "ipa": "/lɔ̃ʒe/",
+    "def": "沿...行走"
   },
   "longue": {
     "pos": "adj",
@@ -648,6 +733,11 @@
     "pos": "adj",
     "ipa": "/malad/",
     "def": "生病的；病人"
+  },
+  "mangées": {
+    "pos": "v",
+    "ipa": "/mɑ̃ʒe/",
+    "def": "（manger 的过去分词）吃"
   },
   "manteau": {
     "pos": "nm",
@@ -728,6 +818,16 @@
     "pos": "propn",
     "ipa": "/nis/",
     "def": "尼斯（法国城市）"
+  },
+  "né": {
+    "pos": "v",
+    "ipa": "/ne/",
+    "def": "（naître 的过去分词）出生"
+  },
+  "née": {
+    "pos": "v",
+    "ipa": "/ne/",
+    "def": "（naître 的过去分词）出生"
   },
   "objet": {
     "pos": "nm",
@@ -814,6 +914,21 @@
     "ipa": "/faʁmasi/",
     "def": "药房；药学"
   },
+  "photographier": {
+    "pos": "v",
+    "ipa": "/fɔ.tɔ.ɡʁa.fje/",
+    "def": "拍照；摄影"
+  },
+  "photographié": {
+    "pos": "v",
+    "ipa": "/fɔtɔɡʁafje/",
+    "def": "（photographier 的过去分词）拍摄"
+  },
+  "photographiées": {
+    "pos": "v",
+    "ipa": "/fɔtɔɡʁafje/",
+    "def": "（photographier 的过去分词）拍摄"
+  },
   "piscine": {
     "pos": "nf",
     "ipa": "/pi.sin/",
@@ -853,6 +968,11 @@
     "pos": "v",
     "ipa": "/plɛ.zjɔ̃/",
     "def": "（plaire 的未完成过去时/虚拟式）讨人喜欢"
+  },
+  "plaisir": {
+    "pos": "nm",
+    "ipa": "/plɛ.ziʁ/",
+    "def": "乐趣；愉快"
   },
   "plat": {
     "pos": "nm",
@@ -1049,6 +1169,11 @@
     "ipa": "/ʁate/",
     "def": "（rater 的过去分词）错过"
   },
+  "recette": {
+    "pos": "nf",
+    "ipa": "/ʁə.sɛt/",
+    "def": "食谱；收入"
+  },
   "recommander": {
     "pos": "v",
     "ipa": "/ʁə.kɔ.mɑ̃.de/",
@@ -1129,6 +1254,11 @@
     "ipa": "/ʁə.tuʁ.ne/",
     "def": "返回；翻转"
   },
+  "retournerais": {
+    "pos": "v",
+    "ipa": "/ʁətuʁnəʁɛ/",
+    "def": "（retourner 的条件式）返回"
+  },
   "retrouve": {
     "pos": "v",
     "ipa": "/ʁə.tʁuv/",
@@ -1184,10 +1314,35 @@
     "ipa": "/ʁut/",
     "def": "道路；路线"
   },
+  "réserve": {
+    "pos": "nf",
+    "ipa": "/ʁe.zɛʁv/",
+    "def": "储备；保留"
+  },
+  "réservent": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁv/",
+    "def": "（réserver 的现在时）预订"
+  },
   "réserver": {
     "pos": "v",
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "预订；保留"
+  },
+  "réserves": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁv/",
+    "def": "（réserver 的现在时）预订"
+  },
+  "réservez": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁ.ve/",
+    "def": "（réserver 的现在时）预订"
+  },
+  "réservons": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁ.vɔ̃/",
+    "def": "（réserver 的现在时）预订"
   },
   "réservé": {
     "pos": "v",
@@ -1399,6 +1554,11 @@
     "ipa": "/tɔ̃be/",
     "def": "（tomber 的过去分词）掉落"
   },
+  "trajet": {
+    "pos": "nm",
+    "ipa": "/tʁaʒɛ/",
+    "def": "路程；路线"
+  },
   "tram": {
     "pos": "nm",
     "ipa": "/tʁam/",
@@ -1413,6 +1573,36 @@
     "pos": "nf",
     "ipa": "/vakɑ̃s/",
     "def": "假期；假日"
+  },
+  "vagues": {
+    "pos": "nf",
+    "ipa": "/vaɡ/",
+    "def": "波浪；浪潮"
+  },
+  "vend": {
+    "pos": "v",
+    "ipa": "/vɑ̃/",
+    "def": "（vendre 的现在时）卖"
+  },
+  "vendent": {
+    "pos": "v",
+    "ipa": "/vɑ̃d/",
+    "def": "（vendre 的现在时）卖"
+  },
+  "vendez": {
+    "pos": "v",
+    "ipa": "/vɑ̃.de/",
+    "def": "（vendre 的现在时）卖"
+  },
+  "vendons": {
+    "pos": "v",
+    "ipa": "/vɑ̃.dɔ̃/",
+    "def": "（vendre 的现在时）卖"
+  },
+  "vends": {
+    "pos": "v",
+    "ipa": "/vɑ̃/",
+    "def": "（vendre 的现在时）卖"
   },
   "vendu": {
     "pos": "v",
@@ -1468,5 +1658,25 @@
     "pos": "nm",
     "ipa": "/ve.lo/",
     "def": "自行车"
+  },
+  "économiser": {
+    "pos": "v",
+    "ipa": "/e.kɔ.nɔ.mi.ze/",
+    "def": "节省；储蓄"
+  },
+  "écoute": {
+    "pos": "nf",
+    "ipa": "/e.kut/",
+    "def": "听；倾听；监听"
+  },
+  "écouterai": {
+    "pos": "v",
+    "ipa": "/e.kut.ʁe/",
+    "def": "（écouter 的简单将来时）将听"
+  },
+  "épices": {
+    "pos": "nf",
+    "ipa": "/epis/",
+    "def": "香料；调味品"
   }
 }
