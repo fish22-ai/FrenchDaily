@@ -24,6 +24,11 @@
     "ipa": "/a.ny.le/",
     "def": "（annuler 的过去分词）取消"
   },
+  "ans": {
+    "pos": "nm",
+    "ipa": "/ɑ̃/",
+    "def": "（an 的复数）年；岁"
+  },
   "appartement": {
     "pos": "nm",
     "ipa": "/apaʁtəmɑ̃/",
@@ -289,6 +294,11 @@
     "ipa": "/kɔ̃plɛt/",
     "def": "完整的；满的"
   },
+  "compose": {
+    "pos": "v",
+    "ipa": "/kɔ̃poz/",
+    "def": "（composer 的现在时）组成"
+  },
   "conj": {
     "pos": "?",
     "ipa": "/kɔ̃ʒ/",
@@ -373,6 +383,11 @@
     "pos": "v",
     "ipa": "/də.mɑ̃.de/",
     "def": "（demander 的过去分词）要求"
+  },
+  "depuis": {
+    "pos": "prep",
+    "ipa": "/dəpɥi/",
+    "def": "自从；从...以来"
   },
   "dernière": {
     "pos": "adj",

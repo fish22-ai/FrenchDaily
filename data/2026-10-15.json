@@ -1,0 +1,687 @@
+{
+  "date": "2026-10-15",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Le français, jour après jour",
+      "title_zh": "每天一点法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-15",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Il fait beau aujourd'hui. Le soleil brille.",
+          "translation": "今天天气很好。太阳在发光。",
+          "difficulty": "A1",
+          "grammar_note": "il fait 是 faire 的第三人称变位。faire beau 是固定搭配\"天气好\"。aujourd'hui 是\"今天\"。",
+          "grammar_notes": {
+            "fait": "faire 的现在时 il 形式；谈天气、温度只能用 faire，主语固定用无人称的 il",
+            "aujourd'hui": "今天；faire beau 是「天气好」的固定搭配",
+            "il": "这里的 il 不指「他」，是无人称主语，只是语法占位符",
+            "brille": "briller 的现在时 il 形式；briller 是规则的第一组（-er）动词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "faire 到底是什么意思？",
+              "b": "faire 是法语最万能的一个动词，本义是「做、制造」（faire un gâteau 做个蛋糕），但几乎能搭任何名词，意思随搭配变：faire du sport 做运动、faire la cuisine 做饭、faire les courses 买东西、faire un voyage 旅行。它还有一个特殊任务：谈天气、谈温度。所以 il fait beau 直译是「它做好的天气」，实际就是「天气好」——别去逐字翻译，把它当成一个固定句型。"
+            },
+            {
+              "t": "为什么天气句的主语是 il？",
+              "b": "这个 il 不指「他」，也不指任何人，语法上叫「无人称主语」（il impersonnel），只是一个占位符——因为法语句子必须要有主语，哪怕没人。同类还有：il pleut（下雨）、il neige（下雪）、il faut（必须）、il y a（有）、il est 8 heures（八点了）。这些 il 永远不变，不会换成 elle。"
+            },
+            {
+              "t": "faire 的现在时变位（背下来最划算）",
+              "b": "三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 直接换词根读 /fɔ̃/。faire 属于第三组不规则动词，千万别套 -er 动词的规则。它是法语里出现频率最高的动词之一，这张表必须滚瓜烂熟。",
+              "conj": {
+                "v": "faire",
+                "t": "present"
+              }
+            },
+            {
+              "t": "faire + 形容词 = 描述天气",
+              "b": "beau、chaud、froid 都是形容词，形式不随「性数」变化，因为主语是阳性的 il。反过来「下雨、下雪」不用 faire，直接用 il pleut、il neige。",
+              "table": {
+                "caption": "il fait + 形容词：谈天气的固定句型",
+                "head": [
+                  "法语",
+                  "读音",
+                  "中文"
+                ],
+                "rows": [
+                  [
+                    "il fait beau",
+                    "/il fɛ bo/",
+                    "天气好"
+                  ],
+                  [
+                    "il fait mauvais",
+                    "/il fɛ mɔ.vɛ/",
+                    "天气差"
+                  ],
+                  [
+                    "il fait chaud",
+                    "/il fɛ ʃo/",
+                    "热"
+                  ],
+                  [
+                    "il fait froid",
+                    "/il fɛ fʁwa/",
+                    "冷"
+                  ],
+                  [
+                    "il fait doux",
+                    "/il fɛ du/",
+                    "温和"
+                  ],
+                  [
+                    "il fait beau temps",
+                    "/il fɛ bo tɑ̃/",
+                    "天气晴朗"
+                  ],
+                  [
+                    "il pleut",
+                    "/il plø/",
+                    "下雨"
+                  ],
+                  [
+                    "il neige",
+                    "/il nɛʒ/",
+                    "下雪"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "「briller」为什么写成 brille",
+              "b": "briller（发光、照耀）是规则的第一组（-er）动词：去掉 -er 再加词尾就行。ils 形式后面多的 -ent 完全不发音，所以 il brille 和 ils brillent 听起来一样。第一组动词占法语动词约九成，把这条规则练熟，动词变位就不再可怕。",
+              "conj": {
+                "v": "briller",
+                "t": "present"
+              }
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "fait",
+              "pos": "v",
+              "def": "faire（做）的现在时 il 形式",
+              "ipa": "/fɛ/",
+              "example": "Il fait beau aujourd'hui."
+            },
+            {
+              "w": "beau",
+              "pos": "adj",
+              "def": "美丽的、好的（阳性）",
+              "ipa": "/bo/",
+              "example": "Un beau tableau."
+            },
+            {
+              "w": "aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "soleil",
+              "pos": "nm",
+              "def": "太阳",
+              "ipa": "/sɔ.lɛj/",
+              "example": "Le soleil brille."
+            },
+            {
+              "w": "brille",
+              "pos": "v",
+              "def": "briller（发光、照耀）的现在时 il 形式",
+              "ipa": "/bʁij/",
+              "example": "Le soleil brille ce matin."
+            }
+          ],
+          "audio_file": "audio/2026-10-15/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Hier, j'ai visité le musée du Louvre avec mes amis.",
+          "translation": "昨天，我和朋友们参观了卢浮宫。",
+          "difficulty": "A2",
+          "grammar_note": "hier 是\"昨天\"。j'ai visité 是复合过去时：助动词 avoir + 过去分词 visité。du = de + le。",
+          "grammar_notes": {
+            "visite": "复合过去时（passe compose）：助动词 avoir + 过去分词 visite",
+            "du": "de + le 的缩合形式；写 de le Louvre 是错的",
+            "visité": "visiter 的过去分词；第一组（-er）动词把 -er 换成 -é，这条规律管住一大半动词",
+            "amis": "ami 的复数；mes 是复数物主形容词，不分阴阳",
+            "ai": "avoir 的现在时 je 形式，复合过去时的助动词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "助动词 avoir 的现在时（必背）",
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词（另一小类移动动词用 être，以后单独记）。注意 j'ai、ils ont 与后面元音的连诵：/il.z‿ɔ̃/。",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              }
+            },
+            {
+              "t": "过去分词怎么造：先把 -er 动词吃透",
+              "b": "第一组（-er）动词把词尾 -er 换成 -é，最整齐，先记它，能覆盖一大半日常动词。第二组（-ir）多变成 -i。剩下不规则的要单独背，下面这些是最高频的。",
+              "table": {
+                "caption": "常见过去分词",
+                "head": [
+                  "原形",
+                  "过去分词",
+                  "读音"
+                ],
+                "rows": [
+                  [
+                    "visiter",
+                    "visité",
+                    "/vi.zi.te/"
+                  ],
+                  [
+                    "parler",
+                    "parlé",
+                    "/paʁ.le/"
+                  ],
+                  [
+                    "aller",
+                    "allé",
+                    "/a.le/"
+                  ],
+                  [
+                    "finir",
+                    "fini",
+                    "/fi.ni/"
+                  ],
+                  [
+                    "faire",
+                    "fait",
+                    "/fɛ/"
+                  ],
+                  [
+                    "prendre",
+                    "pris",
+                    "/pʁi/"
+                  ],
+                  [
+                    "être",
+                    "été",
+                    "/e.te/"
+                  ],
+                  [
+                    "avoir",
+                    "eu",
+                    "/y/"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "du = de + le（和 au 是一对）",
+              "b": "au、du、aux、des 这四个缩合形式是法语出现频率最高的东西之一，单独抄一遍记牢。",
+              "table": {
+                "caption": "de + 定冠词",
+                "head": [
+                  "结构",
+                  "缩合",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "de + le",
+                    "du",
+                    "le musée du Louvre"
+                  ],
+                  [
+                    "de + les",
+                    "des",
+                    "les amis des enfants"
+                  ],
+                  [
+                    "de + la",
+                    "de la（不变）",
+                    "la porte de la maison"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "mes amis 和 mon amie 差在哪",
+              "b": "物主形容词要跟名词配合：mon（阳性单数）· ma（阴性单数）· mes（复数，不分阴阳）。amis 是复数，所以 mes amis；amie 是阴性单数，本该 ma amie，但元音冲突写成 mon amie。同一个「我的朋友」，阴阳性不同、单复数不同，前面的词就跟着变。"
+            },
+            {
+              "t": "visiter（参观；拜访）的复合过去时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "visité",
+              "pos": "v",
+              "def": "visiter（参观）的过去分词",
+              "ipa": "/vi.zi.te/",
+              "example": "J'ai visité Rome l'an dernier."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "Louvre",
+              "pos": "np",
+              "def": "卢浮宫（巴黎的博物馆）",
+              "ipa": "/luvʁ/",
+              "example": "Le Louvre est un grand musée."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "amis",
+              "pos": "nm",
+              "def": "朋友们（ami 的复数）",
+              "ipa": "/a.mi/",
+              "example": "Mes amis sont gentils."
+            }
+          ],
+          "audio_file": "audio/2026-10-15/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Si j'avais plus de temps, j'apprendrais à jouer du piano.",
+          "translation": "如果我有更多时间，我会学弹钢琴。",
+          "difficulty": "B1",
+          "grammar_note": "条件式虚拟式结构：si + imparfait（j'avais）→ conditionnel présent（j'apprendrais）。表示假设。",
+          "grammar_notes": {
+            "avais": "avoir 的未完成过去时 je 形式；-ais 是未完成过去时的标志性词尾",
+            "apprendrais": "apprendre 的条件式现在时；和将来时 j'apprendrai 只差一个 s",
+            "du": "de + le 的缩合；jouer du piano 是「弹钢琴」",
+            "piano": "阳性名词；演奏乐器用 jouer + de + 定冠词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "「如果……就……」的固定配方",
+              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
+            },
+            {
+              "t": "avoir 的未完成过去时（词尾是通用的）",
+              "b": "关键在词尾：-ais、-ait、-ions、-iez、-aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              }
+            },
+            {
+              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
+              "b": "拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。这是法语写作最常见的错点之一，看完这句以后打字时留意一下。",
+              "table": {
+                "caption": "只差一个 s，意思是两回事",
+                "head": [
+                  "形式",
+                  "读音",
+                  "时态",
+                  "意思"
+                ],
+                "rows": [
+                  [
+                    "j'apprendrai",
+                    "/ʒa.pʁɑ̃.dʁe/",
+                    "简单将来时",
+                    "我将会学（很确定）"
+                  ],
+                  [
+                    "j'apprendrais",
+                    "/ʒa.pʁɑ̃.dʁɛ/",
+                    "条件式现在时",
+                    "（如果条件满足）我会学"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "jouer du piano：乐器用 de，球类用 à",
+              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
+            },
+            {
+              "t": "法语时间地图（先建立坐标就好）",
+              "b": "今天这句用的就是最后一行。把这张图记住，法语时态就不再是一团乱麻。",
+              "table": {
+                "caption": "法语时间地图：看到动词先问自己「站在哪个时间点上」",
+                "head": [
+                  "时间感",
+                  "时态",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "现在做",
+                    "现在时",
+                    "je fais"
+                  ],
+                  [
+                    "已经做完",
+                    "复合过去时",
+                    "j'ai fait"
+                  ],
+                  [
+                    "过去经常做、当时的状态",
+                    "未完成过去时",
+                    "je faisais"
+                  ],
+                  [
+                    "将来会做",
+                    "简单将来时",
+                    "je ferai"
+                  ],
+                  [
+                    "假设条件下会做",
+                    "条件式现在时",
+                    "je ferais"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "apprendre（学；学会）的条件式现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "conditionnel"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "j'apprendrais",
+              "pos": "v",
+              "def": "apprendre（学）的条件式现在时 je 形式（我会学）",
+              "ipa": "/a.pʁɑ̃.dʁɛ/",
+              "example": "J'apprendrais le russe si j'avais le temps."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "jouer",
+              "pos": "v",
+              "def": "玩；演奏",
+              "ipa": "/ʒwe/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "piano",
+              "pos": "nm",
+              "def": "钢琴",
+              "ipa": "/pja.no/",
+              "example": "Elle joue très bien du piano."
+            }
+          ],
+          "audio_file": "audio/2026-10-15/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Quand j'aurai le temps, je lirai ce roman que tu m'as conseillé.",
+          "translation": "等我有时间，我就读你推荐的那本小说。",
+          "difficulty": "B1",
+          "grammar_note": "quand + 简单将来时，主句也用将来时——法语在时间状语从句里也用将来时，不像中文说「等我有空」。",
+          "grammar_notes": {
+            "aurai": "avoir 的简单将来时 je 形式：j'aurai",
+            "que": "que 引导关系从句，修饰 ce roman"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的简单将来时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "futur"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "lire（读；阅读）的简单将来时变位",
+              "conj": {
+                "v": "lire",
+                "t": "futur"
+              },
+              "b": "单数词根读 /li/，复数读 /liz/（lisons、lisent）；将来时整根换成 lir-。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "roman",
+              "pos": "nm",
+              "def": "小说",
+              "ipa": "/ʁɔ.mɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "tu",
+              "pos": "pron",
+              "def": "你（主语代词，用于熟人之间）",
+              "ipa": "/ty/",
+              "example": "Tu parles français ?"
+            },
+            {
+              "w": "conseillé",
+              "pos": "v",
+              "def": "（conseiller 的过去分词）建议",
+              "ipa": "/kɔ̃sɛje/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-15/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Depuis deux ans, j'apprends le français tout seul.",
+          "translation": "两年来我一直在自学法语。",
+          "difficulty": "A2",
+          "grammar_note": "depuis + 时间段，动词用现在时，表示从过去持续到现在——中文说「两年了」，法语不换时态。",
+          "grammar_notes": {
+            "depuis": "depuis 后接时间段或起点，动词用现在时",
+            "seul": "tout seul 独自，强调没有别人帮忙"
+          },
+          "grammar_lessons": [
+            {
+              "t": "apprendre（学；学会）的现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "present"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "j'apprends",
+              "pos": "v",
+              "def": "apprendre（学）的现在时 je 形式",
+              "ipa": "/a.pʁɑ̃/",
+              "example": "J'apprends le français tous les jours."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "français",
+              "pos": "nm",
+              "def": "法语；法国的（阳性）",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Le français est une belle langue."
+            },
+            {
+              "w": "tout",
+              "pos": "adj",
+              "def": "所有的",
+              "ipa": "/tu/",
+              "example": "Tous les enfants."
+            },
+            {
+              "w": "seul",
+              "pos": "adj",
+              "def": "独自的",
+              "ipa": "/sœl/",
+              "example": "Je suis seul ici."
+            }
+          ],
+          "audio_file": "audio/2026-10-15/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
