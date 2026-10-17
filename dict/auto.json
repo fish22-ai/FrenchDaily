@@ -179,6 +179,11 @@
     "ipa": "/ʃə.miz/",
     "def": "衬衫"
   },
+  "chez": {
+    "pos": "prep",
+    "ipa": "/ʃe/",
+    "def": "在……家；在……那里"
+  },
   "choisi": {
     "pos": "v",
     "ipa": "/ʃwa.zi/",
@@ -438,6 +443,11 @@
     "pos": "pron",
     "ipa": "/dɔ̃/",
     "def": "关系代词：其；其中"
+  },
+  "dormais": {
+    "pos": "v",
+    "ipa": "/dɔʁmɛ/",
+    "def": "（dormir 的未完成过去时）睡"
   },
   "doute": {
     "pos": "nm",
@@ -1579,10 +1589,20 @@
     "ipa": "/tʁam/",
     "def": "有轨电车"
   },
+  "travaille": {
+    "pos": "v",
+    "ipa": "/tʁavaj/",
+    "def": "（travailler 的现在时）工作"
+  },
   "trop": {
     "pos": "adv",
     "ipa": "/tʁo/",
     "def": "太；过于"
+  },
+  "téléphoné": {
+    "pos": "v",
+    "ipa": "/te.le.fɔ.ne/",
+    "def": "（téléphoner 的过去分词）打电话"
   },
   "vacances": {
     "pos": "nf",
@@ -1693,5 +1713,15 @@
     "pos": "nf",
     "ipa": "/epis/",
     "def": "香料；调味品"
+  },
+  "étranger": {
+    "pos": "adj",
+    "ipa": "/e.tʁɑ̃.ʒe/",
+    "def": "外国的；陌生的"
+  },
+  "études": {
+    "pos": "nf",
+    "ipa": "/e.tyd/",
+    "def": "学业；研究"
   }
 }
