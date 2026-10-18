@@ -9,6 +9,11 @@
     "ipa": "/a.de.ʒi/",
     "def": "疑似拼写有误：缩写 adj"
   },
+  "adv": {
+    "pos": "?",
+    "ipa": "/?/",
+    "def": "疑似拼写有误：缩写"
+  },
   "ais": {
     "pos": "nm",
     "ipa": "/ɛ/",
@@ -194,9 +199,34 @@
     "ipa": "/ʃwaziʁ/",
     "def": "选择"
   },
+  "choisirai": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.ʁe/",
+    "def": "（choisir 的将来时）选择"
+  },
+  "choisiraient": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.ʁɛ/",
+    "def": "（choisir 的条件式）选择"
+  },
   "choisirais": {
     "pos": "v",
     "ipa": "/ʃwaziʁɛ/",
+    "def": "（choisir 的条件式）选择"
+  },
+  "choisirait": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.ʁɛ/",
+    "def": "（choisir 的条件式）选择"
+  },
+  "choisiriez": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.ʁje/",
+    "def": "（choisir 的条件式）选择"
+  },
+  "choisirions": {
+    "pos": "v",
+    "ipa": "/ʃwa.zi.ʁjɔ̃/",
     "def": "（choisir 的条件式）选择"
   },
   "choisis": {
@@ -304,6 +334,11 @@
     "ipa": "/kɔ̃poz/",
     "def": "（composer 的现在时）组成"
   },
+  "concert": {
+    "pos": "nm",
+    "ipa": "/kɔ̃.sɛʁ/",
+    "def": "音乐会"
+  },
   "conj": {
     "pos": "?",
     "ipa": "/kɔ̃ʒ/",
@@ -369,10 +404,20 @@
     "ipa": "/kuto/",
     "def": "刀"
   },
+  "crêpes": {
+    "pos": "nf",
+    "ipa": "/kʁɛp/",
+    "def": "可丽饼；薄饼"
+  },
   "cuillère": {
     "pos": "nf",
     "ipa": "/kɥijɛʁ/",
     "def": "勺子；调羹"
+  },
+  "cuisinier": {
+    "pos": "nm",
+    "ipa": "/kɥi.zi.nje/",
+    "def": "厨师"
   },
   "cuisiné": {
     "pos": "v",
@@ -463,6 +508,16 @@
     "pos": "nm",
     "ipa": "/de.by.tɑ̃/",
     "def": "初学者；新手"
+  },
+  "découvert": {
+    "pos": "v",
+    "ipa": "/de.ku.vɛʁ/",
+    "def": "（découvrir 的过去分词）发现"
+  },
+  "découvrir": {
+    "pos": "v",
+    "ipa": "/de.ku.vʁiʁ/",
+    "def": "发现；揭开"
   },
   "délicieuse": {
     "pos": "adj",
@@ -613,6 +668,11 @@
     "pos": "adv",
     "ipa": "/ɥi/",
     "def": "今日（古语）"
+  },
+  "interj": {
+    "pos": "?",
+    "ipa": "/?/",
+    "def": "疑似拼写有误：缩写"
   },
   "inviter": {
     "pos": "v",
@@ -783,6 +843,11 @@
     "pos": "adj",
     "ipa": "/mɛjœʁ/",
     "def": "更好的；最好的"
+  },
+  "menu": {
+    "pos": "nm",
+    "ipa": "/mə.ny/",
+    "def": "菜单"
   },
   "metais": {
     "pos": "?",
@@ -1354,6 +1419,11 @@
     "ipa": "/ʁe.zɛʁ.ve/",
     "def": "预订；保留"
   },
+  "réserverais": {
+    "pos": "v",
+    "ipa": "/ʁe.zɛʁ.və.ʁɛ/",
+    "def": "（réserver 的条件式）预订"
+  },
   "réserves": {
     "pos": "v",
     "ipa": "/ʁe.zɛʁv/",
@@ -1603,6 +1673,16 @@
     "pos": "v",
     "ipa": "/te.le.fɔ.ne/",
     "def": "（téléphoner 的过去分词）打电话"
+  },
+  "utiliser": {
+    "pos": "v",
+    "ipa": "/y.ti.li.ze/",
+    "def": "使用"
+  },
+  "utilisés": {
+    "pos": "v",
+    "ipa": "/y.ti.li.ze/",
+    "def": "（utiliser 的过去分词）使用"
   },
   "vacances": {
     "pos": "nf",
