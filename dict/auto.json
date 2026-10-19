@@ -19,10 +19,50 @@
     "ipa": "/ɛ/",
     "def": "木板"
   },
+  "animal": {
+    "pos": "nm",
+    "ipa": "/a.ni.mal/",
+    "def": "动物"
+  },
+  "animaux": {
+    "pos": "nm",
+    "ipa": "/a.ni.mo/",
+    "def": "动物（复数）"
+  },
   "anniversaire": {
     "pos": "nm",
     "ipa": "/a.ni.vɛʁ.sɛʁ/",
     "def": "生日；周年纪念"
+  },
+  "annonce": {
+    "pos": "nf",
+    "ipa": "/a.nɔ̃s/",
+    "def": "公告；广告"
+  },
+  "annoncent": {
+    "pos": "v",
+    "ipa": "/a.nɔ̃s/",
+    "def": "（annoncer 的现在时）宣布"
+  },
+  "annoncer": {
+    "pos": "v",
+    "ipa": "/a.nɔ̃.se/",
+    "def": "宣布；通知"
+  },
+  "annonces": {
+    "pos": "nf",
+    "ipa": "/a.nɔ̃s/",
+    "def": "公告（复数）"
+  },
+  "annonciez": {
+    "pos": "v",
+    "ipa": "/a.nɔ̃.sje/",
+    "def": "（annoncer 的未完成过去时）宣布"
+  },
+  "annoncions": {
+    "pos": "v",
+    "ipa": "/a.nɔ̃.sjɔ̃/",
+    "def": "（annoncer 未完成过去/虚拟现在）宣布"
   },
   "annulé": {
     "pos": "v",
@@ -109,6 +149,11 @@
     "ipa": "/beʒiŋ/",
     "def": "北京"
   },
+  "blanche": {
+    "pos": "adj",
+    "ipa": "/blɑ̃ʃ/",
+    "def": "白色的（阴性）"
+  },
   "bois": {
     "pos": "v",
     "ipa": "/bwa/",
@@ -179,10 +224,25 @@
     "ipa": "/ʃɑ̃.ʒe/",
     "def": "改变；更换"
   },
+  "chat": {
+    "pos": "nm",
+    "ipa": "/ʃa/",
+    "def": "猫"
+  },
   "chemise": {
     "pos": "nf",
     "ipa": "/ʃə.miz/",
     "def": "衬衫"
+  },
+  "cheval": {
+    "pos": "nm",
+    "ipa": "/ʃə.val/",
+    "def": "马"
+  },
+  "chevaux": {
+    "pos": "nm",
+    "ipa": "/ʃə.vo/",
+    "def": "马（cheval 复数）"
   },
   "chez": {
     "pos": "prep",
@@ -449,6 +509,36 @@
     "ipa": "/de.sɛʁ/",
     "def": "甜点；餐后甜食"
   },
+  "dessinaient": {
+    "pos": "v",
+    "ipa": "/de.si.nɛ/",
+    "def": "（dessiner 的未完成过去时）画"
+  },
+  "dessinais": {
+    "pos": "v",
+    "ipa": "/de.si.nɛ/",
+    "def": "（dessiner 的未完成过去时）画"
+  },
+  "dessinait": {
+    "pos": "v",
+    "ipa": "/de.si.nɛ/",
+    "def": "（dessiner 的未完成过去时）画"
+  },
+  "dessiner": {
+    "pos": "v",
+    "ipa": "/de.si.ne/",
+    "def": "画；绘图"
+  },
+  "dessiniez": {
+    "pos": "v",
+    "ipa": "/de.si.nje/",
+    "def": "（dessiner 未完成过去/虚拟现在）画"
+  },
+  "dessinions": {
+    "pos": "v",
+    "ipa": "/de.si.njɔ̃/",
+    "def": "（dessiner 未完成过去/虚拟现在）画"
+  },
   "dessinées": {
     "pos": "v",
     "ipa": "/dɛ.si.ne/",
@@ -613,6 +703,11 @@
     "pos": "v",
     "ipa": "/ɡa.ʁe/",
     "def": "（garer 的过去分词）停放"
+  },
+  "guide": {
+    "pos": "nm",
+    "ipa": "/ɡid/",
+    "def": "向导；指南"
   },
   "habitaient": {
     "pos": "v",
@@ -784,6 +879,11 @@
     "ipa": "/lœ̃di/",
     "def": "星期一"
   },
+  "lunettes": {
+    "pos": "nf",
+    "ipa": "/ly.nɛt/",
+    "def": "眼镜"
+  },
   "lyon": {
     "pos": "propn",
     "ipa": "/ljɔ̃/",
@@ -864,6 +964,11 @@
     "ipa": "/miz/",
     "def": "（mettre 的过去分词）放置"
   },
+  "montrait": {
+    "pos": "v",
+    "ipa": "/mɔ̃.tʁɛ/",
+    "def": "（montrer 的未完成过去时）展示"
+  },
   "montrer": {
     "pos": "v",
     "ipa": "/mɔ̃tʁe/",
@@ -878,6 +983,11 @@
     "pos": "nm",
     "ipa": "/menaʒ/",
     "def": "家务；家庭"
+  },
+  "météo": {
+    "pos": "nf",
+    "ipa": "/me.te.o/",
+    "def": "天气；气象"
   },
   "nage": {
     "pos": "v",
@@ -903,6 +1013,16 @@
     "pos": "v",
     "ipa": "/naʒe/",
     "def": "（nager 的现在时）游泳"
+  },
+  "nettoyé": {
+    "pos": "v",
+    "ipa": "/nɛ.twa.je/",
+    "def": "（nettoyer 的过去分词）清洁"
+  },
+  "nettoyées": {
+    "pos": "v",
+    "ipa": "/nɛ.twa.je/",
+    "def": "（nettoyer 的过去分词）清洁的"
   },
   "nice": {
     "pos": "propn",
@@ -1139,6 +1259,16 @@
     "ipa": "/pʁɔ̃/",
     "def": "疑似拼写有误：pronom 的缩写"
   },
+  "propose": {
+    "pos": "v",
+    "ipa": "/pʁɔ.poz/",
+    "def": "（proposer 的现在时）提议"
+  },
+  "proposer": {
+    "pos": "v",
+    "ipa": "/pʁɔ.po.ze/",
+    "def": "提议；建议"
+  },
   "provence": {
     "pos": "propn",
     "ipa": "/pʁɔ.vɑ̃s/",
@@ -1198,6 +1328,11 @@
     "pos": "nf",
     "ipa": "/pɑt/",
     "def": "（pâte 的复数）面条"
+  },
+  "qch": {
+    "pos": "?",
+    "ipa": "/ky.se.aʃ/",
+    "def": "疑似拼写有误：某物的缩写"
   },
   "quartier": {
     "pos": "nm",
@@ -1764,10 +1899,20 @@
     "ipa": "/vwa/",
     "def": "（voir 的现在时）看见"
   },
+  "volontiers": {
+    "pos": "adv",
+    "ipa": "/vɔ.lɔ̃.tje/",
+    "def": "乐意地"
+  },
   "vues": {
     "pos": "v",
     "ipa": "/vy/",
     "def": "（voir 的过去分词阴性复数）看见"
+  },
+  "vus": {
+    "pos": "v",
+    "ipa": "/vy/",
+    "def": "（voir 的过去分词）看见的"
   },
   "vélo": {
     "pos": "nm",

@@ -1,0 +1,582 @@
+{
+  "date": "2026-10-19",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq petites phrases pour la vie quotidienne",
+      "title_zh": "五句日常生活小法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-19",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Nous avons un petit chat blanc.",
+          "translation": "我们有一只小白猫。",
+          "difficulty": "A1",
+          "grammar_note": "avoir /a.vwaʁ/ 的现在时表示“拥有”；petit /pə.ti/ 放在名词前，颜色形容词 blanc /blɑ̃/ 放在名词后。",
+          "grammar_notes": {
+            "avons": "avoir /a.vwaʁ/ 的 nous /nu/ 形式，音 /a.vɔ̃/，表示“我们有”",
+            "petit": "形容词阳性单数，音 /pə.ti/，放在名词前",
+            "blanc": "形容词阳性单数，音 /blɑ̃/，修饰 chat /ʃa/，放在名词后"
+          },
+          "grammar_lessons": [
+            {
+              "t": "法语名词前为什么常放 un/une/des",
+              "b": "法语名词通常要带冠词。un /œ̃/ 用于阳性单数，une /yn/ 用于阴性单数，des /de/ 用于复数。chat /ʃa/ 是阳性单数，所以说 un chat /œ̃ ʃa/。中文没有这种冠词，容易漏掉。"
+            },
+            {
+              "t": "形容词为什么有时在前、有时在后",
+              "b": "petit /pə.ti/、grand /ɡʁɑ̃/、jeune /ʒœn/、beau /bo/ 等常放名词前；颜色、国籍、形状等常放名词后。所以“小”说 petit chat /pə.ti ʃa/，“白”说 chat blanc /ʃa blɑ̃/。"
+            },
+            {
+              "t": "blanc 为什么不是 blanche",
+              "b": "形容词要和名词的阴阳性、单复数配合。chat /ʃa/ 是阳性单数，用 blanc /blɑ̃/；阴性单数用 blanche /blɑ̃ʃ/；阳性复数用 blancs /blɑ̃/。写作不同，但 blanc 和 blancs 的发音常相同，容易忽略。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avons",
+              "pos": "v",
+              "def": "avoir（有）的现在时 nous 形式",
+              "ipa": "/a.vɔ̃/",
+              "example": "Nous avons deux chats."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "blanc",
+              "pos": "adj",
+              "def": "白色的",
+              "ipa": "/blɑ̃/",
+              "example": "De la neige blanche."
+            }
+          ],
+          "audio_file": "audio/2026-10-19/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "J'ai trouvé mes lunettes hier, mais je ne les ai pas encore nettoyées.",
+          "translation": "我昨天找到了我的眼镜，但还没有把它们擦干净。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时中，直接宾语代词 les /le/ 放在助动词 ai /e/ 前；les 指阴性复数 lunettes /ly.nɛt/，过去分词 nettoyées /ne.twa.je/ 要配合加 -es。",
+          "grammar_notes": {
+            "trouvé": "trouver /tʁu.ve/ 的过去分词，音 /tʁu.ve/，与助动词 ai /e/ 构成复合过去时",
+            "lunettes": "阴性复数名词，音 /ly.nɛt/，眼镜，通常用复数",
+            "les": "直接宾语代词，音 /le/，代替 les lunettes /le ly.nɛt/，放在助动词前"
+          },
+          "grammar_lessons": [
+            {
+              "t": "直接宾语代词 les 放哪里",
+              "b": "les /le/ 代替前面提到的复数名词，避免重复。在简单时态里放变位动词前：je les vois /ʒə le vwa/。在复合过去时里放助动词前：je les ai vus /ʒə le.z‿e vy/。否定时变成 ne + les + 助动词 + pas + 过去分词：je ne les ai pas vus /ʒə nə le.z‿e pa vy/。"
+            },
+            {
+              "t": "ne...pas encore 是什么意思",
+              "b": "ne...pas encore /nə pa.z‿ɑ̃.kɔʁ/ 表示“还没有”。encore /ɑ̃.kɔʁ/ 放在 pas /pa/ 后面。复合过去时里顺序是 ne + 代词 + 助动词 + pas encore + 过去分词：je ne les ai pas encore nettoyées /ʒə nə le.z‿e pa.z‿ɑ̃.kɔʁ ne.twa.je/。"
+            },
+            {
+              "t": "过去分词为什么要加 -es",
+              "b": "用 avoir /a.vwaʁ/ 作助动词时，如果直接宾语代词放在动词前面，过去分词要和它性数配合。les /le/ 指 lunettes /ly.nɛt/，是阴性复数，所以 nettoyé /ne.twa.je/ 变成 nettoyées /ne.twa.je/。这里加 -es 是拼写配合，发音常不变。"
+            },
+            {
+              "t": "hier 放在哪里",
+              "b": "hier /jɛʁ/ 是“昨天”，可以放句末，也可以放句首。这里放句末最自然：J'ai trouvé mes lunettes hier /ʒe tʁu.ve me ly.nɛt jɛʁ/。时间副词不改变复合过去时的结构。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "trouver（找到；觉得（trouver ça bizarre 觉得奇怪））的复合过去时变位",
+              "conj": {
+                "v": "trouver",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "J'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "mais",
+              "pos": "conj",
+              "def": "但是",
+              "ipa": "/mɛ/",
+              "example": "Il travaille mais il est fatigué."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ne",
+              "pos": "adv",
+              "def": "不（否定词，与 pas 连用）",
+              "ipa": "/nə/",
+              "example": "Je ne sais pas."
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "pas",
+              "pos": "adv",
+              "def": "不，没有（否定一部分）",
+              "ipa": "/pa/",
+              "example": "Pas de problème."
+            },
+            {
+              "w": "encore",
+              "pos": "adv",
+              "def": "还，再",
+              "ipa": "/ɑ̃.kɔʁ/",
+              "example": "Encore une fois."
+            }
+          ],
+          "audio_file": "audio/2026-10-19/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Avant, ma sœur dessinait des animaux et elle les montrait à ses amies.",
+          "translation": "以前，我姐姐常画动物，并把它们拿给她的朋友们看。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时 dessinait /de.si.nɛ/ 和 montrait /mɔ̃.tʁɛ/ 表示过去经常发生的动作；les /le/ 是直接宾语代词，代指 animaux /a.ni.mo/，放在动词前。",
+          "grammar_notes": {
+            "dessinait": "dessiner /de.si.ne/ 的未完成过去时 il/elle 形式，音 /de.si.nɛ/，表示过去常画",
+            "animaux": "animal /a.ni.mal/ 的复数，音 /a.ni.mo/，阳性复数名词",
+            "les": "直接宾语代词，音 /le/，代替 animaux /a.ni.mo/，放在动词 montrait /mɔ̃.tʁɛ/ 前"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么",
+              "b": "未完成过去时表示过去经常做、反复做，或描述过去的状态，常对应“以前常常……”。构成方法：拿现在时 nous /nu/ 形式去掉 -ons /ɔ̃/，加 -ais /ɛ/、-ais /ɛ/、-ait /ɛ/、-ions /jɔ̃/、-iez /je/、-aient /ɛ/。以 dessiner /de.si.ne/ 为例：je dessinais /ʒə de.si.nɛ/　·　tu dessinais /ty de.si.nɛ/　·　il dessinait /il de.si.nɛ/\nnous dessinions /nu de.si.njɔ̃/　·　vous dessiniez /vu de.si.nje/　·　ils dessinaient /il de.si.nɛ/。"
+            },
+            {
+              "t": "直接宾语代词 les 放哪里",
+              "b": "les /le/ 代替复数名词，在句子里作直接宾语。它放在变位动词前：elle les montrait /ɛl le mɔ̃.tʁɛ/ = 她把它们展示。否定时：elle ne les montrait pas /ɛl nə le mɔ̃.tʁɛ pa/。中文习惯说“展示它们”，法语代词要提前。"
+            },
+            {
+              "t": "montrer qch à qn 是什么结构",
+              "b": "montrer /mɔ̃.tʁe/ 是“展示/给……看”。montrer quelque chose à quelqu'un /mɔ̃.tʁe kɛlkə ʃoz a kɛlkœ̃/ = 把某物给某人看。à ses amies /a se.z‿a.mi/ = 给她的女性朋友们。amies /a.mi/ 是阴性复数，阳性是 amis /a.mi/。"
+            },
+            {
+              "t": "animal 的复数为什么是 animaux",
+              "b": "很多以 -al /al/ 结尾的阳性名词变复数时把 -al 变成 -aux /o/：animal /a.ni.mal/ → animaux /a.ni.mo/，cheval /ʃə.val/ → chevaux /ʃə.vo/。但这不是全部规则，需要逐个记常见词。"
+            },
+            {
+              "t": "et 连接两个过去习惯动作",
+              "b": "et /e/ 是“和/并且”，可以并列两个动作。这里 dessinait /de.si.nɛ/ 和 montrait /mɔ̃.tʁɛ/ 都用未完成过去时，表示过去习惯性的连续动作：她先画，再把画给朋友看。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "sœur",
+              "pos": "nf",
+              "def": "姐妹",
+              "ipa": "/sœʁ/",
+              "example": ""
+            },
+            {
+              "w": "des",
+              "pos": "det",
+              "def": "不定冠词：一些（复数）",
+              "ipa": "/de/",
+              "example": "J'ai des questions."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "ses",
+              "pos": "det",
+              "def": "他的；她的；它的（复数）",
+              "ipa": "/se/",
+              "example": ""
+            },
+            {
+              "w": "amies",
+              "pos": "nm",
+              "def": "朋友（阳性）",
+              "ipa": "/a.mi/",
+              "example": "C'est mon ami."
+            }
+          ],
+          "audio_file": "audio/2026-10-19/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je visiterais volontiers le quartier où ma sœur travaille, car elle m'a recommandé un restaurant.",
+          "translation": "我很愿意去我姐姐工作的那个街区看看，因为她向我推荐了一家餐馆。",
+          "difficulty": "B1",
+          "grammar_note": "条件式现在时 visiterais /vi.zi.tə.ʁɛ/ 表示委婉意愿；关系代词 où /u/ 指地点，连接 quartier /kaʁ.tje/ 和 ma sœur travaille /ma sœʁ tʁa.vaj/。",
+          "grammar_notes": {
+            "visiterais": "visiter /vi.zi.te/ 的条件式现在时 je /ʒə/ 形式，音 /vi.zi.tə.ʁɛ/，表示“我会/愿意去”",
+            "où": "关系代词，音 /u/，这里代替 le quartier /lə kaʁ.tje/，相当于“我姐姐工作的那个地方”",
+            "travaille": "travailler /tʁa.va.je/ 的现在时 elle /ɛl/ 形式，音 /tʁa.vaj/，表示“工作”"
+          },
+          "grammar_lessons": [
+            {
+              "t": "关系代词 où 怎么用",
+              "b": "où /u/ 可以指地点，意思是“在……的地方/到……的地方”。先行词是 le quartier /lə kaʁ.tje/，后面 ma sœur travaille /ma sœʁ tʁa.vaj/ 不缺主语和宾语，只缺地点，所以用 où：le quartier où ma sœur travaille /lə kaʁ.tje u ma sœʁ tʁa.vaj/。再如 la ville où j'habite /la vil u ʒa.bit/。"
+            },
+            {
+              "t": "car 和 parce que 有什么区别",
+              "b": "car /kaʁ/ 和 parce que /paʁs kə/ 都表示“因为”。car 更书面，通常放在结果后面；parce que 更口语，可回答 pourquoi /puʁ.kwa/。这里 car elle m'a recommandé un restaurant /kaʁ ɛl m‿a ʁə.kɔ.mɑ̃.de œ̃ ʁɛs.to.ʁɑ̃/ 说明原因。"
+            },
+            {
+              "t": "m'a recommandé 是什么结构",
+              "b": "m' /m/ 等于 à moi /a mwa/，意思是“给我”。a recommandé /a ʁə.kɔ.mɑ̃.de/ 是复合过去时。recommander quelque chose à quelqu'un /ʁə.kɔ.mɑ̃.de kɛlkə ʃoz a kɛlkœ̃/ = 向某人推荐某物。Elle m'a recommandé un restaurant /ɛl m‿a ʁə.kɔ.mɑ̃.de œ̃ ʁɛs.to.ʁɑ̃/ = 她向我推荐了一家餐馆。"
+            },
+            {
+              "t": "volontiers 放哪里",
+              "b": "volontiers /vɔ.lɔ̃.tje/ 是副词“乐意地”。它常放在变位动词后面：Je visiterais volontiers /ʒə vi.zi.tə.ʁɛ vɔ.lɔ̃.tje/。它不是宾语，所以不能换成 le /lə/ 或 la /la/。"
+            },
+            {
+              "t": "visiter（参观；拜访）的条件式现在时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "conditionnel"
+              },
+              "b": ""
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "quartier",
+              "pos": "nm",
+              "def": "街区；地区",
+              "ipa": "/kaʁ.tje/",
+              "example": ""
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "sœur",
+              "pos": "nf",
+              "def": "姐妹",
+              "ipa": "/sœʁ/",
+              "example": ""
+            },
+            {
+              "w": "travaille",
+              "pos": "v",
+              "def": "（travailler 的现在时）工作",
+              "ipa": "/tʁavaj/",
+              "example": ""
+            },
+            {
+              "w": "car",
+              "pos": "conj",
+              "def": "因为",
+              "ipa": "/kaʁ/",
+              "example": ""
+            },
+            {
+              "w": "elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "recommandé",
+              "pos": "v",
+              "def": "（recommander 的过去分词）推荐的",
+              "ipa": "/ʁə.kɔ.mɑ̃.de/",
+              "example": ""
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            }
+          ],
+          "audio_file": "audio/2026-10-19/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Quoique la météo annonce de la pluie, le guide que nous avions réservé propose une visite du marché.",
+          "translation": "尽管天气预报说会下雨，我们之前预订的那位导游安排了一次市场参观。",
+          "difficulty": "B1",
+          "grammar_note": "Quoique /kwak/ 引导让步从句，后面用虚拟式 annonce /a.nɔ̃s/；que /kə/ 是关系代词，代替 le guide /lə ɡid/；avions réservé /a.vjɔ̃ ʁe.zɛʁ.ve/ 是愈复合过去时，表示更早完成的预订。",
+          "grammar_notes": {
+            "annonce": "annoncer /a.nɔ̃.se/ 的虚拟式现在时 il/elle 形式，音 /a.nɔ̃s/，因为 quoique /kwak/ 要求虚拟式",
+            "avions": "avoir /a.vwaʁ/ 的未完成过去时 nous /nu/ 形式，音 /a.vjɔ̃/，与 réservé /ʁe.zɛʁ.ve/ 构成愈复合过去时",
+            "réservé": "réserver /ʁe.zɛʁ.ve/ 的过去分词，音 /ʁe.zɛʁ.ve/；这里 que /kə/ 是前置直接宾语，但 guide /ɡid/ 是阳性单数，所以形式不变"
+          },
+          "grammar_lessons": [
+            {
+              "t": "虚拟式现在时是什么",
+              "b": "虚拟式现在时表示主观态度：愿望、必要、怀疑、让步等。Quoique /kwak/ 是“尽管”，后面必须用虚拟式。以 annoncer /a.nɔ̃.se/ 为例，虚拟式现在时是：que j'annonce /kə ʒa.nɔ̃s/　·　que tu annonces /kə ty a.nɔ̃s/　·　qu'il annonce /ki.l‿a.nɔ̃s/\nque nous annoncions /kə nu.z‿a.nɔ̃.sjɔ̃/　·　que vous annonciez /kə vu.z‿a.nɔ̃.sje/　·　qu'ils annoncent /kil.z‿a.nɔ̃s/。这里主语 la météo /la me.te.o/ 是阴性单数，所以用 annonce /a.nɔ̃s/。"
+            },
+            {
+              "t": "quoique 和 quoi que 一样吗",
+              "b": "quoique /kwak/ 是一个词，意思是“尽管”，接虚拟式；quoi que /kwa kə/ 是两个词，意思是“无论什么”，结构不同。这里用 quoique la météo annonce /kwak la me.te.o a.nɔ̃s/，不是 quoi que。"
+            },
+            {
+              "t": "关系代词 que 怎么用",
+              "b": "que /kə/ 代替先行词，在从句里作直接宾语。le guide que nous avions réservé /lə ɡid kə nu.z‿a.vjɔ̃ ʁe.zɛʁ.ve/ = 我们之前预订的那位导游。que 在从句里是 réserver /ʁe.zɛʁ.ve/ 的宾语，不能省略。中文说“我们预订的导游”，法语要把 que 放在从句开头。"
+            },
+            {
+              "t": "propose 为什么用现在时",
+              "b": "主句 le guide propose /lə ɡid pʁɔ.poz/ 描述现在或一般的安排，所以用现在时。虽然从句里有虚拟式 annonce /a.nɔ̃s/ 和愈复合过去时 avions réservé /a.vjɔ̃ ʁe.zɛʁ.ve/，主句时态不必跟着变。proposer /pʁɔ.po.ze/ 的 il/elle 现在时是 propose /pʁɔ.poz/。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的未完成过去时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "visiter（参观；拜访）的现在时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "present"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Quoique",
+              "pos": "conj",
+              "def": "尽管（引导虚拟式，比 bien que 更书面）",
+              "ipa": "/kwa.kə/",
+              "example": "Quoiqu'il soit tard, il travaille."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "pluie",
+              "pos": "nf",
+              "def": "雨",
+              "ipa": "/plɥi/",
+              "example": "La pluie tombe."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avions",
+              "pos": "nm",
+              "def": "飞机",
+              "ipa": "/a.vjɔ̃/",
+              "example": "Par avion."
+            },
+            {
+              "w": "réservé",
+              "pos": "v",
+              "def": "（réserver 的过去分词）预订",
+              "ipa": "/ʁe.zɛʁ.ve/",
+              "example": ""
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "marché",
+              "pos": "nm",
+              "def": "市场",
+              "ipa": "/maʁ.ʃe/",
+              "example": "Je vais au marché."
+            }
+          ],
+          "audio_file": "audio/2026-10-19/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
