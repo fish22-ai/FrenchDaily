@@ -1,0 +1,555 @@
+{
+  "date": "2026-10-20",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Café, bus, soupe et exposition",
+      "title_zh": "咖啡、公交、汤与展览",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-20",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Je bois un café chaud le matin.",
+          "translation": "我早上喝一杯热咖啡。",
+          "difficulty": "A1",
+          "grammar_note": "现在时表示经常性的习惯；形容词一般放在名词后面。",
+          "grammar_notes": {
+            "bois": "boire /bwaʁ/ 的现在时 je /ʒə/ 形式：je bois /ʒə bwa/",
+            "chaud": "形容词阳性单数 /ʃo/，修饰 café /ka.fe/，放在名词后",
+            "matin": "名词阳性 /ma.tɛ̃/；le matin /lə ma.tɛ̃/ 表示“每天早上”"
+          },
+          "grammar_lessons": [
+            {
+              "t": "现在时是什么",
+              "b": "法语现在时（présent /pʁe.zɑ̃/）可以表示经常做的事、现在的状态或普遍事实。比如 Je bois /ʒə bwa/ un café /œ̃ ka.fe/ chaud /ʃo/ 就是“我喝一杯热咖啡”，也可以理解为“我早上习惯喝热咖啡”。"
+            },
+            {
+              "t": "boire 的现在时怎么变",
+              "b": "boire /bwaʁ/ 是不规则动词，要整套记：je bois /ʒə bwa/　·　tu bois /ty bwa/　·　il boit /il bwa/\nnous buvons /nu by.vɔ̃/　·　vous buvez /vu by.ve/　·　ils boivent /il bwav/。注意 nous 和 vous 形式里出现 buv-，不要写成 bois-。"
+            },
+            {
+              "t": "形容词为什么放在名词后面",
+              "b": "法语里很多形容词放在名词后面，尤其是表示颜色、温度、形状等特征时。chaud /ʃo/ 修饰 café /ka.fe/，所以说 un café chaud /œ̃ ka.fe ʃo/，不要按中文语序写成 un chaud café。"
+            },
+            {
+              "t": "le matin 和 un matin 有什么区别",
+              "b": "le matin /lə ma.tɛ̃/ 常表示“每天早上、早上这个时段”，适合说习惯；un matin /œ̃ ma.tɛ̃/ 表示“某一个早上”。本句是习惯，所以用 le matin /lə ma.tɛ̃/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "bois",
+              "pos": "v",
+              "def": "（boire 的现在式）喝",
+              "ipa": "/bwa/",
+              "example": ""
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡；咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "chaud",
+              "pos": "adj",
+              "def": "热的",
+              "ipa": "/ʃo/",
+              "example": "Il fait chaud."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "matin",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            }
+          ],
+          "audio_file": "audio/2026-10-20/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Hier soir, j'ai préparé une soupe, et je l'ai mangée avec ma famille.",
+          "translation": "昨晚我做了汤，然后和家人一起把它喝了。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时中，直接宾语代词放在助动词前，过去分词要和前置的阴性直接宾语配合。",
+          "grammar_notes": {
+            "préparé": "préparer /pʁe.pa.ʁe/ 的过去分词 /paʁ.ti.sip pɑ.se/：préparé /pʁe.pa.ʁe/",
+            "mangée": "manger /mɑ̃.ʒe/ 的过去分词阴性形式：mangée /mɑ̃.ʒe/，与前置直接宾语 soupe /sup/ 配合",
+            "soupe": "名词阴性单数 /sup/；une soupe /yn sup/ 表示“一份汤、一种汤”"
+          },
+          "grammar_lessons": [
+            {
+              "t": "直接宾语代词是什么",
+              "b": "直接宾语代词就是代替前面已经提到的名词，避免重复。阳性单数用 le /lə/，阴性单数用 la /la/，复数用 les /le/。它们在元音前会省音：la /la/ 变成 l' /l/。soupe /sup/ 是阴性单数，所以“它”用 l' /l/，说 je l'ai mangée /ʒə lɛ mɑ̃.ʒe/。"
+            },
+            {
+              "t": "直接宾语代词放在哪里",
+              "b": "在复合过去时里，直接宾语代词放在助动词前面，不放在过去分词后面。正确是 je l'ai mangée /ʒə lɛ mɑ̃.ʒe/，不能说成 j'ai la mangée。中文母语者容易按“吃了它”的顺序放到后面，这是要特别注意的。"
+            },
+            {
+              "t": "过去分词为什么要加 e",
+              "b": "当直接宾语代词放在助动词 avoir /a.vwaʁ/ 前面时，过去分词要和这个前置直接宾语性数配合。soupe /sup/ 是阴性单数，所以 mangé /mɑ̃.ʒe/ 要写成 mangée /mɑ̃.ʒe/。发音通常一样，但拼写不同，考试和写作里很容易漏掉 e。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "préparer（准备（préparer le dîner 做晚饭））的复合过去时变位",
+              "conj": {
+                "v": "préparer",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "soupe",
+              "pos": "nf",
+              "def": "汤",
+              "ipa": "/sup/",
+              "example": ""
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "famille",
+              "pos": "nf",
+              "def": "家庭",
+              "ipa": "/fa.mij/",
+              "example": "Ma famille habite à Lyon."
+            }
+          ],
+          "audio_file": "audio/2026-10-20/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Tous les matins, je prenais le bus et je l'aimais bien.",
+          "translation": "那时，每天早上我都坐公交车，而且很喜欢它。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时表示过去反复的习惯；直接宾语代词放在动词前。",
+          "grammar_notes": {
+            "prenais": "prendre /pʁɑ̃dʁ/ 的未完成过去时 je /ʒə/ 形式：je prenais /ʒə pʁə.nɛ/",
+            "aimais": "aimer /e.me/ 的未完成过去时 je /ʒə/ 形式：j'aimais /ʒɛ.mɛ/",
+            "bus": "名词阳性单数 /bys/；le bus /lə bys/ 表示“公交车”"
+          },
+          "grammar_lessons": [
+            {
+              "t": "未完成过去时是什么",
+              "b": "未完成过去时（imparfait /ɛ̃.paʁ.fɛ/）主要讲过去的习惯、持续状态或背景，不强调“完成了没有”。本句 je prenais /ʒə pʁə.nɛ/ le bus /lə bys/ tous les matins /tu le ma.tɛ̃/ 表示“那时每天早上都坐公交”，是一个反复习惯。"
+            },
+            {
+              "t": "直接宾语代词 le 怎么用",
+              "b": "le bus /lə bys/ 是阳性单数，所以代替它时用 le /lə/；le /lə/ 在动词前遇到元音要省音成 l' /l/。本句 je l'aimais /ʒə lɛ.mɛ/ 就是“我喜欢它”，l' /l/ 代替 le bus /lə bys/。代词要放在动词 aimais /ɛ.mɛ/ 前面。"
+            },
+            {
+              "t": "未完成过去时和复合过去时怎么选",
+              "b": "未完成过去时（imparfait /ɛ̃.paʁ.fɛ/）像在画背景、讲习惯；复合过去时（passé composé /pa.se kɔ̃.po.ze/）像讲一次完成的事。这里 tous les matins /tu le ma.tɛ̃/ 表示反复，所以用 prenais /pʁə.nɛ/，不用一次性的“我坐了”。"
+            },
+            {
+              "t": "prendre（拿；乘坐（prendre le métro 坐地铁））的未完成过去时变位",
+              "conj": {
+                "v": "prendre",
+                "t": "imparfait"
+              },
+              "b": "单数三个人称都读 /pʁɑ̃/（-ds、-d 都不发音）；nous / vous 换成 pren- 词根；ils prennent 读 /pʁɛn/。"
+            },
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的未完成过去时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "imparfait"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "matins",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "bus",
+              "pos": "nm",
+              "def": "公交车",
+              "ipa": "/bys/",
+              "example": "Je prends le bus."
+            },
+            {
+              "w": "et",
+              "pos": "conj",
+              "def": "和",
+              "ipa": "/e/",
+              "example": "Le café et le croissant."
+            },
+            {
+              "w": "bien",
+              "pos": "adv",
+              "def": "好地、确实",
+              "ipa": "/bjɛ̃/",
+              "example": "Je parle bien français."
+            }
+          ],
+          "audio_file": "audio/2026-10-20/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je serais content que tu viennes à l'exposition que ma classe organise samedi.",
+          "translation": "如果你能来参加我们班周六组织的展览，我会很高兴。",
+          "difficulty": "B1",
+          "grammar_note": "主句用条件式现在时表达假设或委婉，情感形容词后的从句用虚拟式，名词后用关系代词连接从句。",
+          "grammar_notes": {
+            "serais": "être /ɛtʁ/ 的条件式现在时 je /ʒə/ 形式：je serais /ʒə sə.ʁɛ/",
+            "viennes": "venir /və.niʁ/ 的虚拟式现在时 tu /ty/ 形式：tu viennes /ty vjɛn/",
+            "exposition": "名词阴性单数 /ɛks.po.zi.sjɔ̃/；l'exposition /lɛks.po.zi.sjɔ̃/ 表示“展览”"
+          },
+          "grammar_lessons": [
+            {
+              "t": "虚拟式是什么",
+              "b": "虚拟式（subjonctif /syb.ʒɔ̃k.tif/）用来表达愿望、情感、必要性、怀疑等主观态度。常见结构是“情感词 + que + 主语 + 虚拟式”。content que /kɔ̃.tɑ̃ kə/ 表示“因为……而高兴”，后面的动词要用虚拟式，所以 que tu viennes /kə ty vjɛn/ 不能说成 que tu viens。"
+            },
+            {
+              "t": "venir 的虚拟式现在时变位",
+              "b": "venir /və.niʁ/ 的虚拟式现在时：que je vienne /kə ʒə vjɛn/　·　que tu viennes /kə ty vjɛn/　·　qu'il vienne /kil vjɛn/\nque nous venions /kə nu və.njɔ̃/　·　que vous veniez /kə vu və.nje/　·　qu'ils viennent /kil vjɛn/。注意 nous 和 vous 的词干变成 ven-，不是 vienn-。"
+            },
+            {
+              "t": "关系代词 que 是什么",
+              "b": "关系代词 que /kə/ 可以连接一个名词和后面的从句，并在从句里作直接宾语。l'exposition /lɛks.po.zi.sjɔ̃/ que ma classe organise /kə ma klas ɔʁ.ɡa.niz/ 意思是“我们班组织的展览”，que /kə/ 代替 exposition /ɛks.po.zi.sjɔ̃/ 作 organise /ɔʁ.ɡa.niz/ 的宾语。不要把它和连词 que /kə/ 混淆。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的条件式现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "conditionnel"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "content",
+              "pos": "adj",
+              "def": "开心的",
+              "ipa": "/kɔ̃.tɑ̃/",
+              "example": "Je suis content."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "tu",
+              "pos": "pron",
+              "def": "你（主语代词，用于熟人之间）",
+              "ipa": "/ty/",
+              "example": "Tu parles français ?"
+            },
+            {
+              "w": "viennes",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "l'exposition",
+              "pos": "nf",
+              "def": "展览；展览会；阐述",
+              "ipa": "/ɛk.spo.zi.sjɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "classe",
+              "pos": "nf",
+              "def": "班级，课堂",
+              "ipa": "/klas/",
+              "example": "La classe commence."
+            },
+            {
+              "w": "samedi",
+              "pos": "nm",
+              "def": "星期六",
+              "ipa": "/sam.di/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-20/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Le restaurant où nous avions dîné l'été dernier était fermé, donc j'en chercherais un autre.",
+          "translation": "我们去年夏天吃过饭的那家餐厅关门了，所以我会另找一家。",
+          "difficulty": "B1",
+          "grammar_note": "愈复合过去时表示过去的过去，关系代词连接地点，条件式现在时表达假设中的选择。",
+          "grammar_notes": {
+            "avions": "avoir /a.vwaʁ/ 的未完成过去时 nous /nu/ 形式：nous avions /nu.z‿a.vjɔ̃/，与过去分词构成愈复合过去时",
+            "dîné": "dîner /di.ne/ 的过去分词 /paʁ.ti.sip pɑ.se/：dîné /di.ne/",
+            "chercherais": "chercher /ʃɛʁ.ʃe/ 的条件式现在时 je /ʒə/ 形式：je chercherais /ʒə ʃɛʁ.ʃə.ʁɛ/"
+          },
+          "grammar_lessons": [
+            {
+              "t": "chercherais 和 chercherai 易混吗",
+              "b": "chercher /ʃɛʁ.ʃe/ 的条件式现在时 je /ʒə/ 形式是 je chercherais /ʒə ʃɛʁ.ʃə.ʁɛ/，表示“我会找、我可能会找”；简单将来时是 je chercherai /ʒə ʃɛʁ.ʃə.ʁe/，表示“我将找”。一个多 s 且读 /ɛ/，一个没有 s 且读 /e/，中文母语者要特别看清拼写和音标。"
+            },
+            {
+              "t": "代词 en 是什么",
+              "b": "代词 en /ɑ̃/ 可以代替“de + 名词”或带数量的名词，避免重复。本句 j'en chercherais un autre /ʒɑ̃ ʃɛʁ.ʃə.ʁɛ œ̃.n‿otʁ/ 里的 en /ɑ̃/ 代替“des restaurants /de ʁɛs.to.ʁɑ̃/”，意思是“我会另找一家餐厅”。en /ɑ̃/ 要放在动词前面。"
+            },
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的未完成过去时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的复合过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "passe_compose"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "où",
+              "pos": "adv",
+              "def": "哪里",
+              "ipa": "/u/",
+              "example": "Où habites-tu ?"
+            },
+            {
+              "w": "nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avions",
+              "pos": "nm",
+              "def": "飞机",
+              "ipa": "/a.vjɔ̃/",
+              "example": "Par avion."
+            },
+            {
+              "w": "dîné",
+              "pos": "v",
+              "def": "（dîner 的过去分词）用餐",
+              "ipa": "/dine/",
+              "example": ""
+            },
+            {
+              "w": "l'été",
+              "pos": "nm",
+              "def": "夏天",
+              "ipa": "/e.te/",
+              "example": "En été, il fait chaud."
+            },
+            {
+              "w": "dernier",
+              "pos": "adj",
+              "def": "最后的",
+              "ipa": "/dɛʁ.nje/",
+              "example": "Le dernier train."
+            },
+            {
+              "w": "fermé",
+              "pos": "adj",
+              "def": "关着的",
+              "ipa": "/fɛʁ.me/",
+              "example": "La boutique est fermée."
+            },
+            {
+              "w": "donc",
+              "pos": "adv",
+              "def": "因此，所以",
+              "ipa": "/dɔ̃k/",
+              "example": "Il pleut, donc je reste."
+            },
+            {
+              "w": "j'en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "autre",
+              "pos": "adj",
+              "def": "其他的",
+              "ipa": "/otʁ/",
+              "example": "Un autre jour."
+            }
+          ],
+          "audio_file": "audio/2026-10-20/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
