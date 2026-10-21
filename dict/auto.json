@@ -354,6 +354,11 @@
     "ipa": "/kla.se/",
     "def": "（classer 的过去分词）分类"
   },
+  "club": {
+    "pos": "nm",
+    "ipa": "/klœb/",
+    "def": "俱乐部；社团"
+  },
   "clé": {
     "pos": "nf",
     "ipa": "/kle/",
@@ -704,6 +709,11 @@
     "ipa": "/ɡa.ʁe/",
     "def": "（garer 的过去分词）停放"
   },
+  "gens": {
+    "pos": "nm",
+    "ipa": "/ʒɑ̃/",
+    "def": "人们"
+  },
   "guide": {
     "pos": "nm",
     "ipa": "/ɡid/",
@@ -914,10 +924,20 @@
     "ipa": "/ma.ɡa.zɛ̃/",
     "def": "商店"
   },
+  "mal": {
+    "pos": "adv",
+    "ipa": "/mal/",
+    "def": "不好地；糟糕地"
+  },
   "malade": {
     "pos": "adj",
     "ipa": "/malad/",
     "def": "生病的；病人"
+  },
+  "mangée": {
+    "pos": "v",
+    "ipa": "/mɑ̃ʒe/",
+    "def": "（manger 的过去分词，阴性）吃"
   },
   "mangées": {
     "pos": "v",
@@ -994,6 +1014,21 @@
     "ipa": "/naʒ/",
     "def": "（nager 的现在时）游泳"
   },
+  "nageaient": {
+    "pos": "v",
+    "ipa": "/naʒɛ/",
+    "def": "（nager 的未完成过去时）游泳"
+  },
+  "nageais": {
+    "pos": "v",
+    "ipa": "/naʒɛ/",
+    "def": "（nager 的未完成过去时）游泳"
+  },
+  "nageait": {
+    "pos": "v",
+    "ipa": "/naʒɛ/",
+    "def": "（nager 的未完成过去时）游泳"
+  },
   "nagent": {
     "pos": "v",
     "ipa": "/naʒ/",
@@ -1013,6 +1048,16 @@
     "pos": "v",
     "ipa": "/naʒe/",
     "def": "（nager 的现在时）游泳"
+  },
+  "nagiez": {
+    "pos": "v",
+    "ipa": "/naʒje/",
+    "def": "（nager 的未完成过去时）游泳"
+  },
+  "nagions": {
+    "pos": "v",
+    "ipa": "/naʒjɔ̃/",
+    "def": "（nager 的未完成过去时）游泳"
   },
   "nettoyé": {
     "pos": "v",
@@ -1053,6 +1098,11 @@
     "pos": "?",
     "ipa": "/ɔ̃/",
     "def": "疑似拼写有误：on或ont"
+  },
+  "organise": {
+    "pos": "v",
+    "ipa": "/ɔʁɡaniz/",
+    "def": "（organiser 的现在时/虚拟式）组织"
   },
   "oubliés": {
     "pos": "v",
@@ -1098,6 +1148,11 @@
     "pos": "v",
     "ipa": "/paʁ.ti/",
     "def": "（partir 的过去分词）离开"
+  },
+  "partirais": {
+    "pos": "v",
+    "ipa": "/paʁtiʁɛ/",
+    "def": "（partir 的条件式）离开"
   },
   "partis": {
     "pos": "v",
@@ -1378,6 +1433,11 @@
     "pos": "v",
     "ipa": "/ʁɑ̃.ʒjɔ̃/",
     "def": "（ranger 的未完成过去时/虚拟式）整理"
+  },
+  "rangé": {
+    "pos": "v",
+    "ipa": "/ʁɑ̃ʒe/",
+    "def": "（ranger 的过去分词，阳性）整理"
   },
   "rapport": {
     "pos": "nm",
@@ -1864,6 +1924,16 @@
     "ipa": "/vɑ̃dy/",
     "def": "（vendre 的过去分词阴性复数）出售"
   },
+  "veniez": {
+    "pos": "v",
+    "ipa": "/vənje/",
+    "def": "（venir 的未完成过去时）来"
+  },
+  "venions": {
+    "pos": "v",
+    "ipa": "/vənjɔ̃/",
+    "def": "（venir 的未完成过去时）来"
+  },
   "verre": {
     "pos": "nm",
     "ipa": "/vɛʁ/",
@@ -1888,6 +1958,16 @@
     "pos": "v",
     "ipa": "/vjɛn/",
     "def": "（venir 的虚拟式现在时）来"
+  },
+  "viennent": {
+    "pos": "v",
+    "ipa": "/vjɛn/",
+    "def": "（venir 的现在时/虚拟式）来"
+  },
+  "viens": {
+    "pos": "v",
+    "ipa": "/vjɛ̃/",
+    "def": "（venir 的现在时/命令式）来"
   },
   "village": {
     "pos": "nm",
@@ -1938,6 +2018,11 @@
     "pos": "nf",
     "ipa": "/epis/",
     "def": "香料；调味品"
+  },
+  "étagère": {
+    "pos": "nf",
+    "ipa": "/etaʒɛʁ/",
+    "def": "搁架；书架"
   },
   "étranger": {
     "pos": "adj",
