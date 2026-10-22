@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-22",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Des mots pour la journée",
+      "title_zh": "今天用得上的句子",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-22",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Je vais partir en vacances au mois d'août.",
+          "translation": "我八月要去度假。",
+          "difficulty": "A2",
+          "grammar_note": "aller + 动词原形 = 最近将来时，表示马上或计划将要做的事。",
+          "grammar_notes": {
+            "vais": "aller 的第一人称，这里作助动词，不表示「去」",
+            "août": "au mois d'août 在八月"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aller（去（以 -er 结尾却不规则））的现在时变位",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              },
+              "b": "aller 是极少数用 être 当助动词的常用动词，过去分词要与主语性数配合，阴性加 -e：je suis allé（阴性 je suis allée）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "partir",
+              "pos": "v",
+              "def": "离开",
+              "ipa": "/paʁ.tiʁ/",
+              "example": "Je pars demain."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "vacances",
+              "pos": "nf",
+              "def": "假期；假日",
+              "ipa": "/vakɑ̃s/",
+              "example": ""
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "mois",
+              "pos": "nm",
+              "def": "月",
+              "ipa": "/mwa/",
+              "example": "Un mois de vacances."
+            }
+          ],
+          "audio_file": "audio/2026-10-22/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Ce que j'aime le plus en France, c'est la boulangerie du coin.",
+          "translation": "在法国我最喜欢的是街角那家面包店。",
+          "difficulty": "B1",
+          "grammar_note": "ce que 引导名词性从句作主语，等于「我喜欢的（东西）」；du = de + le。",
+          "grammar_notes": {
+            "ce": "ce que = 关系代词，代表一个整体概念",
+            "du": "du coin = de + le coin，街角的"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的现在时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "present"
+              },
+              "b": ""
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "c'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "boulangerie",
+              "pos": "nf",
+              "def": "面包店",
+              "ipa": "/bu.lɑ̃.ʒʁi/",
+              "example": "La boulangerie est ouverte."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            }
+          ],
+          "audio_file": "audio/2026-10-22/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-22/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Bonjour ! Je vais au café avec mon amie.",
+          "translation": "你好！我和朋友去咖啡馆。",
+          "difficulty": "A1",
+          "grammar_note": "je vais 是 aller（去）的第一人称变位。au = à + le，意思是\"到\"。avec 是介词\"和\"。",
+          "grammar_notes": {
+            "vais": "aller 的现在时 je 形式；aller 以 -er 结尾却是不规则动词，不能套规则变位",
+            "aujourd'hui": "aujourd'hui 是今天，由 au + jour + hui 构成",
+            "au": "à + le 的缩合形式，不能写成 à le（硬规则，没有例外）",
+            "amie": "阴性名词「女朋友/女性朋友」；元音开头时物主形容词用 mon 而不是 ma"
+          },
+          "grammar_lessons": [
+            {
+              "t": "法语动词必须「变位」",
+              "b": "中文说「我去、你去、他去」，动词永远不变；法语每个主语配一个专属动词形式，这叫变位（conjugaison）。所以背单词时要把变位一起背，光记 aller = 去是不够的。"
+            },
+            {
+              "t": "aller（去）的现在时 —— 必须死记的一个",
+              "b": "aller 以 -er 结尾，却属于第三组不规则动词，绝不能套规则动词的套路。注意 nous allons、vous allez 与后面元音连诵：词尾 -s 读成 /z/，所以是 /nu.z‿a.lɔ̃/、/vu.z‿a.le/。",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              }
+            },
+            {
+              "t": "au = à + le：缩合冠词",
+              "b": "介词 à（到、在）和 de（的、从）遇到定冠词 le、les 必须缩合，遇到 la 则不缩。写 aller à le café 是错的。这是法语最硬的规则之一，先把它变成条件反射。",
+              "table": {
+                "caption": "定冠词的缩合（最硬的规则之一）",
+                "head": [
+                  "结构",
+                  "缩合",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "à + le",
+                    "au",
+                    "aller au café（去咖啡馆）"
+                  ],
+                  [
+                    "à + les",
+                    "aux",
+                    "parler aux amis（和朋友们说话）"
+                  ],
+                  [
+                    "de + le",
+                    "du",
+                    "le musée du Louvre（卢浮宫博物馆）"
+                  ],
+                  [
+                    "de + les",
+                    "des",
+                    "les livres des enfants（孩子们的书）"
+                  ],
+                  [
+                    "à + la、de + la",
+                    "不缩合",
+                    "aller à la gare（去车站）"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "名词有阴阳性，前面的词要跟着变",
+              "b": "café 是阳性名词，所以用 au；amie 是阴性单数，按理该用 ma，但因为 amie 以元音开头，为了发音顺口要写成 mon amie（mon école、mon amie 都这样）。记住：mon、ma、mes 是「我的」，形式跟着名词的性和数走。"
+            },
+            {
+              "t": "avec 后面直接跟名词",
+              "b": "avec（和、带着）是介词，后面直接接名词或重读代词：avec mon amie（和我朋友）、avec moi（和我）、avec toi（和你）。不要加冠词，也不要说 avec je。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Bonjour",
+              "pos": "interj",
+              "def": "你好（白天问候）",
+              "ipa": "/bɔ̃.ʒuʁ/",
+              "example": "Bonjour à tous !"
+            },
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "café",
+              "pos": "nm",
+              "def": "咖啡；咖啡馆",
+              "ipa": "/ka.fe/",
+              "example": "Je prends un café."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "mon",
+              "pos": "adj",
+              "def": "我的（阳性单数物主形容词；元音开头的阴性名词也用 mon）",
+              "ipa": "/mɔ̃/",
+              "example": "Mon frère étudie à Paris."
+            },
+            {
+              "w": "amie",
+              "pos": "nf",
+              "def": "女性朋友；注意元音前用 mon amie 而不是 ma amie",
+              "ipa": "/a.mi/",
+              "example": "mon amie"
+            }
+          ],
+          "audio_file": "audio/2026-10-22/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "On se retrouve devant le musée à trois heures.",
+          "translation": "我们三点在博物馆前碰面。",
+          "difficulty": "A2",
+          "grammar_note": "se retrouver 表示「（约好）碰面」，是自反动词。",
+          "grammar_notes": {
+            "retrouve": "se retrouver 的第一人称式；on 代替 nous",
+            "devant": "devant 在…前面（空间），区别于 avant 在…之前（时间）"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "se",
+              "pos": "pron",
+              "def": "自己；互相",
+              "ipa": "/sə/",
+              "example": ""
+            },
+            {
+              "w": "retrouve",
+              "pos": "v",
+              "def": "（retrouver 的现在时）找回",
+              "ipa": "/ʁə.tʁuv/",
+              "example": ""
+            },
+            {
+              "w": "devant",
+              "pos": "prep",
+              "def": "在…前面；面对",
+              "ipa": "/dəvɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "trois",
+              "pos": "num",
+              "def": "三（3）；词尾 -s 在元音前连诵读 /z/",
+              "ipa": "/tʁwa/",
+              "example": "trois amis"
+            },
+            {
+              "w": "heures",
+              "pos": "nf",
+              "def": "小时、钟点（heure 的复数）",
+              "ipa": "/œʁ/",
+              "example": "Il est huit heures."
+            }
+          ],
+          "audio_file": "audio/2026-10-22/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
