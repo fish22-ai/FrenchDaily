@@ -1,0 +1,373 @@
+{
+  "date": "2026-10-29",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Lire, écouter, répéter",
+      "title_zh": "读一读，听一听，跟一跟",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-29",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-29/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je cherche un appartement près de la gare.",
+          "translation": "我在找车站附近的公寓。",
+          "difficulty": "A2",
+          "grammar_note": "chercher 是直接及物动词，后面直接跟宾语，不加 à 或 pour。",
+          "grammar_notes": {
+            "cherche": "chercher（找）的第一人称，不接介词",
+            "près": "près de + 名词 = 在…附近"
+          },
+          "grammar_lessons": [
+            {
+              "t": "chercher（找；寻找）的现在时变位",
+              "conj": {
+                "v": "chercher",
+                "t": "present"
+              },
+              "b": "chercher 是直接及物动词，后面直接跟宾语，不加介词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "appartement",
+              "pos": "nm",
+              "def": "公寓；套房",
+              "ipa": "/apaʁtəmɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "près",
+              "pos": "adv",
+              "def": "近",
+              "ipa": "/pʁɛ/",
+              "example": "Habite-t-il près d'ici ?"
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "gare",
+              "pos": "nf",
+              "def": "火车站",
+              "ipa": "/ɡaʁ/",
+              "example": "La gare du Nord."
+            }
+          ],
+          "audio_file": "audio/2026-10-29/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Il faut que je finisse ce travail avant midi.",
+          "translation": "我必须在中午前完成这项工作。",
+          "difficulty": "B1",
+          "grammar_note": "il faut que 后面必须用虚拟式：je finisse（不是 je finis）。",
+          "grammar_notes": {
+            "finisse": "il faut que 引出虚拟式：finir → je finisse",
+            "avant": "avant + 时间点 = 在…之前；avant de + 动词原形"
+          },
+          "grammar_lessons": [
+            {
+              "t": "falloir（必须（只有无人称的 il faut））的现在时变位",
+              "conj": {
+                "v": "falloir",
+                "t": "present"
+              },
+              "b": "il faut + 动词原形 = 必须做某事；il faut que + 虚拟式。"
+            },
+            {
+              "t": "finir（结束；完成）的虚拟式现在时变位",
+              "conj": {
+                "v": "finir",
+                "t": "subjonctif"
+              },
+              "b": "第二组（-ir）的样板：复数加 -iss-（nous finissons）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "travail",
+              "pos": "nm",
+              "def": "工作",
+              "ipa": "/tʁa.vaj/",
+              "example": "Je suis au travail."
+            },
+            {
+              "w": "avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "midi",
+              "pos": "nm",
+              "def": "正午",
+              "ipa": "/mi.di/",
+              "example": "Il est midi."
+            }
+          ],
+          "audio_file": "audio/2026-10-29/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "J'habite à Lyon avec ma famille.",
+          "translation": "我和家人住在里昂。",
+          "difficulty": "A1",
+          "grammar_note": "j'habite 是 habiter（住）的第一人称变位。城市名前用介词 à：à Lyon。",
+          "grammar_notes": {
+            "habite": "habiter（住）的第一人称，-er 动词按规则变位",
+            "famille": "famille 是阴性名词，ma 是阴性单数物主形容词"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "J'habite",
+              "pos": "v",
+              "def": "（habiter 的现在式）居住",
+              "ipa": "/abit/",
+              "example": ""
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "Lyon",
+              "pos": "propn",
+              "def": "里昂（法国城市）",
+              "ipa": "/ljɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "ma",
+              "pos": "adj",
+              "def": "我的（阴性单数物主形容词）；amie 前因元音冲突改用 mon",
+              "ipa": "/ma/",
+              "example": "ma langue"
+            },
+            {
+              "w": "famille",
+              "pos": "nf",
+              "def": "家庭",
+              "ipa": "/fa.mij/",
+              "example": "Ma famille habite à Lyon."
+            }
+          ],
+          "audio_file": "audio/2026-10-29/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Quand j'étais petit, je jouais au football tous les jours.",
+          "translation": "我小时候每天都踢足球。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+          "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的未完成过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "imparfait"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的未完成过去时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "imparfait"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "football",
+              "pos": "nm",
+              "def": "足球；jouer au football 踢足球",
+              "ipa": "/fut.bol/",
+              "example": "Il joue au football."
+            },
+            {
+              "w": "tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "jours",
+              "pos": "nm",
+              "def": "日子（jour 的复数）；tous les jours 每天",
+              "ipa": "/ʒuʁ/",
+              "example": "tous les jours"
+            }
+          ],
+          "audio_file": "audio/2026-10-29/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
