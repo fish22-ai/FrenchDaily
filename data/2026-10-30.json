@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-30",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq phrases pour aujourd'hui",
+      "title_zh": "今天的五句法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-30",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Depuis deux ans, j'apprends le français tout seul.",
+          "translation": "两年来我一直在自学法语。",
+          "difficulty": "A2",
+          "grammar_note": "depuis + 时间段，动词用现在时，表示从过去持续到现在——中文说「两年了」，法语不换时态。",
+          "grammar_notes": {
+            "depuis": "depuis 后接时间段或起点，动词用现在时",
+            "seul": "tout seul 独自，强调没有别人帮忙"
+          },
+          "grammar_lessons": [
+            {
+              "t": "apprendre（学；学会）的现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "present"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Depuis",
+              "pos": "prep",
+              "def": "自从；从...以来",
+              "ipa": "/dəpɥi/",
+              "example": ""
+            },
+            {
+              "w": "ans",
+              "pos": "nm",
+              "def": "（an 的复数）年；岁",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "j'apprends",
+              "pos": "v",
+              "def": "apprendre（学）的现在时 je 形式",
+              "ipa": "/a.pʁɑ̃/",
+              "example": "J'apprends le français tous les jours."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "français",
+              "pos": "nm",
+              "def": "法语；法国的（阳性）",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Le français est une belle langue."
+            },
+            {
+              "w": "tout",
+              "pos": "adj",
+              "def": "所有的",
+              "ipa": "/tu/",
+              "example": "Tous les enfants."
+            },
+            {
+              "w": "seul",
+              "pos": "adj",
+              "def": "独自的",
+              "ipa": "/sœl/",
+              "example": "Je suis seul ici."
+            }
+          ],
+          "audio_file": "audio/2026-10-30/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Il m'a demandé si j'avais déjà visité la Provence.",
+          "translation": "他问我是否去过普罗旺斯。",
+          "difficulty": "B1",
+          "grammar_note": "间接问句用 si 引导；主句是过去时，从句时态要后退——所以说 avais visité（愈过去时）。",
+          "grammar_notes": {
+            "si": "间接问句用 si（是否），不用 est-ce que",
+            "avais": "avais visité 是愈过去时，表示比主句更早的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "visiter（参观；拜访）的复合过去时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "demandé",
+              "pos": "v",
+              "def": "（demander 的过去分词）要求",
+              "ipa": "/də.mɑ̃.de/",
+              "example": ""
+            },
+            {
+              "w": "si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "déjà",
+              "pos": "adv",
+              "def": "已经",
+              "ipa": "/de.ʒa/",
+              "example": "Je l'ai déjà fait."
+            },
+            {
+              "w": "visité",
+              "pos": "v",
+              "def": "visiter（参观）的过去分词",
+              "ipa": "/vi.zi.te/",
+              "example": "J'ai visité Rome l'an dernier."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "Provence",
+              "pos": "propn",
+              "def": "普罗旺斯（法国地区）",
+              "ipa": "/pʁɔ.vɑ̃s/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-30/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Nous avons mangé au restaurant hier soir.",
+          "translation": "昨晚我们在餐馆吃了饭。",
+          "difficulty": "A2",
+          "grammar_note": "复合过去时 = avoir 的现在时 + 过去分词（avons mangé）。",
+          "grammar_notes": {
+            "mangé": "过去分词；manger 的复合过去时用 avoir 作助动词",
+            "hier": "hier 昨天，通常配合复合过去时"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "manger（吃）的复合过去时变位",
+              "conj": {
+                "v": "manger",
+                "t": "passe_compose"
+              },
+              "b": "manger 属 -ger 家族：nous mangeons 要保留 e，否则 g 会读成 /ʒ/ 以外的音。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Nous",
+              "pos": "pron",
+              "def": "我们",
+              "ipa": "/nu/",
+              "example": "Nous habitons à Nice."
+            },
+            {
+              "w": "avons",
+              "pos": "v",
+              "def": "avoir（有）的现在时 nous 形式",
+              "ipa": "/a.vɔ̃/",
+              "example": "Nous avons deux chats."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-30/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je ne parle pas très bien français.",
+          "translation": "我法语说得不太好。",
+          "difficulty": "A1",
+          "grammar_note": "否定用 ne ... pas 把变位动词夹在中间：je ne parle pas。",
+          "grammar_notes": {
+            "parle": "parler（说）的第一人称；否定要把 ne/pas 夹住它",
+            "très": "très 修饰 bien；「说得好」是 parler bien"
+          },
+          "grammar_lessons": [
+            {
+              "t": "parler（说话；讲（parler français 讲法语））的现在时变位",
+              "conj": {
+                "v": "parler",
+                "t": "present"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ne",
+              "pos": "adv",
+              "def": "不（否定词，与 pas 连用）",
+              "ipa": "/nə/",
+              "example": "Je ne sais pas."
+            },
+            {
+              "w": "pas",
+              "pos": "adv",
+              "def": "不，没有（否定一部分）",
+              "ipa": "/pa/",
+              "example": "Pas de problème."
+            },
+            {
+              "w": "très",
+              "pos": "adv",
+              "def": "非常",
+              "ipa": "/tʁɛ/",
+              "example": "Très bien !"
+            },
+            {
+              "w": "bien",
+              "pos": "adv",
+              "def": "好地、确实",
+              "ipa": "/bjɛ̃/",
+              "example": "Je parle bien français."
+            },
+            {
+              "w": "français",
+              "pos": "nm",
+              "def": "法语；法国的（阳性）",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Le français est une belle langue."
+            }
+          ],
+          "audio_file": "audio/2026-10-30/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "On aurait dû réserver une table, le restaurant est complet.",
+          "translation": "我们本该订个位子，餐馆坐满了。",
+          "difficulty": "B1",
+          "grammar_note": "aurait dû + 动词原形 = 「本该做而没做」，是一种遗憾/责备的语气。",
+          "grammar_notes": {
+            "aurait": "aurait dû + 不定式，过去条件式表示未实现的应该",
+            "complet": "complet 满的（阳性）；阴性是 complète"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的条件式现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "conditionnel"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "dû",
+              "pos": "v",
+              "def": "（devoir 的过去分词）应付",
+              "ipa": "/dy/",
+              "example": ""
+            },
+            {
+              "w": "réserver",
+              "pos": "v",
+              "def": "预订；保留",
+              "ipa": "/ʁe.zɛʁ.ve/",
+              "example": ""
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "table",
+              "pos": "nf",
+              "def": "桌子",
+              "ipa": "/tabl/",
+              "example": "Mets-le sur la table."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "est",
+              "pos": "v",
+              "def": "是（être 第三人称单数）",
+              "ipa": "/ɛ/",
+              "example": "Il est étudiant."
+            },
+            {
+              "w": "complet",
+              "pos": "adj",
+              "def": "完整的；满的",
+              "ipa": "/kɔ̃plɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-30/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
