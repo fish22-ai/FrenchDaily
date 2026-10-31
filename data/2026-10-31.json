@@ -1,0 +1,475 @@
+{
+  "date": "2026-10-31",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq phrases pour aujourd'hui",
+      "title_zh": "今天的五句法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-10-31",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Il fait beau aujourd'hui. Le soleil brille.",
+          "translation": "今天天气很好。太阳在发光。",
+          "difficulty": "A1",
+          "grammar_note": "il fait 是 faire 的第三人称变位。faire beau 是固定搭配\"天气好\"。aujourd'hui 是\"今天\"。",
+          "grammar_notes": {
+            "fait": "faire 的现在时 il 形式；谈天气、温度只能用 faire，主语固定用无人称的 il",
+            "aujourd'hui": "今天；faire beau 是「天气好」的固定搭配",
+            "il": "这里的 il 不指「他」，是无人称主语，只是语法占位符",
+            "brille": "briller 的现在时 il 形式；briller 是规则的第一组（-er）动词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "faire 到底是什么意思？",
+              "b": "faire 是法语最万能的一个动词，本义是「做、制造」（faire un gâteau 做个蛋糕），但几乎能搭任何名词，意思随搭配变：faire du sport 做运动、faire la cuisine 做饭、faire les courses 买东西、faire un voyage 旅行。它还有一个特殊任务：谈天气、谈温度。所以 il fait beau 直译是「它做好的天气」，实际就是「天气好」——别去逐字翻译，把它当成一个固定句型。"
+            },
+            {
+              "t": "为什么天气句的主语是 il？",
+              "b": "这个 il 不指「他」，也不指任何人，语法上叫「无人称主语」（il impersonnel），只是一个占位符——因为法语句子必须要有主语，哪怕没人。同类还有：il pleut（下雨）、il neige（下雪）、il faut（必须）、il y a（有）、il est 8 heures（八点了）。这些 il 永远不变，不会换成 elle。"
+            },
+            {
+              "t": "faire 的现在时变位（背下来最划算）",
+              "b": "三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 直接换词根读 /fɔ̃/。faire 属于第三组不规则动词，千万别套 -er 动词的规则。它是法语里出现频率最高的动词之一，这张表必须滚瓜烂熟。",
+              "conj": {
+                "v": "faire",
+                "t": "present"
+              }
+            },
+            {
+              "t": "faire + 形容词 = 描述天气",
+              "b": "beau、chaud、froid 都是形容词，形式不随「性数」变化，因为主语是阳性的 il。反过来「下雨、下雪」不用 faire，直接用 il pleut、il neige。",
+              "table": {
+                "caption": "il fait + 形容词：谈天气的固定句型",
+                "head": [
+                  "法语",
+                  "读音",
+                  "中文"
+                ],
+                "rows": [
+                  [
+                    "il fait beau",
+                    "/il fɛ bo/",
+                    "天气好"
+                  ],
+                  [
+                    "il fait mauvais",
+                    "/il fɛ mɔ.vɛ/",
+                    "天气差"
+                  ],
+                  [
+                    "il fait chaud",
+                    "/il fɛ ʃo/",
+                    "热"
+                  ],
+                  [
+                    "il fait froid",
+                    "/il fɛ fʁwa/",
+                    "冷"
+                  ],
+                  [
+                    "il fait doux",
+                    "/il fɛ du/",
+                    "温和"
+                  ],
+                  [
+                    "il fait beau temps",
+                    "/il fɛ bo tɑ̃/",
+                    "天气晴朗"
+                  ],
+                  [
+                    "il pleut",
+                    "/il plø/",
+                    "下雨"
+                  ],
+                  [
+                    "il neige",
+                    "/il nɛʒ/",
+                    "下雪"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "「briller」为什么写成 brille",
+              "b": "briller（发光、照耀）是规则的第一组（-er）动词：去掉 -er 再加词尾就行。ils 形式后面多的 -ent 完全不发音，所以 il brille 和 ils brillent 听起来一样。第一组动词占法语动词约九成，把这条规则练熟，动词变位就不再可怕。",
+              "conj": {
+                "v": "briller",
+                "t": "present"
+              }
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "fait",
+              "pos": "v",
+              "def": "faire（做）的现在时 il 形式",
+              "ipa": "/fɛ/",
+              "example": "Il fait beau aujourd'hui."
+            },
+            {
+              "w": "beau",
+              "pos": "adj",
+              "def": "美丽的、好的（阳性）",
+              "ipa": "/bo/",
+              "example": "Un beau tableau."
+            },
+            {
+              "w": "aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "soleil",
+              "pos": "nm",
+              "def": "太阳",
+              "ipa": "/sɔ.lɛj/",
+              "example": "Le soleil brille."
+            },
+            {
+              "w": "brille",
+              "pos": "v",
+              "def": "briller（发光、照耀）的现在时 il 形式",
+              "ipa": "/bʁij/",
+              "example": "Le soleil brille ce matin."
+            }
+          ],
+          "audio_file": "audio/2026-10-31/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Ce que j'aime le plus en France, c'est la boulangerie du coin.",
+          "translation": "在法国我最喜欢的是街角那家面包店。",
+          "difficulty": "B1",
+          "grammar_note": "ce que 引导名词性从句作主语，等于「我喜欢的（东西）」；du = de + le。",
+          "grammar_notes": {
+            "ce": "ce que = 关系代词，代表一个整体概念",
+            "du": "du coin = de + le coin，街角的"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的现在时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "present"
+              },
+              "b": ""
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "c'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "boulangerie",
+              "pos": "nf",
+              "def": "面包店",
+              "ipa": "/bu.lɑ̃.ʒʁi/",
+              "example": "La boulangerie est ouverte."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            }
+          ],
+          "audio_file": "audio/2026-10-31/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Elle m'a téléphoné pendant que je dormais.",
+          "translation": "我睡觉的时候她给我打了电话。",
+          "difficulty": "A2",
+          "grammar_note": "pendant que 引出同时发生的动作，用未完成过去时；主句动作用复合过去时。",
+          "grammar_notes": {
+            "téléphoné": "复合过去时；m' 是间接宾语代词（给我）",
+            "dormais": "dormir 的未完成过去时，表示被打断时正在进行的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "téléphoné",
+              "pos": "v",
+              "def": "（téléphoner 的过去分词）打电话",
+              "ipa": "/te.le.fɔ.ne/",
+              "example": ""
+            },
+            {
+              "w": "pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "dormais",
+              "pos": "v",
+              "def": "（dormir 的未完成过去时）睡",
+              "ipa": "/dɔʁmɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-10-31/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-10-31/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Quand j'étais petit, je jouais au football tous les jours.",
+          "translation": "我小时候每天都踢足球。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+          "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的未完成过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "imparfait"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的未完成过去时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "imparfait"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "football",
+              "pos": "nm",
+              "def": "足球；jouer au football 踢足球",
+              "ipa": "/fut.bol/",
+              "example": "Il joue au football."
+            },
+            {
+              "w": "tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "jours",
+              "pos": "nm",
+              "def": "日子（jour 的复数）；tous les jours 每天",
+              "ipa": "/ʒuʁ/",
+              "example": "tous les jours"
+            }
+          ],
+          "audio_file": "audio/2026-10-31/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
