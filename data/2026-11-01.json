@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-01",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Un peu de français chaque jour",
+      "title_zh": "每天学一点法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-01",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Aujourd'hui, je travaille à la maison.",
+          "translation": "今天我在家工作。",
+          "difficulty": "A1",
+          "grammar_note": "à la maison 是固定搭配「在家」，不用 chez。",
+          "grammar_notes": {
+            "travaille": "travailler 的第一人称，-er 动词规则变位",
+            "maison": "la maison 房子；à la maison 在家"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "travaille",
+              "pos": "v",
+              "def": "（travailler 的现在时）工作",
+              "ipa": "/tʁavaj/",
+              "example": ""
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "maison",
+              "pos": "nf",
+              "def": "房子，住宅",
+              "ipa": "/mɛ.zɔ̃/",
+              "example": "Ma maison est grande."
+            }
+          ],
+          "audio_file": "audio/2026-11-01/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Elle m'a téléphoné pendant que je dormais.",
+          "translation": "我睡觉的时候她给我打了电话。",
+          "difficulty": "A2",
+          "grammar_note": "pendant que 引出同时发生的动作，用未完成过去时；主句动作用复合过去时。",
+          "grammar_notes": {
+            "téléphoné": "复合过去时；m' 是间接宾语代词（给我）",
+            "dormais": "dormir 的未完成过去时，表示被打断时正在进行的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "téléphoné",
+              "pos": "v",
+              "def": "（téléphoner 的过去分词）打电话",
+              "ipa": "/te.le.fɔ.ne/",
+              "example": ""
+            },
+            {
+              "w": "pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "dormais",
+              "pos": "v",
+              "def": "（dormir 的未完成过去时）睡",
+              "ipa": "/dɔʁmɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-01/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Ce matin, je me suis levé très tôt.",
+          "translation": "今天早上我很早就起床了。",
+          "difficulty": "A2",
+          "grammar_note": "自反动词的复合过去时用 être 作助动词，过去分词要和主语配合（levé）。",
+          "grammar_notes": {
+            "me": "自反代词；se lever 是「起床」，不是「举起」",
+            "levé": "自反动词用 être 助动词，分词随主语变化"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "matin",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "me",
+              "pos": "pron",
+              "def": "我（宾语或自反）",
+              "ipa": "/mə/",
+              "example": ""
+            },
+            {
+              "w": "levé",
+              "pos": "v",
+              "def": "（lever 的过去分词）抬起",
+              "ipa": "/ləve/",
+              "example": ""
+            },
+            {
+              "w": "très",
+              "pos": "adv",
+              "def": "非常",
+              "ipa": "/tʁɛ/",
+              "example": "Très bien !"
+            },
+            {
+              "w": "tôt",
+              "pos": "adv",
+              "def": "早",
+              "ipa": "/to/",
+              "example": "Je me lève tôt."
+            }
+          ],
+          "audio_file": "audio/2026-11-01/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "On aurait dû réserver une table, le restaurant est complet.",
+          "translation": "我们本该订个位子，餐馆坐满了。",
+          "difficulty": "B1",
+          "grammar_note": "aurait dû + 动词原形 = 「本该做而没做」，是一种遗憾/责备的语气。",
+          "grammar_notes": {
+            "aurait": "aurait dû + 不定式，过去条件式表示未实现的应该",
+            "complet": "complet 满的（阳性）；阴性是 complète"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的条件式现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "conditionnel"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "dû",
+              "pos": "v",
+              "def": "（devoir 的过去分词）应付",
+              "ipa": "/dy/",
+              "example": ""
+            },
+            {
+              "w": "réserver",
+              "pos": "v",
+              "def": "预订；保留",
+              "ipa": "/ʁe.zɛʁ.ve/",
+              "example": ""
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "table",
+              "pos": "nf",
+              "def": "桌子",
+              "ipa": "/tabl/",
+              "example": "Mets-le sur la table."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "est",
+              "pos": "v",
+              "def": "是（être 第三人称单数）",
+              "ipa": "/ɛ/",
+              "example": "Il est étudiant."
+            },
+            {
+              "w": "complet",
+              "pos": "adj",
+              "def": "完整的；满的",
+              "ipa": "/kɔ̃plɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-01/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Après avoir fini mes études, je voudrais travailler à l'étranger.",
+          "translation": "完成学业后，我想去国外工作。",
+          "difficulty": "B1",
+          "grammar_note": "après + 不定式过去时（avoir fini）表示「在…之后」，主语和主句一致时用这种写法。",
+          "grammar_notes": {
+            "après": "après avoir + 过去分词 = 在做完…之后",
+            "voudrais": "条件式现在时，比 veux 客气，表达愿望"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "finir（结束；完成）的复合过去时变位",
+              "conj": {
+                "v": "finir",
+                "t": "passe_compose"
+              },
+              "b": "第二组（-ir）的样板：复数加 -iss-（nous finissons）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Après",
+              "pos": "prep",
+              "def": "在...之后；随后",
+              "ipa": "/apʁɛ/",
+              "example": ""
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "études",
+              "pos": "nf",
+              "def": "学业；研究",
+              "ipa": "/e.tyd/",
+              "example": ""
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "travailler",
+              "pos": "v",
+              "def": "工作",
+              "ipa": "/tʁa.va.je/",
+              "example": "Je travaille beaucoup."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "l'étranger",
+              "pos": "adj",
+              "def": "外国的；陌生的",
+              "ipa": "/e.tʁɑ̃.ʒe/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-01/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
