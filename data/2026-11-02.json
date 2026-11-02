@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-02",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Lire, écouter, répéter",
+      "title_zh": "读一读，听一听，跟一跟",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-02",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Si tu veux, on peut aller au cinéma ce soir.",
+          "translation": "如果你愿意，我们今晚可以去看电影。",
+          "difficulty": "A2",
+          "grammar_note": "si + 现在时，主句用现在时/最近将来时——真实条件句不涉及虚拟式。",
+          "grammar_notes": {
+            "veux": "vouloir 的 tu 形式，不规则动词",
+            "peut": "pouvoir 的 on 形式；on 这里指「我们」"
+          },
+          "grammar_lessons": [
+            {
+              "t": "vouloir（想要）的现在时变位",
+              "conj": {
+                "v": "vouloir",
+                "t": "present"
+              },
+              "b": "条件式 je voudrais 是法语最常用的礼貌说法：「我想要……」。"
+            },
+            {
+              "t": "pouvoir（能；可以）的现在时变位",
+              "conj": {
+                "v": "pouvoir",
+                "t": "present"
+              },
+              "b": "条件式 je pourrais 用于礼貌请求；现在时 ils peuvent 读 /pœv/。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "tu",
+              "pos": "pron",
+              "def": "你（主语代词，用于熟人之间）",
+              "ipa": "/ty/",
+              "example": "Tu parles français ?"
+            },
+            {
+              "w": "on",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "aller",
+              "pos": "v",
+              "def": "去",
+              "ipa": "/a.le/",
+              "example": "Je vais au cinéma."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "cinéma",
+              "pos": "nm",
+              "def": "电影院",
+              "ipa": "/si.ne.ma/",
+              "example": "Aller au cinéma."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-11-02/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Quand j'aurai le temps, je lirai ce roman que tu m'as conseillé.",
+          "translation": "等我有时间，我就读你推荐的那本小说。",
+          "difficulty": "B1",
+          "grammar_note": "quand + 简单将来时，主句也用将来时——法语在时间状语从句里也用将来时，不像中文说「等我有空」。",
+          "grammar_notes": {
+            "aurai": "avoir 的简单将来时 je 形式：j'aurai",
+            "que": "que 引导关系从句，修饰 ce roman"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的简单将来时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "futur"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "lire（读；阅读）的简单将来时变位",
+              "conj": {
+                "v": "lire",
+                "t": "futur"
+              },
+              "b": "单数词根读 /li/，复数读 /liz/（lisons、lisent）；将来时整根换成 lir-。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "roman",
+              "pos": "nm",
+              "def": "小说",
+              "ipa": "/ʁɔ.mɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "tu",
+              "pos": "pron",
+              "def": "你（主语代词，用于熟人之间）",
+              "ipa": "/ty/",
+              "example": "Tu parles français ?"
+            },
+            {
+              "w": "conseillé",
+              "pos": "v",
+              "def": "（conseiller 的过去分词）建议",
+              "ipa": "/kɔ̃sɛje/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-02/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "C'est combien, ce livre ?",
+          "translation": "这本书多少钱？",
+          "difficulty": "A1",
+          "grammar_note": "C'est combien 是问价最常用的说法。ce 是阳性指示形容词，修饰 livre。",
+          "grammar_notes": {
+            "combien": "combien 询问数量和价格",
+            "livre": "livre 是阳性名词「书」（阴性时指「磅」）"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "C'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "combien",
+              "pos": "adv",
+              "def": "多少",
+              "ipa": "/kɔ̃.bjɛ̃/",
+              "example": "Combien ça coûte ?"
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "livre",
+              "pos": "nm",
+              "def": "书",
+              "ipa": "/livʁ/",
+              "example": "Un livre intéressant."
+            }
+          ],
+          "audio_file": "audio/2026-11-02/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je cherche un appartement près de la gare.",
+          "translation": "我在找车站附近的公寓。",
+          "difficulty": "A2",
+          "grammar_note": "chercher 是直接及物动词，后面直接跟宾语，不加 à 或 pour。",
+          "grammar_notes": {
+            "cherche": "chercher（找）的第一人称，不接介词",
+            "près": "près de + 名词 = 在…附近"
+          },
+          "grammar_lessons": [
+            {
+              "t": "chercher（找；寻找）的现在时变位",
+              "conj": {
+                "v": "chercher",
+                "t": "present"
+              },
+              "b": "chercher 是直接及物动词，后面直接跟宾语，不加介词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "un",
+              "pos": "det",
+              "def": "不定冠词：一个（阳性）",
+              "ipa": "/œ̃/",
+              "example": "Un café, s'il vous plaît."
+            },
+            {
+              "w": "appartement",
+              "pos": "nm",
+              "def": "公寓；套房",
+              "ipa": "/apaʁtəmɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "près",
+              "pos": "adv",
+              "def": "近",
+              "ipa": "/pʁɛ/",
+              "example": "Habite-t-il près d'ici ?"
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "gare",
+              "pos": "nf",
+              "def": "火车站",
+              "ipa": "/ɡaʁ/",
+              "example": "La gare du Nord."
+            }
+          ],
+          "audio_file": "audio/2026-11-02/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-11-02/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
