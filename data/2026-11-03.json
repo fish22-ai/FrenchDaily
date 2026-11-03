@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-03",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Des mots pour la journée",
+      "title_zh": "今天用得上的句子",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-03",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Elle m'a téléphoné pendant que je dormais.",
+          "translation": "我睡觉的时候她给我打了电话。",
+          "difficulty": "A2",
+          "grammar_note": "pendant que 引出同时发生的动作，用未完成过去时；主句动作用复合过去时。",
+          "grammar_notes": {
+            "téléphoné": "复合过去时；m' 是间接宾语代词（给我）",
+            "dormais": "dormir 的未完成过去时，表示被打断时正在进行的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "téléphoné",
+              "pos": "v",
+              "def": "（téléphoner 的过去分词）打电话",
+              "ipa": "/te.le.fɔ.ne/",
+              "example": ""
+            },
+            {
+              "w": "pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "dormais",
+              "pos": "v",
+              "def": "（dormir 的未完成过去时）睡",
+              "ipa": "/dɔʁmɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-03/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-11-03/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Aujourd'hui, je travaille à la maison.",
+          "translation": "今天我在家工作。",
+          "difficulty": "A1",
+          "grammar_note": "à la maison 是固定搭配「在家」，不用 chez。",
+          "grammar_notes": {
+            "travaille": "travailler 的第一人称，-er 动词规则变位",
+            "maison": "la maison 房子；à la maison 在家"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "travaille",
+              "pos": "v",
+              "def": "（travailler 的现在时）工作",
+              "ipa": "/tʁavaj/",
+              "example": ""
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "maison",
+              "pos": "nf",
+              "def": "房子，住宅",
+              "ipa": "/mɛ.zɔ̃/",
+              "example": "Ma maison est grande."
+            }
+          ],
+          "audio_file": "audio/2026-11-03/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Depuis deux ans, j'apprends le français tout seul.",
+          "translation": "两年来我一直在自学法语。",
+          "difficulty": "A2",
+          "grammar_note": "depuis + 时间段，动词用现在时，表示从过去持续到现在——中文说「两年了」，法语不换时态。",
+          "grammar_notes": {
+            "depuis": "depuis 后接时间段或起点，动词用现在时",
+            "seul": "tout seul 独自，强调没有别人帮忙"
+          },
+          "grammar_lessons": [
+            {
+              "t": "apprendre（学；学会）的现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "present"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Depuis",
+              "pos": "prep",
+              "def": "自从；从...以来",
+              "ipa": "/dəpɥi/",
+              "example": ""
+            },
+            {
+              "w": "ans",
+              "pos": "nm",
+              "def": "（an 的复数）年；岁",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "j'apprends",
+              "pos": "v",
+              "def": "apprendre（学）的现在时 je 形式",
+              "ipa": "/a.pʁɑ̃/",
+              "example": "J'apprends le français tous les jours."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "français",
+              "pos": "nm",
+              "def": "法语；法国的（阳性）",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Le français est une belle langue."
+            },
+            {
+              "w": "tout",
+              "pos": "adj",
+              "def": "所有的",
+              "ipa": "/tu/",
+              "example": "Tous les enfants."
+            },
+            {
+              "w": "seul",
+              "pos": "adj",
+              "def": "独自的",
+              "ipa": "/sœl/",
+              "example": "Je suis seul ici."
+            }
+          ],
+          "audio_file": "audio/2026-11-03/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Si j'avais plus de temps, j'apprendrais à jouer du piano.",
+          "translation": "如果我有更多时间，我会学弹钢琴。",
+          "difficulty": "B1",
+          "grammar_note": "条件式虚拟式结构：si + imparfait（j'avais）→ conditionnel présent（j'apprendrais）。表示假设。",
+          "grammar_notes": {
+            "avais": "avoir 的未完成过去时 je 形式；-ais 是未完成过去时的标志性词尾",
+            "apprendrais": "apprendre 的条件式现在时；和将来时 j'apprendrai 只差一个 s",
+            "du": "de + le 的缩合；jouer du piano 是「弹钢琴」",
+            "piano": "阳性名词；演奏乐器用 jouer + de + 定冠词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "「如果……就……」的固定配方",
+              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
+            },
+            {
+              "t": "avoir 的未完成过去时（词尾是通用的）",
+              "b": "关键在词尾：-ais、-ait、-ions、-iez、-aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              }
+            },
+            {
+              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
+              "b": "拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。这是法语写作最常见的错点之一，看完这句以后打字时留意一下。",
+              "table": {
+                "caption": "只差一个 s，意思是两回事",
+                "head": [
+                  "形式",
+                  "读音",
+                  "时态",
+                  "意思"
+                ],
+                "rows": [
+                  [
+                    "j'apprendrai",
+                    "/ʒa.pʁɑ̃.dʁe/",
+                    "简单将来时",
+                    "我将会学（很确定）"
+                  ],
+                  [
+                    "j'apprendrais",
+                    "/ʒa.pʁɑ̃.dʁɛ/",
+                    "条件式现在时",
+                    "（如果条件满足）我会学"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "jouer du piano：乐器用 de，球类用 à",
+              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
+            },
+            {
+              "t": "法语时间地图（先建立坐标就好）",
+              "b": "今天这句用的就是最后一行。把这张图记住，法语时态就不再是一团乱麻。",
+              "table": {
+                "caption": "法语时间地图：看到动词先问自己「站在哪个时间点上」",
+                "head": [
+                  "时间感",
+                  "时态",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "现在做",
+                    "现在时",
+                    "je fais"
+                  ],
+                  [
+                    "已经做完",
+                    "复合过去时",
+                    "j'ai fait"
+                  ],
+                  [
+                    "过去经常做、当时的状态",
+                    "未完成过去时",
+                    "je faisais"
+                  ],
+                  [
+                    "将来会做",
+                    "简单将来时",
+                    "je ferai"
+                  ],
+                  [
+                    "假设条件下会做",
+                    "条件式现在时",
+                    "je ferais"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "apprendre（学；学会）的条件式现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "conditionnel"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "j'apprendrais",
+              "pos": "v",
+              "def": "apprendre（学）的条件式现在时 je 形式（我会学）",
+              "ipa": "/a.pʁɑ̃.dʁɛ/",
+              "example": "J'apprendrais le russe si j'avais le temps."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "jouer",
+              "pos": "v",
+              "def": "玩；演奏",
+              "ipa": "/ʒwe/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "piano",
+              "pos": "nm",
+              "def": "钢琴",
+              "ipa": "/pja.no/",
+              "example": "Elle joue très bien du piano."
+            }
+          ],
+          "audio_file": "audio/2026-11-03/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
