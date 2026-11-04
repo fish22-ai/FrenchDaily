@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-04",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Un peu de français chaque jour",
+      "title_zh": "每天学一点法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-04",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Il faut que je finisse ce travail avant midi.",
+          "translation": "我必须在中午前完成这项工作。",
+          "difficulty": "B1",
+          "grammar_note": "il faut que 后面必须用虚拟式：je finisse（不是 je finis）。",
+          "grammar_notes": {
+            "finisse": "il faut que 引出虚拟式：finir → je finisse",
+            "avant": "avant + 时间点 = 在…之前；avant de + 动词原形"
+          },
+          "grammar_lessons": [
+            {
+              "t": "falloir（必须（只有无人称的 il faut））的现在时变位",
+              "conj": {
+                "v": "falloir",
+                "t": "present"
+              },
+              "b": "il faut + 动词原形 = 必须做某事；il faut que + 虚拟式。"
+            },
+            {
+              "t": "finir（结束；完成）的虚拟式现在时变位",
+              "conj": {
+                "v": "finir",
+                "t": "subjonctif"
+              },
+              "b": "第二组（-ir）的样板：复数加 -iss-（nous finissons）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "travail",
+              "pos": "nm",
+              "def": "工作",
+              "ipa": "/tʁa.vaj/",
+              "example": "Je suis au travail."
+            },
+            {
+              "w": "avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "midi",
+              "pos": "nm",
+              "def": "正午",
+              "ipa": "/mi.di/",
+              "example": "Il est midi."
+            }
+          ],
+          "audio_file": "audio/2026-11-04/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Quand j'étais petit, je jouais au football tous les jours.",
+          "translation": "我小时候每天都踢足球。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+          "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的未完成过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "imparfait"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的未完成过去时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "imparfait"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "football",
+              "pos": "nm",
+              "def": "足球；jouer au football 踢足球",
+              "ipa": "/fut.bol/",
+              "example": "Il joue au football."
+            },
+            {
+              "w": "tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "jours",
+              "pos": "nm",
+              "def": "日子（jour 的复数）；tous les jours 每天",
+              "ipa": "/ʒuʁ/",
+              "example": "tous les jours"
+            }
+          ],
+          "audio_file": "audio/2026-11-04/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Ce matin, je me suis levé très tôt.",
+          "translation": "今天早上我很早就起床了。",
+          "difficulty": "A2",
+          "grammar_note": "自反动词的复合过去时用 être 作助动词，过去分词要和主语配合（levé）。",
+          "grammar_notes": {
+            "me": "自反代词；se lever 是「起床」，不是「举起」",
+            "levé": "自反动词用 être 助动词，分词随主语变化"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "matin",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "me",
+              "pos": "pron",
+              "def": "我（宾语或自反）",
+              "ipa": "/mə/",
+              "example": ""
+            },
+            {
+              "w": "levé",
+              "pos": "v",
+              "def": "（lever 的过去分词）抬起",
+              "ipa": "/ləve/",
+              "example": ""
+            },
+            {
+              "w": "très",
+              "pos": "adv",
+              "def": "非常",
+              "ipa": "/tʁɛ/",
+              "example": "Très bien !"
+            },
+            {
+              "w": "tôt",
+              "pos": "adv",
+              "def": "早",
+              "ipa": "/to/",
+              "example": "Je me lève tôt."
+            }
+          ],
+          "audio_file": "audio/2026-11-04/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Je doute qu'il vienne ce soir.",
+          "translation": "我怀疑他今晚会来。",
+          "difficulty": "B1",
+          "grammar_note": "表示怀疑、否定、情感的动词后面接虚拟式：douter que + subjonctif。",
+          "grammar_notes": {
+            "vienne": "venir 的虚拟式第三人称：il vienne"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "doute",
+              "pos": "nm",
+              "def": "怀疑；疑虑",
+              "ipa": "/dut/",
+              "example": ""
+            },
+            {
+              "w": "qu'il",
+              "pos": "phrase",
+              "def": "（他/她/它）不（ne...que）",
+              "ipa": "/ki l/",
+              "example": "Qu'il vienne !"
+            },
+            {
+              "w": "vienne",
+              "pos": "v",
+              "def": "（venir 的虚拟式现在时）来",
+              "ipa": "/vjɛn/",
+              "example": ""
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "soir",
+              "pos": "nm",
+              "def": "傍晚",
+              "ipa": "/swaʁ/",
+              "example": "Le soir, je regarde la télévision."
+            }
+          ],
+          "audio_file": "audio/2026-11-04/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Aujourd'hui, je travaille à la maison.",
+          "translation": "今天我在家工作。",
+          "difficulty": "A1",
+          "grammar_note": "à la maison 是固定搭配「在家」，不用 chez。",
+          "grammar_notes": {
+            "travaille": "travailler 的第一人称，-er 动词规则变位",
+            "maison": "la maison 房子；à la maison 在家"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "Aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "travaille",
+              "pos": "v",
+              "def": "（travailler 的现在时）工作",
+              "ipa": "/tʁavaj/",
+              "example": ""
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "maison",
+              "pos": "nf",
+              "def": "房子，住宅",
+              "ipa": "/mɛ.zɔ̃/",
+              "example": "Ma maison est grande."
+            }
+          ],
+          "audio_file": "audio/2026-11-04/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
