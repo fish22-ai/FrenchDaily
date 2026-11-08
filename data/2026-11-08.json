@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-08",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Petites phrases, grands progrès",
+      "title_zh": "小句子，大进步",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-08",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Ce que j'aime le plus en France, c'est la boulangerie du coin.",
+          "translation": "在法国我最喜欢的是街角那家面包店。",
+          "difficulty": "B1",
+          "grammar_note": "ce que 引导名词性从句作主语，等于「我喜欢的（东西）」；du = de + le。",
+          "grammar_notes": {
+            "ce": "ce que = 关系代词，代表一个整体概念",
+            "du": "du coin = de + le coin，街角的"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的现在时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "present"
+              },
+              "b": ""
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "c'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "boulangerie",
+              "pos": "nf",
+              "def": "面包店",
+              "ipa": "/bu.lɑ̃.ʒʁi/",
+              "example": "La boulangerie est ouverte."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            }
+          ],
+          "audio_file": "audio/2026-11-08/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Elle m'a téléphoné pendant que je dormais.",
+          "translation": "我睡觉的时候她给我打了电话。",
+          "difficulty": "A2",
+          "grammar_note": "pendant que 引出同时发生的动作，用未完成过去时；主句动作用复合过去时。",
+          "grammar_notes": {
+            "téléphoné": "复合过去时；m' 是间接宾语代词（给我）",
+            "dormais": "dormir 的未完成过去时，表示被打断时正在进行的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Elle",
+              "pos": "pron",
+              "def": "她；它（阴性主语代词）",
+              "ipa": "/ɛl/",
+              "example": "Elle est française."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "téléphoné",
+              "pos": "v",
+              "def": "（téléphoner 的过去分词）打电话",
+              "ipa": "/te.le.fɔ.ne/",
+              "example": ""
+            },
+            {
+              "w": "pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "dormais",
+              "pos": "v",
+              "def": "（dormir 的未完成过去时）睡",
+              "ipa": "/dɔʁmɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-08/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Il m'a demandé si j'avais déjà visité la Provence.",
+          "translation": "他问我是否去过普罗旺斯。",
+          "difficulty": "B1",
+          "grammar_note": "间接问句用 si 引导；主句是过去时，从句时态要后退——所以说 avais visité（愈过去时）。",
+          "grammar_notes": {
+            "si": "间接问句用 si（是否），不用 est-ce que",
+            "avais": "avais visité 是愈过去时，表示比主句更早的动作"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "visiter（参观；拜访）的复合过去时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "m'a",
+              "pos": "v",
+              "def": "有（avoir 第三人称单数）",
+              "ipa": "/a/",
+              "example": "Elle a un chien."
+            },
+            {
+              "w": "demandé",
+              "pos": "v",
+              "def": "（demander 的过去分词）要求",
+              "ipa": "/də.mɑ̃.de/",
+              "example": ""
+            },
+            {
+              "w": "si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "déjà",
+              "pos": "adv",
+              "def": "已经",
+              "ipa": "/de.ʒa/",
+              "example": "Je l'ai déjà fait."
+            },
+            {
+              "w": "visité",
+              "pos": "v",
+              "def": "visiter（参观）的过去分词",
+              "ipa": "/vi.zi.te/",
+              "example": "J'ai visité Rome l'an dernier."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "Provence",
+              "pos": "propn",
+              "def": "普罗旺斯（法国地区）",
+              "ipa": "/pʁɔ.vɑ̃s/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-08/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "On se retrouve devant le musée à trois heures.",
+          "translation": "我们三点在博物馆前碰面。",
+          "difficulty": "A2",
+          "grammar_note": "se retrouver 表示「（约好）碰面」，是自反动词。",
+          "grammar_notes": {
+            "retrouve": "se retrouver 的第一人称式；on 代替 nous",
+            "devant": "devant 在…前面（空间），区别于 avant 在…之前（时间）"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "se",
+              "pos": "pron",
+              "def": "自己；互相",
+              "ipa": "/sə/",
+              "example": ""
+            },
+            {
+              "w": "retrouve",
+              "pos": "v",
+              "def": "（retrouver 的现在时）找回",
+              "ipa": "/ʁə.tʁuv/",
+              "example": ""
+            },
+            {
+              "w": "devant",
+              "pos": "prep",
+              "def": "在…前面；面对",
+              "ipa": "/dəvɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "trois",
+              "pos": "num",
+              "def": "三（3）；词尾 -s 在元音前连诵读 /z/",
+              "ipa": "/tʁwa/",
+              "example": "trois amis"
+            },
+            {
+              "w": "heures",
+              "pos": "nf",
+              "def": "小时、钟点（heure 的复数）",
+              "ipa": "/œʁ/",
+              "example": "Il est huit heures."
+            }
+          ],
+          "audio_file": "audio/2026-11-08/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Je m'appelle Marie. J'ai vingt ans.",
+          "translation": "我叫玛丽。我二十岁。",
+          "difficulty": "A1",
+          "grammar_note": "je m'appelle 是自反动词 se appeler 的第一人称变位，意思是(我叫......)。J'ai 是 avoir 的第一人称变位，用来表达年龄。",
+          "grammar_notes": {
+            "m'appelle": "自反动词 se appeler 的第一人称变位，se appeler 表示称呼自己",
+            "vingt": "法语数字20，注意70/80/90的特殊表达（soixante-dix, quatre-vingts）"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "m'appelle",
+              "pos": "v",
+              "def": "（appeler 的现在式）叫",
+              "ipa": "/apɛl/",
+              "example": ""
+            },
+            {
+              "w": "J'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "ans",
+              "pos": "nm",
+              "def": "（an 的复数）年；岁",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-08/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
