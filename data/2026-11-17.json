@@ -1,0 +1,594 @@
+{
+  "date": "2026-11-17",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Petites phrases, grands progrès",
+      "title_zh": "小句子，大进步",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-17",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Si j'avais plus de temps, j'apprendrais à jouer du piano.",
+          "translation": "如果我有更多时间，我会学弹钢琴。",
+          "difficulty": "B1",
+          "grammar_note": "条件式虚拟式结构：si + imparfait（j'avais）→ conditionnel présent（j'apprendrais）。表示假设。",
+          "grammar_notes": {
+            "avais": "avoir 的未完成过去时 je 形式；-ais 是未完成过去时的标志性词尾",
+            "apprendrais": "apprendre 的条件式现在时；和将来时 j'apprendrai 只差一个 s",
+            "du": "de + le 的缩合；jouer du piano 是「弹钢琴」",
+            "piano": "阳性名词；演奏乐器用 jouer + de + 定冠词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "「如果……就……」的固定配方",
+              "b": "表达「现在或将来不太可能实现的假设」，配方是：si + 未完成过去时（imparfait），主句用条件式现在时（conditionnel présent）。这句的时间感是：要是我现在有更多时间（可惜没有），我就会去学钢琴。注意 si 从句里绝不能用将来时或条件式，只能用未完成过去时。"
+            },
+            {
+              "t": "avoir 的未完成过去时（词尾是通用的）",
+              "b": "关键在词尾：-ais、-ait、-ions、-iez、-aient。这套词尾几乎所有动词通用（只有 être 例外），所以只要会词干就能拼出来。整个法语里 -ais 结尾基本都读 /ɛ/，不读 /e/。",
+              "conj": {
+                "v": "avoir",
+                "t": "imparfait"
+              }
+            },
+            {
+              "t": "最容易写错的一对：j'apprendrai 和 j'apprendrais",
+              "b": "拼写只差一个 s，读音也差一点：/e/ 对 /ɛ/。这是法语写作最常见的错点之一，看完这句以后打字时留意一下。",
+              "table": {
+                "caption": "只差一个 s，意思是两回事",
+                "head": [
+                  "形式",
+                  "读音",
+                  "时态",
+                  "意思"
+                ],
+                "rows": [
+                  [
+                    "j'apprendrai",
+                    "/ʒa.pʁɑ̃.dʁe/",
+                    "简单将来时",
+                    "我将会学（很确定）"
+                  ],
+                  [
+                    "j'apprendrais",
+                    "/ʒa.pʁɑ̃.dʁɛ/",
+                    "条件式现在时",
+                    "（如果条件满足）我会学"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "jouer du piano：乐器用 de，球类用 à",
+              "b": "演奏乐器：jouer + de + 定冠词 + 乐器 —— jouer du piano（弹钢琴，du = de + le）、jouer de la guitare（弹吉他）。踢球打球：jouer + à + 定冠词 + 球类 —— jouer au football、jouer au tennis。一句口诀：乐器 de，球类 à。"
+            },
+            {
+              "t": "法语时间地图（先建立坐标就好）",
+              "b": "今天这句用的就是最后一行。把这张图记住，法语时态就不再是一团乱麻。",
+              "table": {
+                "caption": "法语时间地图：看到动词先问自己「站在哪个时间点上」",
+                "head": [
+                  "时间感",
+                  "时态",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "现在做",
+                    "现在时",
+                    "je fais"
+                  ],
+                  [
+                    "已经做完",
+                    "复合过去时",
+                    "j'ai fait"
+                  ],
+                  [
+                    "过去经常做、当时的状态",
+                    "未完成过去时",
+                    "je faisais"
+                  ],
+                  [
+                    "将来会做",
+                    "简单将来时",
+                    "je ferai"
+                  ],
+                  [
+                    "假设条件下会做",
+                    "条件式现在时",
+                    "je ferais"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "apprendre（学；学会）的条件式现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "conditionnel"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Si",
+              "pos": "conj",
+              "def": "如果（引导条件从句）",
+              "ipa": "/si/",
+              "example": "Si tu viens, je suis content."
+            },
+            {
+              "w": "j'avais",
+              "pos": "v",
+              "def": "avoir（有）的未完成过去时 je 形式（那时我有）",
+              "ipa": "/a.vɛ/",
+              "example": "J'avais dix ans en 2010."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "de",
+              "pos": "prep",
+              "def": "的；从；关于",
+              "ipa": "/də/",
+              "example": "Un livre de français."
+            },
+            {
+              "w": "temps",
+              "pos": "nm",
+              "def": "时间；（天气意义上的）天气",
+              "ipa": "/tɑ̃/",
+              "example": "Je n'ai pas le temps."
+            },
+            {
+              "w": "j'apprendrais",
+              "pos": "v",
+              "def": "apprendre（学）的条件式现在时 je 形式（我会学）",
+              "ipa": "/a.pʁɑ̃.dʁɛ/",
+              "example": "J'apprendrais le russe si j'avais le temps."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "jouer",
+              "pos": "v",
+              "def": "玩；演奏",
+              "ipa": "/ʒwe/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "piano",
+              "pos": "nm",
+              "def": "钢琴",
+              "ipa": "/pja.no/",
+              "example": "Elle joue très bien du piano."
+            }
+          ],
+          "audio_file": "audio/2026-11-17/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je vais partir en vacances au mois d'août.",
+          "translation": "我八月要去度假。",
+          "difficulty": "A2",
+          "grammar_note": "aller + 动词原形 = 最近将来时，表示马上或计划将要做的事。",
+          "grammar_notes": {
+            "vais": "aller 的第一人称，这里作助动词，不表示「去」",
+            "août": "au mois d'août 在八月"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aller（去（以 -er 结尾却不规则））的现在时变位",
+              "conj": {
+                "v": "aller",
+                "t": "present"
+              },
+              "b": "aller 是极少数用 être 当助动词的常用动词，过去分词要与主语性数配合，阴性加 -e：je suis allé（阴性 je suis allée）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "vais",
+              "pos": "v",
+              "def": "aller（去）的现在时 je 形式",
+              "ipa": "/vɛ/",
+              "example": "Je vais au marché le samedi."
+            },
+            {
+              "w": "partir",
+              "pos": "v",
+              "def": "离开",
+              "ipa": "/paʁ.tiʁ/",
+              "example": "Je pars demain."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "vacances",
+              "pos": "nf",
+              "def": "假期；假日",
+              "ipa": "/vakɑ̃s/",
+              "example": ""
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "mois",
+              "pos": "nm",
+              "def": "月",
+              "ipa": "/mwa/",
+              "example": "Un mois de vacances."
+            }
+          ],
+          "audio_file": "audio/2026-11-17/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Les enfants jouent dans le jardin pendant que leur mère prépare le dîner.",
+          "translation": "孩子们在花园里玩，妈妈在准备晚饭。",
+          "difficulty": "B1",
+          "grammar_note": "pendant que 连接两个同时进行的动作。leur 在这里是单数物主形容词，修饰单数名词 mère。",
+          "grammar_notes": {
+            "pendant": "pendant que = 在…（发生的）同时",
+            "leur": "leur + 单数名词 = 他们的；leurs + 复数名词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的现在时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "present"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            },
+            {
+              "t": "préparer（准备（préparer le dîner 做晚饭））的现在时变位",
+              "conj": {
+                "v": "préparer",
+                "t": "present"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "enfants",
+              "pos": "nm",
+              "def": "孩子们（enfant 的复数，单复数同形）",
+              "ipa": "/ɑ̃.fɑ̃/",
+              "example": "les enfants du quartier"
+            },
+            {
+              "w": "dans",
+              "pos": "prep",
+              "def": "在……里面",
+              "ipa": "/dɑ̃/",
+              "example": "Dans la maison."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "jardin",
+              "pos": "nm",
+              "def": "花园",
+              "ipa": "/ʒaʁ.dɛ̃/",
+              "example": "Un beau jardin."
+            },
+            {
+              "w": "pendant",
+              "pos": "prep",
+              "def": "在…期间",
+              "ipa": "/pɑ̃.dɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "leur",
+              "pos": "det",
+              "def": "他们的（单数名词前）",
+              "ipa": "/lœʁ/",
+              "example": ""
+            },
+            {
+              "w": "mère",
+              "pos": "nf",
+              "def": "母亲",
+              "ipa": "/mɛʁ/",
+              "example": "Ma mère cuisine bien."
+            },
+            {
+              "w": "dîner",
+              "pos": "nm",
+              "def": "晚餐",
+              "ipa": "/di.ne/",
+              "example": "Le dîner est prêt."
+            }
+          ],
+          "audio_file": "audio/2026-11-17/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Il fait beau aujourd'hui. Le soleil brille.",
+          "translation": "今天天气很好。太阳在发光。",
+          "difficulty": "A1",
+          "grammar_note": "il fait 是 faire 的第三人称变位。faire beau 是固定搭配\"天气好\"。aujourd'hui 是\"今天\"。",
+          "grammar_notes": {
+            "fait": "faire 的现在时 il 形式；谈天气、温度只能用 faire，主语固定用无人称的 il",
+            "aujourd'hui": "今天；faire beau 是「天气好」的固定搭配",
+            "il": "这里的 il 不指「他」，是无人称主语，只是语法占位符",
+            "brille": "briller 的现在时 il 形式；briller 是规则的第一组（-er）动词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "faire 到底是什么意思？",
+              "b": "faire 是法语最万能的一个动词，本义是「做、制造」（faire un gâteau 做个蛋糕），但几乎能搭任何名词，意思随搭配变：faire du sport 做运动、faire la cuisine 做饭、faire les courses 买东西、faire un voyage 旅行。它还有一个特殊任务：谈天气、谈温度。所以 il fait beau 直译是「它做好的天气」，实际就是「天气好」——别去逐字翻译，把它当成一个固定句型。"
+            },
+            {
+              "t": "为什么天气句的主语是 il？",
+              "b": "这个 il 不指「他」，也不指任何人，语法上叫「无人称主语」（il impersonnel），只是一个占位符——因为法语句子必须要有主语，哪怕没人。同类还有：il pleut（下雨）、il neige（下雪）、il faut（必须）、il y a（有）、il est 8 heures（八点了）。这些 il 永远不变，不会换成 elle。"
+            },
+            {
+              "t": "faire 的现在时变位（背下来最划算）",
+              "b": "三个坑：nous faisons 读 /fə.zɔ̃/（不是 /fɛ.zɔ̃/）；vous faites 读 /fɛt/；ils font 直接换词根读 /fɔ̃/。faire 属于第三组不规则动词，千万别套 -er 动词的规则。它是法语里出现频率最高的动词之一，这张表必须滚瓜烂熟。",
+              "conj": {
+                "v": "faire",
+                "t": "present"
+              }
+            },
+            {
+              "t": "faire + 形容词 = 描述天气",
+              "b": "beau、chaud、froid 都是形容词，形式不随「性数」变化，因为主语是阳性的 il。反过来「下雨、下雪」不用 faire，直接用 il pleut、il neige。",
+              "table": {
+                "caption": "il fait + 形容词：谈天气的固定句型",
+                "head": [
+                  "法语",
+                  "读音",
+                  "中文"
+                ],
+                "rows": [
+                  [
+                    "il fait beau",
+                    "/il fɛ bo/",
+                    "天气好"
+                  ],
+                  [
+                    "il fait mauvais",
+                    "/il fɛ mɔ.vɛ/",
+                    "天气差"
+                  ],
+                  [
+                    "il fait chaud",
+                    "/il fɛ ʃo/",
+                    "热"
+                  ],
+                  [
+                    "il fait froid",
+                    "/il fɛ fʁwa/",
+                    "冷"
+                  ],
+                  [
+                    "il fait doux",
+                    "/il fɛ du/",
+                    "温和"
+                  ],
+                  [
+                    "il fait beau temps",
+                    "/il fɛ bo tɑ̃/",
+                    "天气晴朗"
+                  ],
+                  [
+                    "il pleut",
+                    "/il plø/",
+                    "下雨"
+                  ],
+                  [
+                    "il neige",
+                    "/il nɛʒ/",
+                    "下雪"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "「briller」为什么写成 brille",
+              "b": "briller（发光、照耀）是规则的第一组（-er）动词：去掉 -er 再加词尾就行。ils 形式后面多的 -ent 完全不发音，所以 il brille 和 ils brillent 听起来一样。第一组动词占法语动词约九成，把这条规则练熟，动词变位就不再可怕。",
+              "conj": {
+                "v": "briller",
+                "t": "present"
+              }
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "fait",
+              "pos": "v",
+              "def": "faire（做）的现在时 il 形式",
+              "ipa": "/fɛ/",
+              "example": "Il fait beau aujourd'hui."
+            },
+            {
+              "w": "beau",
+              "pos": "adj",
+              "def": "美丽的、好的（阳性）",
+              "ipa": "/bo/",
+              "example": "Un beau tableau."
+            },
+            {
+              "w": "aujourd'hui",
+              "pos": "adv",
+              "def": "今天",
+              "ipa": "/o.ʒuʁ.dɥi/",
+              "example": "Aujourd'hui, il fait beau."
+            },
+            {
+              "w": "Le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "soleil",
+              "pos": "nm",
+              "def": "太阳",
+              "ipa": "/sɔ.lɛj/",
+              "example": "Le soleil brille."
+            },
+            {
+              "w": "brille",
+              "pos": "v",
+              "def": "briller（发光、照耀）的现在时 il 形式",
+              "ipa": "/bʁij/",
+              "example": "Le soleil brille ce matin."
+            }
+          ],
+          "audio_file": "audio/2026-11-17/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "On se retrouve devant le musée à trois heures.",
+          "translation": "我们三点在博物馆前碰面。",
+          "difficulty": "A2",
+          "grammar_note": "se retrouver 表示「（约好）碰面」，是自反动词。",
+          "grammar_notes": {
+            "retrouve": "se retrouver 的第一人称式；on 代替 nous",
+            "devant": "devant 在…前面（空间），区别于 avant 在…之前（时间）"
+          },
+          "grammar_lessons": [],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "se",
+              "pos": "pron",
+              "def": "自己；互相",
+              "ipa": "/sə/",
+              "example": ""
+            },
+            {
+              "w": "retrouve",
+              "pos": "v",
+              "def": "（retrouver 的现在时）找回",
+              "ipa": "/ʁə.tʁuv/",
+              "example": ""
+            },
+            {
+              "w": "devant",
+              "pos": "prep",
+              "def": "在…前面；面对",
+              "ipa": "/dəvɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "trois",
+              "pos": "num",
+              "def": "三（3）；词尾 -s 在元音前连诵读 /z/",
+              "ipa": "/tʁwa/",
+              "example": "trois amis"
+            },
+            {
+              "w": "heures",
+              "pos": "nf",
+              "def": "小时、钟点（heure 的复数）",
+              "ipa": "/œʁ/",
+              "example": "Il est huit heures."
+            }
+          ],
+          "audio_file": "audio/2026-11-17/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
