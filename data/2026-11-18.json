@@ -1,0 +1,407 @@
+{
+  "date": "2026-11-18",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Cinq phrases pour aujourd'hui",
+      "title_zh": "今天的五句法语",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-18",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Depuis deux ans, j'apprends le français tout seul.",
+          "translation": "两年来我一直在自学法语。",
+          "difficulty": "A2",
+          "grammar_note": "depuis + 时间段，动词用现在时，表示从过去持续到现在——中文说「两年了」，法语不换时态。",
+          "grammar_notes": {
+            "depuis": "depuis 后接时间段或起点，动词用现在时",
+            "seul": "tout seul 独自，强调没有别人帮忙"
+          },
+          "grammar_lessons": [
+            {
+              "t": "apprendre（学；学会）的现在时变位",
+              "conj": {
+                "v": "apprendre",
+                "t": "present"
+              },
+              "b": "和 prendre 同族，词根、变位套路完全一样：apprendre / comprendre / reprendre。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Depuis",
+              "pos": "prep",
+              "def": "自从；从...以来",
+              "ipa": "/dəpɥi/",
+              "example": ""
+            },
+            {
+              "w": "ans",
+              "pos": "nm",
+              "def": "（an 的复数）年；岁",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "j'apprends",
+              "pos": "v",
+              "def": "apprendre（学）的现在时 je 形式",
+              "ipa": "/a.pʁɑ̃/",
+              "example": "J'apprends le français tous les jours."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "français",
+              "pos": "nm",
+              "def": "法语；法国的（阳性）",
+              "ipa": "/fʁɑ̃.sɛ/",
+              "example": "Le français est une belle langue."
+            },
+            {
+              "w": "tout",
+              "pos": "adj",
+              "def": "所有的",
+              "ipa": "/tu/",
+              "example": "Tous les enfants."
+            },
+            {
+              "w": "seul",
+              "pos": "adj",
+              "def": "独自的",
+              "ipa": "/sœl/",
+              "example": "Je suis seul ici."
+            }
+          ],
+          "audio_file": "audio/2026-11-18/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Je m'appelle Marie. J'ai vingt ans.",
+          "translation": "我叫玛丽。我二十岁。",
+          "difficulty": "A1",
+          "grammar_note": "je m'appelle 是自反动词 se appeler 的第一人称变位，意思是(我叫......)。J'ai 是 avoir 的第一人称变位，用来表达年龄。",
+          "grammar_notes": {
+            "m'appelle": "自反动词 se appeler 的第一人称变位，se appeler 表示称呼自己",
+            "vingt": "法语数字20，注意70/80/90的特殊表达（soixante-dix, quatre-vingts）"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "m'appelle",
+              "pos": "v",
+              "def": "（appeler 的现在式）叫",
+              "ipa": "/apɛl/",
+              "example": ""
+            },
+            {
+              "w": "J'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "ans",
+              "pos": "nm",
+              "def": "（an 的复数）年；岁",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-18/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "On aurait dû réserver une table, le restaurant est complet.",
+          "translation": "我们本该订个位子，餐馆坐满了。",
+          "difficulty": "B1",
+          "grammar_note": "aurait dû + 动词原形 = 「本该做而没做」，是一种遗憾/责备的语气。",
+          "grammar_notes": {
+            "aurait": "aurait dû + 不定式，过去条件式表示未实现的应该",
+            "complet": "complet 满的（阳性）；阴性是 complète"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的条件式现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "conditionnel"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "On",
+              "pos": "pron",
+              "def": "人们；我们；有人",
+              "ipa": "/ɔ̃/",
+              "example": ""
+            },
+            {
+              "w": "dû",
+              "pos": "v",
+              "def": "（devoir 的过去分词）应付",
+              "ipa": "/dy/",
+              "example": ""
+            },
+            {
+              "w": "réserver",
+              "pos": "v",
+              "def": "预订；保留",
+              "ipa": "/ʁe.zɛʁ.ve/",
+              "example": ""
+            },
+            {
+              "w": "une",
+              "pos": "det",
+              "def": "不定冠词：一个（阴性）",
+              "ipa": "/yn/",
+              "example": "Une pomme rouge."
+            },
+            {
+              "w": "table",
+              "pos": "nf",
+              "def": "桌子",
+              "ipa": "/tabl/",
+              "example": "Mets-le sur la table."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "restaurant",
+              "pos": "nm",
+              "def": "餐厅",
+              "ipa": "/ʁɛs.tɔ.ʁɑ̃/",
+              "example": "Un restaurant français."
+            },
+            {
+              "w": "est",
+              "pos": "v",
+              "def": "是（être 第三人称单数）",
+              "ipa": "/ɛ/",
+              "example": "Il est étudiant."
+            },
+            {
+              "w": "complet",
+              "pos": "adj",
+              "def": "完整的；满的",
+              "ipa": "/kɔ̃plɛ/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-18/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "Après avoir fini mes études, je voudrais travailler à l'étranger.",
+          "translation": "完成学业后，我想去国外工作。",
+          "difficulty": "B1",
+          "grammar_note": "après + 不定式过去时（avoir fini）表示「在…之后」，主语和主句一致时用这种写法。",
+          "grammar_notes": {
+            "après": "après avoir + 过去分词 = 在做完…之后",
+            "voudrais": "条件式现在时，比 veux 客气，表达愿望"
+          },
+          "grammar_lessons": [
+            {
+              "t": "avoir（有（复合过去时的头号助动词））的现在时变位",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              },
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词。"
+            },
+            {
+              "t": "finir（结束；完成）的复合过去时变位",
+              "conj": {
+                "v": "finir",
+                "t": "passe_compose"
+              },
+              "b": "第二组（-ir）的样板：复数加 -iss-（nous finissons）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Après",
+              "pos": "prep",
+              "def": "在...之后；随后",
+              "ipa": "/apʁɛ/",
+              "example": ""
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "études",
+              "pos": "nf",
+              "def": "学业；研究",
+              "ipa": "/e.tyd/",
+              "example": ""
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "travailler",
+              "pos": "v",
+              "def": "工作",
+              "ipa": "/tʁa.va.je/",
+              "example": "Je travaille beaucoup."
+            },
+            {
+              "w": "à",
+              "pos": "prep",
+              "def": "到、在（接地点或时间）",
+              "ipa": "/a/",
+              "example": "Je vais à Paris."
+            },
+            {
+              "w": "l'étranger",
+              "pos": "adj",
+              "def": "外国的；陌生的",
+              "ipa": "/e.tʁɑ̃.ʒe/",
+              "example": ""
+            }
+          ],
+          "audio_file": "audio/2026-11-18/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Quand j'étais petit, je jouais au football tous les jours.",
+          "translation": "我小时候每天都踢足球。",
+          "difficulty": "A2",
+          "grammar_note": "未完成过去时（imparfait）表示过去的习惯或背景，区别于一次性动作的复合过去时。",
+          "grammar_notes": {
+            "étais": "être 的未完成过去时 je 形式",
+            "jouais": "jouer 的未完成过去时，表示过去反复做的事"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的未完成过去时变位",
+              "conj": {
+                "v": "être",
+                "t": "imparfait"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            },
+            {
+              "t": "jouer（玩；演奏（jouer du piano 弹钢琴））的未完成过去时变位",
+              "conj": {
+                "v": "jouer",
+                "t": "imparfait"
+              },
+              "b": "乐器用 jouer de，球类用 jouer à。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Quand",
+              "pos": "conj",
+              "def": "当……时",
+              "ipa": "/kɑ̃/",
+              "example": "Quand il arrive, nous partons."
+            },
+            {
+              "w": "petit",
+              "pos": "adj",
+              "def": "小的（阳性）",
+              "ipa": "/pə.ti/",
+              "example": "Un petit chat."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "au",
+              "pos": "prep",
+              "def": "到、在（à + le 的缩合形式）",
+              "ipa": "/o/",
+              "example": "Je vais au marché."
+            },
+            {
+              "w": "football",
+              "pos": "nm",
+              "def": "足球；jouer au football 踢足球",
+              "ipa": "/fut.bol/",
+              "example": "Il joue au football."
+            },
+            {
+              "w": "tous",
+              "pos": "adj",
+              "def": "所有的（阳性复数）；tous les jours 每天",
+              "ipa": "/tus/",
+              "example": "tous les matins"
+            },
+            {
+              "w": "les",
+              "pos": "det",
+              "def": "定冠词：这些/那些（复数）",
+              "ipa": "/le/",
+              "example": "Les enfants jouent."
+            },
+            {
+              "w": "jours",
+              "pos": "nm",
+              "def": "日子（jour 的复数）；tous les jours 每天",
+              "ipa": "/ʒuʁ/",
+              "example": "tous les jours"
+            }
+          ],
+          "audio_file": "audio/2026-11-18/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
