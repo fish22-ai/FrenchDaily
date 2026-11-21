@@ -1,0 +1,511 @@
+{
+  "date": "2026-11-21",
+  "mode": "llm",
+  "theme": "voyage",
+  "passages": [
+    {
+      "id": "p1",
+      "title_fr": "Petites phrases, grands progrès",
+      "title_zh": "小句子，大进步",
+      "source": "AI Generated",
+      "source_url": "",
+      "duration_min": 1,
+      "audio_dir": "audio/2026-11-21",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Hier, j'ai visité le musée du Louvre avec mes amis.",
+          "translation": "昨天，我和朋友们参观了卢浮宫。",
+          "difficulty": "A2",
+          "grammar_note": "hier 是\"昨天\"。j'ai visité 是复合过去时：助动词 avoir + 过去分词 visité。du = de + le。",
+          "grammar_notes": {
+            "visite": "复合过去时（passe compose）：助动词 avoir + 过去分词 visite",
+            "du": "de + le 的缩合形式；写 de le Louvre 是错的",
+            "visité": "visiter 的过去分词；第一组（-er）动词把 -er 换成 -é，这条规律管住一大半动词",
+            "amis": "ami 的复数；mes 是复数物主形容词，不分阴阳",
+            "ai": "avoir 的现在时 je 形式，复合过去时的助动词"
+          },
+          "grammar_lessons": [
+            {
+              "t": "助动词 avoir 的现在时（必背）",
+              "b": "绝大多数动词的复合过去时都用 avoir 当助动词（另一小类移动动词用 être，以后单独记）。注意 j'ai、ils ont 与后面元音的连诵：/il.z‿ɔ̃/。",
+              "conj": {
+                "v": "avoir",
+                "t": "present"
+              }
+            },
+            {
+              "t": "过去分词怎么造：先把 -er 动词吃透",
+              "b": "第一组（-er）动词把词尾 -er 换成 -é，最整齐，先记它，能覆盖一大半日常动词。第二组（-ir）多变成 -i。剩下不规则的要单独背，下面这些是最高频的。",
+              "table": {
+                "caption": "常见过去分词",
+                "head": [
+                  "原形",
+                  "过去分词",
+                  "读音"
+                ],
+                "rows": [
+                  [
+                    "visiter",
+                    "visité",
+                    "/vi.zi.te/"
+                  ],
+                  [
+                    "parler",
+                    "parlé",
+                    "/paʁ.le/"
+                  ],
+                  [
+                    "aller",
+                    "allé",
+                    "/a.le/"
+                  ],
+                  [
+                    "finir",
+                    "fini",
+                    "/fi.ni/"
+                  ],
+                  [
+                    "faire",
+                    "fait",
+                    "/fɛ/"
+                  ],
+                  [
+                    "prendre",
+                    "pris",
+                    "/pʁi/"
+                  ],
+                  [
+                    "être",
+                    "été",
+                    "/e.te/"
+                  ],
+                  [
+                    "avoir",
+                    "eu",
+                    "/y/"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "du = de + le（和 au 是一对）",
+              "b": "au、du、aux、des 这四个缩合形式是法语出现频率最高的东西之一，单独抄一遍记牢。",
+              "table": {
+                "caption": "de + 定冠词",
+                "head": [
+                  "结构",
+                  "缩合",
+                  "例子"
+                ],
+                "rows": [
+                  [
+                    "de + le",
+                    "du",
+                    "le musée du Louvre"
+                  ],
+                  [
+                    "de + les",
+                    "des",
+                    "les amis des enfants"
+                  ],
+                  [
+                    "de + la",
+                    "de la（不变）",
+                    "la porte de la maison"
+                  ]
+                ]
+              }
+            },
+            {
+              "t": "mes amis 和 mon amie 差在哪",
+              "b": "物主形容词要跟名词配合：mon（阳性单数）· ma（阴性单数）· mes（复数，不分阴阳）。amis 是复数，所以 mes amis；amie 是阴性单数，本该 ma amie，但元音冲突写成 mon amie。同一个「我的朋友」，阴阳性不同、单复数不同，前面的词就跟着变。"
+            },
+            {
+              "t": "visiter（参观；拜访）的复合过去时变位",
+              "conj": {
+                "v": "visiter",
+                "t": "passe_compose"
+              },
+              "b": ""
+            }
+          ],
+          "words": [
+            {
+              "w": "Hier",
+              "pos": "adv",
+              "def": "昨天",
+              "ipa": "/jɛʁ/",
+              "example": "Hier, j'ai vu un film."
+            },
+            {
+              "w": "j'ai",
+              "pos": "phrase",
+              "def": "我有（je + avoir 的缩合）",
+              "ipa": "/ʒe/",
+              "example": "J'ai une question."
+            },
+            {
+              "w": "visité",
+              "pos": "v",
+              "def": "visiter（参观）的过去分词",
+              "ipa": "/vi.zi.te/",
+              "example": "J'ai visité Rome l'an dernier."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "musée",
+              "pos": "nm",
+              "def": "博物馆",
+              "ipa": "/my.ze/",
+              "example": "Le musée du Louvre."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            },
+            {
+              "w": "Louvre",
+              "pos": "np",
+              "def": "卢浮宫（巴黎的博物馆）",
+              "ipa": "/luvʁ/",
+              "example": "Le Louvre est un grand musée."
+            },
+            {
+              "w": "avec",
+              "pos": "prep",
+              "def": "和、带着",
+              "ipa": "/a.vɛk/",
+              "example": "Avec plaisir !"
+            },
+            {
+              "w": "mes",
+              "pos": "adj",
+              "def": "我的（复数物主形容词，不分阴阳）",
+              "ipa": "/me/",
+              "example": "Mes amis arrivent demain."
+            },
+            {
+              "w": "amis",
+              "pos": "nm",
+              "def": "朋友们（ami 的复数）",
+              "ipa": "/a.mi/",
+              "example": "Mes amis sont gentils."
+            }
+          ],
+          "audio_file": "audio/2026-11-21/s1.mp3"
+        },
+        {
+          "id": "s2",
+          "text": "Il faut que je finisse ce travail avant midi.",
+          "translation": "我必须在中午前完成这项工作。",
+          "difficulty": "B1",
+          "grammar_note": "il faut que 后面必须用虚拟式：je finisse（不是 je finis）。",
+          "grammar_notes": {
+            "finisse": "il faut que 引出虚拟式：finir → je finisse",
+            "avant": "avant + 时间点 = 在…之前；avant de + 动词原形"
+          },
+          "grammar_lessons": [
+            {
+              "t": "falloir（必须（只有无人称的 il faut））的现在时变位",
+              "conj": {
+                "v": "falloir",
+                "t": "present"
+              },
+              "b": "il faut + 动词原形 = 必须做某事；il faut que + 虚拟式。"
+            },
+            {
+              "t": "finir（结束；完成）的虚拟式现在时变位",
+              "conj": {
+                "v": "finir",
+                "t": "subjonctif"
+              },
+              "b": "第二组（-ir）的样板：复数加 -iss-（nous finissons）。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Il",
+              "pos": "pron",
+              "def": "他；也用作无人称主语（天气、时间等）",
+              "ipa": "/il/",
+              "example": "Il pleut depuis ce matin."
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "travail",
+              "pos": "nm",
+              "def": "工作",
+              "ipa": "/tʁa.vaj/",
+              "example": "Je suis au travail."
+            },
+            {
+              "w": "avant",
+              "pos": "prep",
+              "def": "在……之前；avant que + 虚拟式",
+              "ipa": "/a.vɑ̃/",
+              "example": "avant que tu partes"
+            },
+            {
+              "w": "midi",
+              "pos": "nm",
+              "def": "正午",
+              "ipa": "/mi.di/",
+              "example": "Il est midi."
+            }
+          ],
+          "audio_file": "audio/2026-11-21/s2.mp3"
+        },
+        {
+          "id": "s3",
+          "text": "Ce matin, je me suis levé très tôt.",
+          "translation": "今天早上我很早就起床了。",
+          "difficulty": "A2",
+          "grammar_note": "自反动词的复合过去时用 être 作助动词，过去分词要和主语配合（levé）。",
+          "grammar_notes": {
+            "me": "自反代词；se lever 是「起床」，不是「举起」",
+            "levé": "自反动词用 être 助动词，分词随主语变化"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "matin",
+              "pos": "nm",
+              "def": "早晨",
+              "ipa": "/ma.tɛ̃/",
+              "example": "Le matin, je me réveille tôt."
+            },
+            {
+              "w": "je",
+              "pos": "pron",
+              "def": "我",
+              "ipa": "/ʒə/",
+              "example": "Je parle un peu français."
+            },
+            {
+              "w": "me",
+              "pos": "pron",
+              "def": "我（宾语或自反）",
+              "ipa": "/mə/",
+              "example": ""
+            },
+            {
+              "w": "levé",
+              "pos": "v",
+              "def": "（lever 的过去分词）抬起",
+              "ipa": "/ləve/",
+              "example": ""
+            },
+            {
+              "w": "très",
+              "pos": "adv",
+              "def": "非常",
+              "ipa": "/tʁɛ/",
+              "example": "Très bien !"
+            },
+            {
+              "w": "tôt",
+              "pos": "adv",
+              "def": "早",
+              "ipa": "/to/",
+              "example": "Je me lève tôt."
+            }
+          ],
+          "audio_file": "audio/2026-11-21/s3.mp3"
+        },
+        {
+          "id": "s4",
+          "text": "C'est combien, ce livre ?",
+          "translation": "这本书多少钱？",
+          "difficulty": "A1",
+          "grammar_note": "C'est combien 是问价最常用的说法。ce 是阳性指示形容词，修饰 livre。",
+          "grammar_notes": {
+            "combien": "combien 询问数量和价格",
+            "livre": "livre 是阳性名词「书」（阴性时指「磅」）"
+          },
+          "grammar_lessons": [
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "C'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "combien",
+              "pos": "adv",
+              "def": "多少",
+              "ipa": "/kɔ̃.bjɛ̃/",
+              "example": "Combien ça coûte ?"
+            },
+            {
+              "w": "ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "livre",
+              "pos": "nm",
+              "def": "书",
+              "ipa": "/livʁ/",
+              "example": "Un livre intéressant."
+            }
+          ],
+          "audio_file": "audio/2026-11-21/s4.mp3"
+        },
+        {
+          "id": "s5",
+          "text": "Ce que j'aime le plus en France, c'est la boulangerie du coin.",
+          "translation": "在法国我最喜欢的是街角那家面包店。",
+          "difficulty": "B1",
+          "grammar_note": "ce que 引导名词性从句作主语，等于「我喜欢的（东西）」；du = de + le。",
+          "grammar_notes": {
+            "ce": "ce que = 关系代词，代表一个整体概念",
+            "du": "du coin = de + le coin，街角的"
+          },
+          "grammar_lessons": [
+            {
+              "t": "aimer（爱；喜欢（aimer faire 喜欢做某事））的现在时变位",
+              "conj": {
+                "v": "aimer",
+                "t": "present"
+              },
+              "b": ""
+            },
+            {
+              "t": "être（是（法语最不规则的动词））的现在时变位",
+              "conj": {
+                "v": "être",
+                "t": "present"
+              },
+              "b": "虚拟式最不规则，连着 que 一起背：que je sois。"
+            }
+          ],
+          "words": [
+            {
+              "w": "Ce",
+              "pos": "adj",
+              "def": "这个／那个（阳性单数指示形容词）",
+              "ipa": "/sə/",
+              "example": "ce livre"
+            },
+            {
+              "w": "que",
+              "pos": "conj",
+              "def": "引导从句的 que；仅、只",
+              "ipa": "/kə/",
+              "example": "Je ne veux que dormir."
+            },
+            {
+              "w": "le",
+              "pos": "det",
+              "def": "定冠词：这／那（阳性单数）",
+              "ipa": "/lə/",
+              "example": "Le livre est intéressant."
+            },
+            {
+              "w": "plus",
+              "pos": "adv",
+              "def": "更多；不再",
+              "ipa": "/ply/",
+              "example": "Plus de café, s'il vous plaît."
+            },
+            {
+              "w": "en",
+              "pos": "prep",
+              "def": "在；到；用",
+              "ipa": "/ɑ̃/",
+              "example": ""
+            },
+            {
+              "w": "c'est",
+              "pos": "phrase",
+              "def": "这是",
+              "ipa": "/sɛ/",
+              "example": "C'est intéressant."
+            },
+            {
+              "w": "la",
+              "pos": "det",
+              "def": "定冠词：这/那（阴性单数）",
+              "ipa": "/la/",
+              "example": "La maison est belle."
+            },
+            {
+              "w": "boulangerie",
+              "pos": "nf",
+              "def": "面包店",
+              "ipa": "/bu.lɑ̃.ʒʁi/",
+              "example": "La boulangerie est ouverte."
+            },
+            {
+              "w": "du",
+              "pos": "prep",
+              "def": "de + le 的缩合形式（的、从）",
+              "ipa": "/dy/",
+              "example": "Le livre du professeur."
+            }
+          ],
+          "audio_file": "audio/2026-11-21/s5.mp3"
+        }
+      ]
+    }
+  ]
+}
