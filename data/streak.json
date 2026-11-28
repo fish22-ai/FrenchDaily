@@ -167,9 +167,12 @@
     },
     "2026-11-27": {
       "done": true
+    },
+    "2026-11-28": {
+      "done": true
     }
   },
-  "current_streak": 1,
+  "current_streak": 2,
   "longest_streak": 26,
-  "total_days": 56
+  "total_days": 57
 }
